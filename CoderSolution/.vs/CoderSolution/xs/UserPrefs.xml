@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{EB43B229-4340-40C5-92EA-B27DA581880B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Coder/Main.storyboard">
+    <Files>
+      <File FileName="Coder/ChatsViewController.cs" Line="1" Column="1" />
+      <File FileName="Coder/Main.storyboard" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CoderSolution" expanded="True">
+            <Node name="Coder" expanded="True">
+              <Node name="Main.storyboard" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Coder FirstBuild="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7F0A1EE4-8168-497D-98D5-E8B6C1CF94FA" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
