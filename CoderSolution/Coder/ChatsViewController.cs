@@ -22,16 +22,14 @@ namespace Coder
 
             chatsTableView.Source = chatsDS;
 
-            AppData.curUser = new UserClass
-            {
-                Name = "Tiffany",
-                Email = "tiffany@mail.com",
-                Uid = "defUid"
+            ReloadData();
 
-            };
+        }
 
-            PrepareInitialData.Prepare();
-
+        public void ReloadData()
+        {
+            ReadAllData.Read(this);
+            chatsTableView.ReloadData();
         }
 
         partial void NewChatButton_TouchUpInside(UIButton sender)
@@ -65,6 +63,8 @@ namespace Coder
             };
 
             AppData.currentLST.Add(newList);
+
+            ReadWriteDisk.WriteData();
 
             chatsTableView.ReloadData();
         }

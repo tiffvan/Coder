@@ -1,5 +1,7 @@
 ﻿using System;
-namespace Coder.Classes
+using Coder.Classes;
+
+namespace Coder
 {
     public class UserClass
     {

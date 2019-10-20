@@ -28,13 +28,30 @@ namespace Coder
 
             cell.TextLabel.Text = thisList.ChatName;
 
-
-            string subText = "Owner: " + thisList.ChatOwner.Name;
+            string subText = "Owner: " + thisList.ChatOwner;
 
             cell.DetailTextLabel.Text = subText;
 
             return cell;
         }
 
+        public override bool CanEditRow(UITableView tableView, NSIndexPath indexPath)
+        {
+            return true;
+        }
+
+        public override string TitleForDeleteConfirmation(UITableView tableView, NSIndexPath indexPath)
+        {
+            return "Delete";
+        }
+
+        public override void CommitEditingStyle(UITableView tableView, UITableViewCellEditingStyle editingStyle, NSIndexPath indexPath)
+        {
+            ChatListClass toRemove = AppData.currentLST[indexPath.Row];
+
+            AppData.currentLST.Remove(toRemove);
+
+            tableView.DeleteRows(new NSIndexPath[] { indexPath }, UITableViewRowAnimation.Fade);
+        }
     }
 }

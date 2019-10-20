@@ -11,6 +11,8 @@ namespace Coder
         public static UserClass curUser;
         public static List<ChatListClass> currentLST;
 
+        public static List<ChatListClass> offlineLST;
+
         public static AppData GetInstance()
         {
             if (instance == null)
