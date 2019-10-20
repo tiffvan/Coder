@@ -21,7 +21,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="785">
                                 <rect key="frame" x="345" y="18" width="49" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" colorSpace="custom" customColorSpace="sRGB" red="0.00272222701460123" green="0.645365297794342" blue="0.622699916362762" alpha="1"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="+">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -70,33 +70,122 @@
                                 <rect key="frame" x="179" y="25" width="56" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" colorSpace="custom" customColorSpace="sRGB" red="0.0113058649003506" green="0.645347535610199" blue="0.62269115447998" alpha="1"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="983" key="tableFooterView" fixedFrame="YES">
                                 <rect key="frame" x="0.0" y="656" width="414" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="0.6470588235294118" blue="0.62352941176470589" alpha="1"/>
                                 <state key="normal" title="Login">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" white="1" alpha="1"/>
                                 </state>
                                 <connections>
                                     <action selector="LoginButton_TouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1190"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.81324118375778198" green="0.80831009149551403" blue="0.81703072786331199" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.12549019607843137" green="0.15686274509803921" blue="0.2" alpha="1"/>
                     </view>
                     <connections>
                         <outlet property="chatsTableView" destination="985" id="name-outlet-985"/>
                         <outlet property="newChatButton" destination="785" id="name-outlet-785"/>
                         <outlet property="loginButton" destination="983" id="name-outlet-983"/>
+                        <segue id="2485" destination="1601" kind="presentation" identifier="toMessages_id" modalTransitionStyle="crossDissolve"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <scene sceneID="1600">
+            <objects>
+                <viewController id="1601" sceneMemberID="viewController" customClass="MessagesViewController" modalPresentationStyle="fullScreen">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1598"/>
+                        <viewControllerLayoutGuide type="bottom" id="1599"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1602">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1605" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="-1" y="-1" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" colorSpace="custom" customColorSpace="sRGB" red="0.124408818781376" green="0.157036244869232" blue="0.199879586696625" alpha="1"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="←">
+                                    <color key="titleColor" colorSpace="custom" customColorSpace="sRGB" red="0.00272222701460123" green="0.645365297794342" blue="0.622699916362762" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="BackButton_TouchUpInside:" destination="1601" id="2088" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   Chat's name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1612" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="63" y="0.0" width="351" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" colorSpace="custom" customColorSpace="sRGB" red="0.00272222701460123" green="0.645365297794342" blue="0.622699916362762" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                                <color key="backgroundColor" colorSpace="custom" customColorSpace="sRGB" red="0.122606880962849" green="0.157084792852402" blue="0.199897110462189" alpha="1"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="1616" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" placeholder="New message">
+                                <rect key="frame" x="0.0" y="706" width="414" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.77254901960784317" green="0.77647058823529413" blue="0.7803921568627451" alpha="1"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1620" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="60" width="414" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" colorSpace="custom" customColorSpace="sRGB" red="0.00272222701460123" green="0.645365297794342" blue="0.622699916362762" alpha="1"/>
+                                <state key="normal" title="Share group">
+                                    <color key="titleColor" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="ShareButton_TouchUpInside:" destination="1601" id="2087" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="1634" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="116" width="414" height="589"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="1635" style="IBUITableViewCellStyleDefault" textLabel="1637" reuseIdentifier="messagesCell">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1635" id="1636">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1637">
+                                                    <rect key="frame" x="15" y="0.0" width="384" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="1605" id="name-outlet-1605"/>
+                        <outlet property="chatNameLabel" destination="1612" id="name-outlet-1612"/>
+                        <outlet property="messageTextfield" destination="1616" id="name-outlet-1616"/>
+                        <outlet property="messagesTableView" destination="1634" id="name-outlet-1634"/>
+                        <outlet property="shareButton" destination="1620" id="name-outlet-1620"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1603" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="592" y="8"/>
         </scene>
     </scenes>
 </document>

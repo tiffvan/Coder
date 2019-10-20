@@ -18,12 +18,6 @@ namespace Coder.Classes
 
             AppData.currentLST[0].ChatItems.Add(new MessageClass
             {
-                ItemName  = "Hello! This group is for any questions about how to use this app.",
-                ItemTime = DateTime.UtcNow
-            });
-
-            AppData.currentLST[0].ChatItems.Add(new MessageClass
-            {
                 ItemName = "We will try at reply ASAP to all questions!",
                 ItemTime = DateTime.UtcNow
             });

@@ -53,5 +53,10 @@ namespace Coder
 
             tableView.DeleteRows(new NSIndexPath[] { indexPath }, UITableViewRowAnimation.Fade);
         }
+
+        public override void RowSelected(UITableView tableView, NSIndexPath indexPath)
+        {
+            dataSourceController.PerformSegue("toMessages_id", indexPath);
+        }
     }
 }

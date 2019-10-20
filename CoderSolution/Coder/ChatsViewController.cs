@@ -32,6 +32,17 @@ namespace Coder
             chatsTableView.ReloadData();
         }
 
+        public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
+        {
+            base.PrepareForSegue(segue, sender);
+
+            NSIndexPath senderIndexPath = (NSIndexPath)sender;
+
+            var messagesViewCtrl = segue.DestinationViewController as MessagesViewController;
+
+            messagesViewCtrl.curList = AppData.currentLST[senderIndexPath.Row];
+        }
+
         partial void NewChatButton_TouchUpInside(UIButton sender)
         {
             UIAlertController alert;

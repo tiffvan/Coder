@@ -1,6 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.5-13.1/ibtool-link/Main.storyboardc/1601-view-1602.nib">
+      <LogicalName>Main.storyboardc/1601-view-1602.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone10.5-13.1/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.5-13.1/ibtool-link/Main.storyboardc/UIViewController-1601.nib">
+      <LogicalName>Main.storyboardc/UIViewController-1601.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone10.5-13.1/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.5-13.1/ibtool-link/Main.storyboardc/UIViewController-BYZ-38-t0r.nib">
       <LogicalName>Main.storyboardc/UIViewController-BYZ-38-t0r.nib</LogicalName>
       <Optimize>false</Optimize>

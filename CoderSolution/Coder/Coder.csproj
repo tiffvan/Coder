@@ -144,6 +144,11 @@
         <Compile Include="Classes\ReadWriteDisk.cs" />
         <Compile Include="Classes\UserClass.cs" />
         <Compile Include="Classes\ReadAllData.cs" />
+        <Compile Include="MessagesViewController.cs" />
+        <Compile Include="MessagesViewController.designer.cs">
+          <DependentUpon>MessagesViewController.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Classes\MessagesDataSource.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
