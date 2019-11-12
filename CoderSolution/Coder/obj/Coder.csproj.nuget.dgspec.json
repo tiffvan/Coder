@@ -34,11 +34,19 @@
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.2, )"
+              "version": "[12.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.3.1, )"
+            },
+            "Xamarin.Firebase.iOS.Auth": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            },
+            "Xamarin.Firebase.iOS.Database": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           }
         }

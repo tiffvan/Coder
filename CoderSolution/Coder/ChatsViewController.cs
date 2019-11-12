@@ -18,8 +18,9 @@ namespace Coder
         {
             base.ViewDidLoad();
 
-            chatsDS = new ChatsDataSource(this);
+            AppData.GetInstance();
 
+            chatsDS = new ChatsDataSource(this);
             chatsTableView.Source = chatsDS;
 
             ReloadData();
@@ -82,7 +83,32 @@ namespace Coder
 
         partial void LoginButton_TouchUpInside(UIButton sender)
         {
-            throw new NotImplementedException();
+            UIAlertController alert;
+            alert = UIAlertController.Create("Profile", "What would you like to do?", UIAlertControllerStyle.ActionSheet);
+
+            UIAlertAction register;
+            register = UIAlertAction.Create("Register", UIAlertActionStyle.Default, (obj) => RegisterClass.Alert(this)); ;
+            alert.AddAction(register);
+
+            UIAlertAction login;
+            login = UIAlertAction.Create("Login", UIAlertActionStyle.Default, (obj) =>
+            {
+                //call login method
+            });
+            alert.AddAction(login);
+
+            UIAlertAction logout;
+            logout = UIAlertAction.Create("Logout", UIAlertActionStyle.Default, (obj) =>
+            {
+                //call logout method
+            });
+            alert.AddAction(logout);
+
+            UIAlertAction cancel;
+            cancel = UIAlertAction.Create("Cancel", UIAlertActionStyle.Cancel, null);
+            alert.AddAction(cancel);
+
+            this.PresentViewController(alert, true, null);
         }
     }
 }

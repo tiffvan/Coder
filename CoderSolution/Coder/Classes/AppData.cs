@@ -1,5 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using Firebase.Auth;
+using Firebase.Core;
+using Firebase.Database;
+
 using Coder.Classes;
 
 namespace Coder
@@ -13,6 +17,17 @@ namespace Coder
 
         public static List<ChatListClass> offlineLST;
 
+        #region firebaseandonline
+
+        public static List<ChatListClass> onlineLST;
+
+        public static DatabaseReference DataNode { get; set; }
+        public static DatabaseReference UsersNode { get; set; }
+
+        public static Auth auth;
+
+        #endregion
+
         public static AppData GetInstance()
         {
             if (instance == null)
@@ -24,6 +39,12 @@ namespace Coder
         private AppData()
         {
             currentLST = new List<ChatListClass>();
+
+            App.Configure();
+            DataNode = Database.DefaultInstance.GetRootReference().GetChild("data");
+            UsersNode = Database.DefaultInstance.GetRootReference().GetChild("users");
+
+            auth = Auth.DefaultInstance;
         }
     }
 }

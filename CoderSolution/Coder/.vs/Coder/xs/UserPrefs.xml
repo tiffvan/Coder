@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{EB43B229-4340-40C5-92EA-B27DA581880B}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Coder" expanded="True" selected="True">
+            <Node name="Coder" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Coder PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.6350b826915e44302fda990a097e2ec6eeaa5f06" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

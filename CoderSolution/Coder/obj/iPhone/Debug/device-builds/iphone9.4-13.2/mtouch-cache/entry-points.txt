@@ -1,0 +1,151 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_StrErrorR
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_start_wwan
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/System.dll
+Field=FirebaseAuthVersionNum
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+Field=FIRAuthErrorDomain
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+Field=FIRAuthErrorUserInfoEmailKey
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+Field=FIRAuthErrorUserInfoNameKey
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+Field=FIRAuthErrorUserInfoUpdatedCredentialKey
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+Field=FIRAuthStateDidChangeNotification
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+Field=FirebaseAuthVersionStr
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRAuth
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRActionCodeInfo
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRActionCodeSettings
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRAdditionalUserInfo
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRAuthCredential
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRAuthDataResult
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRAuthSettings
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRAuthTokenResult
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+Field=FIREmailAuthProviderID
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+Field=FIREmailPasswordAuthSignInMethod
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIREmailAuthProvider
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+Field=FIRFacebookAuthProviderID
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+Field=FIRFacebookAuthSignInMethod
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRFacebookAuthProvider
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+Field=FIRGameCenterAuthProviderID
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+Field=FIRGameCenterAuthSignInMethod
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRGameCenterAuthProvider
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+Field=FIRGitHubAuthProviderID
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+Field=FIRGitHubAuthSignInMethod
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRGitHubAuthProvider
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+Field=FIRGoogleAuthProviderID
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+Field=FIRGoogleAuthSignInMethod
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRGoogleAuthProvider
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIROAuthCredential
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIROAuthProvider
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRPhoneAuthCredential
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+Field=FIRPhoneAuthProviderID
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+Field=FIRPhoneAuthSignInMethod
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRPhoneAuthProvider
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+Field=FIRTwitterAuthProviderID
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+Field=FIRTwitterAuthSignInMethod
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRTwitterAuthProvider
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRUser
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRUserMetadata
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRUserProfileChangeRequest
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRApp
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Core.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRConfiguration
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Core.dll
+ObjectiveCClass=OBJC_CLASS_$_FIROptions
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Core.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRDatabaseReference
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Database.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRDataSnapshot
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Database.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRMutableData
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Database.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRDatabase
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Database.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRDatabaseQuery
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Database.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRServerValue
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Database.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRTransactionResult
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Database.dll
+Function=mono_pmip
