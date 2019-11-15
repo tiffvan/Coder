@@ -2,6 +2,7 @@ using Coder.Classes;
 using Foundation;
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UIKit;
 
 namespace Coder
@@ -27,9 +28,15 @@ namespace Coder
 
         }
 
-        public void ReloadData()
+        public override void ViewWillAppear(bool animated)
         {
-            ReadAllData.Read(this);
+            base.ViewWillAppear(animated);
+            chatsTableView.ReloadData();
+        }
+
+        public async Task ReloadData()
+        {
+            await ReadAllData.Read(this);
             chatsTableView.ReloadData();
         }
 
@@ -87,14 +94,11 @@ namespace Coder
             alert = UIAlertController.Create("Profile", "What would you like to do?", UIAlertControllerStyle.ActionSheet);
 
             UIAlertAction register;
-            register = UIAlertAction.Create("Register", UIAlertActionStyle.Default, (obj) => RegisterClass.Alert(this)); ;
+            register = UIAlertAction.Create("Register", UIAlertActionStyle.Default, (obj) => RegisterClass.Alert(this));
             alert.AddAction(register);
 
             UIAlertAction login;
-            login = UIAlertAction.Create("Login", UIAlertActionStyle.Default, (obj) =>
-            {
-                //call login method
-            });
+            login = UIAlertAction.Create("Login", UIAlertActionStyle.Default, (obj) => LoginClass.Alert(this)); 
             alert.AddAction(login);
 
             UIAlertAction logout;

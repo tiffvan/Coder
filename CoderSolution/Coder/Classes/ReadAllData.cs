@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Threading.Tasks;
+
 namespace Coder.Classes
 {
     public class ReadAllData
     {
-        public static void Read(ChatsViewController thisView)
+        public static async Task Read(ChatsViewController thisView)
         {
             ReadWriteDisk.ReadUser();
 
@@ -14,7 +16,6 @@ namespace Coder.Classes
                     Name = "Coder Dev Team",
                     Email = "coder@mail.com",
                     Uid = "defUid"
-
                 };
 
                 PrepareInitialData.Prepare();
@@ -26,6 +27,20 @@ namespace Coder.Classes
             {
                 ReadWriteDisk.ReadData();
                 AppData.currentLST = AppData.offlineLST;
+            }
+
+            // read online chats
+            if (AppData.auth.CurrentUser != null)
+            {
+                //someone is logged in
+                await ReadOnlineData.Read();
+
+                AppData.currentLST = CompareChatLists.Compare(AppData.onlineLST, AppData.offlineLST);
+
+                ReadWriteDisk.WriteData();
+                foreach (ChatListClass any in AppData.currentLST)
+                    if (any.ChatOwner.Uid == AppData.curUser.Uid)
+                        SaveListOnCloud.Save(any);
             }
         }
     }

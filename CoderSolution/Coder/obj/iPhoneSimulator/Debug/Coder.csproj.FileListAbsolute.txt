@@ -12,6 +12,15 @@
 /Users/tiffanyvandermerwe/Projects/CoderSolution/Coder/obj/iPhoneSimulator/Debug/Coder.csproj.CopyComplete
 /Users/tiffanyvandermerwe/Projects/CoderSolution/Coder/obj/iPhoneSimulator/Debug/Coder.exe
 /Users/tiffanyvandermerwe/Projects/CoderSolution/Coder/obj/iPhoneSimulator/Debug/Coder.pdb
+/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/bin/iPhoneSimulator/Debug/Coder.exe
+/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/bin/iPhoneSimulator/Debug/Coder.pdb
+/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/bin/iPhoneSimulator/Debug/Firebase.Auth.dll
+/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/bin/iPhoneSimulator/Debug/Firebase.Core.dll
+/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/bin/iPhoneSimulator/Debug/Firebase.Database.dll
+/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/bin/iPhoneSimulator/Debug/Firebase.InstanceID.dll
 /Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-13.2/ibtool/_BundleResourceWithLogicalName.items
 /Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-13.2/actool/_PartialAppManifest.items
 /Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-13.2/actool/_BundleResourceWithLogicalName.items
@@ -19,3 +28,6 @@
 /Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-13.2/coremlc/_BundleResourceWithLogicalName.items
 /Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-13.2/optimized/GoogleService-Info.plist
 /Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-13.2/optimized/
+/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhoneSimulator/Debug/Coder.csproj.CopyComplete
+/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhoneSimulator/Debug/Coder.exe
+/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhoneSimulator/Debug/Coder.pdb

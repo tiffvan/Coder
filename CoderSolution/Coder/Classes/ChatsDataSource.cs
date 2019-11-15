@@ -28,7 +28,7 @@ namespace Coder
 
             cell.TextLabel.Text = thisList.ChatName;
 
-            string subText = "Owner: " + thisList.ChatOwner;
+            string subText = "Owner: " + thisList.ChatOwner.Name;
 
             cell.DetailTextLabel.Text = subText;
 

@@ -11,7 +11,7 @@ namespace Coder.Classes
 
             AppData.currentLST.Add(new ChatListClass
             {
-                ChatName = "Coder questions",
+                ChatName = "Coder FAQ",
                 ChatOwner = AppData.curUser,
                 ChatItems = new List<MessageClass>()
             });
