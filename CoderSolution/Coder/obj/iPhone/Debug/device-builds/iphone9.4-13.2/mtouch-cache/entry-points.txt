@@ -40,10 +40,34 @@ Function=xamarin_release_block_on_main_thread
 	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_get_block_descriptor
 	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=UIApplicationMain
 	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_start_wwan
 	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/System.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRDatabaseReference
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Database.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRDataSnapshot
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Database.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRMutableData
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Database.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRDatabase
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Database.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRDatabaseQuery
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Database.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRServerValue
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Database.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRTransactionResult
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Database.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRApp
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Core.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRConfiguration
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Core.dll
+ObjectiveCClass=OBJC_CLASS_$_FIROptions
+	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Core.dll
 Field=FirebaseAuthVersionNum
 	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
 Field=FIRAuthErrorDomain
@@ -128,24 +152,4 @@ ObjectiveCClass=OBJC_CLASS_$_FIRUserMetadata
 	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
 ObjectiveCClass=OBJC_CLASS_$_FIRUserProfileChangeRequest
 	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Auth.dll
-ObjectiveCClass=OBJC_CLASS_$_FIRApp
-	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Core.dll
-ObjectiveCClass=OBJC_CLASS_$_FIRConfiguration
-	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Core.dll
-ObjectiveCClass=OBJC_CLASS_$_FIROptions
-	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Core.dll
-ObjectiveCClass=OBJC_CLASS_$_FIRDatabaseReference
-	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Database.dll
-ObjectiveCClass=OBJC_CLASS_$_FIRDataSnapshot
-	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Database.dll
-ObjectiveCClass=OBJC_CLASS_$_FIRMutableData
-	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Database.dll
-ObjectiveCClass=OBJC_CLASS_$_FIRDatabase
-	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Database.dll
-ObjectiveCClass=OBJC_CLASS_$_FIRDatabaseQuery
-	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Database.dll
-ObjectiveCClass=OBJC_CLASS_$_FIRServerValue
-	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Database.dll
-ObjectiveCClass=OBJC_CLASS_$_FIRTransactionResult
-	/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/device-builds/iphone9.4-13.2/mtouch-cache/1-Link/Firebase.Database.dll
 Function=mono_pmip

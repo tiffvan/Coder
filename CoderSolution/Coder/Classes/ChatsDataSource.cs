@@ -51,6 +51,9 @@ namespace Coder
 
             AppData.currentLST.Remove(toRemove);
 
+            ReadWriteDisk.WriteData();
+            DeleteListFromCloud.Delete(toRemove);
+
             tableView.DeleteRows(new NSIndexPath[] { indexPath }, UITableViewRowAnimation.Fade);
         }
 

@@ -43,6 +43,8 @@ namespace Coder
             messagesTableView.ReloadData();
             ReadWriteDisk.WriteData();
 
+            SaveMessageOnCloud.Save(newMessage, curList);
+
             return true;
         }
 

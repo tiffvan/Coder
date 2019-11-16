@@ -9,9 +9,10 @@ extern void *mono_aot_module_System_Xml_info;
 extern void *mono_aot_module_System_Numerics_info;
 extern void *mono_aot_module_System_Core_info;
 extern void *mono_aot_module_System_Net_Http_info;
-extern void *mono_aot_module_Firebase_Auth_info;
-extern void *mono_aot_module_Firebase_Core_info;
+extern void *mono_aot_module_System_Drawing_Common_info;
 extern void *mono_aot_module_Firebase_Database_info;
+extern void *mono_aot_module_Firebase_Core_info;
+extern void *mono_aot_module_Firebase_Auth_info;
 extern void *mono_aot_module_Newtonsoft_Json_info;
 extern void *mono_aot_module_System_Data_info;
 extern void *mono_aot_module_System_Runtime_Serialization_info;
@@ -29,9 +30,10 @@ void xamarin_register_modules_impl ()
 	mono_aot_register_module (mono_aot_module_System_Numerics_info);
 	mono_aot_register_module (mono_aot_module_System_Core_info);
 	mono_aot_register_module (mono_aot_module_System_Net_Http_info);
-	mono_aot_register_module (mono_aot_module_Firebase_Auth_info);
-	mono_aot_register_module (mono_aot_module_Firebase_Core_info);
+	mono_aot_register_module (mono_aot_module_System_Drawing_Common_info);
 	mono_aot_register_module (mono_aot_module_Firebase_Database_info);
+	mono_aot_register_module (mono_aot_module_Firebase_Core_info);
+	mono_aot_register_module (mono_aot_module_Firebase_Auth_info);
 	mono_aot_register_module (mono_aot_module_Newtonsoft_Json_info);
 	mono_aot_register_module (mono_aot_module_System_Data_info);
 	mono_aot_register_module (mono_aot_module_System_Runtime_Serialization_info);
@@ -43,11 +45,11 @@ void xamarin_register_modules_impl ()
 void xamarin_register_assemblies_impl ()
 {
 	guint32 exception_gchandle = 0;
-	xamarin_open_and_register ("Firebase.Auth.dll", &exception_gchandle);
+	xamarin_open_and_register ("Firebase.Database.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("Firebase.Core.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
-	xamarin_open_and_register ("Firebase.Database.dll", &exception_gchandle);
+	xamarin_open_and_register ("Firebase.Auth.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 
 }

@@ -144,6 +144,9 @@
         <Compile Include="Classes\LoginClass.cs" />
         <Compile Include="Classes\ReadOnlineData.cs" />
         <Compile Include="Classes\CompareChatLists.cs" />
+        <Compile Include="Classes\LogoutClass.cs" />
+        <Compile Include="Classes\DeleteListFromCloud.cs" />
+        <Compile Include="Classes\SaveMessageOnCloud.cs" />
     </ItemGroup>
     <ItemGroup>
       <BundleResource Include="GoogleService-Info.plist" />

@@ -12,18 +12,14 @@ namespace Coder.Classes
 
             loginAlert.AddTextField((field) =>
             {
-                field.Font = UIFont.SystemFontOfSize(22);
                 field.Placeholder = "Email";
                 field.KeyboardType = UIKeyboardType.EmailAddress;
-                field.TextAlignment = UITextAlignment.Center;
             });
 
             loginAlert.AddTextField((field) =>
             {
-                field.Font = UIFont.SystemFontOfSize(22);
                 field.Placeholder = "Password";
                 field.SecureTextEntry = true;
-                field.TextAlignment = UITextAlignment.Center;
             });
 
 

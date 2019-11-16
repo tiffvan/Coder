@@ -17,3 +17,4 @@
 /Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/Coder.exe
 /Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/Coder.pdb
 /Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/obj/iPhone/Debug/Coder.csprojAssemblyReference.cache
+/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/bin/iPhone/Debug/Firebase.InstanceID.dll

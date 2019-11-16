@@ -8,9 +8,9 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.6.0.12/lib/mono/Xamarin.iOS/System.Core.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.6.0.12/lib/mono/Xamarin.iOS/System.Net.Http.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.6.0.12/lib/mono/Xamarin.iOS/Facades/System.Drawing.Common.dll
-/Users/tiffanyvandermerwe/.nuget/packages/xamarin.firebase.ios.auth/6.2.1/lib/xamarinios10/Firebase.Auth.dll
-/Users/tiffanyvandermerwe/.nuget/packages/xamarin.firebase.ios.core/6.1.0/lib/xamarinios10/Firebase.Core.dll
 /Users/tiffanyvandermerwe/.nuget/packages/xamarin.firebase.ios.database/6.0.0/lib/xamarinios10/Firebase.Database.dll
+/Users/tiffanyvandermerwe/.nuget/packages/xamarin.firebase.ios.core/6.1.0/lib/xamarinios10/Firebase.Core.dll
+/Users/tiffanyvandermerwe/.nuget/packages/xamarin.firebase.ios.auth/6.2.1.1/lib/xamarinios10/Firebase.Auth.dll
 /Users/tiffanyvandermerwe/.nuget/packages/newtonsoft.json/12.0.3/lib/netstandard2.0/Newtonsoft.Json.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.6.0.12/lib/mono/Xamarin.iOS/Facades/netstandard.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.6.0.12/lib/mono/Xamarin.iOS/System.Data.dll

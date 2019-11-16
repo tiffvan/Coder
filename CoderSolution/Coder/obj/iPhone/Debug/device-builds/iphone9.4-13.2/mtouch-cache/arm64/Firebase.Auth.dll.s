@@ -16852,7 +16852,7 @@ ldr x0, [x16, #3504]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf941ac70
+.word 0xf941b470
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9421231
@@ -17664,7 +17664,7 @@ ldr x0, [x16, #3576]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9419c70
+.word 0xf941a470
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9421231
@@ -18184,7 +18184,7 @@ ldr x0, [x16, #3624]
 .word 0x3901c07f
 .word 0xaa0403e0
 .word 0xf9400084
-.word 0xf9419490
+.word 0xf9419c90
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9422231
@@ -18715,7 +18715,7 @@ ldr x0, [x16, #3680]
 .word 0x3901c07f
 .word 0xaa0403e0
 .word 0xf9400084
-.word 0xf9418c90
+.word 0xf9419490
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9422231
@@ -19185,7 +19185,7 @@ ldr x0, [x16, #3736]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9418470
+.word 0xf9418c70
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9421231
@@ -19655,7 +19655,7 @@ ldr x0, [x16, #3784]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9417c70
+.word 0xf9418470
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9421231
@@ -20979,7 +20979,7 @@ ldr x0, [x16, #3872]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9416470
+.word 0xf9416c70
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9421231
@@ -21498,7 +21498,7 @@ ldr x0, [x16, #3920]
 .word 0x3901c07f
 .word 0xaa0403e0
 .word 0xf9400084
-.word 0xf9415c90
+.word 0xf9416490
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9422231
@@ -22017,7 +22017,7 @@ ldr x0, [x16, #3968]
 .word 0x3901c07f
 .word 0xaa0403e0
 .word 0xf9400084
-.word 0xf9415490
+.word 0xf9415c90
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9422231
@@ -22759,7 +22759,7 @@ ldr x0, [x16, #4024]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9414870
+.word 0xf9415070
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9421231
@@ -23168,7 +23168,7 @@ ldr x0, [x16, #4072]
 .word 0x3901c03f
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9414050
+.word 0xf9414850
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf9420231
@@ -23215,8 +23215,8 @@ bl _p_5
 Lme_125:
 .text
 	.align 4
-	.no_dead_strip Firebase_Auth_Auth_SignInWithCredential_Firebase_Auth_AuthCredential_Firebase_Auth_AuthResultHandler
-Firebase_Auth_Auth_SignInWithCredential_Firebase_Auth_AuthCredential_Firebase_Auth_AuthResultHandler:
+	.no_dead_strip Firebase_Auth_Auth_SignInWithCredential_Firebase_Auth_AuthCredential_Firebase_Auth_AuthDataResultHandler
+Firebase_Auth_Auth_SignInWithCredential_Firebase_Auth_AuthCredential_Firebase_Auth_AuthDataResultHandler:
 .loc 1 1 0
 .word 0xa9b67bfd
 .word 0x910003fd
@@ -23317,7 +23317,7 @@ bl _p_80
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+0
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #784]
+ldr x1, [x16, #632]
 .word 0xf9400021
 .word 0xaa1a03e2
 .word 0xaa1a03e2
@@ -23537,14 +23537,14 @@ bl _p_123
 .word 0xaa1803e0
 .word 0xf90037a0
 
-adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
+adrp x16, mono_aot_Firebase_Auth_got@PAGE+0
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #8]
+ldr x0, [x16, #3656]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf90033a0
-bl _p_124
+bl _p_103
 .word 0xf94017b1
 .word 0xf940de31
 .word 0xb4000051
@@ -23580,7 +23580,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+0
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #680]
 .word 0xd2801001
 .word 0xd2801001
 bl _p_6
@@ -23607,17 +23607,17 @@ ldr x5, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #16]
+ldr x0, [x16, #8]
 .word 0xf9001440
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #24]
+ldr x0, [x16, #16]
 .word 0xf9002040
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #32]
+ldr x0, [x16, #24]
 .word 0xf9401404
 .word 0xf9000c44
 .word 0xf9401000
@@ -23626,7 +23626,7 @@ ldr x0, [x16, #32]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9413870
+.word 0xf9414070
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9421231
@@ -23640,7 +23640,7 @@ ldr x0, [x16, #32]
 .word 0xf9400801
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_125
+bl _p_104
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9424a31
@@ -23687,7 +23687,7 @@ Firebase_Auth_Auth_SignInWithCustomToken_string_Firebase_Auth_AuthDataResultHand
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #40]
+ldr x16, [x16, #32]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -23968,7 +23968,7 @@ Firebase_Auth_Auth_SignInWithCustomTokenAsync_string:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #48]
+ldr x16, [x16, #40]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -23988,12 +23988,12 @@ ldr x16, [x16, #48]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #56]
+ldr x0, [x16, #48]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf9003ba0
-bl _p_126
+bl _p_124
 .word 0xf94017b1
 .word 0xf9408e31
 .word 0xb4000051
@@ -24077,17 +24077,17 @@ ldr x5, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #64]
+ldr x0, [x16, #56]
 .word 0xf9001440
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #72]
+ldr x0, [x16, #64]
 .word 0xf9002040
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #80]
+ldr x0, [x16, #72]
 .word 0xf9401404
 .word 0xf9000c44
 .word 0xf9401000
@@ -24096,7 +24096,7 @@ ldr x0, [x16, #80]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9413070
+.word 0xf9413870
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9421231
@@ -24159,7 +24159,7 @@ Firebase_Auth_Auth_SignInWithLink_string_string_Firebase_Auth_AuthDataResultHand
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #88]
+ldr x16, [x16, #80]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -24496,7 +24496,7 @@ Firebase_Auth_Auth_SignInWithLinkAsync_string_string:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #96]
+ldr x16, [x16, #88]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -24516,12 +24516,12 @@ ldr x16, [x16, #96]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #104]
+ldr x0, [x16, #96]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf90047a0
-bl _p_127
+bl _p_125
 .word 0xf9401bb1
 .word 0xf9409231
 .word 0xb4000051
@@ -24608,17 +24608,17 @@ ldr x6, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #112]
+ldr x0, [x16, #104]
 .word 0xf9001460
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #120]
+ldr x0, [x16, #112]
 .word 0xf9002060
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #128]
+ldr x0, [x16, #120]
 .word 0xf9401405
 .word 0xf9000c65
 .word 0xf9401000
@@ -24627,7 +24627,7 @@ ldr x0, [x16, #128]
 .word 0x3901c07f
 .word 0xaa0403e0
 .word 0xf9400084
-.word 0xf9412890
+.word 0xf9413090
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9422231
@@ -24690,7 +24690,7 @@ Firebase_Auth_Auth_SignInWithPassword_string_string_Firebase_Auth_AuthDataResult
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #136]
+ldr x16, [x16, #128]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -25027,7 +25027,7 @@ Firebase_Auth_Auth_SignInWithPasswordAsync_string_string:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #144]
+ldr x16, [x16, #136]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -25047,12 +25047,12 @@ ldr x16, [x16, #144]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #152]
+ldr x0, [x16, #144]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf90047a0
-bl _p_128
+bl _p_126
 .word 0xf9401bb1
 .word 0xf9409231
 .word 0xb4000051
@@ -25139,17 +25139,17 @@ ldr x6, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #160]
+ldr x0, [x16, #152]
 .word 0xf9001460
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #168]
+ldr x0, [x16, #160]
 .word 0xf9002060
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #176]
+ldr x0, [x16, #168]
 .word 0xf9401405
 .word 0xf9000c65
 .word 0xf9401000
@@ -25158,7 +25158,7 @@ ldr x0, [x16, #176]
 .word 0x3901c07f
 .word 0xaa0403e0
 .word 0xf9400084
-.word 0xf9412090
+.word 0xf9412890
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9422231
@@ -25221,7 +25221,7 @@ Firebase_Auth_Auth_SignInWithProvider_Firebase_Auth_IFederatedAuthProvider_Fireb
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #184]
+ldr x16, [x16, #176]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -25364,7 +25364,7 @@ ldr x0, [x0]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #192]
+ldr x15, [x16, #184]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -25391,7 +25391,7 @@ ldr x15, [x16, #192]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #192]
+ldr x15, [x16, #184]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -25466,7 +25466,7 @@ ldr x0, [x0]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #192]
+ldr x15, [x16, #184]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -25493,7 +25493,7 @@ ldr x15, [x16, #192]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #192]
+ldr x15, [x16, #184]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -25596,7 +25596,7 @@ Firebase_Auth_Auth_SignInWithProviderAsync_Firebase_Auth_IFederatedAuthProvider_
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #200]
+ldr x16, [x16, #192]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -25616,12 +25616,12 @@ ldr x16, [x16, #200]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #208]
+ldr x0, [x16, #200]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf90047a0
-bl _p_129
+bl _p_127
 .word 0xf9401bb1
 .word 0xf9409231
 .word 0xb4000051
@@ -25708,17 +25708,17 @@ ldr x6, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #216]
+ldr x0, [x16, #208]
 .word 0xf9001460
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #224]
+ldr x0, [x16, #216]
 .word 0xf9002060
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #232]
+ldr x0, [x16, #224]
 .word 0xf9401405
 .word 0xf9000c65
 .word 0xf9401000
@@ -25727,7 +25727,7 @@ ldr x0, [x16, #232]
 .word 0x3901c07f
 .word 0xaa0403e0
 .word 0xf9400084
-.word 0xf9411890
+.word 0xf9412090
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9422231
@@ -25785,7 +25785,7 @@ Firebase_Auth_Auth_SignOut_Foundation_NSError_:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #240]
+ldr x16, [x16, #232]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -25847,7 +25847,7 @@ ldr x0, [x0]
 .word 0xf9402fa0
 .word 0xf94033a1
 .word 0x910103a2
-bl _p_130
+bl _p_128
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf94017b1
@@ -25885,7 +25885,7 @@ ldr x0, [x0]
 .word 0xf9402fa0
 .word 0xf94033a1
 .word 0x910103a2
-bl _p_131
+bl _p_129
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf94017b1
@@ -25969,7 +25969,7 @@ Firebase_Auth_Auth_UpdateCurrentUser_Firebase_Auth_User_Firebase_Auth_UserUpdate
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #248]
+ldr x16, [x16, #240]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -26239,7 +26239,7 @@ Firebase_Auth_Auth_UpdateCurrentUserAsync_Firebase_Auth_User:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #256]
+ldr x16, [x16, #248]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -26259,12 +26259,12 @@ ldr x16, [x16, #256]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #264]
+ldr x0, [x16, #256]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf9003ba0
-bl _p_132
+bl _p_130
 .word 0xf94017b1
 .word 0xf9408e31
 .word 0xb4000051
@@ -26348,17 +26348,17 @@ ldr x5, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #272]
+ldr x0, [x16, #264]
 .word 0xf9001440
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #280]
+ldr x0, [x16, #272]
 .word 0xf9002040
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #288]
+ldr x0, [x16, #280]
 .word 0xf9401404
 .word 0xf9000c44
 .word 0xf9401000
@@ -26367,7 +26367,7 @@ ldr x0, [x16, #288]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9410c70
+.word 0xf9411470
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9421231
@@ -26424,7 +26424,7 @@ Firebase_Auth_Auth_UseAppLanguage:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #296]
+ldr x16, [x16, #288]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -26473,7 +26473,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401ba0
 .word 0xf9401fa1
-bl _p_133
+bl _p_131
 .word 0xf9400fb1
 .word 0xf940ee31
 .word 0xb4000051
@@ -26505,7 +26505,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401ba0
 .word 0xf9401fa1
-bl _p_134
+bl _p_132
 .word 0xf9400fb1
 .word 0xf9416e31
 .word 0xb4000051
@@ -26539,7 +26539,7 @@ Firebase_Auth_Auth_UseUserAccessGroup_string_Foundation_NSError_:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #304]
+ldr x16, [x16, #296]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -26617,7 +26617,7 @@ ldr x0, [x0]
 .word 0xaa1703e2
 .word 0x910143a3
 .word 0xaa1703e2
-bl _p_135
+bl _p_133
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9401fb1
@@ -26657,7 +26657,7 @@ ldr x0, [x0]
 .word 0xaa1703e2
 .word 0x910143a3
 .word 0xaa1703e2
-bl _p_136
+bl _p_134
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9401fb1
@@ -26754,7 +26754,7 @@ Firebase_Auth_Auth_VerifyPasswordResetCode_string_Firebase_Auth_VerifyPasswordRe
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #312]
+ldr x16, [x16, #304]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -27024,7 +27024,7 @@ Firebase_Auth_Auth_VerifyPasswordResetCodeAsync_string:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #320]
+ldr x16, [x16, #312]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -27044,12 +27044,12 @@ ldr x16, [x16, #320]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #328]
+ldr x0, [x16, #320]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf9003ba0
-bl _p_137
+bl _p_135
 .word 0xf94017b1
 .word 0xf9408e31
 .word 0xb4000051
@@ -27065,12 +27065,12 @@ bl _p_137
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #336]
+ldr x0, [x16, #328]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf90033a0
-bl _p_138
+bl _p_136
 .word 0xf94017b1
 .word 0xf940de31
 .word 0xb4000051
@@ -27133,17 +27133,17 @@ ldr x5, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #344]
+ldr x0, [x16, #336]
 .word 0xf9001440
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #352]
+ldr x0, [x16, #344]
 .word 0xf9002040
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #360]
+ldr x0, [x16, #352]
 .word 0xf9401404
 .word 0xf9000c44
 .word 0xf9401000
@@ -27152,7 +27152,7 @@ ldr x0, [x16, #360]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf940fc70
+.word 0xf9410470
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9421231
@@ -27166,7 +27166,7 @@ ldr x0, [x16, #360]
 .word 0xf9400801
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_139
+bl _p_137
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9424a31
@@ -27209,7 +27209,7 @@ Firebase_Auth_Auth_get_ApnsToken:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #368]
+ldr x16, [x16, #360]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -27259,7 +27259,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_140
+bl _p_138
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940f631
@@ -27269,8 +27269,8 @@ bl _p_140
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #376]
-bl _p_141
+ldr x15, [x16, #368]
+bl _p_139
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9411e31
@@ -27305,7 +27305,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_142
+bl _p_140
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf941aa31
@@ -27315,8 +27315,8 @@ bl _p_142
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #376]
-bl _p_141
+ldr x15, [x16, #368]
+bl _p_139
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf941d231
@@ -27367,7 +27367,7 @@ Firebase_Auth_Auth_set_ApnsToken_Foundation_NSData:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #384]
+ldr x16, [x16, #376]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -27545,7 +27545,7 @@ Firebase_Auth_Auth_get_App:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #392]
+ldr x16, [x16, #384]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -27595,7 +27595,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_140
+bl _p_138
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940f631
@@ -27605,8 +27605,8 @@ bl _p_140
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #400]
-bl _p_143
+ldr x15, [x16, #392]
+bl _p_141
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9411e31
@@ -27641,7 +27641,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_142
+bl _p_140
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf941aa31
@@ -27651,8 +27651,8 @@ bl _p_142
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #400]
-bl _p_143
+ldr x15, [x16, #392]
+bl _p_141
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf941d231
@@ -27670,7 +27670,7 @@ bl _p_143
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_144
+bl _p_142
 .word 0xf94013b1
 .word 0xf9421631
 .word 0xb4000051
@@ -27730,7 +27730,7 @@ Firebase_Auth_Auth_get_CurrentUser:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #408]
+ldr x16, [x16, #400]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -27780,7 +27780,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_140
+bl _p_138
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940f631
@@ -27826,7 +27826,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_142
+bl _p_140
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf941aa31
@@ -27883,7 +27883,7 @@ Firebase_Auth_Auth_get_DefaultInstance:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #416]
+ldr x16, [x16, #408]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -27915,7 +27915,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400bb1
 .word 0xf940a231
@@ -27962,7 +27962,7 @@ Firebase_Auth_Auth_get_LanguageCode:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #424]
+ldr x16, [x16, #416]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -28011,7 +28011,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -28056,7 +28056,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -28101,7 +28101,7 @@ Firebase_Auth_Auth_set_LanguageCode_string:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #432]
+ldr x16, [x16, #424]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -28246,7 +28246,7 @@ Firebase_Auth_Auth_get_Settings:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #440]
+ldr x16, [x16, #432]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -28296,7 +28296,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_140
+bl _p_138
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940f631
@@ -28306,8 +28306,8 @@ bl _p_140
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #448]
-bl _p_145
+ldr x15, [x16, #440]
+bl _p_143
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9411e31
@@ -28342,7 +28342,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_142
+bl _p_140
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf941aa31
@@ -28352,8 +28352,8 @@ bl _p_142
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #448]
-bl _p_145
+ldr x15, [x16, #440]
+bl _p_143
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf941d231
@@ -28404,7 +28404,7 @@ Firebase_Auth_Auth_set_Settings_Firebase_Auth_AuthSettings:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #456]
+ldr x16, [x16, #448]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -28582,7 +28582,7 @@ Firebase_Auth_Auth_get_UserAccessGroup:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #464]
+ldr x16, [x16, #456]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -28631,7 +28631,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -28676,7 +28676,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -28718,7 +28718,7 @@ Firebase_Auth_Auth_get_CurrentVersionNumber:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #472]
+ldr x16, [x16, #464]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -28742,8 +28742,8 @@ ldr x0, [x16, #248]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #480]
-bl _p_146
+ldr x1, [x16, #472]
+bl _p_144
 .word 0xfd001ba0
 .word 0xf9400bb1
 .word 0xf9408231
@@ -28777,7 +28777,7 @@ Firebase_Auth_Auth_get_ErrorDomain:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #488]
+ldr x16, [x16, #480]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -28796,11 +28796,11 @@ ldr x16, [x16, #488]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #496]
+ldr x0, [x16, #488]
 .word 0xf9400000
 .word 0xd2800001
 .word 0xd2800001
-bl _p_147
+bl _p_145
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400bb1
@@ -28821,8 +28821,8 @@ ldr x0, [x16, #248]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #504]
-bl _p_148
+ldr x1, [x16, #496]
+bl _p_146
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf940ce31
@@ -28832,7 +28832,7 @@ bl _p_148
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #496]
+ldr x0, [x16, #488]
 .word 0xf9000001
 .word 0xf9400fb1
 .word 0xf9400231
@@ -28845,7 +28845,7 @@ ldr x0, [x16, #496]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #496]
+ldr x0, [x16, #488]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -28876,7 +28876,7 @@ Firebase_Auth_Auth_get_ErrorUserInfoEmailKey:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #512]
+ldr x16, [x16, #504]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -28895,11 +28895,11 @@ ldr x16, [x16, #512]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #520]
+ldr x0, [x16, #512]
 .word 0xf9400000
 .word 0xd2800001
 .word 0xd2800001
-bl _p_147
+bl _p_145
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400bb1
@@ -28920,8 +28920,8 @@ ldr x0, [x16, #248]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #528]
-bl _p_148
+ldr x1, [x16, #520]
+bl _p_146
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf940ce31
@@ -28931,7 +28931,7 @@ bl _p_148
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #520]
+ldr x0, [x16, #512]
 .word 0xf9000001
 .word 0xf9400fb1
 .word 0xf9400231
@@ -28944,7 +28944,7 @@ ldr x0, [x16, #520]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #520]
+ldr x0, [x16, #512]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -28975,7 +28975,7 @@ Firebase_Auth_Auth_get_ErrorUserInfoNameKey:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #536]
+ldr x16, [x16, #528]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -28994,11 +28994,11 @@ ldr x16, [x16, #536]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #544]
+ldr x0, [x16, #536]
 .word 0xf9400000
 .word 0xd2800001
 .word 0xd2800001
-bl _p_147
+bl _p_145
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400bb1
@@ -29019,8 +29019,8 @@ ldr x0, [x16, #248]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #552]
-bl _p_148
+ldr x1, [x16, #544]
+bl _p_146
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf940ce31
@@ -29030,7 +29030,7 @@ bl _p_148
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #544]
+ldr x0, [x16, #536]
 .word 0xf9000001
 .word 0xf9400fb1
 .word 0xf9400231
@@ -29043,7 +29043,7 @@ ldr x0, [x16, #544]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #544]
+ldr x0, [x16, #536]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -29074,7 +29074,7 @@ Firebase_Auth_Auth_get_ErrorUserInfoUpdatedCredentialKey:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #560]
+ldr x16, [x16, #552]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -29093,11 +29093,11 @@ ldr x16, [x16, #560]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #568]
+ldr x0, [x16, #560]
 .word 0xf9400000
 .word 0xd2800001
 .word 0xd2800001
-bl _p_147
+bl _p_145
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400bb1
@@ -29118,8 +29118,8 @@ ldr x0, [x16, #248]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #576]
-bl _p_148
+ldr x1, [x16, #568]
+bl _p_146
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf940ce31
@@ -29129,7 +29129,7 @@ bl _p_148
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #568]
+ldr x0, [x16, #560]
 .word 0xf9000001
 .word 0xf9400fb1
 .word 0xf9400231
@@ -29142,7 +29142,7 @@ ldr x0, [x16, #568]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #568]
+ldr x0, [x16, #560]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -29173,7 +29173,7 @@ Firebase_Auth_Auth_get_StateDidChangeNotification:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #584]
+ldr x16, [x16, #576]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -29192,11 +29192,11 @@ ldr x16, [x16, #584]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #592]
+ldr x0, [x16, #584]
 .word 0xf9400000
 .word 0xd2800001
 .word 0xd2800001
-bl _p_147
+bl _p_145
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400bb1
@@ -29217,8 +29217,8 @@ ldr x0, [x16, #248]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #600]
-bl _p_148
+ldr x1, [x16, #592]
+bl _p_146
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf940ce31
@@ -29228,7 +29228,7 @@ bl _p_148
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #592]
+ldr x0, [x16, #584]
 .word 0xf9000001
 .word 0xf9400fb1
 .word 0xf9400231
@@ -29241,7 +29241,7 @@ ldr x0, [x16, #592]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #592]
+ldr x0, [x16, #584]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -29272,7 +29272,7 @@ Firebase_Auth_Auth_get__CurrentVersion:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #608]
+ldr x16, [x16, #600]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -29297,7 +29297,7 @@ ldr x0, [x16, #248]
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+0
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x1, [x16, #3392]
-bl _p_149
+bl _p_147
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9408231
@@ -29334,7 +29334,7 @@ Firebase_Auth_Auth_Dispose_bool:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #616]
+ldr x16, [x16, #608]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -29353,7 +29353,7 @@ ldr x16, [x16, #616]
 .word 0xaa1903e0
 .word 0x394063a1
 .word 0xaa1903e0
-bl _p_150
+bl _p_148
 .word 0xf94013b1
 .word 0xf9407a31
 .word 0xb4000051
@@ -29420,7 +29420,7 @@ Firebase_Auth_Auth__cctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #624]
+ldr x16, [x16, #616]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -29439,8 +29439,8 @@ ldr x16, [x16, #624]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #632]
-bl _p_151
+ldr x0, [x16, #624]
+bl _p_149
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9407231
@@ -29477,7 +29477,7 @@ Firebase_Auth_Auth_Notifications_ObserveStateDidChange_System_EventHandler_1_Fou
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #640]
+ldr x16, [x16, #632]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -29497,12 +29497,12 @@ ldr x16, [x16, #640]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #648]
+ldr x0, [x16, #640]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf90033a0
-bl _p_152
+bl _p_150
 .word 0xf94013b1
 .word 0xf9408a31
 .word 0xb4000051
@@ -29532,13 +29532,13 @@ ldr x2, [x16, #16]
 .word 0xf940ea31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_153
+bl _p_151
 .word 0xf9002fa0
 .word 0xf94013b1
 .word 0xf9410231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_154
+bl _p_152
 .word 0xf9002ba0
 .word 0xf94013b1
 .word 0xf9411a31
@@ -29552,7 +29552,7 @@ bl _p_154
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #656]
+ldr x0, [x16, #648]
 .word 0xd2801001
 .word 0xd2801001
 bl _p_6
@@ -29579,17 +29579,17 @@ ldr x5, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #664]
+ldr x0, [x16, #656]
 .word 0xf9001440
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #672]
+ldr x0, [x16, #664]
 .word 0xf9002040
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #680]
+ldr x0, [x16, #672]
 .word 0xf9401404
 .word 0xf9000c44
 .word 0xf9401000
@@ -29598,7 +29598,7 @@ ldr x0, [x16, #680]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0x3940007e
-bl _p_155
+bl _p_153
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf941f631
@@ -29642,7 +29642,7 @@ Firebase_Auth_Auth_Notifications_ObserveStateDidChange_Foundation_NSObject_Syste
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #688]
+ldr x16, [x16, #680]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -29662,12 +29662,12 @@ ldr x16, [x16, #688]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #696]
+ldr x0, [x16, #688]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf90033a0
-bl _p_156
+bl _p_154
 .word 0xf94017b1
 .word 0xf9408e31
 .word 0xb4000051
@@ -29697,13 +29697,13 @@ ldr x2, [x16, #16]
 .word 0xf940ee31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_153
+bl _p_151
 .word 0xf9002fa0
 .word 0xf94017b1
 .word 0xf9410631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_154
+bl _p_152
 .word 0xf9002ba0
 .word 0xf94017b1
 .word 0xf9411e31
@@ -29717,7 +29717,7 @@ bl _p_154
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #656]
+ldr x0, [x16, #648]
 .word 0xd2801001
 .word 0xd2801001
 bl _p_6
@@ -29744,17 +29744,17 @@ ldr x5, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #696]
 .word 0xf9001440
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #712]
+ldr x0, [x16, #704]
 .word 0xf9002040
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #720]
+ldr x0, [x16, #712]
 .word 0xf9401403
 .word 0xf9000c43
 .word 0xf9401000
@@ -29764,7 +29764,7 @@ ldr x0, [x16, #720]
 .word 0xf9400fa3
 .word 0xaa0403e0
 .word 0x3940009e
-bl _p_157
+bl _p_155
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf941fe31
@@ -29806,7 +29806,7 @@ Firebase_Auth_Auth_Notifications__c__DisplayClass0_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #728]
+ldr x16, [x16, #720]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -29852,7 +29852,7 @@ Firebase_Auth_Auth_Notifications__c__DisplayClass0_0__ObserveStateDidChangeb__0_
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #736]
+ldr x16, [x16, #728]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -29877,13 +29877,13 @@ ldr x16, [x16, #736]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #744]
+ldr x0, [x16, #736]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf9402fa1
 .word 0xf90027a0
-bl _p_158
+bl _p_156
 .word 0xf94013b1
 .word 0xf940a231
 .word 0xb4000051
@@ -29924,7 +29924,7 @@ Firebase_Auth_Auth_Notifications__c__DisplayClass1_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #752]
+ldr x16, [x16, #744]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -29970,7 +29970,7 @@ Firebase_Auth_Auth_Notifications__c__DisplayClass1_0__ObserveStateDidChangeb__0_
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #760]
+ldr x16, [x16, #752]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -29995,13 +29995,13 @@ ldr x16, [x16, #760]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #744]
+ldr x0, [x16, #736]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf9402fa1
 .word 0xf90027a0
-bl _p_158
+bl _p_156
 .word 0xf94013b1
 .word 0xf940a231
 .word 0xb4000051
@@ -30042,7 +30042,7 @@ Firebase_Auth_Auth__c__DisplayClass11_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #760]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -30089,7 +30089,7 @@ Firebase_Auth_Auth__c__DisplayClass11_0__ApplyActionCodeAsyncb__0_Foundation_NSE
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #768]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -30118,13 +30118,13 @@ ldr x16, [x16, #776]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -30133,7 +30133,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_160
+bl _p_158
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -30153,7 +30153,7 @@ bl _p_160
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_161
+bl _p_159
 .word 0xf94013b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -30183,7 +30183,7 @@ Firebase_Auth_Auth__c__DisplayClass15_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #784]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -30232,7 +30232,7 @@ Firebase_Auth_Auth__c__DisplayClass15_0__CheckActionCodeAsyncb__0_Firebase_Auth_
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #792]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -30261,13 +30261,13 @@ ldr x16, [x16, #800]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -30276,7 +30276,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_162
+bl _p_160
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -30295,7 +30295,7 @@ bl _p_162
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_163
+bl _p_161
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -30326,7 +30326,7 @@ Firebase_Auth_Auth__c__DisplayClass17_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #800]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -30373,7 +30373,7 @@ Firebase_Auth_Auth__c__DisplayClass17_0__ConfirmPasswordResetAsyncb__0_Foundatio
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #816]
+ldr x16, [x16, #808]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -30402,13 +30402,13 @@ ldr x16, [x16, #816]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -30417,7 +30417,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_160
+bl _p_158
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -30437,7 +30437,7 @@ bl _p_160
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_161
+bl _p_159
 .word 0xf94013b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -30467,7 +30467,7 @@ Firebase_Auth_Auth__c__DisplayClass19_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #816]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -30516,7 +30516,7 @@ Firebase_Auth_Auth__c__DisplayClass19_0__CreateUserAsyncb__0_Firebase_Auth_AuthD
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #824]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -30545,13 +30545,13 @@ ldr x16, [x16, #832]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -30560,7 +30560,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_164
+bl _p_162
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -30579,7 +30579,7 @@ bl _p_164
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_165
+bl _p_163
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -30610,7 +30610,7 @@ Firebase_Auth_Auth__c__DisplayClass21_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #832]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -30659,7 +30659,7 @@ Firebase_Auth_Auth__c__DisplayClass21_0__FetchProvidersAsyncb__0_string___Founda
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #840]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -30688,13 +30688,13 @@ ldr x16, [x16, #848]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -30703,7 +30703,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_166
+bl _p_164
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -30722,7 +30722,7 @@ bl _p_166
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_167
+bl _p_165
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -30753,7 +30753,7 @@ Firebase_Auth_Auth__c__DisplayClass23_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #848]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -30802,7 +30802,7 @@ Firebase_Auth_Auth__c__DisplayClass23_0__FetchSignInMethodsAsyncb__0_string___Fo
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #856]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -30831,13 +30831,13 @@ ldr x16, [x16, #864]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -30846,7 +30846,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_166
+bl _p_164
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -30865,7 +30865,7 @@ bl _p_166
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_167
+bl _p_165
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -30896,7 +30896,7 @@ Firebase_Auth_Auth__c__DisplayClass30_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #864]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -30943,7 +30943,7 @@ Firebase_Auth_Auth__c__DisplayClass30_0__SendPasswordResetAsyncb__0_Foundation_N
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #872]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -30972,13 +30972,13 @@ ldr x16, [x16, #880]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -30987,7 +30987,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_160
+bl _p_158
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -31007,7 +31007,7 @@ bl _p_160
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_161
+bl _p_159
 .word 0xf94013b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -31037,7 +31037,7 @@ Firebase_Auth_Auth__c__DisplayClass32_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #880]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -31084,7 +31084,7 @@ Firebase_Auth_Auth__c__DisplayClass32_0__SendPasswordResetAsyncb__0_Foundation_N
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #888]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -31113,13 +31113,13 @@ ldr x16, [x16, #896]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -31128,7 +31128,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_160
+bl _p_158
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -31148,7 +31148,7 @@ bl _p_160
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_161
+bl _p_159
 .word 0xf94013b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -31178,7 +31178,7 @@ Firebase_Auth_Auth__c__DisplayClass34_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #896]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -31225,7 +31225,7 @@ Firebase_Auth_Auth__c__DisplayClass34_0__SendSignInLinkAsyncb__0_Foundation_NSEr
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #912]
+ldr x16, [x16, #904]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -31254,13 +31254,13 @@ ldr x16, [x16, #912]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -31269,7 +31269,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_160
+bl _p_158
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -31289,7 +31289,7 @@ bl _p_160
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_161
+bl _p_159
 .word 0xf94013b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -31319,7 +31319,7 @@ Firebase_Auth_Auth__c__DisplayClass37_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #912]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -31368,7 +31368,7 @@ Firebase_Auth_Auth__c__DisplayClass37_0__SignInAndRetrieveDataWithCredentialAsyn
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #928]
+ldr x16, [x16, #920]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -31397,13 +31397,13 @@ ldr x16, [x16, #928]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -31412,7 +31412,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_164
+bl _p_162
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -31431,7 +31431,7 @@ bl _p_164
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_165
+bl _p_163
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -31462,7 +31462,7 @@ Firebase_Auth_Auth__c__DisplayClass39_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #936]
+ldr x16, [x16, #928]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -31511,7 +31511,7 @@ Firebase_Auth_Auth__c__DisplayClass39_0__SignInAnonymouslyAsyncb__0_Firebase_Aut
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #936]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -31540,13 +31540,13 @@ ldr x16, [x16, #944]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -31555,7 +31555,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_164
+bl _p_162
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -31574,7 +31574,7 @@ bl _p_164
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_165
+bl _p_163
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -31605,7 +31605,7 @@ Firebase_Auth_Auth__c__DisplayClass41_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #944]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -31641,8 +31641,8 @@ ldr x16, [x16, #952]
 Lme_166:
 .text
 	.align 4
-	.no_dead_strip Firebase_Auth_Auth__c__DisplayClass41_0__SignInWithCredentialAsyncb__0_Firebase_Auth_User_Foundation_NSError
-Firebase_Auth_Auth__c__DisplayClass41_0__SignInWithCredentialAsyncb__0_Firebase_Auth_User_Foundation_NSError:
+	.no_dead_strip Firebase_Auth_Auth__c__DisplayClass41_0__SignInWithCredentialAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
+Firebase_Auth_Auth__c__DisplayClass41_0__SignInWithCredentialAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError:
 .loc 1 1 0
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -31654,7 +31654,7 @@ Firebase_Auth_Auth__c__DisplayClass41_0__SignInWithCredentialAsyncb__0_Firebase_
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #952]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -31683,13 +31683,13 @@ ldr x16, [x16, #960]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -31698,7 +31698,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_168
+bl _p_162
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -31717,7 +31717,7 @@ bl _p_168
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_169
+bl _p_163
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -31748,7 +31748,7 @@ Firebase_Auth_Auth__c__DisplayClass43_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #968]
+ldr x16, [x16, #960]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -31797,7 +31797,7 @@ Firebase_Auth_Auth__c__DisplayClass43_0__SignInWithCustomTokenAsyncb__0_Firebase
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #968]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -31826,13 +31826,13 @@ ldr x16, [x16, #976]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -31841,7 +31841,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_164
+bl _p_162
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -31860,7 +31860,7 @@ bl _p_164
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_165
+bl _p_163
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -31891,7 +31891,7 @@ Firebase_Auth_Auth__c__DisplayClass45_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #976]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -31940,7 +31940,7 @@ Firebase_Auth_Auth__c__DisplayClass45_0__SignInWithLinkAsyncb__0_Firebase_Auth_A
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #984]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -31969,13 +31969,13 @@ ldr x16, [x16, #992]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -31984,7 +31984,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_164
+bl _p_162
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -32003,7 +32003,7 @@ bl _p_164
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_165
+bl _p_163
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -32034,7 +32034,7 @@ Firebase_Auth_Auth__c__DisplayClass47_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #992]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -32083,7 +32083,7 @@ Firebase_Auth_Auth__c__DisplayClass47_0__SignInWithPasswordAsyncb__0_Firebase_Au
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1000]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -32112,13 +32112,13 @@ ldr x16, [x16, #1008]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -32127,7 +32127,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_164
+bl _p_162
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -32146,7 +32146,7 @@ bl _p_164
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_165
+bl _p_163
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -32177,7 +32177,7 @@ Firebase_Auth_Auth__c__DisplayClass49_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1016]
+ldr x16, [x16, #1008]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -32226,7 +32226,7 @@ Firebase_Auth_Auth__c__DisplayClass49_0__SignInWithProviderAsyncb__0_Firebase_Au
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1024]
+ldr x16, [x16, #1016]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -32255,13 +32255,13 @@ ldr x16, [x16, #1024]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -32270,7 +32270,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_164
+bl _p_162
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -32289,7 +32289,7 @@ bl _p_164
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_165
+bl _p_163
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -32320,7 +32320,7 @@ Firebase_Auth_Auth__c__DisplayClass52_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1032]
+ldr x16, [x16, #1024]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -32367,7 +32367,7 @@ Firebase_Auth_Auth__c__DisplayClass52_0__UpdateCurrentUserAsyncb__0_Foundation_N
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1032]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -32396,13 +32396,13 @@ ldr x16, [x16, #1040]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -32411,7 +32411,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_160
+bl _p_158
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -32431,7 +32431,7 @@ bl _p_160
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_161
+bl _p_159
 .word 0xf94013b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -32461,7 +32461,7 @@ Firebase_Auth_Auth__c__DisplayClass56_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1048]
+ldr x16, [x16, #1040]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -32510,7 +32510,7 @@ Firebase_Auth_Auth__c__DisplayClass56_0__VerifyPasswordResetCodeAsyncb__0_string
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #1048]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -32539,13 +32539,13 @@ ldr x16, [x16, #1056]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -32554,7 +32554,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_170
+bl _p_166
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -32573,7 +32573,7 @@ bl _p_170
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_171
+bl _p_167
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -32603,7 +32603,7 @@ Firebase_Auth_Loader__cctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1064]
+ldr x16, [x16, #1056]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -32619,7 +32619,7 @@ ldr x16, [x16, #1064]
 .word 0xf9404e31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_172
+bl _p_168
 .word 0xf9400bb1
 .word 0xf9406231
 .word 0xb4000051
@@ -32647,7 +32647,7 @@ Firebase_Auth_Loader_ForceLoad:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1064]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -32683,7 +32683,7 @@ Firebase_Auth_Loader__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #1072]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -32728,7 +32728,7 @@ Firebase_Auth_ActionCodeInfo_get_ClassHandle:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1080]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -32747,7 +32747,7 @@ ldr x16, [x16, #1088]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1096]
+ldr x0, [x16, #1088]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf94013b1
@@ -32781,7 +32781,7 @@ Firebase_Auth_ActionCodeInfo__ctor_Foundation_NSObjectFlag:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1104]
+ldr x16, [x16, #1096]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -32882,7 +32882,7 @@ Firebase_Auth_ActionCodeInfo__ctor_intptr:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1104]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -32983,7 +32983,7 @@ Firebase_Auth_ActionCodeInfo_DataForKey_Firebase_Auth_ActionDataKey:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1120]
+ldr x16, [x16, #1112]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -33050,7 +33050,7 @@ ldr x0, [x0]
 .word 0xf9402fa1
 .word 0xaa1a03e2
 .word 0xaa1a03e2
-bl _p_173
+bl _p_169
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf9413e31
@@ -33097,7 +33097,7 @@ ldr x0, [x0]
 .word 0xf9402fa1
 .word 0xaa1a03e2
 .word 0x93407f42
-bl _p_174
+bl _p_170
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf941fa31
@@ -33160,7 +33160,7 @@ ldr x0, [x0]
 .word 0xf9402fa1
 .word 0xaa1a03e2
 .word 0xaa1a03e2
-bl _p_175
+bl _p_171
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf942f631
@@ -33207,7 +33207,7 @@ ldr x0, [x0]
 .word 0xf9402fa1
 .word 0xaa1a03e2
 .word 0x93407f42
-bl _p_176
+bl _p_172
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf943b231
@@ -33251,7 +33251,7 @@ Firebase_Auth_ActionCodeInfo_get_Operation:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1128]
+ldr x16, [x16, #1120]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -33317,7 +33317,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94027a0
 .word 0xf9402ba1
-bl _p_177
+bl _p_173
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9413631
@@ -33352,7 +33352,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94027a0
 .word 0xf9402ba1
-bl _p_178
+bl _p_174
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -33405,7 +33405,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94027a0
 .word 0xf9402ba1
-bl _p_179
+bl _p_175
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9429631
@@ -33440,7 +33440,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94027a0
 .word 0xf9402ba1
-bl _p_180
+bl _p_176
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -33488,7 +33488,7 @@ Firebase_Auth_ActionCodeInfo__cctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #1128]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -33507,8 +33507,8 @@ ldr x16, [x16, #1136]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1144]
-bl _p_151
+ldr x0, [x16, #1136]
+bl _p_149
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9407231
@@ -33518,7 +33518,7 @@ bl _p_151
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1096]
+ldr x0, [x16, #1088]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9409631
@@ -33544,7 +33544,7 @@ Firebase_Auth_ActionCodeSettings_get_ClassHandle:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1152]
+ldr x16, [x16, #1144]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -33563,7 +33563,7 @@ ldr x16, [x16, #1152]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1160]
+ldr x0, [x16, #1152]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf94013b1
@@ -33596,7 +33596,7 @@ Firebase_Auth_ActionCodeSettings__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1168]
+ldr x16, [x16, #1160]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -33616,7 +33616,7 @@ ldr x16, [x16, #1168]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1176]
+ldr x0, [x16, #1168]
 .word 0xf9400001
 .word 0xaa1a03e0
 bl _p_74
@@ -33712,7 +33712,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf94023a1
-bl _p_140
+bl _p_138
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf941f231
@@ -33722,9 +33722,9 @@ bl _p_140
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x2, [x16, #1184]
+ldr x2, [x16, #1176]
 .word 0xaa1a03e0
-bl _p_181
+bl _p_177
 .word 0xf9400fb1
 .word 0xf9421a31
 .word 0xb4000051
@@ -33757,7 +33757,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf94023a1
-bl _p_142
+bl _p_140
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf942a231
@@ -33767,9 +33767,9 @@ bl _p_142
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x2, [x16, #1184]
+ldr x2, [x16, #1176]
 .word 0xaa1a03e0
-bl _p_181
+bl _p_177
 .word 0xf9400fb1
 .word 0xf942ca31
 .word 0xb4000051
@@ -33801,7 +33801,7 @@ Firebase_Auth_ActionCodeSettings__ctor_Foundation_NSObjectFlag:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1184]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -33902,7 +33902,7 @@ Firebase_Auth_ActionCodeSettings__ctor_intptr:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1200]
+ldr x16, [x16, #1192]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -34007,7 +34007,7 @@ Firebase_Auth_ActionCodeSettings_SetAndroidPackageName_string_bool_string:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1208]
+ldr x16, [x16, #1200]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -34115,7 +34115,7 @@ ldr x0, [x0]
 .word 0xaa1603e2
 .word 0xaa1903e3
 .word 0xaa1503e4
-bl _p_182
+bl _p_178
 .word 0xf94023b1
 .word 0xf941ea31
 .word 0xb4000051
@@ -34153,7 +34153,7 @@ ldr x0, [x0]
 .word 0xaa1603e2
 .word 0xaa1903e3
 .word 0xaa1503e4
-bl _p_183
+bl _p_179
 .word 0xf94023b1
 .word 0xf9428231
 .word 0xb4000051
@@ -34212,7 +34212,7 @@ Firebase_Auth_ActionCodeSettings_get_AndroidInstallIfNotAvailable:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1216]
+ldr x16, [x16, #1208]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -34261,7 +34261,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf94023a1
-bl _p_184
+bl _p_180
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -34300,7 +34300,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf94023a1
-bl _p_185
+bl _p_181
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -34330,6 +34330,144 @@ Lme_182:
 	.align 4
 	.no_dead_strip Firebase_Auth_ActionCodeSettings_get_AndroidMinimumVersion
 Firebase_Auth_ActionCodeSettings_get_AndroidMinimumVersion:
+.loc 1 1 0
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
+add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
+ldr x16, [x16, #1216]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_82
+.word 0x53001c00
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+.word 0x340005c0
+.word 0xf9400fb1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_17
+.word 0xf90023a0
+.word 0xf9400fb1
+.word 0xf940b231
+.word 0xb4000051
+.word 0xd63f0220
+adrp x0, L_OBJC_SELECTOR_REFERENCES_46@PAGE
+add x0, x0, L_OBJC_SELECTOR_REFERENCES_46@PAGEOFF
+ldr x0, [x0]
+.word 0xf90027a0
+.word 0xf9400fb1
+.word 0xf940d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0xf94027a1
+bl _p_138
+.word 0xf9001fa0
+.word 0xf9400fb1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fa0
+bl _p_30
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf9410e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9412e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+.word 0x1400002d
+.word 0xf9400fb1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_85
+.word 0xf90023a0
+.word 0xf9400fb1
+.word 0xf9416631
+.word 0xb4000051
+.word 0xd63f0220
+adrp x0, L_OBJC_SELECTOR_REFERENCES_46@PAGE
+add x0, x0, L_OBJC_SELECTOR_REFERENCES_46@PAGEOFF
+ldr x0, [x0]
+.word 0xf90027a0
+.word 0xf9400fb1
+.word 0xf9418631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0xf94027a1
+bl _p_140
+.word 0xf9001fa0
+.word 0xf9400fb1
+.word 0xf941a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fa0
+bl _p_30
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf941c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf941e231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+.word 0xf9400fb1
+.word 0xf941f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_183:
+.text
+	.align 4
+	.no_dead_strip Firebase_Auth_ActionCodeSettings_get_AndroidPackageName
+Firebase_Auth_ActionCodeSettings_get_AndroidPackageName:
 .loc 1 1 0
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -34377,8 +34515,8 @@ bl _p_17
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-adrp x0, L_OBJC_SELECTOR_REFERENCES_46@PAGE
-add x0, x0, L_OBJC_SELECTOR_REFERENCES_46@PAGEOFF
+adrp x0, L_OBJC_SELECTOR_REFERENCES_47@PAGE
+add x0, x0, L_OBJC_SELECTOR_REFERENCES_47@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf9400fb1
@@ -34387,7 +34525,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -34422,8 +34560,8 @@ bl _p_85
 .word 0xf9416631
 .word 0xb4000051
 .word 0xd63f0220
-adrp x0, L_OBJC_SELECTOR_REFERENCES_46@PAGE
-add x0, x0, L_OBJC_SELECTOR_REFERENCES_46@PAGEOFF
+adrp x0, L_OBJC_SELECTOR_REFERENCES_47@PAGE
+add x0, x0, L_OBJC_SELECTOR_REFERENCES_47@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf9400fb1
@@ -34432,7 +34570,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -34463,11 +34601,11 @@ bl _p_30
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_183:
+Lme_184:
 .text
 	.align 4
-	.no_dead_strip Firebase_Auth_ActionCodeSettings_get_AndroidPackageName
-Firebase_Auth_ActionCodeSettings_get_AndroidPackageName:
+	.no_dead_strip Firebase_Auth_ActionCodeSettings_get_DynamicLinkDomain
+Firebase_Auth_ActionCodeSettings_get_DynamicLinkDomain:
 .loc 1 1 0
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -34515,144 +34653,6 @@ bl _p_17
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-adrp x0, L_OBJC_SELECTOR_REFERENCES_47@PAGE
-add x0, x0, L_OBJC_SELECTOR_REFERENCES_47@PAGEOFF
-ldr x0, [x0]
-.word 0xf90027a0
-.word 0xf9400fb1
-.word 0xf940d231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0xf94027a1
-bl _p_140
-.word 0xf9001fa0
-.word 0xf9400fb1
-.word 0xf940f231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fa0
-bl _p_30
-.word 0xf9001ba0
-.word 0xf9400fb1
-.word 0xf9410e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9412e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401ba0
-.word 0x1400002d
-.word 0xf9400fb1
-.word 0xf9414631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_85
-.word 0xf90023a0
-.word 0xf9400fb1
-.word 0xf9416631
-.word 0xb4000051
-.word 0xd63f0220
-adrp x0, L_OBJC_SELECTOR_REFERENCES_47@PAGE
-add x0, x0, L_OBJC_SELECTOR_REFERENCES_47@PAGEOFF
-ldr x0, [x0]
-.word 0xf90027a0
-.word 0xf9400fb1
-.word 0xf9418631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0xf94027a1
-bl _p_142
-.word 0xf9001fa0
-.word 0xf9400fb1
-.word 0xf941a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fa0
-bl _p_30
-.word 0xf9001ba0
-.word 0xf9400fb1
-.word 0xf941c231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf941e231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401ba0
-.word 0xf9400fb1
-.word 0xf941f631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c57bfd
-.word 0xd65f03c0
-
-Lme_184:
-.text
-	.align 4
-	.no_dead_strip Firebase_Auth_ActionCodeSettings_get_DynamicLinkDomain
-Firebase_Auth_ActionCodeSettings_get_DynamicLinkDomain:
-.loc 1 1 0
-.word 0xa9bb7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
-add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1240]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_82
-.word 0x53001c00
-.word 0xf9001ba0
-.word 0xf9400fb1
-.word 0xf9407a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401ba0
-.word 0x340005c0
-.word 0xf9400fb1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_17
-.word 0xf90023a0
-.word 0xf9400fb1
-.word 0xf940b231
-.word 0xb4000051
-.word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_48@PAGE
 add x0, x0, L_OBJC_SELECTOR_REFERENCES_48@PAGEOFF
 ldr x0, [x0]
@@ -34663,7 +34663,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -34708,7 +34708,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -34753,7 +34753,7 @@ Firebase_Auth_ActionCodeSettings_set_DynamicLinkDomain_string:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1248]
+ldr x16, [x16, #1240]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -34898,7 +34898,7 @@ Firebase_Auth_ActionCodeSettings_get_HandleCodeInApp:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1256]
+ldr x16, [x16, #1248]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -34947,7 +34947,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf94023a1
-bl _p_184
+bl _p_180
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -34986,7 +34986,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf94023a1
-bl _p_185
+bl _p_181
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -35025,7 +35025,7 @@ Firebase_Auth_ActionCodeSettings_set_HandleCodeInApp_bool:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1264]
+ldr x16, [x16, #1256]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -35076,7 +35076,7 @@ ldr x0, [x0]
 .word 0xf94027a1
 .word 0xaa1a03e2
 .word 0xaa1a03e2
-bl _p_186
+bl _p_182
 .word 0xf94013b1
 .word 0xf940fa31
 .word 0xb4000051
@@ -35110,7 +35110,7 @@ ldr x0, [x0]
 .word 0xf94027a1
 .word 0xaa1a03e2
 .word 0xaa1a03e2
-bl _p_187
+bl _p_183
 .word 0xf94013b1
 .word 0xf9418231
 .word 0xb4000051
@@ -35141,7 +35141,7 @@ Firebase_Auth_ActionCodeSettings_get_IOSBundleId:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1272]
+ldr x16, [x16, #1264]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -35190,7 +35190,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -35235,7 +35235,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -35280,7 +35280,7 @@ Firebase_Auth_ActionCodeSettings_set_IOSBundleId_string:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1280]
+ldr x16, [x16, #1272]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -35425,7 +35425,7 @@ Firebase_Auth_ActionCodeSettings_get_Url:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1288]
+ldr x16, [x16, #1280]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -35475,7 +35475,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_140
+bl _p_138
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940f631
@@ -35485,8 +35485,8 @@ bl _p_140
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1296]
-bl _p_188
+ldr x15, [x16, #1288]
+bl _p_184
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9411e31
@@ -35521,7 +35521,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_142
+bl _p_140
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf941aa31
@@ -35531,8 +35531,8 @@ bl _p_142
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1296]
-bl _p_188
+ldr x15, [x16, #1288]
+bl _p_184
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf941d231
@@ -35583,7 +35583,7 @@ Firebase_Auth_ActionCodeSettings_set_Url_Foundation_NSUrl:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1304]
+ldr x16, [x16, #1296]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -35781,7 +35781,7 @@ Firebase_Auth_ActionCodeSettings__cctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1312]
+ldr x16, [x16, #1304]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -35800,8 +35800,8 @@ ldr x16, [x16, #1312]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1320]
-bl _p_151
+ldr x0, [x16, #1312]
+bl _p_149
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9407231
@@ -35811,7 +35811,7 @@ bl _p_151
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1160]
+ldr x0, [x16, #1152]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9409631
@@ -35837,7 +35837,7 @@ Firebase_Auth_AdditionalUserInfo_get_ClassHandle:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1328]
+ldr x16, [x16, #1320]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -35856,7 +35856,7 @@ ldr x16, [x16, #1328]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1336]
+ldr x0, [x16, #1328]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf94013b1
@@ -35890,7 +35890,7 @@ Firebase_Auth_AdditionalUserInfo__ctor_Foundation_NSObjectFlag:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1344]
+ldr x16, [x16, #1336]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -35991,7 +35991,7 @@ Firebase_Auth_AdditionalUserInfo__ctor_intptr:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1352]
+ldr x16, [x16, #1344]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -36091,7 +36091,7 @@ Firebase_Auth_AdditionalUserInfo_get_IsNewUser:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1360]
+ldr x16, [x16, #1352]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -36140,7 +36140,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf94023a1
-bl _p_184
+bl _p_180
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -36179,7 +36179,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf94023a1
-bl _p_185
+bl _p_181
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -36217,7 +36217,7 @@ Firebase_Auth_AdditionalUserInfo_get_Profile:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1368]
+ldr x16, [x16, #1360]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -36267,7 +36267,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_140
+bl _p_138
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940f631
@@ -36277,8 +36277,8 @@ bl _p_140
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1376]
-bl _p_189
+ldr x15, [x16, #1368]
+bl _p_185
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9411e31
@@ -36313,7 +36313,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_142
+bl _p_140
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf941aa31
@@ -36323,8 +36323,8 @@ bl _p_142
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1376]
-bl _p_189
+ldr x15, [x16, #1368]
+bl _p_185
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf941d231
@@ -36372,7 +36372,7 @@ Firebase_Auth_AdditionalUserInfo_get_ProviderId:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1384]
+ldr x16, [x16, #1376]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -36421,7 +36421,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -36466,7 +36466,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -36510,7 +36510,7 @@ Firebase_Auth_AdditionalUserInfo_get_Username:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1392]
+ldr x16, [x16, #1384]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -36559,7 +36559,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -36604,7 +36604,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -36646,7 +36646,7 @@ Firebase_Auth_AdditionalUserInfo__cctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1400]
+ldr x16, [x16, #1392]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -36665,8 +36665,8 @@ ldr x16, [x16, #1400]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1408]
-bl _p_151
+ldr x0, [x16, #1400]
+bl _p_149
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9407231
@@ -36676,7 +36676,7 @@ bl _p_151
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1336]
+ldr x0, [x16, #1328]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9409631
@@ -36702,7 +36702,7 @@ Firebase_Auth_AuthCredential_get_ClassHandle:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1416]
+ldr x16, [x16, #1408]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -36721,7 +36721,7 @@ ldr x16, [x16, #1416]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1424]
+ldr x0, [x16, #1416]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf94013b1
@@ -36755,7 +36755,7 @@ Firebase_Auth_AuthCredential__ctor_Foundation_NSObjectFlag:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1432]
+ldr x16, [x16, #1424]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -36856,7 +36856,7 @@ Firebase_Auth_AuthCredential__ctor_intptr:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1440]
+ldr x16, [x16, #1432]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -36956,7 +36956,7 @@ Firebase_Auth_AuthCredential_get_Provider:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1448]
+ldr x16, [x16, #1440]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -37005,7 +37005,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -37050,7 +37050,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -37092,7 +37092,7 @@ Firebase_Auth_AuthCredential__cctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1456]
+ldr x16, [x16, #1448]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -37111,8 +37111,8 @@ ldr x16, [x16, #1456]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1464]
-bl _p_151
+ldr x0, [x16, #1456]
+bl _p_149
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9407231
@@ -37122,7 +37122,7 @@ bl _p_151
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1424]
+ldr x0, [x16, #1416]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9409631
@@ -37148,7 +37148,7 @@ Firebase_Auth_AuthDataResult_get_ClassHandle:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1472]
+ldr x16, [x16, #1464]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -37167,7 +37167,7 @@ ldr x16, [x16, #1472]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1480]
+ldr x0, [x16, #1472]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf94013b1
@@ -37201,7 +37201,7 @@ Firebase_Auth_AuthDataResult__ctor_Foundation_NSObjectFlag:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1488]
+ldr x16, [x16, #1480]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -37302,7 +37302,7 @@ Firebase_Auth_AuthDataResult__ctor_intptr:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1496]
+ldr x16, [x16, #1488]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -37402,7 +37402,7 @@ Firebase_Auth_AuthDataResult_get_AdditionalUserInfo:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1504]
+ldr x16, [x16, #1496]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -37452,7 +37452,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_140
+bl _p_138
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940f631
@@ -37462,8 +37462,8 @@ bl _p_140
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1512]
-bl _p_190
+ldr x15, [x16, #1504]
+bl _p_186
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9411e31
@@ -37498,7 +37498,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_142
+bl _p_140
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf941aa31
@@ -37508,8 +37508,8 @@ bl _p_142
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1512]
-bl _p_190
+ldr x15, [x16, #1504]
+bl _p_186
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf941d231
@@ -37557,7 +37557,7 @@ Firebase_Auth_AuthDataResult_get_Credential:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1520]
+ldr x16, [x16, #1512]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -37607,7 +37607,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_140
+bl _p_138
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940f631
@@ -37653,7 +37653,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_142
+bl _p_140
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf941aa31
@@ -37712,7 +37712,7 @@ Firebase_Auth_AuthDataResult_get_User:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1528]
+ldr x16, [x16, #1520]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -37762,7 +37762,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_140
+bl _p_138
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940f631
@@ -37808,7 +37808,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_142
+bl _p_140
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf941aa31
@@ -37865,7 +37865,7 @@ Firebase_Auth_AuthDataResult__cctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1536]
+ldr x16, [x16, #1528]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -37884,8 +37884,8 @@ ldr x16, [x16, #1536]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1544]
-bl _p_151
+ldr x0, [x16, #1536]
+bl _p_149
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9407231
@@ -37895,7 +37895,7 @@ bl _p_151
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1480]
+ldr x0, [x16, #1472]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9409631
@@ -37921,7 +37921,7 @@ Firebase_Auth_AuthSettings_get_ClassHandle:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1552]
+ldr x16, [x16, #1544]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -37940,7 +37940,7 @@ ldr x16, [x16, #1552]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1560]
+ldr x0, [x16, #1552]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf94013b1
@@ -37973,7 +37973,7 @@ Firebase_Auth_AuthSettings__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1568]
+ldr x16, [x16, #1560]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -37993,7 +37993,7 @@ ldr x16, [x16, #1568]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1176]
+ldr x0, [x16, #1168]
 .word 0xf9400001
 .word 0xaa1a03e0
 bl _p_74
@@ -38089,7 +38089,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf94023a1
-bl _p_140
+bl _p_138
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf941f231
@@ -38099,9 +38099,9 @@ bl _p_140
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x2, [x16, #1184]
+ldr x2, [x16, #1176]
 .word 0xaa1a03e0
-bl _p_181
+bl _p_177
 .word 0xf9400fb1
 .word 0xf9421a31
 .word 0xb4000051
@@ -38134,7 +38134,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf94023a1
-bl _p_142
+bl _p_140
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf942a231
@@ -38144,9 +38144,9 @@ bl _p_142
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x2, [x16, #1184]
+ldr x2, [x16, #1176]
 .word 0xaa1a03e0
-bl _p_181
+bl _p_177
 .word 0xf9400fb1
 .word 0xf942ca31
 .word 0xb4000051
@@ -38178,7 +38178,7 @@ Firebase_Auth_AuthSettings__ctor_Foundation_NSObjectFlag:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1576]
+ldr x16, [x16, #1568]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -38279,7 +38279,7 @@ Firebase_Auth_AuthSettings__ctor_intptr:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1584]
+ldr x16, [x16, #1576]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -38379,7 +38379,7 @@ Firebase_Auth_AuthSettings_get_AppVerificationDisabledForTesting:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1592]
+ldr x16, [x16, #1584]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -38428,7 +38428,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf94023a1
-bl _p_184
+bl _p_180
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -38467,7 +38467,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf94023a1
-bl _p_185
+bl _p_181
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -38506,7 +38506,7 @@ Firebase_Auth_AuthSettings_set_AppVerificationDisabledForTesting_bool:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1600]
+ldr x16, [x16, #1592]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -38557,7 +38557,7 @@ ldr x0, [x0]
 .word 0xf94027a1
 .word 0xaa1a03e2
 .word 0xaa1a03e2
-bl _p_186
+bl _p_182
 .word 0xf94013b1
 .word 0xf940fa31
 .word 0xb4000051
@@ -38591,7 +38591,7 @@ ldr x0, [x0]
 .word 0xf94027a1
 .word 0xaa1a03e2
 .word 0xaa1a03e2
-bl _p_187
+bl _p_183
 .word 0xf94013b1
 .word 0xf9418231
 .word 0xb4000051
@@ -38620,7 +38620,7 @@ Firebase_Auth_AuthSettings__cctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1608]
+ldr x16, [x16, #1600]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -38639,8 +38639,8 @@ ldr x16, [x16, #1608]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1616]
-bl _p_151
+ldr x0, [x16, #1608]
+bl _p_149
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9407231
@@ -38650,7 +38650,7 @@ bl _p_151
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1560]
+ldr x0, [x16, #1552]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9409631
@@ -38676,7 +38676,7 @@ Firebase_Auth_AuthTokenResult_get_ClassHandle:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1624]
+ldr x16, [x16, #1616]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -38695,7 +38695,7 @@ ldr x16, [x16, #1624]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1632]
+ldr x0, [x16, #1624]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf94013b1
@@ -38728,7 +38728,7 @@ Firebase_Auth_AuthTokenResult__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1640]
+ldr x16, [x16, #1632]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -38748,7 +38748,7 @@ ldr x16, [x16, #1640]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1176]
+ldr x0, [x16, #1168]
 .word 0xf9400001
 .word 0xaa1a03e0
 bl _p_74
@@ -38844,7 +38844,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf94023a1
-bl _p_140
+bl _p_138
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf941f231
@@ -38854,9 +38854,9 @@ bl _p_140
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x2, [x16, #1184]
+ldr x2, [x16, #1176]
 .word 0xaa1a03e0
-bl _p_181
+bl _p_177
 .word 0xf9400fb1
 .word 0xf9421a31
 .word 0xb4000051
@@ -38889,7 +38889,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf94023a1
-bl _p_142
+bl _p_140
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf942a231
@@ -38899,9 +38899,9 @@ bl _p_142
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x2, [x16, #1184]
+ldr x2, [x16, #1176]
 .word 0xaa1a03e0
-bl _p_181
+bl _p_177
 .word 0xf9400fb1
 .word 0xf942ca31
 .word 0xb4000051
@@ -38933,7 +38933,7 @@ Firebase_Auth_AuthTokenResult__ctor_Foundation_NSObjectFlag:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1648]
+ldr x16, [x16, #1640]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -39034,7 +39034,7 @@ Firebase_Auth_AuthTokenResult__ctor_intptr:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1656]
+ldr x16, [x16, #1648]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -39134,7 +39134,7 @@ Firebase_Auth_AuthTokenResult_get_AuthDate:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1664]
+ldr x16, [x16, #1656]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -39184,7 +39184,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_140
+bl _p_138
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940f631
@@ -39194,8 +39194,8 @@ bl _p_140
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1672]
-bl _p_191
+ldr x15, [x16, #1664]
+bl _p_187
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9411e31
@@ -39230,7 +39230,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_142
+bl _p_140
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf941aa31
@@ -39240,8 +39240,8 @@ bl _p_142
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1672]
-bl _p_191
+ldr x15, [x16, #1664]
+bl _p_187
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf941d231
@@ -39281,6 +39281,161 @@ Lme_1ad:
 	.align 4
 	.no_dead_strip Firebase_Auth_AuthTokenResult_get_Claims
 Firebase_Auth_AuthTokenResult_get_Claims:
+.loc 1 1 0
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xa9016bb9
+.word 0xaa0003fa
+
+adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
+add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
+ldr x16, [x16, #1672]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xd2800019
+.word 0xf94013b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_82
+.word 0x53001c00
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x340005c0
+.word 0xf94013b1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_17
+.word 0xf9002ba0
+.word 0xf94013b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+adrp x0, L_OBJC_SELECTOR_REFERENCES_67@PAGE
+add x0, x0, L_OBJC_SELECTOR_REFERENCES_67@PAGEOFF
+ldr x0, [x0]
+.word 0xf9002fa0
+.word 0xf94013b1
+.word 0xf940d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf9402fa1
+bl _p_138
+.word 0xf90027a0
+.word 0xf94013b1
+.word 0xf940f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027a0
+
+adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
+add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
+ldr x15, [x16, #1368]
+bl _p_185
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf9411e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0xaa0003f9
+.word 0xf94013b1
+.word 0xf9413631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000029
+.word 0xf94013b1
+.word 0xf9414a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_85
+.word 0xf9002ba0
+.word 0xf94013b1
+.word 0xf9416a31
+.word 0xb4000051
+.word 0xd63f0220
+adrp x0, L_OBJC_SELECTOR_REFERENCES_67@PAGE
+add x0, x0, L_OBJC_SELECTOR_REFERENCES_67@PAGEOFF
+ldr x0, [x0]
+.word 0xf9002fa0
+.word 0xf94013b1
+.word 0xf9418a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf9402fa1
+bl _p_140
+.word 0xf90027a0
+.word 0xf94013b1
+.word 0xf941aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027a0
+
+adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
+add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
+ldr x15, [x16, #1368]
+bl _p_185
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf941d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0xaa0003f9
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf941fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9421e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf94013b1
+.word 0xf9423231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9416bb9
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_1ae:
+.text
+	.align 4
+	.no_dead_strip Firebase_Auth_AuthTokenResult_get_ExpirationDate
+Firebase_Auth_AuthTokenResult_get_ExpirationDate:
 .loc 1 1 0
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -39329,8 +39484,8 @@ bl _p_17
 .word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-adrp x0, L_OBJC_SELECTOR_REFERENCES_67@PAGE
-add x0, x0, L_OBJC_SELECTOR_REFERENCES_67@PAGEOFF
+adrp x0, L_OBJC_SELECTOR_REFERENCES_68@PAGE
+add x0, x0, L_OBJC_SELECTOR_REFERENCES_68@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002fa0
 .word 0xf94013b1
@@ -39339,7 +39494,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_140
+bl _p_138
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940f631
@@ -39349,8 +39504,8 @@ bl _p_140
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1376]
-bl _p_189
+ldr x15, [x16, #1664]
+bl _p_187
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9411e31
@@ -39375,8 +39530,8 @@ bl _p_85
 .word 0xf9416a31
 .word 0xb4000051
 .word 0xd63f0220
-adrp x0, L_OBJC_SELECTOR_REFERENCES_67@PAGE
-add x0, x0, L_OBJC_SELECTOR_REFERENCES_67@PAGEOFF
+adrp x0, L_OBJC_SELECTOR_REFERENCES_68@PAGE
+add x0, x0, L_OBJC_SELECTOR_REFERENCES_68@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002fa0
 .word 0xf94013b1
@@ -39385,7 +39540,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_142
+bl _p_140
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf941aa31
@@ -39395,8 +39550,8 @@ bl _p_142
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1376]
-bl _p_189
+ldr x15, [x16, #1664]
+bl _p_187
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf941d231
@@ -39431,11 +39586,11 @@ bl _p_189
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_1ae:
+Lme_1af:
 .text
 	.align 4
-	.no_dead_strip Firebase_Auth_AuthTokenResult_get_ExpirationDate
-Firebase_Auth_AuthTokenResult_get_ExpirationDate:
+	.no_dead_strip Firebase_Auth_AuthTokenResult_get_IssuedAtDate
+Firebase_Auth_AuthTokenResult_get_IssuedAtDate:
 .loc 1 1 0
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -39484,161 +39639,6 @@ bl _p_17
 .word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-adrp x0, L_OBJC_SELECTOR_REFERENCES_68@PAGE
-add x0, x0, L_OBJC_SELECTOR_REFERENCES_68@PAGEOFF
-ldr x0, [x0]
-.word 0xf9002fa0
-.word 0xf94013b1
-.word 0xf940d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-.word 0xf9402fa1
-bl _p_140
-.word 0xf90027a0
-.word 0xf94013b1
-.word 0xf940f631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027a0
-
-adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
-add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1672]
-bl _p_191
-.word 0xf90023a0
-.word 0xf94013b1
-.word 0xf9411e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0xaa0003f9
-.word 0xf94013b1
-.word 0xf9413631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x14000029
-.word 0xf94013b1
-.word 0xf9414a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_85
-.word 0xf9002ba0
-.word 0xf94013b1
-.word 0xf9416a31
-.word 0xb4000051
-.word 0xd63f0220
-adrp x0, L_OBJC_SELECTOR_REFERENCES_68@PAGE
-add x0, x0, L_OBJC_SELECTOR_REFERENCES_68@PAGEOFF
-ldr x0, [x0]
-.word 0xf9002fa0
-.word 0xf94013b1
-.word 0xf9418a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-.word 0xf9402fa1
-bl _p_142
-.word 0xf90027a0
-.word 0xf94013b1
-.word 0xf941aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027a0
-
-adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
-add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1672]
-bl _p_191
-.word 0xf90023a0
-.word 0xf94013b1
-.word 0xf941d231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0xaa0003f9
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf941fa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9421e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf94013b1
-.word 0xf9423231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa9416bb9
-.word 0x910003bf
-.word 0xa8c67bfd
-.word 0xd65f03c0
-
-Lme_1af:
-.text
-	.align 4
-	.no_dead_strip Firebase_Auth_AuthTokenResult_get_IssuedAtDate
-Firebase_Auth_AuthTokenResult_get_IssuedAtDate:
-.loc 1 1 0
-.word 0xa9ba7bfd
-.word 0x910003fd
-.word 0xa9016bb9
-.word 0xaa0003fa
-
-adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
-add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1696]
-.word 0xf90013b0
-.word 0xf9400a11
-.word 0xf90017b1
-.word 0xd2800019
-.word 0xf94013b1
-.word 0xf9403a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_82
-.word 0x53001c00
-.word 0xf90023a0
-.word 0xf94013b1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x340005c0
-.word 0xf94013b1
-.word 0xf9409631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_17
-.word 0xf9002ba0
-.word 0xf94013b1
-.word 0xf940b631
-.word 0xb4000051
-.word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_69@PAGE
 add x0, x0, L_OBJC_SELECTOR_REFERENCES_69@PAGEOFF
 ldr x0, [x0]
@@ -39649,7 +39649,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_140
+bl _p_138
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940f631
@@ -39659,8 +39659,8 @@ bl _p_140
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1672]
-bl _p_191
+ldr x15, [x16, #1664]
+bl _p_187
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9411e31
@@ -39695,7 +39695,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_142
+bl _p_140
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf941aa31
@@ -39705,8 +39705,8 @@ bl _p_142
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1672]
-bl _p_191
+ldr x15, [x16, #1664]
+bl _p_187
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf941d231
@@ -39754,7 +39754,7 @@ Firebase_Auth_AuthTokenResult_get_SignInProvider:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1704]
+ldr x16, [x16, #1696]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -39803,7 +39803,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -39848,7 +39848,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -39892,7 +39892,7 @@ Firebase_Auth_AuthTokenResult_get_Token:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1712]
+ldr x16, [x16, #1704]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -39941,7 +39941,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -39986,7 +39986,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -40028,7 +40028,7 @@ Firebase_Auth_AuthTokenResult__cctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1720]
+ldr x16, [x16, #1712]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -40047,8 +40047,8 @@ ldr x16, [x16, #1720]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1728]
-bl _p_151
+ldr x0, [x16, #1720]
+bl _p_149
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9407231
@@ -40058,7 +40058,7 @@ bl _p_151
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1632]
+ldr x0, [x16, #1624]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9409631
@@ -40086,7 +40086,7 @@ Firebase_Auth_AuthUIDelegateWrapper__ctor_intptr_bool:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1736]
+ldr x16, [x16, #1728]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -40105,7 +40105,7 @@ ldr x16, [x16, #1736]
 .word 0xf9400ba0
 .word 0xf9400fa1
 .word 0x394083a2
-bl _p_192
+bl _p_188
 .word 0xf94017b1
 .word 0xf9407a31
 .word 0xb4000051
@@ -40140,7 +40140,7 @@ Firebase_Auth_AuthUIDelegateWrapper_PresentViewController_UIKit_UIViewController
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1744]
+ldr x16, [x16, #1736]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -40247,7 +40247,7 @@ bl _p_81
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
-bl _p_193
+bl _p_189
 .word 0xf90043a0
 .word 0xf9401fb1
 .word 0xf941e631
@@ -40285,7 +40285,7 @@ bl _p_7
 .word 0xf9404ba2
 .word 0xf9404fa3
 .word 0xf94053a4
-bl _p_182
+bl _p_178
 .word 0xf9401fb1
 .word 0xf9427a31
 .word 0xb4000051
@@ -40345,7 +40345,7 @@ Firebase_Auth_AuthUIDelegateWrapper_DismissViewController_bool_System_Action:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1752]
+ldr x16, [x16, #1744]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -40428,7 +40428,7 @@ bl _p_81
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013a0
-bl _p_193
+bl _p_189
 .word 0xf90043a0
 .word 0xf9401bb1
 .word 0xf9418231
@@ -40456,7 +40456,7 @@ bl _p_7
 .word 0xf94047a1
 .word 0xf9404ba2
 .word 0xf9404fa3
-bl _p_194
+bl _p_190
 .word 0xf9401bb1
 .word 0xf941ee31
 .word 0xb4000051
@@ -40512,7 +40512,7 @@ Firebase_Auth_AuthUIDelegate__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1760]
+ldr x16, [x16, #1752]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -40532,7 +40532,7 @@ ldr x16, [x16, #1760]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1176]
+ldr x0, [x16, #1168]
 .word 0xf9400001
 .word 0xaa1a03e0
 bl _p_74
@@ -40576,7 +40576,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf94023a1
-bl _p_142
+bl _p_140
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9412a31
@@ -40586,9 +40586,9 @@ bl _p_142
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x2, [x16, #1184]
+ldr x2, [x16, #1176]
 .word 0xaa1a03e0
-bl _p_181
+bl _p_177
 .word 0xf9400fb1
 .word 0xf9415231
 .word 0xb4000051
@@ -40620,7 +40620,7 @@ Firebase_Auth_AuthUIDelegate__ctor_Foundation_NSObjectFlag:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1768]
+ldr x16, [x16, #1760]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -40684,7 +40684,7 @@ Firebase_Auth_AuthUIDelegate__ctor_intptr:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1776]
+ldr x16, [x16, #1768]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -40746,7 +40746,7 @@ Firebase_Auth_EmailAuthProvider_get_ClassHandle:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1784]
+ldr x16, [x16, #1776]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -40765,7 +40765,7 @@ ldr x16, [x16, #1784]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1792]
+ldr x0, [x16, #1784]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf94013b1
@@ -40799,7 +40799,7 @@ Firebase_Auth_EmailAuthProvider__ctor_Foundation_NSObjectFlag:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1800]
+ldr x16, [x16, #1792]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -40900,7 +40900,7 @@ Firebase_Auth_EmailAuthProvider__ctor_intptr:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1808]
+ldr x16, [x16, #1800]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -41002,7 +41002,7 @@ Firebase_Auth_EmailAuthProvider_GetCredentialFromLink_string_string:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1816]
+ldr x16, [x16, #1808]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -41100,7 +41100,7 @@ bl _p_33
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1792]
+ldr x0, [x16, #1784]
 .word 0xf9400000
 .word 0xf90033a0
 adrp x0, L_OBJC_SELECTOR_REFERENCES_74@PAGE
@@ -41116,7 +41116,7 @@ ldr x0, [x0]
 .word 0xf9403ba3
 .word 0xaa1803e2
 .word 0xaa0303e4
-bl _p_195
+bl _p_191
 .word 0xf9002fa0
 .word 0xf9401bb1
 .word 0xf941f231
@@ -41179,7 +41179,7 @@ Firebase_Auth_EmailAuthProvider_GetCredentialFromPassword_string_string:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1824]
+ldr x16, [x16, #1816]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -41277,7 +41277,7 @@ bl _p_33
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1792]
+ldr x0, [x16, #1784]
 .word 0xf9400000
 .word 0xf90033a0
 adrp x0, L_OBJC_SELECTOR_REFERENCES_75@PAGE
@@ -41293,7 +41293,7 @@ ldr x0, [x0]
 .word 0xf9403ba3
 .word 0xaa1803e2
 .word 0xaa0303e4
-bl _p_195
+bl _p_191
 .word 0xf9002fa0
 .word 0xf9401bb1
 .word 0xf941f231
@@ -41352,7 +41352,7 @@ Firebase_Auth_EmailAuthProvider_get_Id:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1832]
+ldr x16, [x16, #1824]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -41371,11 +41371,11 @@ ldr x16, [x16, #1832]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1840]
+ldr x0, [x16, #1832]
 .word 0xf9400000
 .word 0xd2800001
 .word 0xd2800001
-bl _p_147
+bl _p_145
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400bb1
@@ -41396,8 +41396,8 @@ ldr x0, [x16, #248]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #1848]
-bl _p_148
+ldr x1, [x16, #1840]
+bl _p_146
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf940ce31
@@ -41407,7 +41407,7 @@ bl _p_148
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1840]
+ldr x0, [x16, #1832]
 .word 0xf9000001
 .word 0xf9400fb1
 .word 0xf9400231
@@ -41420,7 +41420,7 @@ ldr x0, [x16, #1840]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1840]
+ldr x0, [x16, #1832]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -41451,7 +41451,7 @@ Firebase_Auth_EmailAuthProvider_get_PasswordSignInMethod:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1856]
+ldr x16, [x16, #1848]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -41470,11 +41470,11 @@ ldr x16, [x16, #1856]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1864]
+ldr x0, [x16, #1856]
 .word 0xf9400000
 .word 0xd2800001
 .word 0xd2800001
-bl _p_147
+bl _p_145
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400bb1
@@ -41495,8 +41495,8 @@ ldr x0, [x16, #248]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #1872]
-bl _p_148
+ldr x1, [x16, #1864]
+bl _p_146
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf940ce31
@@ -41506,7 +41506,7 @@ bl _p_148
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1864]
+ldr x0, [x16, #1856]
 .word 0xf9000001
 .word 0xf9400fb1
 .word 0xf9400231
@@ -41519,7 +41519,7 @@ ldr x0, [x16, #1864]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1864]
+ldr x0, [x16, #1856]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -41550,7 +41550,7 @@ Firebase_Auth_EmailAuthProvider__cctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1880]
+ldr x16, [x16, #1872]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -41569,8 +41569,8 @@ ldr x16, [x16, #1880]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1888]
-bl _p_151
+ldr x0, [x16, #1880]
+bl _p_149
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9407231
@@ -41580,7 +41580,7 @@ bl _p_151
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1792]
+ldr x0, [x16, #1784]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9409631
@@ -41606,7 +41606,7 @@ Firebase_Auth_FacebookAuthProvider_get_ClassHandle:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1896]
+ldr x16, [x16, #1888]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -41625,7 +41625,7 @@ ldr x16, [x16, #1896]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1904]
+ldr x0, [x16, #1896]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf94013b1
@@ -41659,7 +41659,7 @@ Firebase_Auth_FacebookAuthProvider__ctor_Foundation_NSObjectFlag:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1912]
+ldr x16, [x16, #1904]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -41760,7 +41760,7 @@ Firebase_Auth_FacebookAuthProvider__ctor_intptr:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1920]
+ldr x16, [x16, #1912]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -41860,7 +41860,7 @@ Firebase_Auth_FacebookAuthProvider_GetCredential_string:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1928]
+ldr x16, [x16, #1920]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -41919,7 +41919,7 @@ bl _p_33
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1904]
+ldr x0, [x16, #1896]
 .word 0xf9400000
 .word 0xf9002ba0
 adrp x0, L_OBJC_SELECTOR_REFERENCES_76@PAGE
@@ -41986,7 +41986,7 @@ Firebase_Auth_FacebookAuthProvider_get_Id:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1936]
+ldr x16, [x16, #1928]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -42005,11 +42005,11 @@ ldr x16, [x16, #1936]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1944]
+ldr x0, [x16, #1936]
 .word 0xf9400000
 .word 0xd2800001
 .word 0xd2800001
-bl _p_147
+bl _p_145
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400bb1
@@ -42030,8 +42030,8 @@ ldr x0, [x16, #248]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #1952]
-bl _p_148
+ldr x1, [x16, #1944]
+bl _p_146
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf940ce31
@@ -42041,7 +42041,7 @@ bl _p_148
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1944]
+ldr x0, [x16, #1936]
 .word 0xf9000001
 .word 0xf9400fb1
 .word 0xf9400231
@@ -42054,7 +42054,7 @@ ldr x0, [x16, #1944]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1944]
+ldr x0, [x16, #1936]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -42085,7 +42085,7 @@ Firebase_Auth_FacebookAuthProvider_get_SignInMethod:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1960]
+ldr x16, [x16, #1952]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -42104,11 +42104,11 @@ ldr x16, [x16, #1960]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1968]
+ldr x0, [x16, #1960]
 .word 0xf9400000
 .word 0xd2800001
 .word 0xd2800001
-bl _p_147
+bl _p_145
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400bb1
@@ -42129,8 +42129,8 @@ ldr x0, [x16, #248]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #1976]
-bl _p_148
+ldr x1, [x16, #1968]
+bl _p_146
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf940ce31
@@ -42140,7 +42140,7 @@ bl _p_148
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1968]
+ldr x0, [x16, #1960]
 .word 0xf9000001
 .word 0xf9400fb1
 .word 0xf9400231
@@ -42153,7 +42153,7 @@ ldr x0, [x16, #1968]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1968]
+ldr x0, [x16, #1960]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -42184,7 +42184,7 @@ Firebase_Auth_FacebookAuthProvider__cctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #1976]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -42203,8 +42203,8 @@ ldr x16, [x16, #1984]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1992]
-bl _p_151
+ldr x0, [x16, #1984]
+bl _p_149
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9407231
@@ -42214,7 +42214,7 @@ bl _p_151
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1904]
+ldr x0, [x16, #1896]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9409631
@@ -42242,7 +42242,7 @@ Firebase_Auth_FederatedAuthProviderWrapper__ctor_intptr_bool:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2000]
+ldr x16, [x16, #1992]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -42261,7 +42261,7 @@ ldr x16, [x16, #2000]
 .word 0xf9400ba0
 .word 0xf9400fa1
 .word 0x394083a2
-bl _p_192
+bl _p_188
 .word 0xf94017b1
 .word 0xf9407a31
 .word 0xb4000051
@@ -42295,7 +42295,7 @@ Firebase_Auth_FederatedAuthProviderWrapper_Completion_Firebase_Auth_IAuthUIDeleg
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2008]
+ldr x16, [x16, #2000]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -42378,7 +42378,7 @@ bl _p_81
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-bl _p_193
+bl _p_189
 .word 0xf9004fa0
 .word 0xf94027b1
 .word 0xf9418631
@@ -42406,7 +42406,7 @@ ldr x0, [x0]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #192]
+ldr x15, [x16, #184]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -42499,7 +42499,7 @@ Firebase_Auth_FederatedAuthProvider__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #2008]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -42519,7 +42519,7 @@ ldr x16, [x16, #2016]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1176]
+ldr x0, [x16, #1168]
 .word 0xf9400001
 .word 0xaa1a03e0
 bl _p_74
@@ -42563,7 +42563,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf94023a1
-bl _p_142
+bl _p_140
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9412a31
@@ -42573,9 +42573,9 @@ bl _p_142
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x2, [x16, #1184]
+ldr x2, [x16, #1176]
 .word 0xaa1a03e0
-bl _p_181
+bl _p_177
 .word 0xf9400fb1
 .word 0xf9415231
 .word 0xb4000051
@@ -42607,7 +42607,7 @@ Firebase_Auth_FederatedAuthProvider__ctor_Foundation_NSObjectFlag:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2024]
+ldr x16, [x16, #2016]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -42671,7 +42671,7 @@ Firebase_Auth_FederatedAuthProvider__ctor_intptr:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2032]
+ldr x16, [x16, #2024]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -42733,7 +42733,7 @@ Firebase_Auth_GameCenterAuthProvider_get_ClassHandle:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2040]
+ldr x16, [x16, #2032]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -42752,7 +42752,7 @@ ldr x16, [x16, #2040]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2048]
+ldr x0, [x16, #2040]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf94013b1
@@ -42786,7 +42786,7 @@ Firebase_Auth_GameCenterAuthProvider__ctor_Foundation_NSObjectFlag:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2056]
+ldr x16, [x16, #2048]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -42887,7 +42887,7 @@ Firebase_Auth_GameCenterAuthProvider__ctor_intptr:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2064]
+ldr x16, [x16, #2056]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -42987,7 +42987,7 @@ Firebase_Auth_GameCenterAuthProvider_GetCredential_Firebase_Auth_GameCenterCrede
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2072]
+ldr x16, [x16, #2064]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -43074,7 +43074,7 @@ bl _p_81
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2048]
+ldr x0, [x16, #2040]
 .word 0xf9400000
 .word 0xf9003ba0
 adrp x0, L_OBJC_SELECTOR_REFERENCES_78@PAGE
@@ -43135,7 +43135,7 @@ Firebase_Auth_GameCenterAuthProvider_GetCredentialAsync:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2080]
+ldr x16, [x16, #2072]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -43154,12 +43154,12 @@ ldr x16, [x16, #2080]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2088]
+ldr x0, [x16, #2080]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf9003ba0
-bl _p_196
+bl _p_192
 .word 0xf94013b1
 .word 0xf9408231
 .word 0xb4000051
@@ -43173,12 +43173,12 @@ bl _p_196
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2096]
+ldr x0, [x16, #2088]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf90033a0
-bl _p_197
+bl _p_193
 .word 0xf94013b1
 .word 0xf940ca31
 .word 0xb4000051
@@ -43234,24 +43234,24 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #2104]
+ldr x1, [x16, #2096]
 .word 0xf9001401
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #2112]
+ldr x1, [x16, #2104]
 .word 0xf9002001
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #2120]
+ldr x1, [x16, #2112]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
 .word 0xf9000801
 .word 0xd2800001
 .word 0x3901c01f
-bl _p_198
+bl _p_194
 .word 0xf94013b1
 .word 0xf941d631
 .word 0xb4000051
@@ -43260,7 +43260,7 @@ bl _p_198
 .word 0xf9400801
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_199
+bl _p_195
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf941fe31
@@ -43301,7 +43301,7 @@ Firebase_Auth_GameCenterAuthProvider_get_Id:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2128]
+ldr x16, [x16, #2120]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -43320,11 +43320,11 @@ ldr x16, [x16, #2128]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2136]
+ldr x0, [x16, #2128]
 .word 0xf9400000
 .word 0xd2800001
 .word 0xd2800001
-bl _p_147
+bl _p_145
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400bb1
@@ -43345,8 +43345,8 @@ ldr x0, [x16, #248]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #2144]
-bl _p_148
+ldr x1, [x16, #2136]
+bl _p_146
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf940ce31
@@ -43356,7 +43356,7 @@ bl _p_148
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2136]
+ldr x0, [x16, #2128]
 .word 0xf9000001
 .word 0xf9400fb1
 .word 0xf9400231
@@ -43369,7 +43369,7 @@ ldr x0, [x16, #2136]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2136]
+ldr x0, [x16, #2128]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -43400,7 +43400,7 @@ Firebase_Auth_GameCenterAuthProvider_get_SignInMethod:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2152]
+ldr x16, [x16, #2144]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -43419,11 +43419,11 @@ ldr x16, [x16, #2152]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2160]
+ldr x0, [x16, #2152]
 .word 0xf9400000
 .word 0xd2800001
 .word 0xd2800001
-bl _p_147
+bl _p_145
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400bb1
@@ -43444,8 +43444,8 @@ ldr x0, [x16, #248]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #2168]
-bl _p_148
+ldr x1, [x16, #2160]
+bl _p_146
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf940ce31
@@ -43455,7 +43455,7 @@ bl _p_148
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2160]
+ldr x0, [x16, #2152]
 .word 0xf9000001
 .word 0xf9400fb1
 .word 0xf9400231
@@ -43468,7 +43468,7 @@ ldr x0, [x16, #2160]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2160]
+ldr x0, [x16, #2152]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -43499,7 +43499,7 @@ Firebase_Auth_GameCenterAuthProvider__cctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2176]
+ldr x16, [x16, #2168]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -43518,8 +43518,8 @@ ldr x16, [x16, #2176]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2184]
-bl _p_151
+ldr x0, [x16, #2176]
+bl _p_149
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9407231
@@ -43529,7 +43529,7 @@ bl _p_151
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2048]
+ldr x0, [x16, #2040]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9409631
@@ -43555,7 +43555,7 @@ Firebase_Auth_GameCenterAuthProvider__c__DisplayClass6_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2192]
+ldr x16, [x16, #2184]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -43604,7 +43604,7 @@ Firebase_Auth_GameCenterAuthProvider__c__DisplayClass6_0__GetCredentialAsyncb__0
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2200]
+ldr x16, [x16, #2192]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -43633,13 +43633,13 @@ ldr x16, [x16, #2200]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -43648,7 +43648,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_200
+bl _p_196
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -43667,7 +43667,7 @@ bl _p_200
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_201
+bl _p_197
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -43698,7 +43698,7 @@ Firebase_Auth_GitHubAuthProvider_get_ClassHandle:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2208]
+ldr x16, [x16, #2200]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -43717,7 +43717,7 @@ ldr x16, [x16, #2208]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2216]
+ldr x0, [x16, #2208]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf94013b1
@@ -43751,7 +43751,7 @@ Firebase_Auth_GitHubAuthProvider__ctor_Foundation_NSObjectFlag:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2224]
+ldr x16, [x16, #2216]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -43852,7 +43852,7 @@ Firebase_Auth_GitHubAuthProvider__ctor_intptr:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2232]
+ldr x16, [x16, #2224]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -43952,7 +43952,7 @@ Firebase_Auth_GitHubAuthProvider_GetCredential_string:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2240]
+ldr x16, [x16, #2232]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -44011,7 +44011,7 @@ bl _p_33
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2216]
+ldr x0, [x16, #2208]
 .word 0xf9400000
 .word 0xf9002ba0
 adrp x0, L_OBJC_SELECTOR_REFERENCES_79@PAGE
@@ -44078,7 +44078,7 @@ Firebase_Auth_GitHubAuthProvider_get_Id:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2248]
+ldr x16, [x16, #2240]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -44097,11 +44097,11 @@ ldr x16, [x16, #2248]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2256]
+ldr x0, [x16, #2248]
 .word 0xf9400000
 .word 0xd2800001
 .word 0xd2800001
-bl _p_147
+bl _p_145
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400bb1
@@ -44122,8 +44122,8 @@ ldr x0, [x16, #248]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #2264]
-bl _p_148
+ldr x1, [x16, #2256]
+bl _p_146
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf940ce31
@@ -44133,7 +44133,7 @@ bl _p_148
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2256]
+ldr x0, [x16, #2248]
 .word 0xf9000001
 .word 0xf9400fb1
 .word 0xf9400231
@@ -44146,7 +44146,7 @@ ldr x0, [x16, #2256]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2256]
+ldr x0, [x16, #2248]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -44177,7 +44177,7 @@ Firebase_Auth_GitHubAuthProvider_get_SignInMethod:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2272]
+ldr x16, [x16, #2264]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -44196,11 +44196,11 @@ ldr x16, [x16, #2272]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2280]
+ldr x0, [x16, #2272]
 .word 0xf9400000
 .word 0xd2800001
 .word 0xd2800001
-bl _p_147
+bl _p_145
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400bb1
@@ -44221,8 +44221,8 @@ ldr x0, [x16, #248]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #2288]
-bl _p_148
+ldr x1, [x16, #2280]
+bl _p_146
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf940ce31
@@ -44232,7 +44232,7 @@ bl _p_148
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2280]
+ldr x0, [x16, #2272]
 .word 0xf9000001
 .word 0xf9400fb1
 .word 0xf9400231
@@ -44245,7 +44245,7 @@ ldr x0, [x16, #2280]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2280]
+ldr x0, [x16, #2272]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -44276,7 +44276,7 @@ Firebase_Auth_GitHubAuthProvider__cctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2296]
+ldr x16, [x16, #2288]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -44295,8 +44295,8 @@ ldr x16, [x16, #2296]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2304]
-bl _p_151
+ldr x0, [x16, #2296]
+bl _p_149
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9407231
@@ -44306,7 +44306,7 @@ bl _p_151
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2216]
+ldr x0, [x16, #2208]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9409631
@@ -44332,7 +44332,7 @@ Firebase_Auth_GoogleAuthProvider_get_ClassHandle:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2312]
+ldr x16, [x16, #2304]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -44351,7 +44351,7 @@ ldr x16, [x16, #2312]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2320]
+ldr x0, [x16, #2312]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf94013b1
@@ -44385,7 +44385,7 @@ Firebase_Auth_GoogleAuthProvider__ctor_Foundation_NSObjectFlag:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2328]
+ldr x16, [x16, #2320]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -44486,7 +44486,7 @@ Firebase_Auth_GoogleAuthProvider__ctor_intptr:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2336]
+ldr x16, [x16, #2328]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -44588,7 +44588,7 @@ Firebase_Auth_GoogleAuthProvider_GetCredential_string_string:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2344]
+ldr x16, [x16, #2336]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -44686,7 +44686,7 @@ bl _p_33
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2320]
+ldr x0, [x16, #2312]
 .word 0xf9400000
 .word 0xf90033a0
 adrp x0, L_OBJC_SELECTOR_REFERENCES_80@PAGE
@@ -44702,7 +44702,7 @@ ldr x0, [x0]
 .word 0xf9403ba3
 .word 0xaa1803e2
 .word 0xaa0303e4
-bl _p_195
+bl _p_191
 .word 0xf9002fa0
 .word 0xf9401bb1
 .word 0xf941f231
@@ -44761,7 +44761,7 @@ Firebase_Auth_GoogleAuthProvider_get_Id:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2352]
+ldr x16, [x16, #2344]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -44780,11 +44780,11 @@ ldr x16, [x16, #2352]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2360]
+ldr x0, [x16, #2352]
 .word 0xf9400000
 .word 0xd2800001
 .word 0xd2800001
-bl _p_147
+bl _p_145
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400bb1
@@ -44805,8 +44805,8 @@ ldr x0, [x16, #248]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #2368]
-bl _p_148
+ldr x1, [x16, #2360]
+bl _p_146
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf940ce31
@@ -44816,7 +44816,7 @@ bl _p_148
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2360]
+ldr x0, [x16, #2352]
 .word 0xf9000001
 .word 0xf9400fb1
 .word 0xf9400231
@@ -44829,7 +44829,7 @@ ldr x0, [x16, #2360]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2360]
+ldr x0, [x16, #2352]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -44860,7 +44860,7 @@ Firebase_Auth_GoogleAuthProvider_get_SignInMethod:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2376]
+ldr x16, [x16, #2368]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -44879,11 +44879,11 @@ ldr x16, [x16, #2376]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2384]
+ldr x0, [x16, #2376]
 .word 0xf9400000
 .word 0xd2800001
 .word 0xd2800001
-bl _p_147
+bl _p_145
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400bb1
@@ -44904,8 +44904,8 @@ ldr x0, [x16, #248]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #2392]
-bl _p_148
+ldr x1, [x16, #2384]
+bl _p_146
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf940ce31
@@ -44915,7 +44915,7 @@ bl _p_148
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2384]
+ldr x0, [x16, #2376]
 .word 0xf9000001
 .word 0xf9400fb1
 .word 0xf9400231
@@ -44928,7 +44928,7 @@ ldr x0, [x16, #2384]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2384]
+ldr x0, [x16, #2376]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -44959,7 +44959,7 @@ Firebase_Auth_GoogleAuthProvider__cctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2400]
+ldr x16, [x16, #2392]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -44978,8 +44978,8 @@ ldr x16, [x16, #2400]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2408]
-bl _p_151
+ldr x0, [x16, #2400]
+bl _p_149
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9407231
@@ -44989,7 +44989,7 @@ bl _p_151
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2320]
+ldr x0, [x16, #2312]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9409631
@@ -45015,7 +45015,7 @@ Firebase_Auth_OAuthCredential_get_ClassHandle:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2416]
+ldr x16, [x16, #2408]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -45034,7 +45034,7 @@ ldr x16, [x16, #2416]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2424]
+ldr x0, [x16, #2416]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf94013b1
@@ -45068,7 +45068,7 @@ Firebase_Auth_OAuthCredential__ctor_Foundation_NSCoder:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2432]
+ldr x16, [x16, #2424]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -45088,10 +45088,10 @@ ldr x16, [x16, #2432]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1176]
+ldr x0, [x16, #1168]
 .word 0xf9400001
 .word 0xaa1903e0
-bl _p_202
+bl _p_198
 .word 0xf94013b1
 .word 0xf9408631
 .word 0xb4000051
@@ -45204,9 +45204,9 @@ bl _p_83
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x2, [x16, #2440]
+ldr x2, [x16, #2432]
 .word 0xaa1903e0
-bl _p_181
+bl _p_177
 .word 0xf94013b1
 .word 0xf9424631
 .word 0xb4000051
@@ -45259,9 +45259,9 @@ bl _p_86
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x2, [x16, #2440]
+ldr x2, [x16, #2432]
 .word 0xaa1903e0
-bl _p_181
+bl _p_177
 .word 0xf94013b1
 .word 0xf9431e31
 .word 0xb4000051
@@ -45293,7 +45293,7 @@ Firebase_Auth_OAuthCredential__ctor_Foundation_NSObjectFlag:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2448]
+ldr x16, [x16, #2440]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -45312,7 +45312,7 @@ ldr x16, [x16, #2448]
 .word 0xaa1903e0
 .word 0xf9400fa1
 .word 0xaa1903e0
-bl _p_202
+bl _p_198
 .word 0xf94013b1
 .word 0xf9407a31
 .word 0xb4000051
@@ -45394,7 +45394,7 @@ Firebase_Auth_OAuthCredential__ctor_intptr:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2456]
+ldr x16, [x16, #2448]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -45413,7 +45413,7 @@ ldr x16, [x16, #2456]
 .word 0xaa1903e0
 .word 0xf9400fa1
 .word 0xaa1903e0
-bl _p_203
+bl _p_199
 .word 0xf94013b1
 .word 0xf9407a31
 .word 0xb4000051
@@ -45495,7 +45495,7 @@ Firebase_Auth_OAuthCredential_EncodeTo_Foundation_NSCoder:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2464]
+ldr x16, [x16, #2456]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -45651,7 +45651,7 @@ Firebase_Auth_OAuthCredential_get_AccessToken:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2472]
+ldr x16, [x16, #2464]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -45700,7 +45700,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -45745,7 +45745,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -45781,6 +45781,144 @@ Lme_1f1:
 	.align 4
 	.no_dead_strip Firebase_Auth_OAuthCredential_get_IdToken
 Firebase_Auth_OAuthCredential_get_IdToken:
+.loc 1 1 0
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
+add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
+ldr x16, [x16, #2472]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_82
+.word 0x53001c00
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+.word 0x340005c0
+.word 0xf9400fb1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_17
+.word 0xf90023a0
+.word 0xf9400fb1
+.word 0xf940b231
+.word 0xb4000051
+.word 0xd63f0220
+adrp x0, L_OBJC_SELECTOR_REFERENCES_84@PAGE
+add x0, x0, L_OBJC_SELECTOR_REFERENCES_84@PAGEOFF
+ldr x0, [x0]
+.word 0xf90027a0
+.word 0xf9400fb1
+.word 0xf940d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0xf94027a1
+bl _p_138
+.word 0xf9001fa0
+.word 0xf9400fb1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fa0
+bl _p_30
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf9410e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9412e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+.word 0x1400002d
+.word 0xf9400fb1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_85
+.word 0xf90023a0
+.word 0xf9400fb1
+.word 0xf9416631
+.word 0xb4000051
+.word 0xd63f0220
+adrp x0, L_OBJC_SELECTOR_REFERENCES_84@PAGE
+add x0, x0, L_OBJC_SELECTOR_REFERENCES_84@PAGEOFF
+ldr x0, [x0]
+.word 0xf90027a0
+.word 0xf9400fb1
+.word 0xf9418631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0xf94027a1
+bl _p_140
+.word 0xf9001fa0
+.word 0xf9400fb1
+.word 0xf941a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fa0
+bl _p_30
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf941c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf941e231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+.word 0xf9400fb1
+.word 0xf941f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_1f2:
+.text
+	.align 4
+	.no_dead_strip Firebase_Auth_OAuthCredential_get_Secret
+Firebase_Auth_OAuthCredential_get_Secret:
 .loc 1 1 0
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -45828,144 +45966,6 @@ bl _p_17
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-adrp x0, L_OBJC_SELECTOR_REFERENCES_84@PAGE
-add x0, x0, L_OBJC_SELECTOR_REFERENCES_84@PAGEOFF
-ldr x0, [x0]
-.word 0xf90027a0
-.word 0xf9400fb1
-.word 0xf940d231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0xf94027a1
-bl _p_140
-.word 0xf9001fa0
-.word 0xf9400fb1
-.word 0xf940f231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fa0
-bl _p_30
-.word 0xf9001ba0
-.word 0xf9400fb1
-.word 0xf9410e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9412e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401ba0
-.word 0x1400002d
-.word 0xf9400fb1
-.word 0xf9414631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_85
-.word 0xf90023a0
-.word 0xf9400fb1
-.word 0xf9416631
-.word 0xb4000051
-.word 0xd63f0220
-adrp x0, L_OBJC_SELECTOR_REFERENCES_84@PAGE
-add x0, x0, L_OBJC_SELECTOR_REFERENCES_84@PAGEOFF
-ldr x0, [x0]
-.word 0xf90027a0
-.word 0xf9400fb1
-.word 0xf9418631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0xf94027a1
-bl _p_142
-.word 0xf9001fa0
-.word 0xf9400fb1
-.word 0xf941a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fa0
-bl _p_30
-.word 0xf9001ba0
-.word 0xf9400fb1
-.word 0xf941c231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf941e231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401ba0
-.word 0xf9400fb1
-.word 0xf941f631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c57bfd
-.word 0xd65f03c0
-
-Lme_1f2:
-.text
-	.align 4
-	.no_dead_strip Firebase_Auth_OAuthCredential_get_Secret
-Firebase_Auth_OAuthCredential_get_Secret:
-.loc 1 1 0
-.word 0xa9bb7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
-add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2488]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_82
-.word 0x53001c00
-.word 0xf9001ba0
-.word 0xf9400fb1
-.word 0xf9407a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401ba0
-.word 0x340005c0
-.word 0xf9400fb1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_17
-.word 0xf90023a0
-.word 0xf9400fb1
-.word 0xf940b231
-.word 0xb4000051
-.word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_85@PAGE
 add x0, x0, L_OBJC_SELECTOR_REFERENCES_85@PAGEOFF
 ldr x0, [x0]
@@ -45976,7 +45976,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -46021,7 +46021,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -46063,7 +46063,7 @@ Firebase_Auth_OAuthCredential__cctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2496]
+ldr x16, [x16, #2488]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -46082,8 +46082,8 @@ ldr x16, [x16, #2496]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2504]
-bl _p_151
+ldr x0, [x16, #2496]
+bl _p_149
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9407231
@@ -46093,7 +46093,7 @@ bl _p_151
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2424]
+ldr x0, [x16, #2416]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9409631
@@ -46119,7 +46119,7 @@ Firebase_Auth_OAuthProvider_get_ClassHandle:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2512]
+ldr x16, [x16, #2504]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -46138,7 +46138,7 @@ ldr x16, [x16, #2512]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2520]
+ldr x0, [x16, #2512]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf94013b1
@@ -46172,7 +46172,7 @@ Firebase_Auth_OAuthProvider__ctor_Foundation_NSObjectFlag:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2528]
+ldr x16, [x16, #2520]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -46273,7 +46273,7 @@ Firebase_Auth_OAuthProvider__ctor_intptr:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2536]
+ldr x16, [x16, #2528]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -46378,7 +46378,7 @@ Firebase_Auth_OAuthProvider_Completion_Firebase_Auth_IAuthUIDelegate_Firebase_Au
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2544]
+ldr x16, [x16, #2536]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -46505,7 +46505,7 @@ ldr x0, [x0]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #192]
+ldr x15, [x16, #184]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -46585,7 +46585,7 @@ ldr x0, [x0]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #192]
+ldr x15, [x16, #184]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -46683,7 +46683,7 @@ Firebase_Auth_OAuthProvider_Create_string:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2552]
+ldr x16, [x16, #2544]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -46742,7 +46742,7 @@ bl _p_33
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2520]
+ldr x0, [x16, #2512]
 .word 0xf9400000
 .word 0xf9002ba0
 adrp x0, L_OBJC_SELECTOR_REFERENCES_86@PAGE
@@ -46767,8 +46767,8 @@ bl _p_83
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #2560]
-bl _p_204
+ldr x15, [x16, #2552]
+bl _p_200
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9417631
@@ -46813,7 +46813,7 @@ Firebase_Auth_OAuthProvider_Create_string_Firebase_Auth_Auth:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2568]
+ldr x16, [x16, #2560]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -46896,7 +46896,7 @@ bl _p_33
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2520]
+ldr x0, [x16, #2512]
 .word 0xf9400000
 .word 0xf9002ba0
 adrp x0, L_OBJC_SELECTOR_REFERENCES_87@PAGE
@@ -46922,7 +46922,7 @@ bl _p_17
 .word 0xf9402fa1
 .word 0xf94033a2
 .word 0xf94037a3
-bl _p_195
+bl _p_191
 .word 0xf90027a0
 .word 0xf94017b1
 .word 0xf941de31
@@ -46932,8 +46932,8 @@ bl _p_195
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #2560]
-bl _p_204
+ldr x15, [x16, #2552]
+bl _p_200
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9420631
@@ -46981,7 +46981,7 @@ Firebase_Auth_OAuthProvider_GetCredential_string_string_string:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2576]
+ldr x16, [x16, #2568]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -47093,7 +47093,7 @@ bl _p_33
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2520]
+ldr x0, [x16, #2512]
 .word 0xf9400000
 .word 0xf9003ba0
 adrp x0, L_OBJC_SELECTOR_REFERENCES_88@PAGE
@@ -47110,7 +47110,7 @@ ldr x0, [x0]
 .word 0xaa1703e2
 .word 0xaa1603e3
 .word 0xaa0403e5
-bl _p_205
+bl _p_201
 .word 0xf90037a0
 .word 0xf94023b1
 .word 0xf9423631
@@ -47120,8 +47120,8 @@ bl _p_205
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #2584]
-bl _p_206
+ldr x15, [x16, #2576]
+bl _p_202
 .word 0xf90033a0
 .word 0xf94023b1
 .word 0xf9425e31
@@ -47180,7 +47180,7 @@ Firebase_Auth_OAuthProvider_GetCredential_string_string:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2592]
+ldr x16, [x16, #2584]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -47278,7 +47278,7 @@ bl _p_33
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2520]
+ldr x0, [x16, #2512]
 .word 0xf9400000
 .word 0xf90033a0
 adrp x0, L_OBJC_SELECTOR_REFERENCES_89@PAGE
@@ -47294,7 +47294,7 @@ ldr x0, [x0]
 .word 0xf9403ba3
 .word 0xaa1803e2
 .word 0xaa0303e4
-bl _p_195
+bl _p_191
 .word 0xf9002fa0
 .word 0xf9401bb1
 .word 0xf941f231
@@ -47304,8 +47304,8 @@ bl _p_195
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #2584]
-bl _p_206
+ldr x15, [x16, #2576]
+bl _p_202
 .word 0xf9002ba0
 .word 0xf9401bb1
 .word 0xf9421a31
@@ -47355,7 +47355,7 @@ Firebase_Auth_OAuthProvider_get_CustomParameters:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2600]
+ldr x16, [x16, #2592]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -47405,7 +47405,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_140
+bl _p_138
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940f631
@@ -47415,8 +47415,8 @@ bl _p_140
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #2608]
-bl _p_207
+ldr x15, [x16, #2600]
+bl _p_203
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9411e31
@@ -47451,7 +47451,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_142
+bl _p_140
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf941aa31
@@ -47461,8 +47461,8 @@ bl _p_142
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #2608]
-bl _p_207
+ldr x15, [x16, #2600]
+bl _p_203
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf941d231
@@ -47513,7 +47513,7 @@ Firebase_Auth_OAuthProvider_set_CustomParameters_Foundation_NSDictionary_2_Found
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2616]
+ldr x16, [x16, #2608]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -47691,7 +47691,7 @@ Firebase_Auth_OAuthProvider_get_Id:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2624]
+ldr x16, [x16, #2616]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47740,7 +47740,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -47785,7 +47785,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -47829,7 +47829,7 @@ Firebase_Auth_OAuthProvider_get_Scopes:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2632]
+ldr x16, [x16, #2624]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47878,7 +47878,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -47923,7 +47923,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -47971,7 +47971,7 @@ Firebase_Auth_OAuthProvider_set_Scopes_string__:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2640]
+ldr x16, [x16, #2632]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -48204,7 +48204,7 @@ Firebase_Auth_OAuthProvider__cctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2648]
+ldr x16, [x16, #2640]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -48223,8 +48223,8 @@ ldr x16, [x16, #2648]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2656]
-bl _p_151
+ldr x0, [x16, #2648]
+bl _p_149
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9407231
@@ -48234,7 +48234,7 @@ bl _p_151
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2520]
+ldr x0, [x16, #2512]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9409631
@@ -48260,7 +48260,7 @@ Firebase_Auth_PhoneAuthCredential_get_ClassHandle:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2664]
+ldr x16, [x16, #2656]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -48279,7 +48279,7 @@ ldr x16, [x16, #2664]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2672]
+ldr x0, [x16, #2664]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf94013b1
@@ -48313,7 +48313,7 @@ Firebase_Auth_PhoneAuthCredential__ctor_Foundation_NSCoder:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2680]
+ldr x16, [x16, #2672]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -48333,10 +48333,10 @@ ldr x16, [x16, #2680]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #1176]
+ldr x0, [x16, #1168]
 .word 0xf9400001
 .word 0xaa1903e0
-bl _p_202
+bl _p_198
 .word 0xf94013b1
 .word 0xf9408631
 .word 0xb4000051
@@ -48449,9 +48449,9 @@ bl _p_83
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x2, [x16, #2440]
+ldr x2, [x16, #2432]
 .word 0xaa1903e0
-bl _p_181
+bl _p_177
 .word 0xf94013b1
 .word 0xf9424631
 .word 0xb4000051
@@ -48504,9 +48504,9 @@ bl _p_86
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x2, [x16, #2440]
+ldr x2, [x16, #2432]
 .word 0xaa1903e0
-bl _p_181
+bl _p_177
 .word 0xf94013b1
 .word 0xf9431e31
 .word 0xb4000051
@@ -48538,7 +48538,7 @@ Firebase_Auth_PhoneAuthCredential__ctor_Foundation_NSObjectFlag:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2688]
+ldr x16, [x16, #2680]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -48557,7 +48557,7 @@ ldr x16, [x16, #2688]
 .word 0xaa1903e0
 .word 0xf9400fa1
 .word 0xaa1903e0
-bl _p_202
+bl _p_198
 .word 0xf94013b1
 .word 0xf9407a31
 .word 0xb4000051
@@ -48639,7 +48639,7 @@ Firebase_Auth_PhoneAuthCredential__ctor_intptr:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2696]
+ldr x16, [x16, #2688]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -48658,7 +48658,7 @@ ldr x16, [x16, #2696]
 .word 0xaa1903e0
 .word 0xf9400fa1
 .word 0xaa1903e0
-bl _p_203
+bl _p_199
 .word 0xf94013b1
 .word 0xf9407a31
 .word 0xb4000051
@@ -48740,7 +48740,7 @@ Firebase_Auth_PhoneAuthCredential_EncodeTo_Foundation_NSCoder:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2704]
+ldr x16, [x16, #2696]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -48894,7 +48894,7 @@ Firebase_Auth_PhoneAuthCredential__cctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2712]
+ldr x16, [x16, #2704]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -48913,8 +48913,8 @@ ldr x16, [x16, #2712]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2720]
-bl _p_151
+ldr x0, [x16, #2712]
+bl _p_149
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9407231
@@ -48924,7 +48924,7 @@ bl _p_151
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2672]
+ldr x0, [x16, #2664]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9409631
@@ -48950,7 +48950,7 @@ Firebase_Auth_PhoneAuthProvider_get_ClassHandle:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2728]
+ldr x16, [x16, #2720]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -48969,7 +48969,7 @@ ldr x16, [x16, #2728]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2736]
+ldr x0, [x16, #2728]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf94013b1
@@ -49003,7 +49003,7 @@ Firebase_Auth_PhoneAuthProvider__ctor_Foundation_NSObjectFlag:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2744]
+ldr x16, [x16, #2736]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -49104,7 +49104,7 @@ Firebase_Auth_PhoneAuthProvider__ctor_intptr:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2752]
+ldr x16, [x16, #2744]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -49204,7 +49204,7 @@ Firebase_Auth_PhoneAuthProvider_Create_Firebase_Auth_Auth:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2760]
+ldr x16, [x16, #2752]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -49247,7 +49247,7 @@ bl _p_80
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2736]
+ldr x0, [x16, #2728]
 .word 0xf9400000
 .word 0xf90023a0
 adrp x0, L_OBJC_SELECTOR_REFERENCES_94@PAGE
@@ -49280,8 +49280,8 @@ bl _p_83
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #2768]
-bl _p_208
+ldr x15, [x16, #2760]
+bl _p_204
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9415631
@@ -49317,7 +49317,7 @@ Firebase_Auth_PhoneAuthProvider_From_Firebase_Auth_Auth:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2776]
+ldr x16, [x16, #2768]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -49334,7 +49334,7 @@ ldr x16, [x16, #2776]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_209
+bl _p_205
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9406e31
@@ -49374,7 +49374,7 @@ Firebase_Auth_PhoneAuthProvider_GetCredential_string_string:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2784]
+ldr x16, [x16, #2776]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -49506,7 +49506,7 @@ ldr x0, [x0]
 .word 0xaa1603e2
 .word 0xaa1703e2
 .word 0xaa1603e3
-bl _p_195
+bl _p_191
 .word 0xf90037a0
 .word 0xf94023b1
 .word 0xf9424631
@@ -49516,8 +49516,8 @@ bl _p_195
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #2792]
-bl _p_210
+ldr x15, [x16, #2784]
+bl _p_206
 .word 0xf90033a0
 .word 0xf94023b1
 .word 0xf9426e31
@@ -49556,7 +49556,7 @@ ldr x0, [x0]
 .word 0xaa1603e2
 .word 0xaa1703e2
 .word 0xaa1603e3
-bl _p_211
+bl _p_207
 .word 0xf90037a0
 .word 0xf94023b1
 .word 0xf9430a31
@@ -49566,8 +49566,8 @@ bl _p_211
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #2792]
-bl _p_210
+ldr x15, [x16, #2784]
+bl _p_206
 .word 0xf90033a0
 .word 0xf94023b1
 .word 0xf9433231
@@ -49645,7 +49645,7 @@ Firebase_Auth_PhoneAuthProvider_VerifyPhoneNumber_string_Firebase_Auth_IAuthUIDe
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2800]
+ldr x16, [x16, #2792]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -49812,7 +49812,7 @@ ldr x0, [x0]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #192]
+ldr x15, [x16, #184]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -49897,7 +49897,7 @@ ldr x0, [x0]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #192]
+ldr x15, [x16, #184]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -50011,7 +50011,7 @@ Firebase_Auth_PhoneAuthProvider_VerifyPhoneNumberAsync_string_Firebase_Auth_IAut
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2808]
+ldr x16, [x16, #2800]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -50031,12 +50031,12 @@ ldr x16, [x16, #2808]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2816]
+ldr x0, [x16, #2808]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf90047a0
-bl _p_212
+bl _p_208
 .word 0xf9401bb1
 .word 0xf9409231
 .word 0xb4000051
@@ -50052,12 +50052,12 @@ bl _p_212
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #336]
+ldr x0, [x16, #328]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf9003fa0
-bl _p_138
+bl _p_136
 .word 0xf9401bb1
 .word 0xf940e231
 .word 0xb4000051
@@ -50123,17 +50123,17 @@ ldr x6, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2824]
+ldr x0, [x16, #2816]
 .word 0xf9001460
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2832]
+ldr x0, [x16, #2824]
 .word 0xf9002060
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2840]
+ldr x0, [x16, #2832]
 .word 0xf9401405
 .word 0xf9000c65
 .word 0xf9401000
@@ -50142,7 +50142,7 @@ ldr x0, [x16, #2840]
 .word 0x3901c07f
 .word 0xaa0403e0
 .word 0xf9400084
-.word 0xf940d890
+.word 0xf940e090
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9422231
@@ -50156,7 +50156,7 @@ ldr x0, [x16, #2840]
 .word 0xf9400801
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_139
+bl _p_137
 .word 0xf9002ba0
 .word 0xf9401bb1
 .word 0xf9425a31
@@ -50197,7 +50197,7 @@ Firebase_Auth_PhoneAuthProvider_get_DefaultInstance:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2848]
+ldr x16, [x16, #2840]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -50216,7 +50216,7 @@ ldr x16, [x16, #2848]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2736]
+ldr x0, [x16, #2728]
 .word 0xf9400000
 .word 0xf90023a0
 adrp x0, L_OBJC_SELECTOR_REFERENCES_60@PAGE
@@ -50229,7 +50229,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400bb1
 .word 0xf940a231
@@ -50239,8 +50239,8 @@ bl _p_140
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #2768]
-bl _p_208
+ldr x15, [x16, #2760]
+bl _p_204
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf940ca31
@@ -50274,7 +50274,7 @@ Firebase_Auth_PhoneAuthProvider_get_Id:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2856]
+ldr x16, [x16, #2848]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -50293,11 +50293,11 @@ ldr x16, [x16, #2856]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2864]
+ldr x0, [x16, #2856]
 .word 0xf9400000
 .word 0xd2800001
 .word 0xd2800001
-bl _p_147
+bl _p_145
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400bb1
@@ -50318,8 +50318,8 @@ ldr x0, [x16, #248]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #2872]
-bl _p_148
+ldr x1, [x16, #2864]
+bl _p_146
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf940ce31
@@ -50329,7 +50329,7 @@ bl _p_148
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2864]
+ldr x0, [x16, #2856]
 .word 0xf9000001
 .word 0xf9400fb1
 .word 0xf9400231
@@ -50342,7 +50342,7 @@ ldr x0, [x16, #2864]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2864]
+ldr x0, [x16, #2856]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -50373,7 +50373,7 @@ Firebase_Auth_PhoneAuthProvider_get_SignInMethod:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2880]
+ldr x16, [x16, #2872]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -50392,11 +50392,11 @@ ldr x16, [x16, #2880]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2888]
+ldr x0, [x16, #2880]
 .word 0xf9400000
 .word 0xd2800001
 .word 0xd2800001
-bl _p_147
+bl _p_145
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400bb1
@@ -50417,8 +50417,8 @@ ldr x0, [x16, #248]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #2896]
-bl _p_148
+ldr x1, [x16, #2888]
+bl _p_146
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf940ce31
@@ -50428,7 +50428,7 @@ bl _p_148
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2888]
+ldr x0, [x16, #2880]
 .word 0xf9000001
 .word 0xf9400fb1
 .word 0xf9400231
@@ -50441,7 +50441,7 @@ ldr x0, [x16, #2888]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2888]
+ldr x0, [x16, #2880]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -50472,7 +50472,7 @@ Firebase_Auth_PhoneAuthProvider__cctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2904]
+ldr x16, [x16, #2896]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -50491,8 +50491,8 @@ ldr x16, [x16, #2904]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2912]
-bl _p_151
+ldr x0, [x16, #2904]
+bl _p_149
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9407231
@@ -50502,7 +50502,7 @@ bl _p_151
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2736]
+ldr x0, [x16, #2728]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9409631
@@ -50528,7 +50528,7 @@ Firebase_Auth_PhoneAuthProvider__c__DisplayClass9_0__ctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2920]
+ldr x16, [x16, #2912]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -50577,7 +50577,7 @@ Firebase_Auth_PhoneAuthProvider__c__DisplayClass9_0__VerifyPhoneNumberAsyncb__0_
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2928]
+ldr x16, [x16, #2920]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -50606,13 +50606,13 @@ ldr x16, [x16, #2928]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -50621,7 +50621,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_170
+bl _p_166
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -50640,7 +50640,7 @@ bl _p_170
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_171
+bl _p_167
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -50671,7 +50671,7 @@ Firebase_Auth_TwitterAuthProvider_get_ClassHandle:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2936]
+ldr x16, [x16, #2928]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -50690,7 +50690,7 @@ ldr x16, [x16, #2936]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2944]
+ldr x0, [x16, #2936]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf94013b1
@@ -50724,7 +50724,7 @@ Firebase_Auth_TwitterAuthProvider__ctor_Foundation_NSObjectFlag:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2952]
+ldr x16, [x16, #2944]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -50825,7 +50825,7 @@ Firebase_Auth_TwitterAuthProvider__ctor_intptr:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2960]
+ldr x16, [x16, #2952]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -50927,7 +50927,7 @@ Firebase_Auth_TwitterAuthProvider_GetCredential_string_string:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2968]
+ldr x16, [x16, #2960]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -51025,7 +51025,7 @@ bl _p_33
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2944]
+ldr x0, [x16, #2936]
 .word 0xf9400000
 .word 0xf90033a0
 adrp x0, L_OBJC_SELECTOR_REFERENCES_97@PAGE
@@ -51041,7 +51041,7 @@ ldr x0, [x0]
 .word 0xf9403ba3
 .word 0xaa1803e2
 .word 0xaa0303e4
-bl _p_195
+bl _p_191
 .word 0xf9002fa0
 .word 0xf9401bb1
 .word 0xf941f231
@@ -51100,7 +51100,7 @@ Firebase_Auth_TwitterAuthProvider_get_Id:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #2976]
+ldr x16, [x16, #2968]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -51119,11 +51119,11 @@ ldr x16, [x16, #2976]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2984]
+ldr x0, [x16, #2976]
 .word 0xf9400000
 .word 0xd2800001
 .word 0xd2800001
-bl _p_147
+bl _p_145
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400bb1
@@ -51144,8 +51144,8 @@ ldr x0, [x16, #248]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #2992]
-bl _p_148
+ldr x1, [x16, #2984]
+bl _p_146
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf940ce31
@@ -51155,7 +51155,7 @@ bl _p_148
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2984]
+ldr x0, [x16, #2976]
 .word 0xf9000001
 .word 0xf9400fb1
 .word 0xf9400231
@@ -51168,7 +51168,7 @@ ldr x0, [x16, #2984]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2984]
+ldr x0, [x16, #2976]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -51199,7 +51199,7 @@ Firebase_Auth_TwitterAuthProvider_get_SignInMethod:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3000]
+ldr x16, [x16, #2992]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -51218,11 +51218,11 @@ ldr x16, [x16, #3000]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3008]
+ldr x0, [x16, #3000]
 .word 0xf9400000
 .word 0xd2800001
 .word 0xd2800001
-bl _p_147
+bl _p_145
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400bb1
@@ -51243,8 +51243,8 @@ ldr x0, [x16, #248]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x1, [x16, #3016]
-bl _p_148
+ldr x1, [x16, #3008]
+bl _p_146
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf940ce31
@@ -51254,7 +51254,7 @@ bl _p_148
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3008]
+ldr x0, [x16, #3000]
 .word 0xf9000001
 .word 0xf9400fb1
 .word 0xf9400231
@@ -51267,7 +51267,7 @@ ldr x0, [x16, #3008]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3008]
+ldr x0, [x16, #3000]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -51298,7 +51298,7 @@ Firebase_Auth_TwitterAuthProvider__cctor:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3024]
+ldr x16, [x16, #3016]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -51317,8 +51317,8 @@ ldr x16, [x16, #3024]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3032]
-bl _p_151
+ldr x0, [x16, #3024]
+bl _p_149
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9407231
@@ -51328,7 +51328,7 @@ bl _p_151
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #2944]
+ldr x0, [x16, #2936]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9409631
@@ -51354,7 +51354,7 @@ Firebase_Auth_User_get_ClassHandle:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3040]
+ldr x16, [x16, #3032]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -51373,7 +51373,7 @@ ldr x16, [x16, #3040]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3048]
+ldr x0, [x16, #3040]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf94013b1
@@ -51407,7 +51407,7 @@ Firebase_Auth_User__ctor_Foundation_NSObjectFlag:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3056]
+ldr x16, [x16, #3048]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -51508,7 +51508,7 @@ Firebase_Auth_User__ctor_intptr:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3064]
+ldr x16, [x16, #3056]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -51610,7 +51610,7 @@ Firebase_Auth_User_Delete_Firebase_Auth_UserProfileChangeHandler:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3072]
+ldr x16, [x16, #3064]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -51835,7 +51835,7 @@ Firebase_Auth_User_DeleteAsync:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3080]
+ldr x16, [x16, #3072]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -51855,12 +51855,12 @@ ldr x16, [x16, #3080]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3088]
+ldr x0, [x16, #3080]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf90037a0
-bl _p_213
+bl _p_209
 .word 0xf94013b1
 .word 0xf9408a31
 .word 0xb4000051
@@ -51941,17 +51941,17 @@ ldr x4, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3096]
+ldr x0, [x16, #3088]
 .word 0xf9001420
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3104]
+ldr x0, [x16, #3096]
 .word 0xf9002020
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3112]
+ldr x0, [x16, #3104]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -51960,7 +51960,7 @@ ldr x0, [x16, #3112]
 .word 0x3901c03f
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419850
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf9420231
@@ -52019,7 +52019,7 @@ Firebase_Auth_User_GetIdToken_Firebase_Auth_AuthTokenHandler:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3120]
+ldr x16, [x16, #3112]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -52244,7 +52244,7 @@ Firebase_Auth_User_GetIdTokenAsync:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3128]
+ldr x16, [x16, #3120]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -52264,12 +52264,12 @@ ldr x16, [x16, #3128]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3136]
+ldr x0, [x16, #3128]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf90037a0
-bl _p_214
+bl _p_210
 .word 0xf94013b1
 .word 0xf9408a31
 .word 0xb4000051
@@ -52285,12 +52285,12 @@ bl _p_214
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #336]
+ldr x0, [x16, #328]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf9002fa0
-bl _p_138
+bl _p_136
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -52350,17 +52350,17 @@ ldr x4, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3144]
+ldr x0, [x16, #3136]
 .word 0xf9001420
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3152]
+ldr x0, [x16, #3144]
 .word 0xf9002020
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3160]
+ldr x0, [x16, #3152]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -52369,7 +52369,7 @@ ldr x0, [x16, #3160]
 .word 0x3901c03f
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419050
+.word 0xf9419850
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf9420231
@@ -52383,7 +52383,7 @@ ldr x0, [x16, #3160]
 .word 0xf9400801
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_139
+bl _p_137
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9423a31
@@ -52429,7 +52429,7 @@ Firebase_Auth_User_GetIdToken_bool_Firebase_Auth_AuthTokenHandler:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3168]
+ldr x16, [x16, #3160]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -52555,7 +52555,7 @@ bl _p_7
 .word 0xf94047a1
 .word 0xf9404ba3
 .word 0xaa1903e2
-bl _p_194
+bl _p_190
 .word 0xf9401bb1
 .word 0xf9422a31
 .word 0xb4000051
@@ -52598,7 +52598,7 @@ bl _p_7
 .word 0xf94047a1
 .word 0xf9404ba3
 .word 0xaa1903e2
-bl _p_215
+bl _p_211
 .word 0xf9401bb1
 .word 0xf942d631
 .word 0xb4000051
@@ -52659,7 +52659,7 @@ Firebase_Auth_User_GetIdTokenAsync_bool:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3176]
+ldr x16, [x16, #3168]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -52679,12 +52679,12 @@ ldr x16, [x16, #3176]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3184]
+ldr x0, [x16, #3176]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf9003ba0
-bl _p_216
+bl _p_212
 .word 0xf94017b1
 .word 0xf9408e31
 .word 0xb4000051
@@ -52700,12 +52700,12 @@ bl _p_216
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #336]
+ldr x0, [x16, #328]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf90033a0
-bl _p_138
+bl _p_136
 .word 0xf94017b1
 .word 0xf940de31
 .word 0xb4000051
@@ -52768,17 +52768,17 @@ ldr x5, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3192]
+ldr x0, [x16, #3184]
 .word 0xf9001440
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3200]
+ldr x0, [x16, #3192]
 .word 0xf9002040
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3208]
+ldr x0, [x16, #3200]
 .word 0xf9401404
 .word 0xf9000c44
 .word 0xf9401000
@@ -52787,7 +52787,7 @@ ldr x0, [x16, #3208]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9418870
+.word 0xf9419070
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9421231
@@ -52801,7 +52801,7 @@ ldr x0, [x16, #3208]
 .word 0xf9400801
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_139
+bl _p_137
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9424a31
@@ -52846,7 +52846,7 @@ Firebase_Auth_User_GetIdTokenResult_Firebase_Auth_AuthTokenResultHandler:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3216]
+ldr x16, [x16, #3208]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -53071,7 +53071,7 @@ Firebase_Auth_User_GetIdTokenResultAsync:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3224]
+ldr x16, [x16, #3216]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -53091,12 +53091,12 @@ ldr x16, [x16, #3224]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3232]
+ldr x0, [x16, #3224]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf90037a0
-bl _p_217
+bl _p_213
 .word 0xf94013b1
 .word 0xf9408a31
 .word 0xb4000051
@@ -53112,12 +53112,12 @@ bl _p_217
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3240]
+ldr x0, [x16, #3232]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf9002fa0
-bl _p_218
+bl _p_214
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -53177,17 +53177,17 @@ ldr x4, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3248]
+ldr x0, [x16, #3240]
 .word 0xf9001420
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3256]
+ldr x0, [x16, #3248]
 .word 0xf9002020
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3264]
+ldr x0, [x16, #3256]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -53196,7 +53196,7 @@ ldr x0, [x16, #3264]
 .word 0x3901c03f
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9418050
+.word 0xf9418850
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf9420231
@@ -53210,7 +53210,7 @@ ldr x0, [x16, #3264]
 .word 0xf9400801
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_219
+bl _p_215
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9423a31
@@ -53256,7 +53256,7 @@ Firebase_Auth_User_GetIdTokenResult_bool_Firebase_Auth_AuthTokenResultHandler:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3272]
+ldr x16, [x16, #3264]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -53382,7 +53382,7 @@ bl _p_7
 .word 0xf94047a1
 .word 0xf9404ba3
 .word 0xaa1903e2
-bl _p_194
+bl _p_190
 .word 0xf9401bb1
 .word 0xf9422a31
 .word 0xb4000051
@@ -53425,7 +53425,7 @@ bl _p_7
 .word 0xf94047a1
 .word 0xf9404ba3
 .word 0xaa1903e2
-bl _p_215
+bl _p_211
 .word 0xf9401bb1
 .word 0xf942d631
 .word 0xb4000051
@@ -53486,7 +53486,7 @@ Firebase_Auth_User_GetIdTokenResultAsync_bool:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3280]
+ldr x16, [x16, #3272]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -53506,12 +53506,12 @@ ldr x16, [x16, #3280]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3288]
+ldr x0, [x16, #3280]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf9003ba0
-bl _p_220
+bl _p_216
 .word 0xf94017b1
 .word 0xf9408e31
 .word 0xb4000051
@@ -53527,12 +53527,12 @@ bl _p_220
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3240]
+ldr x0, [x16, #3232]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf90033a0
-bl _p_218
+bl _p_214
 .word 0xf94017b1
 .word 0xf940de31
 .word 0xb4000051
@@ -53595,17 +53595,17 @@ ldr x5, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3296]
+ldr x0, [x16, #3288]
 .word 0xf9001440
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3296]
 .word 0xf9002040
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3312]
+ldr x0, [x16, #3304]
 .word 0xf9401404
 .word 0xf9000c44
 .word 0xf9401000
@@ -53614,7 +53614,7 @@ ldr x0, [x16, #3312]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9417870
+.word 0xf9418070
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9421231
@@ -53628,7 +53628,7 @@ ldr x0, [x16, #3312]
 .word 0xf9400801
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_219
+bl _p_215
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9424a31
@@ -53674,7 +53674,7 @@ Firebase_Auth_User_Link_Firebase_Auth_AuthCredential_Firebase_Auth_AuthDataResul
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3320]
+ldr x16, [x16, #3312]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -53944,7 +53944,7 @@ Firebase_Auth_User_LinkAsync_Firebase_Auth_AuthCredential:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3328]
+ldr x16, [x16, #3320]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -53964,12 +53964,12 @@ ldr x16, [x16, #3328]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3336]
+ldr x0, [x16, #3328]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf9003ba0
-bl _p_221
+bl _p_217
 .word 0xf94017b1
 .word 0xf9408e31
 .word 0xb4000051
@@ -54053,17 +54053,17 @@ ldr x5, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3344]
+ldr x0, [x16, #3336]
 .word 0xf9001440
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3352]
+ldr x0, [x16, #3344]
 .word 0xf9002040
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3360]
+ldr x0, [x16, #3352]
 .word 0xf9401404
 .word 0xf9000c44
 .word 0xf9401000
@@ -54072,7 +54072,7 @@ ldr x0, [x16, #3360]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9417070
+.word 0xf9417870
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9421231
@@ -54132,7 +54132,7 @@ Firebase_Auth_User_LinkAndRetrieveData_Firebase_Auth_AuthCredential_Firebase_Aut
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3368]
+ldr x16, [x16, #3360]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -54402,7 +54402,7 @@ Firebase_Auth_User_LinkAndRetrieveDataAsync_Firebase_Auth_AuthCredential:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3376]
+ldr x16, [x16, #3368]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -54422,12 +54422,12 @@ ldr x16, [x16, #3376]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3384]
+ldr x0, [x16, #3376]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf9003ba0
-bl _p_222
+bl _p_218
 .word 0xf94017b1
 .word 0xf9408e31
 .word 0xb4000051
@@ -54511,17 +54511,17 @@ ldr x5, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3392]
+ldr x0, [x16, #3384]
 .word 0xf9001440
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3400]
+ldr x0, [x16, #3392]
 .word 0xf9002040
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3408]
+ldr x0, [x16, #3400]
 .word 0xf9401404
 .word 0xf9000c44
 .word 0xf9401000
@@ -54530,7 +54530,7 @@ ldr x0, [x16, #3408]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9416870
+.word 0xf9417070
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9421231
@@ -54587,7 +54587,7 @@ Firebase_Auth_User_ProfileChangeRequest:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3416]
+ldr x16, [x16, #3408]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -54636,7 +54636,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -54646,8 +54646,8 @@ bl _p_140
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #3424]
-bl _p_223
+ldr x15, [x16, #3416]
+bl _p_219
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9411a31
@@ -54685,7 +54685,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941b231
@@ -54695,8 +54695,8 @@ bl _p_142
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #3424]
-bl _p_223
+ldr x15, [x16, #3416]
+bl _p_219
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf941da31
@@ -54736,7 +54736,7 @@ Firebase_Auth_User_Reauthenticate_Firebase_Auth_AuthCredential_Firebase_Auth_Use
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3432]
+ldr x16, [x16, #3424]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -55006,7 +55006,7 @@ Firebase_Auth_User_ReauthenticateAsync_Firebase_Auth_AuthCredential:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3440]
+ldr x16, [x16, #3432]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -55026,12 +55026,12 @@ ldr x16, [x16, #3440]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3448]
+ldr x0, [x16, #3440]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf9003ba0
-bl _p_224
+bl _p_220
 .word 0xf94017b1
 .word 0xf9408e31
 .word 0xb4000051
@@ -55115,17 +55115,17 @@ ldr x5, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3456]
+ldr x0, [x16, #3448]
 .word 0xf9001440
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3464]
+ldr x0, [x16, #3456]
 .word 0xf9002040
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3472]
+ldr x0, [x16, #3464]
 .word 0xf9401404
 .word 0xf9000c44
 .word 0xf9401000
@@ -55134,7 +55134,7 @@ ldr x0, [x16, #3472]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9415c70
+.word 0xf9416470
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9421231
@@ -55194,7 +55194,7 @@ Firebase_Auth_User_ReauthenticateAndRetrieveData_Firebase_Auth_AuthCredential_Fi
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3480]
+ldr x16, [x16, #3472]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -55464,7 +55464,7 @@ Firebase_Auth_User_ReauthenticateAndRetrieveDataAsync_Firebase_Auth_AuthCredenti
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3488]
+ldr x16, [x16, #3480]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -55484,12 +55484,12 @@ ldr x16, [x16, #3488]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3496]
+ldr x0, [x16, #3488]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf9003ba0
-bl _p_225
+bl _p_221
 .word 0xf94017b1
 .word 0xf9408e31
 .word 0xb4000051
@@ -55573,17 +55573,17 @@ ldr x5, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3504]
+ldr x0, [x16, #3496]
 .word 0xf9001440
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3512]
+ldr x0, [x16, #3504]
 .word 0xf9002040
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3520]
+ldr x0, [x16, #3512]
 .word 0xf9401404
 .word 0xf9000c44
 .word 0xf9401000
@@ -55592,7 +55592,7 @@ ldr x0, [x16, #3520]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9415470
+.word 0xf9415c70
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9421231
@@ -55651,7 +55651,7 @@ Firebase_Auth_User_Reload_Firebase_Auth_UserProfileChangeHandler:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3528]
+ldr x16, [x16, #3520]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -55876,7 +55876,7 @@ Firebase_Auth_User_ReloadAsync:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3536]
+ldr x16, [x16, #3528]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -55896,12 +55896,12 @@ ldr x16, [x16, #3536]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3544]
+ldr x0, [x16, #3536]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf90037a0
-bl _p_226
+bl _p_222
 .word 0xf94013b1
 .word 0xf9408a31
 .word 0xb4000051
@@ -55982,17 +55982,17 @@ ldr x4, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3552]
+ldr x0, [x16, #3544]
 .word 0xf9001420
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3560]
+ldr x0, [x16, #3552]
 .word 0xf9002020
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3568]
+ldr x0, [x16, #3560]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -56001,7 +56001,7 @@ ldr x0, [x16, #3568]
 .word 0x3901c03f
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9414c50
+.word 0xf9415450
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf9420231
@@ -56060,7 +56060,7 @@ Firebase_Auth_User_SendEmailVerification_Firebase_Auth_SendEmailVerificationHand
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3576]
+ldr x16, [x16, #3568]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -56285,7 +56285,7 @@ Firebase_Auth_User_SendEmailVerificationAsync:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3584]
+ldr x16, [x16, #3576]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -56305,12 +56305,12 @@ ldr x16, [x16, #3584]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3592]
+ldr x0, [x16, #3584]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf90037a0
-bl _p_227
+bl _p_223
 .word 0xf94013b1
 .word 0xf9408a31
 .word 0xb4000051
@@ -56391,17 +56391,17 @@ ldr x4, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3600]
+ldr x0, [x16, #3592]
 .word 0xf9001420
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3608]
+ldr x0, [x16, #3600]
 .word 0xf9002020
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3616]
+ldr x0, [x16, #3608]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -56410,7 +56410,7 @@ ldr x0, [x16, #3616]
 .word 0x3901c03f
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9414450
+.word 0xf9414c50
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf9420231
@@ -56470,7 +56470,7 @@ Firebase_Auth_User_SendEmailVerification_Firebase_Auth_ActionCodeSettings_Fireba
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3624]
+ldr x16, [x16, #3616]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -56740,7 +56740,7 @@ Firebase_Auth_User_SendEmailVerificationAsync_Firebase_Auth_ActionCodeSettings:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3632]
+ldr x16, [x16, #3624]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -56760,12 +56760,12 @@ ldr x16, [x16, #3632]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3640]
+ldr x0, [x16, #3632]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf9003ba0
-bl _p_228
+bl _p_224
 .word 0xf94017b1
 .word 0xf9408e31
 .word 0xb4000051
@@ -56849,17 +56849,17 @@ ldr x5, [x16, #16]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3648]
+ldr x0, [x16, #3640]
 .word 0xf9001440
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3656]
+ldr x0, [x16, #3648]
 .word 0xf9002040
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3664]
+ldr x0, [x16, #3656]
 .word 0xf9401404
 .word 0xf9000c44
 .word 0xf9401000
@@ -56868,7 +56868,7 @@ ldr x0, [x16, #3664]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9413c70
+.word 0xf9414470
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9421231
@@ -56929,7 +56929,7 @@ Firebase_Auth_User_Unlink_string_Firebase_Auth_AuthResultHandler:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3672]
+ldr x16, [x16, #3664]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -57210,7 +57210,7 @@ Firebase_Auth_User_UnlinkAsync_string:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #3680]
+ldr x16, [x16, #3672]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -57230,12 +57230,12 @@ ldr x16, [x16, #3680]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3688]
+ldr x0, [x16, #3680]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf9003ba0
-bl _p_229
+bl _p_225
 .word 0xf94017b1
 .word 0xf9408e31
 .word 0xb4000051
@@ -57251,12 +57251,12 @@ bl _p_229
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #8]
+ldr x0, [x16, #3688]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_6
 .word 0xf90033a0
-bl _p_124
+bl _p_226
 .word 0xf94017b1
 .word 0xf940de31
 .word 0xb4000051
@@ -57338,7 +57338,7 @@ ldr x0, [x16, #3712]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9413470
+.word 0xf9413c70
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9421231
@@ -57352,7 +57352,7 @@ ldr x0, [x16, #3712]
 .word 0xf9400801
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_125
+bl _p_227
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9424a31
@@ -57705,7 +57705,7 @@ ldr x0, [x16, #3736]
 .word 0xd2800301
 bl _p_6
 .word 0xf9003ba0
-bl _p_230
+bl _p_228
 .word 0xf94017b1
 .word 0xf9408e31
 .word 0xb4000051
@@ -57808,7 +57808,7 @@ ldr x0, [x16, #3760]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9412c70
+.word 0xf9413470
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9421231
@@ -58175,7 +58175,7 @@ ldr x0, [x16, #3784]
 .word 0xd2800301
 bl _p_6
 .word 0xf9003ba0
-bl _p_231
+bl _p_229
 .word 0xf94017b1
 .word 0xf9408e31
 .word 0xb4000051
@@ -58278,7 +58278,7 @@ ldr x0, [x16, #3808]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9412470
+.word 0xf9412c70
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9421231
@@ -58633,7 +58633,7 @@ ldr x0, [x16, #3832]
 .word 0xd2800301
 bl _p_6
 .word 0xf9003ba0
-bl _p_232
+bl _p_230
 .word 0xf94017b1
 .word 0xf9408e31
 .word 0xb4000051
@@ -58736,7 +58736,7 @@ ldr x0, [x16, #3856]
 .word 0x3901c05f
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9411c70
+.word 0xf9412470
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9421231
@@ -58842,7 +58842,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -58887,7 +58887,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -58980,7 +58980,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -59025,7 +59025,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -59118,7 +59118,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf94023a1
-bl _p_184
+bl _p_180
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -59157,7 +59157,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf94023a1
-bl _p_185
+bl _p_181
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -59244,7 +59244,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf94023a1
-bl _p_184
+bl _p_180
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -59283,7 +59283,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf94023a1
-bl _p_185
+bl _p_181
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -59371,7 +59371,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_140
+bl _p_138
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940f631
@@ -59382,7 +59382,7 @@ bl _p_140
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x15, [x16, #3904]
-bl _p_233
+bl _p_231
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9411e31
@@ -59417,7 +59417,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_142
+bl _p_140
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf941aa31
@@ -59428,7 +59428,7 @@ bl _p_142
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x15, [x16, #3904]
-bl _p_233
+bl _p_231
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf941d231
@@ -59525,7 +59525,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -59570,7 +59570,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -59664,7 +59664,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_140
+bl _p_138
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940f631
@@ -59674,8 +59674,8 @@ bl _p_140
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1296]
-bl _p_188
+ldr x15, [x16, #1288]
+bl _p_184
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9411e31
@@ -59710,7 +59710,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_142
+bl _p_140
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf941aa31
@@ -59720,8 +59720,8 @@ bl _p_142
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1296]
-bl _p_188
+ldr x15, [x16, #1288]
+bl _p_184
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf941d231
@@ -59819,7 +59819,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_140
+bl _p_138
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940f631
@@ -59830,7 +59830,7 @@ bl _p_140
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x15, [x16, #3936]
-bl _p_234
+bl _p_232
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9411e31
@@ -59865,7 +59865,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_142
+bl _p_140
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf941aa31
@@ -59876,7 +59876,7 @@ bl _p_142
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x15, [x16, #3936]
-bl _p_234
+bl _p_232
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf941d231
@@ -59973,7 +59973,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -60018,7 +60018,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -60111,7 +60111,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -60156,7 +60156,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -60249,7 +60249,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -60294,7 +60294,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -60356,7 +60356,7 @@ ldr x16, [x16, #3968]
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x0, [x16, #3976]
-bl _p_151
+bl _p_149
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9407231
@@ -60366,7 +60366,7 @@ bl _p_151
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #3048]
+ldr x0, [x16, #3040]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9409631
@@ -60468,13 +60468,13 @@ ldr x16, [x16, #3992]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -60483,7 +60483,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_160
+bl _p_158
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -60503,7 +60503,7 @@ bl _p_160
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_161
+bl _p_159
 .word 0xf94013b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -60611,13 +60611,13 @@ ldr x16, [x16, #4008]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -60626,7 +60626,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_170
+bl _p_166
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -60645,7 +60645,7 @@ bl _p_170
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_171
+bl _p_167
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -60754,13 +60754,13 @@ ldr x16, [x16, #4024]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -60769,7 +60769,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_170
+bl _p_166
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -60788,7 +60788,7 @@ bl _p_170
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_171
+bl _p_167
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -60897,13 +60897,13 @@ ldr x16, [x16, #4040]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -60912,7 +60912,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_235
+bl _p_233
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -60931,7 +60931,7 @@ bl _p_235
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_236
+bl _p_234
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -61040,13 +61040,13 @@ ldr x16, [x16, #4056]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -61055,7 +61055,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_235
+bl _p_233
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -61074,7 +61074,7 @@ bl _p_235
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_236
+bl _p_234
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -61183,13 +61183,13 @@ ldr x16, [x16, #4072]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -61198,7 +61198,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_164
+bl _p_162
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -61217,7 +61217,7 @@ bl _p_164
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_165
+bl _p_163
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -61326,13 +61326,13 @@ ldr x16, [x16, #4088]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -61341,7 +61341,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_164
+bl _p_162
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -61360,7 +61360,7 @@ bl _p_164
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_165
+bl _p_163
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -61467,13 +61467,13 @@ ldr x16, [x16, #8]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -61482,7 +61482,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_160
+bl _p_158
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -61502,7 +61502,7 @@ bl _p_160
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_161
+bl _p_159
 .word 0xf94013b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -61610,13 +61610,13 @@ ldr x16, [x16, #24]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -61625,7 +61625,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_164
+bl _p_162
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -61644,7 +61644,7 @@ bl _p_164
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_165
+bl _p_163
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -61751,13 +61751,13 @@ ldr x16, [x16, #40]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -61766,7 +61766,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_160
+bl _p_158
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -61786,7 +61786,7 @@ bl _p_160
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_161
+bl _p_159
 .word 0xf94013b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -61892,13 +61892,13 @@ ldr x16, [x16, #56]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -61907,7 +61907,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_160
+bl _p_158
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -61927,7 +61927,7 @@ bl _p_160
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_161
+bl _p_159
 .word 0xf94013b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -62033,13 +62033,13 @@ ldr x16, [x16, #72]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -62048,7 +62048,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_160
+bl _p_158
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -62068,7 +62068,7 @@ bl _p_160
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_161
+bl _p_159
 .word 0xf94013b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -62176,13 +62176,13 @@ ldr x16, [x16, #88]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -62191,7 +62191,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_168
+bl _p_235
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
@@ -62210,7 +62210,7 @@ bl _p_168
 .word 0xf94013a1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_169
+bl _p_236
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -62317,13 +62317,13 @@ ldr x16, [x16, #104]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -62332,7 +62332,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_160
+bl _p_158
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -62352,7 +62352,7 @@ bl _p_160
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_161
+bl _p_159
 .word 0xf94013b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -62458,13 +62458,13 @@ ldr x16, [x16, #120]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -62473,7 +62473,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_160
+bl _p_158
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -62493,7 +62493,7 @@ bl _p_160
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_161
+bl _p_159
 .word 0xf94013b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -62599,13 +62599,13 @@ ldr x16, [x16, #136]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -62614,7 +62614,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_160
+bl _p_158
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -62634,7 +62634,7 @@ bl _p_160
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_161
+bl _p_159
 .word 0xf94013b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -62685,7 +62685,7 @@ ldr x16, [x16, #144]
 .word 0xf9400ba0
 .word 0xf9400fa1
 .word 0x394083a2
-bl _p_192
+bl _p_188
 .word 0xf94017b1
 .word 0xf9407a31
 .word 0xb4000051
@@ -62731,7 +62731,7 @@ ldr x16, [x16, #152]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_193
+bl _p_189
 .word 0xf90023a0
 .word 0xf9400fb1
 .word 0xf9406e31
@@ -62747,7 +62747,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940ae31
@@ -62806,7 +62806,7 @@ ldr x16, [x16, #160]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_193
+bl _p_189
 .word 0xf90023a0
 .word 0xf9400fb1
 .word 0xf9406e31
@@ -62822,7 +62822,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940ae31
@@ -62881,7 +62881,7 @@ ldr x16, [x16, #168]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_193
+bl _p_189
 .word 0xf90023a0
 .word 0xf9400fb1
 .word 0xf9406e31
@@ -62897,7 +62897,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940ae31
@@ -62956,7 +62956,7 @@ ldr x16, [x16, #176]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_193
+bl _p_189
 .word 0xf90023a0
 .word 0xf9400fb1
 .word 0xf9406e31
@@ -62972,7 +62972,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940ae31
@@ -62982,8 +62982,8 @@ bl _p_140
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1296]
-bl _p_188
+ldr x15, [x16, #1288]
+bl _p_184
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf940d631
@@ -63035,7 +63035,7 @@ ldr x16, [x16, #184]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_193
+bl _p_189
 .word 0xf90023a0
 .word 0xf9400fb1
 .word 0xf9406e31
@@ -63051,7 +63051,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940ae31
@@ -63110,7 +63110,7 @@ ldr x16, [x16, #192]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_193
+bl _p_189
 .word 0xf90023a0
 .word 0xf9400fb1
 .word 0xf9406e31
@@ -63126,7 +63126,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940ae31
@@ -63472,7 +63472,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_140
+bl _p_138
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940f631
@@ -63482,8 +63482,8 @@ bl _p_140
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1672]
-bl _p_191
+ldr x15, [x16, #1664]
+bl _p_187
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9411e31
@@ -63518,7 +63518,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_142
+bl _p_140
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf941aa31
@@ -63528,8 +63528,8 @@ bl _p_142
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1672]
-bl _p_191
+ldr x15, [x16, #1664]
+bl _p_187
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf941d231
@@ -63627,7 +63627,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_140
+bl _p_138
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940f631
@@ -63637,8 +63637,8 @@ bl _p_140
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1672]
-bl _p_191
+ldr x15, [x16, #1664]
+bl _p_187
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9411e31
@@ -63673,7 +63673,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_142
+bl _p_140
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf941aa31
@@ -63683,8 +63683,8 @@ bl _p_142
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1672]
-bl _p_191
+ldr x15, [x16, #1664]
+bl _p_187
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf941d231
@@ -63750,7 +63750,7 @@ ldr x16, [x16, #248]
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x0, [x16, #256]
-bl _p_151
+bl _p_149
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9407231
@@ -64392,7 +64392,7 @@ ldr x0, [x16, #336]
 .word 0x3901c03f
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940e850
+.word 0xf940f050
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf9420231
@@ -64498,7 +64498,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_140
+bl _p_138
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -64543,7 +64543,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -64783,7 +64783,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_140
+bl _p_138
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940f631
@@ -64793,8 +64793,8 @@ bl _p_140
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1296]
-bl _p_188
+ldr x15, [x16, #1288]
+bl _p_184
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9411e31
@@ -64829,7 +64829,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_142
+bl _p_140
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf941aa31
@@ -64839,8 +64839,8 @@ bl _p_142
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x15, [x16, #1296]
-bl _p_188
+ldr x15, [x16, #1288]
+bl _p_184
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf941d231
@@ -65109,7 +65109,7 @@ ldr x16, [x16, #376]
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x0, [x16, #384]
-bl _p_151
+bl _p_149
 .word 0xf9001ba0
 .word 0xf9400bb1
 .word 0xf9407231
@@ -65221,13 +65221,13 @@ ldr x16, [x16, #400]
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #776]
 .word 0xd2801301
 .word 0xd2801301
 bl _p_6
 .word 0xf90023a0
 .word 0xaa1a03e1
-bl _p_159
+bl _p_157
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -65236,7 +65236,7 @@ bl _p_159
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_160
+bl _p_158
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -65256,7 +65256,7 @@ bl _p_160
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_161
+bl _p_159
 .word 0xf94013b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -71889,8 +71889,8 @@ bl _p_5
 Lme_314:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_1_Firebase_Auth_User_invoke_TResult
-wrapper_delegate_invoke_System_Func_1_Firebase_Auth_User_invoke_TResult:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
+wrapper_delegate_invoke_System_Func_1_string_invoke_TResult:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -72026,8 +72026,8 @@ bl _p_5
 Lme_315:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_User_invoke_TResult_T_object
-wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_User_invoke_TResult_T_object:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
+wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -72170,8 +72170,8 @@ bl _p_5
 Lme_316:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_User_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_User
-wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_User_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_User:
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
+wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -72307,8 +72307,8 @@ bl _p_5
 Lme_317:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_User_invoke_TResult_T_System_IAsyncResult
-wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_User_invoke_TResult_T_System_IAsyncResult:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -72451,8 +72451,289 @@ bl _p_5
 Lme_318:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
-wrapper_delegate_invoke_System_Func_1_string_invoke_TResult:
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
+wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
+add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
+ldr x16, [x16, #944]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Firebase_Auth_got@PAGE+0
+add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x34000220
+bl _p_318
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000153
+.word 0xf94037a0
+.word 0xf9003ba0
+.word 0xf9403ba0
+.word 0xf9403ba1
+.word 0x91022021
+.word 0xd2800022
+.word 0xd280003e
+.word 0xb900003e
+bl _p_317
+.word 0xf94037a0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101e320
+.word 0xf9403f20
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb50003c0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001a0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x1400002e
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x14000024
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000489
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90043a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf94043a0
+.word 0xf9402bb1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffc4b
+.word 0xf9402bb1
+.word 0xf941da31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801880
+.word 0xaa1103e1
+bl _p_5
+
+Lme_319:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_Foundation_NSNotificationEventArgs_invoke_void_object_TEventArgs_object_Foundation_NSNotificationEventArgs
+wrapper_delegate_invoke_System_EventHandler_1_Foundation_NSNotificationEventArgs_invoke_void_object_TEventArgs_object_Foundation_NSNotificationEventArgs:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f8
+.word 0xaa0103f9
+.word 0xaa0203fa
+
+adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
+add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
+ldr x16, [x16, #952]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Firebase_Auth_got@PAGE+0
+add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x34000220
+bl _p_318
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000140
+.word 0xf9403ba0
+.word 0xf9003fa0
+.word 0xf9403fa0
+.word 0xf9403fa1
+.word 0x91022021
+.word 0xd2800022
+.word 0xd280003e
+.word 0xb900003e
+bl _p_317
+.word 0xf9403ba0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9101e300
+.word 0xf9403f00
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xb5000440
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x91008300
+.word 0xf9401300
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xb40001e0
+.word 0xaa1303e0
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9100e300
+.word 0xf9401f00
+.word 0xaa1803e0
+.word 0xf9400b03
+.word 0xaa1303e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xd63f0060
+.word 0x14000032
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9100e300
+.word 0xf9401f00
+.word 0xaa1803e0
+.word 0xf9400b02
+.word 0xaa1903e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000026
+.word 0xaa1503e0
+.word 0xb9801aa0
+.word 0xaa0003f6
+.word 0xd2800017
+.word 0xaa1503e0
+.word 0xaa1703e0
+.word 0x93407ee0
+.word 0xb9801aa1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x540004c9
+.word 0xd37df000
+.word 0x8b0002a0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f4
+.word 0xaa1403e3
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa0303e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xf90043a3
+.word 0xf9400c70
+.word 0xd63f0200
+.word 0xf94043a0
+.word 0xf9402bb1
+.word 0xf941ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0x110006e0
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0xaa1603e1
+.word 0x6b16001f
+.word 0x54fffc0b
+.word 0xf9402bb1
+.word 0xf941f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801880
+.word 0xaa1103e1
+bl _p_5
+
+Lme_31a:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthCredential_invoke_TResult
+wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthCredential_invoke_TResult:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -72463,7 +72744,7 @@ wrapper_delegate_invoke_System_Func_1_string_invoke_TResult:
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #960]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -72585,292 +72866,11 @@ bl _p_317
 .word 0xaa1103e1
 bl _p_5
 
-Lme_319:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
-wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
-add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #952]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xd2800013
-.word 0xf9402bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Firebase_Auth_got@PAGE+0
-add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #48]
-.word 0xb9400000
-.word 0x34000220
-bl _p_318
-.word 0xf90037a0
-.word 0xf94037a1
-.word 0xf94037a0
-.word 0xf9003ba1
-.word 0xb4000140
-.word 0xf9403ba0
-.word 0xf9003fa0
-.word 0xf9403fa0
-.word 0xf9403fa1
-.word 0x91022021
-.word 0xd2800022
-.word 0xd280003e
-.word 0xb900003e
-bl _p_317
-.word 0xf9403ba0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101e320
-.word 0xf9403f20
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb50003c0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001a0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000034
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x1400002a
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000549
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf90047a2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf94047a0
-.word 0xf90043a1
-.word 0xf9402bb1
-.word 0xf941ba31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xaa0003f3
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffbcb
-.word 0xaa1303e0
-.word 0xaa1303e0
-.word 0xf9402bb1
-.word 0xf941f631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801880
-.word 0xaa1103e1
-bl _p_5
-
-Lme_31a:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
-wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
-add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x16, [x16, #960]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402bb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Firebase_Auth_got@PAGE+0
-add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
-ldr x0, [x16, #48]
-.word 0xb9400000
-.word 0x34000220
-bl _p_318
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90037a0
-.word 0xb4000153
-.word 0xf94037a0
-.word 0xf9003ba0
-.word 0xf9403ba0
-.word 0xf9403ba1
-.word 0x91022021
-.word 0xd2800022
-.word 0xd280003e
-.word 0xb900003e
-bl _p_317
-.word 0xf94037a0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101e320
-.word 0xf9403f20
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb50003c0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001a0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x1400002e
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x14000024
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000489
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf90043a2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xf94043a0
-.word 0xf9402bb1
-.word 0xf941ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffc4b
-.word 0xf9402bb1
-.word 0xf941da31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801880
-.word 0xaa1103e1
-bl _p_5
-
 Lme_31b:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
-wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthCredential_invoke_TResult_T_object
+wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthCredential_invoke_TResult_T_object:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -73013,8 +73013,8 @@ bl _p_5
 Lme_31c:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
-wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification:
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential
+wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -73150,17 +73150,16 @@ bl _p_5
 Lme_31d:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_Foundation_NSNotificationEventArgs_invoke_void_object_TEventArgs_object_Foundation_NSNotificationEventArgs
-wrapper_delegate_invoke_System_EventHandler_1_Foundation_NSNotificationEventArgs_invoke_void_object_TEventArgs_object_Foundation_NSNotificationEventArgs:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthCredential_invoke_TResult_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthCredential_invoke_TResult_T_System_IAsyncResult:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
 .word 0xa9025bb5
 .word 0xa90363b7
 .word 0xa9046bb9
-.word 0xaa0003f8
-.word 0xaa0103f9
-.word 0xaa0203fa
+.word 0xaa0003f9
+.word 0xaa0103fa
 
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
@@ -73168,6 +73167,7 @@ ldr x16, [x16, #984]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
+.word 0xd2800018
 .word 0xd2800017
 .word 0xd2800016
 .word 0xd2800015
@@ -73199,83 +73199,83 @@ bl _p_318
 .word 0xb900003e
 bl _p_317
 .word 0xf9403ba0
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x9101e300
-.word 0xf9403f00
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0xb5000440
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x91008300
-.word 0xf9401300
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xb40001e0
-.word 0xaa1303e0
 .word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101e320
+.word 0xf9403f20
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb50003c0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001a0
+.word 0xaa1403e0
 .word 0xaa1a03e0
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x9100e300
-.word 0xf9401f00
-.word 0xaa1803e0
-.word 0xf9400b03
-.word 0xaa1303e0
-.word 0xaa1903e1
-.word 0xaa1a03e2
-.word 0xd63f0060
-.word 0x14000032
 .word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x9100e300
-.word 0xf9401f00
-.word 0xaa1803e0
-.word 0xf9400b02
 .word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xf9400b22
+.word 0xaa1403e0
 .word 0xaa1a03e1
 .word 0xd63f0040
-.word 0x14000026
-.word 0xaa1503e0
-.word 0xb9801aa0
-.word 0xaa0003f6
-.word 0xd2800017
-.word 0xaa1503e0
-.word 0xaa1703e0
-.word 0x93407ee0
-.word 0xb9801aa1
+.word 0x14000034
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400002a
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
 .word 0xeb00003f
 .word 0x10000011
-.word 0x540004c9
+.word 0x54000549
 .word 0xd37df000
-.word 0x8b0002a0
+.word 0x8b0002c0
 .word 0x91008000
 .word 0xf9400000
-.word 0xaa0003f4
-.word 0xaa1403e3
-.word 0xaa1903e0
+.word 0xaa0003f5
+.word 0xaa1503e2
 .word 0xaa1a03e0
-.word 0xaa0303e0
-.word 0xaa1903e1
-.word 0xaa1a03e2
-.word 0xf90043a3
-.word 0xf9400c70
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90047a2
+.word 0xf9400c50
 .word 0xd63f0200
-.word 0xf94043a0
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
 .word 0xf9402bb1
-.word 0xf941ca31
+.word 0xf941ba31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1703e0
-.word 0x110006e0
-.word 0xaa0003f7
-.word 0xaa1703e0
-.word 0xaa1603e1
-.word 0x6b16001f
-.word 0x54fffc0b
+.word 0xf94043a0
+.word 0xaa0003f3
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffbcb
+.word 0xaa1303e0
+.word 0xaa1303e0
 .word 0xf9402bb1
 .word 0xf941f631
 .word 0xb4000051
@@ -73294,8 +73294,8 @@ bl _p_5
 Lme_31e:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthCredential_invoke_TResult
-wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthCredential_invoke_TResult:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthTokenResult_invoke_TResult
+wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthTokenResult_invoke_TResult:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -73431,8 +73431,8 @@ bl _p_5
 Lme_31f:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthCredential_invoke_TResult_T_object
-wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthCredential_invoke_TResult_T_object:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthTokenResult_invoke_TResult_T_object
+wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthTokenResult_invoke_TResult_T_object:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -73575,8 +73575,8 @@ bl _p_5
 Lme_320:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential
-wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential:
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult
+wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -73712,8 +73712,8 @@ bl _p_5
 Lme_321:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthCredential_invoke_TResult_T_System_IAsyncResult
-wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthCredential_invoke_TResult_T_System_IAsyncResult:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthTokenResult_invoke_TResult_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthTokenResult_invoke_TResult_T_System_IAsyncResult:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -73856,8 +73856,8 @@ bl _p_5
 Lme_322:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthTokenResult_invoke_TResult
-wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthTokenResult_invoke_TResult:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_1_Firebase_Auth_User_invoke_TResult
+wrapper_delegate_invoke_System_Func_1_Firebase_Auth_User_invoke_TResult:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -73993,8 +73993,8 @@ bl _p_5
 Lme_323:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthTokenResult_invoke_TResult_T_object
-wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthTokenResult_invoke_TResult_T_object:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_User_invoke_TResult_T_object
+wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_User_invoke_TResult_T_object:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -74137,8 +74137,8 @@ bl _p_5
 Lme_324:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult
-wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult:
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_User_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_User
+wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_User_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_User:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -74274,8 +74274,8 @@ bl _p_5
 Lme_325:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthTokenResult_invoke_TResult_T_System_IAsyncResult
-wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthTokenResult_invoke_TResult_T_System_IAsyncResult:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_User_invoke_TResult_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_User_invoke_TResult_T_System_IAsyncResult:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -92824,7 +92824,7 @@ bl Firebase_Auth_Auth_SignInAndRetrieveDataWithCredential_Firebase_Auth_AuthCred
 bl Firebase_Auth_Auth_SignInAndRetrieveDataWithCredentialAsync_Firebase_Auth_AuthCredential
 bl Firebase_Auth_Auth_SignInAnonymously_Firebase_Auth_AuthDataResultHandler
 bl Firebase_Auth_Auth_SignInAnonymouslyAsync
-bl Firebase_Auth_Auth_SignInWithCredential_Firebase_Auth_AuthCredential_Firebase_Auth_AuthResultHandler
+bl Firebase_Auth_Auth_SignInWithCredential_Firebase_Auth_AuthCredential_Firebase_Auth_AuthDataResultHandler
 bl Firebase_Auth_Auth_SignInWithCredentialAsync_Firebase_Auth_AuthCredential
 bl Firebase_Auth_Auth_SignInWithCustomToken_string_Firebase_Auth_AuthDataResultHandler
 bl Firebase_Auth_Auth_SignInWithCustomTokenAsync_string
@@ -92889,7 +92889,7 @@ bl Firebase_Auth_Auth__c__DisplayClass37_0__SignInAndRetrieveDataWithCredentialA
 bl Firebase_Auth_Auth__c__DisplayClass39_0__ctor
 bl Firebase_Auth_Auth__c__DisplayClass39_0__SignInAnonymouslyAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
 bl Firebase_Auth_Auth__c__DisplayClass41_0__ctor
-bl Firebase_Auth_Auth__c__DisplayClass41_0__SignInWithCredentialAsyncb__0_Firebase_Auth_User_Foundation_NSError
+bl Firebase_Auth_Auth__c__DisplayClass41_0__SignInWithCredentialAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
 bl Firebase_Auth_Auth__c__DisplayClass43_0__ctor
 bl Firebase_Auth_Auth__c__DisplayClass43_0__SignInWithCustomTokenAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
 bl Firebase_Auth_Auth__c__DisplayClass45_0__ctor
@@ -93319,10 +93319,6 @@ bl wrapper_delegate_invoke_System_Func_1_string___invoke_TResult
 bl wrapper_delegate_invoke_System_Func_2_object_string___invoke_TResult_T_object
 bl wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string___invoke_void_T_System_Threading_Tasks_Task_1_string__
 bl wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string___invoke_TResult_T_System_IAsyncResult
-bl wrapper_delegate_invoke_System_Func_1_Firebase_Auth_User_invoke_TResult
-bl wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_User_invoke_TResult_T_object
-bl wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_User_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_User
-bl wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_User_invoke_TResult_T_System_IAsyncResult
 bl wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
 bl wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
 bl wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
@@ -93337,6 +93333,10 @@ bl wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthTokenResult_invoke_TR
 bl wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthTokenResult_invoke_TResult_T_object
 bl wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult
 bl wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthTokenResult_invoke_TResult_T_System_IAsyncResult
+bl wrapper_delegate_invoke_System_Func_1_Firebase_Auth_User_invoke_TResult
+bl wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_User_invoke_TResult_T_object
+bl wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_User_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_User
+bl wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_User_invoke_TResult_T_System_IAsyncResult
 bl method_addresses
 bl System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 bl System_Array_InternalEnumerator_1_T_INST_Dispose
@@ -94550,904 +94550,904 @@ add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3432]
 br x16
 .word 13163
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_User__ctor
-plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_User__ctor:
+	.no_dead_strip plt_Firebase_Auth_Auth__c__DisplayClass43_0__ctor
+plt_Firebase_Auth_Auth__c__DisplayClass43_0__ctor:
 _p_124:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3440]
 br x16
 .word 13166
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_User_get_Task
-plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_User_get_Task:
+	.no_dead_strip plt_Firebase_Auth_Auth__c__DisplayClass45_0__ctor
+plt_Firebase_Auth_Auth__c__DisplayClass45_0__ctor:
 _p_125:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3448]
 br x16
-.word 13177
-	.no_dead_strip plt_Firebase_Auth_Auth__c__DisplayClass43_0__ctor
-plt_Firebase_Auth_Auth__c__DisplayClass43_0__ctor:
+.word 13169
+	.no_dead_strip plt_Firebase_Auth_Auth__c__DisplayClass47_0__ctor
+plt_Firebase_Auth_Auth__c__DisplayClass47_0__ctor:
 _p_126:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3456]
 br x16
-.word 13188
-	.no_dead_strip plt_Firebase_Auth_Auth__c__DisplayClass45_0__ctor
-plt_Firebase_Auth_Auth__c__DisplayClass45_0__ctor:
+.word 13172
+	.no_dead_strip plt_Firebase_Auth_Auth__c__DisplayClass49_0__ctor
+plt_Firebase_Auth_Auth__c__DisplayClass49_0__ctor:
 _p_127:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3464]
 br x16
-.word 13191
-	.no_dead_strip plt_Firebase_Auth_Auth__c__DisplayClass47_0__ctor
-plt_Firebase_Auth_Auth__c__DisplayClass47_0__ctor:
+.word 13175
+	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSend_ref_IntPtr_intptr_intptr_intptr_
+plt_ApiDefinition_Messaging_bool_objc_msgSend_ref_IntPtr_intptr_intptr_intptr_:
 _p_128:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3472]
 br x16
-.word 13194
-	.no_dead_strip plt_Firebase_Auth_Auth__c__DisplayClass49_0__ctor
-plt_Firebase_Auth_Auth__c__DisplayClass49_0__ctor:
+.word 13178
+	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_ref_IntPtr_intptr_intptr_intptr_
+plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_ref_IntPtr_intptr_intptr_intptr_:
 _p_129:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3480]
 br x16
-.word 13197
-	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSend_ref_IntPtr_intptr_intptr_intptr_
-plt_ApiDefinition_Messaging_bool_objc_msgSend_ref_IntPtr_intptr_intptr_intptr_:
+.word 13181
+	.no_dead_strip plt_Firebase_Auth_Auth__c__DisplayClass52_0__ctor
+plt_Firebase_Auth_Auth__c__DisplayClass52_0__ctor:
 _p_130:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3488]
 br x16
-.word 13200
-	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_ref_IntPtr_intptr_intptr_intptr_
-plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_ref_IntPtr_intptr_intptr_intptr_:
+.word 13184
+	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_intptr_intptr
+plt_ApiDefinition_Messaging_void_objc_msgSend_intptr_intptr:
 _p_131:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3496]
 br x16
-.word 13203
-	.no_dead_strip plt_Firebase_Auth_Auth__c__DisplayClass52_0__ctor
-plt_Firebase_Auth_Auth__c__DisplayClass52_0__ctor:
+.word 13187
+	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_intptr_intptr
+plt_ApiDefinition_Messaging_void_objc_msgSendSuper_intptr_intptr:
 _p_132:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3504]
 br x16
-.word 13206
-	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_intptr_intptr
-plt_ApiDefinition_Messaging_void_objc_msgSend_intptr_intptr:
+.word 13190
+	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_ref_IntPtr_intptr_intptr_intptr_intptr_
+plt_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_ref_IntPtr_intptr_intptr_intptr_intptr_:
 _p_133:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3512]
 br x16
-.word 13209
-	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_intptr_intptr
-plt_ApiDefinition_Messaging_void_objc_msgSendSuper_intptr_intptr:
+.word 13193
+	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_ref_IntPtr_intptr_intptr_intptr_intptr_
+plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_ref_IntPtr_intptr_intptr_intptr_intptr_:
 _p_134:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3520]
 br x16
-.word 13212
-	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_ref_IntPtr_intptr_intptr_intptr_intptr_
-plt_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_ref_IntPtr_intptr_intptr_intptr_intptr_:
+.word 13196
+	.no_dead_strip plt_Firebase_Auth_Auth__c__DisplayClass56_0__ctor
+plt_Firebase_Auth_Auth__c__DisplayClass56_0__ctor:
 _p_135:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3528]
 br x16
-.word 13215
-	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_ref_IntPtr_intptr_intptr_intptr_intptr_
-plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_ref_IntPtr_intptr_intptr_intptr_intptr_:
+.word 13199
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_string__ctor
+plt_System_Threading_Tasks_TaskCompletionSource_1_string__ctor:
 _p_136:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3536]
 br x16
-.word 13218
-	.no_dead_strip plt_Firebase_Auth_Auth__c__DisplayClass56_0__ctor
-plt_Firebase_Auth_Auth__c__DisplayClass56_0__ctor:
+.word 13202
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_string_get_Task
+plt_System_Threading_Tasks_TaskCompletionSource_1_string_get_Task:
 _p_137:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3544]
 br x16
-.word 13221
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_string__ctor
-plt_System_Threading_Tasks_TaskCompletionSource_1_string__ctor:
+.word 13213
+	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr
+plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr:
 _p_138:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3552]
 br x16
 .word 13224
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_string_get_Task
-plt_System_Threading_Tasks_TaskCompletionSource_1_string_get_Task:
+	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSData_intptr
+plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSData_intptr:
 _p_139:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3560]
 br x16
-.word 13235
-	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr
-plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr:
+.word 13227
+	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr
+plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr:
 _p_140:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3568]
 br x16
-.word 13246
-	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSData_intptr
-plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSData_intptr:
+.word 13239
+	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Core_App_intptr
+plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Core_App_intptr:
 _p_141:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3576]
 br x16
-.word 13249
-	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr
-plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr:
+.word 13242
+	.no_dead_strip plt_Foundation_NSObject_MarkDirty
+plt_Foundation_NSObject_MarkDirty:
 _p_142:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3584]
 br x16
-.word 13261
-	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Core_App_intptr
-plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Core_App_intptr:
+.word 13254
+	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_AuthSettings_intptr
+plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_AuthSettings_intptr:
 _p_143:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3592]
 br x16
-.word 13264
-	.no_dead_strip plt_Foundation_NSObject_MarkDirty
-plt_Foundation_NSObject_MarkDirty:
+.word 13259
+	.no_dead_strip plt_ObjCRuntime_Dlfcn_GetDouble_intptr_string
+plt_ObjCRuntime_Dlfcn_GetDouble_intptr_string:
 _p_144:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3600]
 br x16
-.word 13276
-	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_AuthSettings_intptr
-plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_AuthSettings_intptr:
+.word 13271
+	.no_dead_strip plt_Foundation_NSString_op_Equality_Foundation_NSString_Foundation_NSString
+plt_Foundation_NSString_op_Equality_Foundation_NSString_Foundation_NSString:
 _p_145:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3608]
 br x16
-.word 13281
-	.no_dead_strip plt_ObjCRuntime_Dlfcn_GetDouble_intptr_string
-plt_ObjCRuntime_Dlfcn_GetDouble_intptr_string:
+.word 13276
+	.no_dead_strip plt_ObjCRuntime_Dlfcn_GetStringConstant_intptr_string
+plt_ObjCRuntime_Dlfcn_GetStringConstant_intptr_string:
 _p_146:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3616]
 br x16
-.word 13293
-	.no_dead_strip plt_Foundation_NSString_op_Equality_Foundation_NSString_Foundation_NSString
-plt_Foundation_NSString_op_Equality_Foundation_NSString_Foundation_NSString:
+.word 13281
+	.no_dead_strip plt_ObjCRuntime_Dlfcn_GetIntPtr_intptr_string
+plt_ObjCRuntime_Dlfcn_GetIntPtr_intptr_string:
 _p_147:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3624]
 br x16
-.word 13298
-	.no_dead_strip plt_ObjCRuntime_Dlfcn_GetStringConstant_intptr_string
-plt_ObjCRuntime_Dlfcn_GetStringConstant_intptr_string:
+.word 13286
+	.no_dead_strip plt_Foundation_NSObject_Dispose_bool
+plt_Foundation_NSObject_Dispose_bool:
 _p_148:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3632]
 br x16
-.word 13303
-	.no_dead_strip plt_ObjCRuntime_Dlfcn_GetIntPtr_intptr_string
-plt_ObjCRuntime_Dlfcn_GetIntPtr_intptr_string:
+.word 13291
+	.no_dead_strip plt_ObjCRuntime_Class_GetHandle_string
+plt_ObjCRuntime_Class_GetHandle_string:
 _p_149:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3640]
 br x16
-.word 13308
-	.no_dead_strip plt_Foundation_NSObject_Dispose_bool
-plt_Foundation_NSObject_Dispose_bool:
+.word 13296
+	.no_dead_strip plt_Firebase_Auth_Auth_Notifications__c__DisplayClass0_0__ctor
+plt_Firebase_Auth_Auth_Notifications__c__DisplayClass0_0__ctor:
 _p_150:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3648]
 br x16
-.word 13313
-	.no_dead_strip plt_ObjCRuntime_Class_GetHandle_string
-plt_ObjCRuntime_Class_GetHandle_string:
+.word 13301
+	.no_dead_strip plt_Foundation_NSNotificationCenter_get_DefaultCenter
+plt_Foundation_NSNotificationCenter_get_DefaultCenter:
 _p_151:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3656]
 br x16
-.word 13318
-	.no_dead_strip plt_Firebase_Auth_Auth_Notifications__c__DisplayClass0_0__ctor
-plt_Firebase_Auth_Auth_Notifications__c__DisplayClass0_0__ctor:
+.word 13304
+	.no_dead_strip plt_Firebase_Auth_Auth_get_StateDidChangeNotification
+plt_Firebase_Auth_Auth_get_StateDidChangeNotification:
 _p_152:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3664]
 br x16
-.word 13323
-	.no_dead_strip plt_Foundation_NSNotificationCenter_get_DefaultCenter
-plt_Foundation_NSNotificationCenter_get_DefaultCenter:
+.word 13309
+	.no_dead_strip plt_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification
+plt_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification:
 _p_153:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3672]
 br x16
-.word 13326
-	.no_dead_strip plt_Firebase_Auth_Auth_get_StateDidChangeNotification
-plt_Firebase_Auth_Auth_get_StateDidChangeNotification:
+.word 13312
+	.no_dead_strip plt_Firebase_Auth_Auth_Notifications__c__DisplayClass1_0__ctor
+plt_Firebase_Auth_Auth_Notifications__c__DisplayClass1_0__ctor:
 _p_154:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3680]
 br x16
-.word 13331
-	.no_dead_strip plt_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification
-plt_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification:
+.word 13317
+	.no_dead_strip plt_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification_Foundation_NSObject
+plt_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification_Foundation_NSObject:
 _p_155:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3688]
 br x16
-.word 13334
-	.no_dead_strip plt_Firebase_Auth_Auth_Notifications__c__DisplayClass1_0__ctor
-plt_Firebase_Auth_Auth_Notifications__c__DisplayClass1_0__ctor:
+.word 13320
+	.no_dead_strip plt_Foundation_NSNotificationEventArgs__ctor_Foundation_NSNotification
+plt_Foundation_NSNotificationEventArgs__ctor_Foundation_NSNotification:
 _p_156:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3696]
 br x16
-.word 13339
-	.no_dead_strip plt_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification_Foundation_NSObject
-plt_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification_Foundation_NSObject:
+.word 13325
+	.no_dead_strip plt_Foundation_NSErrorException__ctor_Foundation_NSError
+plt_Foundation_NSErrorException__ctor_Foundation_NSError:
 _p_157:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3704]
 br x16
-.word 13342
-	.no_dead_strip plt_Foundation_NSNotificationEventArgs__ctor_Foundation_NSNotification
-plt_Foundation_NSNotificationEventArgs__ctor_Foundation_NSNotification:
+.word 13330
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Exception
+plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Exception:
 _p_158:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3712]
 br x16
-.word 13347
-	.no_dead_strip plt_Foundation_NSErrorException__ctor_Foundation_NSError
-plt_Foundation_NSErrorException__ctor_Foundation_NSError:
+.word 13335
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetResult_bool
+plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetResult_bool:
 _p_159:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3720]
 br x16
-.word 13352
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Exception
-plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetException_System_Exception:
+.word 13346
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_ActionCodeInfo_SetException_System_Exception
+plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_ActionCodeInfo_SetException_System_Exception:
 _p_160:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3728]
 br x16
 .word 13357
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetResult_bool
-plt_System_Threading_Tasks_TaskCompletionSource_1_bool_SetResult_bool:
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_ActionCodeInfo_SetResult_Firebase_Auth_ActionCodeInfo
+plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_ActionCodeInfo_SetResult_Firebase_Auth_ActionCodeInfo:
 _p_161:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3736]
 br x16
 .word 13368
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_ActionCodeInfo_SetException_System_Exception
-plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_ActionCodeInfo_SetException_System_Exception:
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthDataResult_SetException_System_Exception
+plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthDataResult_SetException_System_Exception:
 _p_162:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3744]
 br x16
 .word 13379
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_ActionCodeInfo_SetResult_Firebase_Auth_ActionCodeInfo
-plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_ActionCodeInfo_SetResult_Firebase_Auth_ActionCodeInfo:
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthDataResult_SetResult_Firebase_Auth_AuthDataResult
+plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthDataResult_SetResult_Firebase_Auth_AuthDataResult:
 _p_163:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3752]
 br x16
 .word 13390
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthDataResult_SetException_System_Exception
-plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthDataResult_SetException_System_Exception:
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_string___SetException_System_Exception
+plt_System_Threading_Tasks_TaskCompletionSource_1_string___SetException_System_Exception:
 _p_164:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3760]
 br x16
 .word 13401
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthDataResult_SetResult_Firebase_Auth_AuthDataResult
-plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthDataResult_SetResult_Firebase_Auth_AuthDataResult:
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_string___SetResult_string__
+plt_System_Threading_Tasks_TaskCompletionSource_1_string___SetResult_string__:
 _p_165:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3768]
 br x16
 .word 13412
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_string___SetException_System_Exception
-plt_System_Threading_Tasks_TaskCompletionSource_1_string___SetException_System_Exception:
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_string_SetException_System_Exception
+plt_System_Threading_Tasks_TaskCompletionSource_1_string_SetException_System_Exception:
 _p_166:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3776]
 br x16
 .word 13423
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_string___SetResult_string__
-plt_System_Threading_Tasks_TaskCompletionSource_1_string___SetResult_string__:
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_string_SetResult_string
+plt_System_Threading_Tasks_TaskCompletionSource_1_string_SetResult_string:
 _p_167:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3784]
 br x16
 .word 13434
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_User_SetException_System_Exception
-plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_User_SetException_System_Exception:
+	.no_dead_strip plt_Firebase_Core_Loader_ForceLoad
+plt_Firebase_Core_Loader_ForceLoad:
 _p_168:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3792]
 br x16
 .word 13445
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_User_SetResult_Firebase_Auth_User
-plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_User_SetResult_Firebase_Auth_User:
+	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_Int64_intptr_intptr_long
+plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_Int64_intptr_intptr_long:
 _p_169:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3800]
 br x16
-.word 13456
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_string_SetException_System_Exception
-plt_System_Threading_Tasks_TaskCompletionSource_1_string_SetException_System_Exception:
+.word 13450
+	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_int_intptr_intptr_int
+plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_int_intptr_intptr_int:
 _p_170:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3808]
 br x16
-.word 13467
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_string_SetResult_string
-plt_System_Threading_Tasks_TaskCompletionSource_1_string_SetResult_string:
+.word 13453
+	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_Int64_intptr_intptr_long
+plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_Int64_intptr_intptr_long:
 _p_171:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3816]
 br x16
-.word 13478
-	.no_dead_strip plt_Firebase_Core_Loader_ForceLoad
-plt_Firebase_Core_Loader_ForceLoad:
+.word 13456
+	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_int_intptr_intptr_int
+plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_int_intptr_intptr_int:
 _p_172:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3824]
 br x16
-.word 13489
-	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_Int64_intptr_intptr_long
-plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_Int64_intptr_intptr_long:
+.word 13459
+	.no_dead_strip plt_ApiDefinition_Messaging_Int64_objc_msgSend_intptr_intptr
+plt_ApiDefinition_Messaging_Int64_objc_msgSend_intptr_intptr:
 _p_173:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3832]
 br x16
-.word 13494
-	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_int_intptr_intptr_int
-plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_int_intptr_intptr_int:
+.word 13462
+	.no_dead_strip plt_ApiDefinition_Messaging_int_objc_msgSend_intptr_intptr
+plt_ApiDefinition_Messaging_int_objc_msgSend_intptr_intptr:
 _p_174:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3840]
 br x16
-.word 13497
-	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_Int64_intptr_intptr_long
-plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_Int64_intptr_intptr_long:
+.word 13465
+	.no_dead_strip plt_ApiDefinition_Messaging_Int64_objc_msgSendSuper_intptr_intptr
+plt_ApiDefinition_Messaging_Int64_objc_msgSendSuper_intptr_intptr:
 _p_175:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3848]
 br x16
-.word 13500
-	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_int_intptr_intptr_int
-plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_int_intptr_intptr_int:
+.word 13468
+	.no_dead_strip plt_ApiDefinition_Messaging_int_objc_msgSendSuper_intptr_intptr
+plt_ApiDefinition_Messaging_int_objc_msgSendSuper_intptr_intptr:
 _p_176:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3856]
 br x16
-.word 13503
-	.no_dead_strip plt_ApiDefinition_Messaging_Int64_objc_msgSend_intptr_intptr
-plt_ApiDefinition_Messaging_Int64_objc_msgSend_intptr_intptr:
+.word 13471
+	.no_dead_strip plt_Foundation_NSObject_InitializeHandle_intptr_string
+plt_Foundation_NSObject_InitializeHandle_intptr_string:
 _p_177:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3864]
 br x16
-.word 13506
-	.no_dead_strip plt_ApiDefinition_Messaging_int_objc_msgSend_intptr_intptr
-plt_ApiDefinition_Messaging_int_objc_msgSend_intptr_intptr:
+.word 13474
+	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_bool_IntPtr_intptr_intptr_intptr_bool_intptr
+plt_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_bool_IntPtr_intptr_intptr_intptr_bool_intptr:
 _p_178:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3872]
 br x16
-.word 13509
-	.no_dead_strip plt_ApiDefinition_Messaging_Int64_objc_msgSendSuper_intptr_intptr
-plt_ApiDefinition_Messaging_Int64_objc_msgSendSuper_intptr_intptr:
+.word 13479
+	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_bool_IntPtr_intptr_intptr_intptr_bool_intptr
+plt_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_bool_IntPtr_intptr_intptr_intptr_bool_intptr:
 _p_179:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3880]
 br x16
-.word 13512
-	.no_dead_strip plt_ApiDefinition_Messaging_int_objc_msgSendSuper_intptr_intptr
-plt_ApiDefinition_Messaging_int_objc_msgSendSuper_intptr_intptr:
+.word 13482
+	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr
+plt_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr:
 _p_180:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3888]
 br x16
-.word 13515
-	.no_dead_strip plt_Foundation_NSObject_InitializeHandle_intptr_string
-plt_Foundation_NSObject_InitializeHandle_intptr_string:
+.word 13485
+	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr
+plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr:
 _p_181:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3896]
 br x16
-.word 13518
-	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_bool_IntPtr_intptr_intptr_intptr_bool_intptr
-plt_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_bool_IntPtr_intptr_intptr_intptr_bool_intptr:
+.word 13488
+	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool
+plt_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool:
 _p_182:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3904]
 br x16
-.word 13523
-	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_bool_IntPtr_intptr_intptr_intptr_bool_intptr
-plt_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_bool_IntPtr_intptr_intptr_intptr_bool_intptr:
+.word 13491
+	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool
+plt_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool:
 _p_183:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3912]
 br x16
-.word 13526
-	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr
-plt_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr:
+.word 13494
+	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSUrl_intptr
+plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSUrl_intptr:
 _p_184:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3920]
 br x16
-.word 13529
-	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr
-plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr:
+.word 13497
+	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSDictionary_2_Foundation_NSString_Foundation_NSObject_intptr
+plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSDictionary_2_Foundation_NSString_Foundation_NSObject_intptr:
 _p_185:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3928]
 br x16
-.word 13532
-	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool
-plt_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool:
+.word 13509
+	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_AdditionalUserInfo_intptr
+plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_AdditionalUserInfo_intptr:
 _p_186:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3936]
 br x16
-.word 13535
-	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool
-plt_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool:
+.word 13521
+	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSDate_intptr
+plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSDate_intptr:
 _p_187:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3944]
 br x16
-.word 13538
-	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSUrl_intptr
-plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSUrl_intptr:
+.word 13533
+	.no_dead_strip plt_ObjCRuntime_BaseWrapper__ctor_intptr_bool
+plt_ObjCRuntime_BaseWrapper__ctor_intptr_bool:
 _p_188:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3952]
 br x16
-.word 13541
-	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSDictionary_2_Foundation_NSString_Foundation_NSObject_intptr
-plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSDictionary_2_Foundation_NSString_Foundation_NSObject_intptr:
+.word 13545
+	.no_dead_strip plt_ObjCRuntime_BaseWrapper_get_Handle
+plt_ObjCRuntime_BaseWrapper_get_Handle:
 _p_189:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3960]
 br x16
-.word 13553
-	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_AdditionalUserInfo_intptr
-plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_AdditionalUserInfo_intptr:
+.word 13550
+	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_bool_IntPtr_intptr_intptr_bool_intptr
+plt_ApiDefinition_Messaging_void_objc_msgSend_bool_IntPtr_intptr_intptr_bool_intptr:
 _p_190:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3968]
 br x16
-.word 13565
-	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSDate_intptr
-plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSDate_intptr:
+.word 13555
+	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
+plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
 _p_191:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3976]
 br x16
-.word 13577
-	.no_dead_strip plt_ObjCRuntime_BaseWrapper__ctor_intptr_bool
-plt_ObjCRuntime_BaseWrapper__ctor_intptr_bool:
+.word 13558
+	.no_dead_strip plt_Firebase_Auth_GameCenterAuthProvider__c__DisplayClass6_0__ctor
+plt_Firebase_Auth_GameCenterAuthProvider__c__DisplayClass6_0__ctor:
 _p_192:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3984]
 br x16
-.word 13589
-	.no_dead_strip plt_ObjCRuntime_BaseWrapper_get_Handle
-plt_ObjCRuntime_BaseWrapper_get_Handle:
+.word 13561
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthCredential__ctor
+plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthCredential__ctor:
 _p_193:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #3992]
 br x16
-.word 13594
-	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_bool_IntPtr_intptr_intptr_bool_intptr
-plt_ApiDefinition_Messaging_void_objc_msgSend_bool_IntPtr_intptr_intptr_bool_intptr:
+.word 13564
+	.no_dead_strip plt_Firebase_Auth_GameCenterAuthProvider_GetCredential_Firebase_Auth_GameCenterCredentialCallbackHandler
+plt_Firebase_Auth_GameCenterAuthProvider_GetCredential_Firebase_Auth_GameCenterCredentialCallbackHandler:
 _p_194:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #4000]
 br x16
-.word 13599
-	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
-plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
+.word 13575
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthCredential_get_Task
+plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthCredential_get_Task:
 _p_195:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #4008]
 br x16
-.word 13602
-	.no_dead_strip plt_Firebase_Auth_GameCenterAuthProvider__c__DisplayClass6_0__ctor
-plt_Firebase_Auth_GameCenterAuthProvider__c__DisplayClass6_0__ctor:
+.word 13578
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthCredential_SetException_System_Exception
+plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthCredential_SetException_System_Exception:
 _p_196:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #4016]
 br x16
-.word 13605
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthCredential__ctor
-plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthCredential__ctor:
+.word 13589
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthCredential_SetResult_Firebase_Auth_AuthCredential
+plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthCredential_SetResult_Firebase_Auth_AuthCredential:
 _p_197:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #4024]
 br x16
-.word 13608
-	.no_dead_strip plt_Firebase_Auth_GameCenterAuthProvider_GetCredential_Firebase_Auth_GameCenterCredentialCallbackHandler
-plt_Firebase_Auth_GameCenterAuthProvider_GetCredential_Firebase_Auth_GameCenterCredentialCallbackHandler:
+.word 13600
+	.no_dead_strip plt_Firebase_Auth_AuthCredential__ctor_Foundation_NSObjectFlag
+plt_Firebase_Auth_AuthCredential__ctor_Foundation_NSObjectFlag:
 _p_198:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #4032]
 br x16
-.word 13619
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthCredential_get_Task
-plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthCredential_get_Task:
+.word 13611
+	.no_dead_strip plt_Firebase_Auth_AuthCredential__ctor_intptr
+plt_Firebase_Auth_AuthCredential__ctor_intptr:
 _p_199:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #4040]
 br x16
-.word 13622
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthCredential_SetException_System_Exception
-plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthCredential_SetException_System_Exception:
+.word 13614
+	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_OAuthProvider_intptr
+plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_OAuthProvider_intptr:
 _p_200:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #4048]
 br x16
-.word 13633
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthCredential_SetResult_Firebase_Auth_AuthCredential
-plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthCredential_SetResult_Firebase_Auth_AuthCredential:
+.word 13617
+	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
+plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr:
 _p_201:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #4056]
 br x16
-.word 13644
-	.no_dead_strip plt_Firebase_Auth_AuthCredential__ctor_Foundation_NSObjectFlag
-plt_Firebase_Auth_AuthCredential__ctor_Foundation_NSObjectFlag:
+.word 13629
+	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_OAuthCredential_intptr
+plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_OAuthCredential_intptr:
 _p_202:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #4064]
 br x16
-.word 13655
-	.no_dead_strip plt_Firebase_Auth_AuthCredential__ctor_intptr
-plt_Firebase_Auth_AuthCredential__ctor_intptr:
+.word 13632
+	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSDictionary_2_Foundation_NSString_Foundation_NSString_intptr
+plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSDictionary_2_Foundation_NSString_Foundation_NSString_intptr:
 _p_203:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #4072]
 br x16
-.word 13658
-	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_OAuthProvider_intptr
-plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_OAuthProvider_intptr:
+.word 13644
+	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_PhoneAuthProvider_intptr
+plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_PhoneAuthProvider_intptr:
 _p_204:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #4080]
 br x16
-.word 13661
-	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
-plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr:
+.word 13656
+	.no_dead_strip plt_Firebase_Auth_PhoneAuthProvider_Create_Firebase_Auth_Auth
+plt_Firebase_Auth_PhoneAuthProvider_Create_Firebase_Auth_Auth:
 _p_205:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+8192
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #4088]
 br x16
-.word 13673
-	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_OAuthCredential_intptr
-plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_OAuthCredential_intptr:
+.word 13668
+	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_PhoneAuthCredential_intptr
+plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_PhoneAuthCredential_intptr:
 _p_206:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #0]
 br x16
-.word 13676
-	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSDictionary_2_Foundation_NSString_Foundation_NSString_intptr
-plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSDictionary_2_Foundation_NSString_Foundation_NSString_intptr:
+.word 13671
+	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
+plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
 _p_207:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #8]
 br x16
-.word 13688
-	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_PhoneAuthProvider_intptr
-plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_PhoneAuthProvider_intptr:
+.word 13683
+	.no_dead_strip plt_Firebase_Auth_PhoneAuthProvider__c__DisplayClass9_0__ctor
+plt_Firebase_Auth_PhoneAuthProvider__c__DisplayClass9_0__ctor:
 _p_208:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #16]
 br x16
-.word 13700
-	.no_dead_strip plt_Firebase_Auth_PhoneAuthProvider_Create_Firebase_Auth_Auth
-plt_Firebase_Auth_PhoneAuthProvider_Create_Firebase_Auth_Auth:
+.word 13686
+	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass6_0__ctor
+plt_Firebase_Auth_User__c__DisplayClass6_0__ctor:
 _p_209:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #24]
 br x16
-.word 13712
-	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_PhoneAuthCredential_intptr
-plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_PhoneAuthCredential_intptr:
+.word 13689
+	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass8_0__ctor
+plt_Firebase_Auth_User__c__DisplayClass8_0__ctor:
 _p_210:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #32]
 br x16
-.word 13715
-	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
-plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
+.word 13692
+	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_IntPtr_intptr_intptr_bool_intptr
+plt_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_IntPtr_intptr_intptr_bool_intptr:
 _p_211:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #40]
 br x16
-.word 13727
-	.no_dead_strip plt_Firebase_Auth_PhoneAuthProvider__c__DisplayClass9_0__ctor
-plt_Firebase_Auth_PhoneAuthProvider__c__DisplayClass9_0__ctor:
+.word 13695
+	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass10_0__ctor
+plt_Firebase_Auth_User__c__DisplayClass10_0__ctor:
 _p_212:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #48]
 br x16
-.word 13730
-	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass6_0__ctor
-plt_Firebase_Auth_User__c__DisplayClass6_0__ctor:
+.word 13698
+	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass12_0__ctor
+plt_Firebase_Auth_User__c__DisplayClass12_0__ctor:
 _p_213:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #56]
 br x16
-.word 13733
-	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass8_0__ctor
-plt_Firebase_Auth_User__c__DisplayClass8_0__ctor:
+.word 13701
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthTokenResult__ctor
+plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthTokenResult__ctor:
 _p_214:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #64]
 br x16
-.word 13736
-	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_IntPtr_intptr_intptr_bool_intptr
-plt_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_IntPtr_intptr_intptr_bool_intptr:
+.word 13704
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthTokenResult_get_Task
+plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthTokenResult_get_Task:
 _p_215:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #72]
 br x16
-.word 13739
-	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass10_0__ctor
-plt_Firebase_Auth_User__c__DisplayClass10_0__ctor:
+.word 13715
+	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass14_0__ctor
+plt_Firebase_Auth_User__c__DisplayClass14_0__ctor:
 _p_216:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #80]
 br x16
-.word 13742
-	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass12_0__ctor
-plt_Firebase_Auth_User__c__DisplayClass12_0__ctor:
+.word 13726
+	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass16_0__ctor
+plt_Firebase_Auth_User__c__DisplayClass16_0__ctor:
 _p_217:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #88]
 br x16
-.word 13745
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthTokenResult__ctor
-plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthTokenResult__ctor:
+.word 13729
+	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass18_0__ctor
+plt_Firebase_Auth_User__c__DisplayClass18_0__ctor:
 _p_218:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #96]
 br x16
-.word 13748
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthTokenResult_get_Task
-plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthTokenResult_get_Task:
+.word 13732
+	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_UserProfileChangeRequest_intptr
+plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_UserProfileChangeRequest_intptr:
 _p_219:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #104]
 br x16
-.word 13759
-	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass14_0__ctor
-plt_Firebase_Auth_User__c__DisplayClass14_0__ctor:
+.word 13735
+	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass21_0__ctor
+plt_Firebase_Auth_User__c__DisplayClass21_0__ctor:
 _p_220:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #112]
 br x16
-.word 13770
-	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass16_0__ctor
-plt_Firebase_Auth_User__c__DisplayClass16_0__ctor:
+.word 13747
+	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass23_0__ctor
+plt_Firebase_Auth_User__c__DisplayClass23_0__ctor:
 _p_221:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #120]
 br x16
-.word 13773
-	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass18_0__ctor
-plt_Firebase_Auth_User__c__DisplayClass18_0__ctor:
+.word 13750
+	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass25_0__ctor
+plt_Firebase_Auth_User__c__DisplayClass25_0__ctor:
 _p_222:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #128]
 br x16
-.word 13776
-	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_UserProfileChangeRequest_intptr
-plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_UserProfileChangeRequest_intptr:
+.word 13753
+	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass27_0__ctor
+plt_Firebase_Auth_User__c__DisplayClass27_0__ctor:
 _p_223:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #136]
 br x16
-.word 13779
-	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass21_0__ctor
-plt_Firebase_Auth_User__c__DisplayClass21_0__ctor:
+.word 13756
+	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass29_0__ctor
+plt_Firebase_Auth_User__c__DisplayClass29_0__ctor:
 _p_224:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #144]
 br x16
-.word 13791
-	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass23_0__ctor
-plt_Firebase_Auth_User__c__DisplayClass23_0__ctor:
+.word 13759
+	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass31_0__ctor
+plt_Firebase_Auth_User__c__DisplayClass31_0__ctor:
 _p_225:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #152]
 br x16
-.word 13794
-	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass25_0__ctor
-plt_Firebase_Auth_User__c__DisplayClass25_0__ctor:
+.word 13762
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_User__ctor
+plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_User__ctor:
 _p_226:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #160]
 br x16
-.word 13797
-	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass27_0__ctor
-plt_Firebase_Auth_User__c__DisplayClass27_0__ctor:
+.word 13765
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_User_get_Task
+plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_User_get_Task:
 _p_227:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #168]
 br x16
-.word 13800
-	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass29_0__ctor
-plt_Firebase_Auth_User__c__DisplayClass29_0__ctor:
+.word 13776
+	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass33_0__ctor
+plt_Firebase_Auth_User__c__DisplayClass33_0__ctor:
 _p_228:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #176]
 br x16
-.word 13803
-	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass31_0__ctor
-plt_Firebase_Auth_User__c__DisplayClass31_0__ctor:
+.word 13787
+	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass35_0__ctor
+plt_Firebase_Auth_User__c__DisplayClass35_0__ctor:
 _p_229:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #184]
 br x16
-.word 13806
-	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass33_0__ctor
-plt_Firebase_Auth_User__c__DisplayClass33_0__ctor:
+.word 13790
+	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass37_0__ctor
+plt_Firebase_Auth_User__c__DisplayClass37_0__ctor:
 _p_230:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #192]
 br x16
-.word 13809
-	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass35_0__ctor
-plt_Firebase_Auth_User__c__DisplayClass35_0__ctor:
+.word 13793
+	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_UserMetadata_intptr
+plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_UserMetadata_intptr:
 _p_231:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #200]
 br x16
-.word 13812
-	.no_dead_strip plt_Firebase_Auth_User__c__DisplayClass37_0__ctor
-plt_Firebase_Auth_User__c__DisplayClass37_0__ctor:
+.word 13796
+	.no_dead_strip plt_Foundation_NSArray_ArrayFromHandle_Firebase_Auth_IUserInfo_intptr
+plt_Foundation_NSArray_ArrayFromHandle_Firebase_Auth_IUserInfo_intptr:
 _p_232:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #208]
 br x16
-.word 13815
-	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_UserMetadata_intptr
-plt_ObjCRuntime_Runtime_GetNSObject_Firebase_Auth_UserMetadata_intptr:
+.word 13808
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthTokenResult_SetException_System_Exception
+plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthTokenResult_SetException_System_Exception:
 _p_233:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #216]
 br x16
-.word 13818
-	.no_dead_strip plt_Foundation_NSArray_ArrayFromHandle_Firebase_Auth_IUserInfo_intptr
-plt_Foundation_NSArray_ArrayFromHandle_Firebase_Auth_IUserInfo_intptr:
+.word 13820
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthTokenResult_SetResult_Firebase_Auth_AuthTokenResult
+plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthTokenResult_SetResult_Firebase_Auth_AuthTokenResult:
 _p_234:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #224]
 br x16
-.word 13830
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthTokenResult_SetException_System_Exception
-plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthTokenResult_SetException_System_Exception:
+.word 13831
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_User_SetException_System_Exception
+plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_User_SetException_System_Exception:
 _p_235:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
 ldr x16, [x16, #232]
 br x16
 .word 13842
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthTokenResult_SetResult_Firebase_Auth_AuthTokenResult
-plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_AuthTokenResult_SetResult_Firebase_Auth_AuthTokenResult:
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_User_SetResult_Firebase_Auth_User
+plt_System_Threading_Tasks_TaskCompletionSource_1_Firebase_Auth_User_SetResult_Firebase_Auth_User:
 _p_236:
 adrp x16, mono_aot_Firebase_Auth_got@PAGE+12288
 add x16, x16, mono_aot_Firebase_Auth_got@PAGEOFF
@@ -97434,7 +97434,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "D7F3560F-732B-4E54-AA39-81A41BB500BE"
+	.asciz "9E17ADE8-D7C5-4065-AF67-D1188DB5EC9A"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -97522,13 +97522,13 @@ _mono_aot_file_info:
 	.quad unbox_trampoline_addresses
 
 	.long 1330,13824,398,936,148,102,387000831,0
-	.long 152743,128,8,8,8,9,8388607,0
-	.long 30,166696,0,0,13944,13592,8328,0
+	.long 152927,128,8,8,8,9,8388607,0
+	.long 30,166880,0,0,13944,13592,8328,0
 	.long 11272,13304,9520,0,6704,1368,13936,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0
-	.byte 214,59,44,125,183,98,31,119,26,73,44,10,214,114,98,21
+	.byte 96,14,108,222,102,104,180,109,118,226,46,194,84,101,23,39
 	.globl _mono_aot_module_Firebase_Auth_info
 	.align 3
 _mono_aot_module_Firebase_Auth_info:
@@ -109117,10 +109117,10 @@ Lfde164_end:
 
 	.byte 2
 	.asciz "Firebase.Auth.Auth:SignInWithCredential"
-	.asciz "Firebase_Auth_Auth_SignInWithCredential_Firebase_Auth_AuthCredential_Firebase_Auth_AuthResultHandler"
+	.asciz "Firebase_Auth_Auth_SignInWithCredential_Firebase_Auth_AuthCredential_Firebase_Auth_AuthDataResultHandler"
 
 	.byte 0,0
-	.quad Firebase_Auth_Auth_SignInWithCredential_Firebase_Auth_AuthCredential_Firebase_Auth_AuthResultHandler
+	.quad Firebase_Auth_Auth_SignInWithCredential_Firebase_Auth_AuthCredential_Firebase_Auth_AuthDataResultHandler
 	.quad Lme_126
 
 	.byte 2,118,16,3
@@ -109136,7 +109136,7 @@ LDIFF_SYM1597=LTDIE_19_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "completion"
 
-LDIFF_SYM1598=LTDIE_24_REFERENCE - Ldebug_info_start
+LDIFF_SYM1598=LTDIE_20_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1598
 	.byte 1,106,11
 	.asciz "V_0"
@@ -109158,9 +109158,9 @@ Lfde165_start:
 
 	.long 0
 	.align 3
-	.quad Firebase_Auth_Auth_SignInWithCredential_Firebase_Auth_AuthCredential_Firebase_Auth_AuthResultHandler
+	.quad Firebase_Auth_Auth_SignInWithCredential_Firebase_Auth_AuthCredential_Firebase_Auth_AuthDataResultHandler
 
-LDIFF_SYM1602=Lme_126 - Firebase_Auth_Auth_SignInWithCredential_Firebase_Auth_AuthCredential_Firebase_Auth_AuthResultHandler
+LDIFF_SYM1602=Lme_126 - Firebase_Auth_Auth_SignInWithCredential_Firebase_Auth_AuthCredential_Firebase_Auth_AuthDataResultHandler
 	.long LDIFF_SYM1602
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,152,17,68,153,16,154,15
@@ -109168,90 +109168,34 @@ LDIFF_SYM1602=Lme_126 - Firebase_Auth_Auth_SignInWithCredential_Firebase_Auth_Au
 Lfde165_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_164:
-
-	.byte 5
-	.asciz "System_Threading_Tasks_Task`1"
-
-	.byte 80,16
-LDIFF_SYM1603=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM1603
-	.byte 2,35,0,6
-	.asciz "m_result"
-
-LDIFF_SYM1604=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1604
-	.byte 2,35,72,0,7
-	.asciz "System_Threading_Tasks_Task`1"
-
-LDIFF_SYM1605=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM1605
-LTDIE_164_POINTER:
-
-	.byte 13
-LDIFF_SYM1606=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM1606
-LTDIE_164_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1607=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM1607
-LTDIE_163:
-
-	.byte 5
-	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
-
-	.byte 24,16
-LDIFF_SYM1608=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1608
-	.byte 2,35,0,6
-	.asciz "_task"
-
-LDIFF_SYM1609=LTDIE_164_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1609
-	.byte 2,35,16,0,7
-	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
-
-LDIFF_SYM1610=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM1610
-LTDIE_163_POINTER:
-
-	.byte 13
-LDIFF_SYM1611=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM1611
-LTDIE_163_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1612=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM1612
 LTDIE_162:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass41_0"
 
 	.byte 24,16
-LDIFF_SYM1613=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1613
+LDIFF_SYM1603=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1603
 	.byte 2,35,0,6
 	.asciz "tcs"
 
-LDIFF_SYM1614=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1614
+LDIFF_SYM1604=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1604
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass41_0"
 
-LDIFF_SYM1615=LTDIE_162 - Ldebug_info_start
-	.long LDIFF_SYM1615
+LDIFF_SYM1605=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM1605
 LTDIE_162_POINTER:
 
 	.byte 13
-LDIFF_SYM1616=LTDIE_162 - Ldebug_info_start
-	.long LDIFF_SYM1616
+LDIFF_SYM1606=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM1606
 LTDIE_162_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1617=LTDIE_162 - Ldebug_info_start
-	.long LDIFF_SYM1617
+LDIFF_SYM1607=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM1607
 	.byte 2
 	.asciz "Firebase.Auth.Auth:SignInWithCredentialAsync"
 	.asciz "Firebase_Auth_Auth_SignInWithCredentialAsync_Firebase_Auth_AuthCredential"
@@ -109263,32 +109207,32 @@ LDIFF_SYM1617=LTDIE_162 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1618=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1618
+LDIFF_SYM1608=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1608
 	.byte 2,141,24,3
 	.asciz "credential"
 
-LDIFF_SYM1619=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1619
+LDIFF_SYM1609=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1609
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM1620=LTDIE_162_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1620
+LDIFF_SYM1610=LTDIE_162_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1610
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1621=Lfde166_end - Lfde166_start
-	.long LDIFF_SYM1621
+LDIFF_SYM1611=Lfde166_end - Lfde166_start
+	.long LDIFF_SYM1611
 Lfde166_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_SignInWithCredentialAsync_Firebase_Auth_AuthCredential
 
-LDIFF_SYM1622=Lme_127 - Firebase_Auth_Auth_SignInWithCredentialAsync_Firebase_Auth_AuthCredential
-	.long LDIFF_SYM1622
+LDIFF_SYM1612=Lme_127 - Firebase_Auth_Auth_SignInWithCredentialAsync_Firebase_Auth_AuthCredential
+	.long LDIFF_SYM1612
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14
 	.align 3
@@ -109307,81 +109251,81 @@ Lfde166_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1623=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1623
+LDIFF_SYM1613=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1613
 	.byte 1,104,3
 	.asciz "token"
 
-LDIFF_SYM1624=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1624
+LDIFF_SYM1614=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1614
 	.byte 1,105,3
 	.asciz "completion"
 
-LDIFF_SYM1625=LTDIE_20_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1625
+LDIFF_SYM1615=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1615
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1626=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1626
+LDIFF_SYM1616=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1616
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1627=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1627
+LDIFF_SYM1617=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1617
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1628=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1628
+LDIFF_SYM1618=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1618
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1629=Lfde167_end - Lfde167_start
-	.long LDIFF_SYM1629
+LDIFF_SYM1619=Lfde167_end - Lfde167_start
+	.long LDIFF_SYM1619
 Lfde167_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_SignInWithCustomToken_string_Firebase_Auth_AuthDataResultHandler
 
-LDIFF_SYM1630=Lme_128 - Firebase_Auth_Auth_SignInWithCustomToken_string_Firebase_Auth_AuthDataResultHandler
-	.long LDIFF_SYM1630
+LDIFF_SYM1620=Lme_128 - Firebase_Auth_Auth_SignInWithCustomToken_string_Firebase_Auth_AuthDataResultHandler
+	.long LDIFF_SYM1620
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15,68,154,14
 	.align 3
 Lfde167_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_165:
+LTDIE_163:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass43_0"
 
 	.byte 24,16
-LDIFF_SYM1631=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1631
+LDIFF_SYM1621=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1621
 	.byte 2,35,0,6
 	.asciz "tcs"
 
-LDIFF_SYM1632=LTDIE_147_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1632
+LDIFF_SYM1622=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1622
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass43_0"
 
-LDIFF_SYM1633=LTDIE_165 - Ldebug_info_start
-	.long LDIFF_SYM1633
-LTDIE_165_POINTER:
+LDIFF_SYM1623=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM1623
+LTDIE_163_POINTER:
 
 	.byte 13
-LDIFF_SYM1634=LTDIE_165 - Ldebug_info_start
-	.long LDIFF_SYM1634
-LTDIE_165_REFERENCE:
+LDIFF_SYM1624=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM1624
+LTDIE_163_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1635=LTDIE_165 - Ldebug_info_start
-	.long LDIFF_SYM1635
+LDIFF_SYM1625=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM1625
 	.byte 2
 	.asciz "Firebase.Auth.Auth:SignInWithCustomTokenAsync"
 	.asciz "Firebase_Auth_Auth_SignInWithCustomTokenAsync_string"
@@ -109393,32 +109337,32 @@ LDIFF_SYM1635=LTDIE_165 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1636=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1636
+LDIFF_SYM1626=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1626
 	.byte 2,141,24,3
 	.asciz "token"
 
-LDIFF_SYM1637=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1637
+LDIFF_SYM1627=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1627
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM1638=LTDIE_165_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1638
+LDIFF_SYM1628=LTDIE_163_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1628
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1639=Lfde168_end - Lfde168_start
-	.long LDIFF_SYM1639
+LDIFF_SYM1629=Lfde168_end - Lfde168_start
+	.long LDIFF_SYM1629
 Lfde168_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_SignInWithCustomTokenAsync_string
 
-LDIFF_SYM1640=Lme_129 - Firebase_Auth_Auth_SignInWithCustomTokenAsync_string
-	.long LDIFF_SYM1640
+LDIFF_SYM1630=Lme_129 - Firebase_Auth_Auth_SignInWithCustomTokenAsync_string
+	.long LDIFF_SYM1630
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14
 	.align 3
@@ -109437,91 +109381,91 @@ Lfde168_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1641=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1641
+LDIFF_SYM1631=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1631
 	.byte 1,103,3
 	.asciz "email"
 
-LDIFF_SYM1642=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1642
+LDIFF_SYM1632=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1632
 	.byte 1,104,3
 	.asciz "link"
 
-LDIFF_SYM1643=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1643
+LDIFF_SYM1633=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1633
 	.byte 1,105,3
 	.asciz "completion"
 
-LDIFF_SYM1644=LTDIE_20_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1644
+LDIFF_SYM1634=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1634
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1645=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1645
+LDIFF_SYM1635=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1635
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM1646=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1646
+LDIFF_SYM1636=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1636
 	.byte 1,101,11
 	.asciz "V_2"
 
-LDIFF_SYM1647=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1647
+LDIFF_SYM1637=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1637
 	.byte 1,100,11
 	.asciz "V_3"
 
-LDIFF_SYM1648=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1648
+LDIFF_SYM1638=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1638
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1649=Lfde169_end - Lfde169_start
-	.long LDIFF_SYM1649
+LDIFF_SYM1639=Lfde169_end - Lfde169_start
+	.long LDIFF_SYM1639
 Lfde169_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_SignInWithLink_string_string_Firebase_Auth_AuthDataResultHandler
 
-LDIFF_SYM1650=Lme_12a - Firebase_Auth_Auth_SignInWithLink_string_string_Firebase_Auth_AuthDataResultHandler
-	.long LDIFF_SYM1650
+LDIFF_SYM1640=Lme_12a - Firebase_Auth_Auth_SignInWithLink_string_string_Firebase_Auth_AuthDataResultHandler
+	.long LDIFF_SYM1640
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,149,19,68,150,18,151,17,68,152,16,153,15,68,154,14
 	.align 3
 Lfde169_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_166:
+LTDIE_164:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass45_0"
 
 	.byte 24,16
-LDIFF_SYM1651=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1651
+LDIFF_SYM1641=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1641
 	.byte 2,35,0,6
 	.asciz "tcs"
 
-LDIFF_SYM1652=LTDIE_147_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1652
+LDIFF_SYM1642=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1642
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass45_0"
 
-LDIFF_SYM1653=LTDIE_166 - Ldebug_info_start
-	.long LDIFF_SYM1653
-LTDIE_166_POINTER:
+LDIFF_SYM1643=LTDIE_164 - Ldebug_info_start
+	.long LDIFF_SYM1643
+LTDIE_164_POINTER:
 
 	.byte 13
-LDIFF_SYM1654=LTDIE_166 - Ldebug_info_start
-	.long LDIFF_SYM1654
-LTDIE_166_REFERENCE:
+LDIFF_SYM1644=LTDIE_164 - Ldebug_info_start
+	.long LDIFF_SYM1644
+LTDIE_164_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1655=LTDIE_166 - Ldebug_info_start
-	.long LDIFF_SYM1655
+LDIFF_SYM1645=LTDIE_164 - Ldebug_info_start
+	.long LDIFF_SYM1645
 	.byte 2
 	.asciz "Firebase.Auth.Auth:SignInWithLinkAsync"
 	.asciz "Firebase_Auth_Auth_SignInWithLinkAsync_string_string"
@@ -109533,37 +109477,37 @@ LDIFF_SYM1655=LTDIE_166 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1656=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1656
+LDIFF_SYM1646=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1646
 	.byte 2,141,24,3
 	.asciz "email"
 
-LDIFF_SYM1657=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1657
+LDIFF_SYM1647=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1647
 	.byte 2,141,32,3
 	.asciz "link"
 
-LDIFF_SYM1658=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1658
+LDIFF_SYM1648=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1648
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM1659=LTDIE_166_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1659
+LDIFF_SYM1649=LTDIE_164_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1649
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1660=Lfde170_end - Lfde170_start
-	.long LDIFF_SYM1660
+LDIFF_SYM1650=Lfde170_end - Lfde170_start
+	.long LDIFF_SYM1650
 Lfde170_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_SignInWithLinkAsync_string_string
 
-LDIFF_SYM1661=Lme_12b - Firebase_Auth_Auth_SignInWithLinkAsync_string_string
-	.long LDIFF_SYM1661
+LDIFF_SYM1651=Lme_12b - Firebase_Auth_Auth_SignInWithLinkAsync_string_string
+	.long LDIFF_SYM1651
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16
 	.align 3
@@ -109582,91 +109526,91 @@ Lfde170_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1662=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1662
+LDIFF_SYM1652=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1652
 	.byte 1,103,3
 	.asciz "email"
 
-LDIFF_SYM1663=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1663
+LDIFF_SYM1653=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1653
 	.byte 1,104,3
 	.asciz "password"
 
-LDIFF_SYM1664=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1664
+LDIFF_SYM1654=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1654
 	.byte 1,105,3
 	.asciz "completion"
 
-LDIFF_SYM1665=LTDIE_20_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1665
+LDIFF_SYM1655=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1655
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1666=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1666
+LDIFF_SYM1656=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1656
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM1667=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1667
+LDIFF_SYM1657=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1657
 	.byte 1,101,11
 	.asciz "V_2"
 
-LDIFF_SYM1668=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1668
+LDIFF_SYM1658=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1658
 	.byte 1,100,11
 	.asciz "V_3"
 
-LDIFF_SYM1669=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1669
+LDIFF_SYM1659=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1659
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1670=Lfde171_end - Lfde171_start
-	.long LDIFF_SYM1670
+LDIFF_SYM1660=Lfde171_end - Lfde171_start
+	.long LDIFF_SYM1660
 Lfde171_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_SignInWithPassword_string_string_Firebase_Auth_AuthDataResultHandler
 
-LDIFF_SYM1671=Lme_12c - Firebase_Auth_Auth_SignInWithPassword_string_string_Firebase_Auth_AuthDataResultHandler
-	.long LDIFF_SYM1671
+LDIFF_SYM1661=Lme_12c - Firebase_Auth_Auth_SignInWithPassword_string_string_Firebase_Auth_AuthDataResultHandler
+	.long LDIFF_SYM1661
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,149,19,68,150,18,151,17,68,152,16,153,15,68,154,14
 	.align 3
 Lfde171_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_167:
+LTDIE_165:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass47_0"
 
 	.byte 24,16
-LDIFF_SYM1672=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1672
+LDIFF_SYM1662=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1662
 	.byte 2,35,0,6
 	.asciz "tcs"
 
-LDIFF_SYM1673=LTDIE_147_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1673
+LDIFF_SYM1663=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1663
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass47_0"
 
-LDIFF_SYM1674=LTDIE_167 - Ldebug_info_start
-	.long LDIFF_SYM1674
-LTDIE_167_POINTER:
+LDIFF_SYM1664=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM1664
+LTDIE_165_POINTER:
 
 	.byte 13
-LDIFF_SYM1675=LTDIE_167 - Ldebug_info_start
-	.long LDIFF_SYM1675
-LTDIE_167_REFERENCE:
+LDIFF_SYM1665=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM1665
+LTDIE_165_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1676=LTDIE_167 - Ldebug_info_start
-	.long LDIFF_SYM1676
+LDIFF_SYM1666=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM1666
 	.byte 2
 	.asciz "Firebase.Auth.Auth:SignInWithPasswordAsync"
 	.asciz "Firebase_Auth_Auth_SignInWithPasswordAsync_string_string"
@@ -109678,44 +109622,44 @@ LDIFF_SYM1676=LTDIE_167 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1677=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1677
+LDIFF_SYM1667=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1667
 	.byte 2,141,24,3
 	.asciz "email"
 
-LDIFF_SYM1678=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1678
+LDIFF_SYM1668=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1668
 	.byte 2,141,32,3
 	.asciz "password"
 
-LDIFF_SYM1679=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1679
+LDIFF_SYM1669=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1669
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM1680=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1680
+LDIFF_SYM1670=LTDIE_165_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1670
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1681=Lfde172_end - Lfde172_start
-	.long LDIFF_SYM1681
+LDIFF_SYM1671=Lfde172_end - Lfde172_start
+	.long LDIFF_SYM1671
 Lfde172_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_SignInWithPasswordAsync_string_string
 
-LDIFF_SYM1682=Lme_12d - Firebase_Auth_Auth_SignInWithPasswordAsync_string_string
-	.long LDIFF_SYM1682
+LDIFF_SYM1672=Lme_12d - Firebase_Auth_Auth_SignInWithPasswordAsync_string_string
+	.long LDIFF_SYM1672
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16
 	.align 3
 Lfde172_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_168:
+LTDIE_166:
 
 	.byte 17
 	.asciz "Firebase_Auth_IFederatedAuthProvider"
@@ -109723,19 +109667,19 @@ LTDIE_168:
 	.byte 16,7
 	.asciz "Firebase_Auth_IFederatedAuthProvider"
 
-LDIFF_SYM1683=LTDIE_168 - Ldebug_info_start
-	.long LDIFF_SYM1683
-LTDIE_168_POINTER:
+LDIFF_SYM1673=LTDIE_166 - Ldebug_info_start
+	.long LDIFF_SYM1673
+LTDIE_166_POINTER:
 
 	.byte 13
-LDIFF_SYM1684=LTDIE_168 - Ldebug_info_start
-	.long LDIFF_SYM1684
-LTDIE_168_REFERENCE:
+LDIFF_SYM1674=LTDIE_166 - Ldebug_info_start
+	.long LDIFF_SYM1674
+LTDIE_166_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1685=LTDIE_168 - Ldebug_info_start
-	.long LDIFF_SYM1685
-LTDIE_169:
+LDIFF_SYM1675=LTDIE_166 - Ldebug_info_start
+	.long LDIFF_SYM1675
+LTDIE_167:
 
 	.byte 17
 	.asciz "Firebase_Auth_IAuthUIDelegate"
@@ -109743,18 +109687,18 @@ LTDIE_169:
 	.byte 16,7
 	.asciz "Firebase_Auth_IAuthUIDelegate"
 
-LDIFF_SYM1686=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM1686
-LTDIE_169_POINTER:
+LDIFF_SYM1676=LTDIE_167 - Ldebug_info_start
+	.long LDIFF_SYM1676
+LTDIE_167_POINTER:
 
 	.byte 13
-LDIFF_SYM1687=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM1687
-LTDIE_169_REFERENCE:
+LDIFF_SYM1677=LTDIE_167 - Ldebug_info_start
+	.long LDIFF_SYM1677
+LTDIE_167_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1688=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM1688
+LDIFF_SYM1678=LTDIE_167 - Ldebug_info_start
+	.long LDIFF_SYM1678
 	.byte 2
 	.asciz "Firebase.Auth.Auth:SignInWithProvider"
 	.asciz "Firebase_Auth_Auth_SignInWithProvider_Firebase_Auth_IFederatedAuthProvider_Firebase_Auth_IAuthUIDelegate_Firebase_Auth_AuthDataResultHandler"
@@ -109766,47 +109710,47 @@ LDIFF_SYM1688=LTDIE_169 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1689=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1689
+LDIFF_SYM1679=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1679
 	.byte 1,103,3
 	.asciz "provider"
 
-LDIFF_SYM1690=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1690
+LDIFF_SYM1680=LTDIE_166_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1680
 	.byte 1,104,3
 	.asciz "uiDelegate"
 
-LDIFF_SYM1691=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1691
+LDIFF_SYM1681=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1681
 	.byte 3,141,208,0,3
 	.asciz "completion"
 
-LDIFF_SYM1692=LTDIE_20_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1692
+LDIFF_SYM1682=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1682
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1693=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1693
+LDIFF_SYM1683=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1683
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM1694=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1694
+LDIFF_SYM1684=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1684
 	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1695=Lfde173_end - Lfde173_start
-	.long LDIFF_SYM1695
+LDIFF_SYM1685=Lfde173_end - Lfde173_start
+	.long LDIFF_SYM1685
 Lfde173_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_SignInWithProvider_Firebase_Auth_IFederatedAuthProvider_Firebase_Auth_IAuthUIDelegate_Firebase_Auth_AuthDataResultHandler
 
-LDIFF_SYM1696=Lme_12e - Firebase_Auth_Auth_SignInWithProvider_Firebase_Auth_IFederatedAuthProvider_Firebase_Auth_IAuthUIDelegate_Firebase_Auth_AuthDataResultHandler
-	.long LDIFF_SYM1696
+LDIFF_SYM1686=Lme_12e - Firebase_Auth_Auth_SignInWithProvider_Firebase_Auth_IFederatedAuthProvider_Firebase_Auth_IAuthUIDelegate_Firebase_Auth_AuthDataResultHandler
+	.long LDIFF_SYM1686
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19,68,151,18,152,17,68,153,16
 	.byte 154,15
@@ -109814,34 +109758,34 @@ LDIFF_SYM1696=Lme_12e - Firebase_Auth_Auth_SignInWithProvider_Firebase_Auth_IFed
 Lfde173_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_170:
+LTDIE_168:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass49_0"
 
 	.byte 24,16
-LDIFF_SYM1697=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1697
+LDIFF_SYM1687=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1687
 	.byte 2,35,0,6
 	.asciz "tcs"
 
-LDIFF_SYM1698=LTDIE_147_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1698
+LDIFF_SYM1688=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1688
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass49_0"
 
-LDIFF_SYM1699=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM1699
-LTDIE_170_POINTER:
+LDIFF_SYM1689=LTDIE_168 - Ldebug_info_start
+	.long LDIFF_SYM1689
+LTDIE_168_POINTER:
 
 	.byte 13
-LDIFF_SYM1700=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM1700
-LTDIE_170_REFERENCE:
+LDIFF_SYM1690=LTDIE_168 - Ldebug_info_start
+	.long LDIFF_SYM1690
+LTDIE_168_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1701=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM1701
+LDIFF_SYM1691=LTDIE_168 - Ldebug_info_start
+	.long LDIFF_SYM1691
 	.byte 2
 	.asciz "Firebase.Auth.Auth:SignInWithProviderAsync"
 	.asciz "Firebase_Auth_Auth_SignInWithProviderAsync_Firebase_Auth_IFederatedAuthProvider_Firebase_Auth_IAuthUIDelegate"
@@ -109853,37 +109797,37 @@ LDIFF_SYM1701=LTDIE_170 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1702=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1702
+LDIFF_SYM1692=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1692
 	.byte 2,141,24,3
 	.asciz "provider"
 
-LDIFF_SYM1703=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1703
+LDIFF_SYM1693=LTDIE_166_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1693
 	.byte 2,141,32,3
 	.asciz "uiDelegate"
 
-LDIFF_SYM1704=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1704
+LDIFF_SYM1694=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1694
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM1705=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1705
+LDIFF_SYM1695=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1695
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1706=Lfde174_end - Lfde174_start
-	.long LDIFF_SYM1706
+LDIFF_SYM1696=Lfde174_end - Lfde174_start
+	.long LDIFF_SYM1696
 Lfde174_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_SignInWithProviderAsync_Firebase_Auth_IFederatedAuthProvider_Firebase_Auth_IAuthUIDelegate
 
-LDIFF_SYM1707=Lme_12f - Firebase_Auth_Auth_SignInWithProviderAsync_Firebase_Auth_IFederatedAuthProvider_Firebase_Auth_IAuthUIDelegate
-	.long LDIFF_SYM1707
+LDIFF_SYM1697=Lme_12f - Firebase_Auth_Auth_SignInWithProviderAsync_Firebase_Auth_IFederatedAuthProvider_Firebase_Auth_IAuthUIDelegate
+	.long LDIFF_SYM1697
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16
 	.align 3
@@ -109902,37 +109846,37 @@ Lfde174_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1708=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1708
+LDIFF_SYM1698=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1698
 	.byte 1,105,3
 	.asciz "error"
 
-LDIFF_SYM1709=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1709
+LDIFF_SYM1699=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1699
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM1710=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1710
+LDIFF_SYM1700=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1700
 	.byte 3,141,192,0,11
 	.asciz "V_1"
 
-LDIFF_SYM1711=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1711
+LDIFF_SYM1701=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1701
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1712=Lfde175_end - Lfde175_start
-	.long LDIFF_SYM1712
+LDIFF_SYM1702=Lfde175_end - Lfde175_start
+	.long LDIFF_SYM1702
 Lfde175_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_SignOut_Foundation_NSError_
 
-LDIFF_SYM1713=Lme_130 - Firebase_Auth_Auth_SignOut_Foundation_NSError_
-	.long LDIFF_SYM1713
+LDIFF_SYM1703=Lme_130 - Firebase_Auth_Auth_SignOut_Foundation_NSError_
+	.long LDIFF_SYM1703
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11
 	.align 3
@@ -109951,76 +109895,76 @@ Lfde175_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1714=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1714
+LDIFF_SYM1704=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1704
 	.byte 1,104,3
 	.asciz "user"
 
-LDIFF_SYM1715=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1715
+LDIFF_SYM1705=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1705
 	.byte 1,105,3
 	.asciz "completion"
 
-LDIFF_SYM1716=LTDIE_71_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1716
+LDIFF_SYM1706=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1706
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1717=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1717
+LDIFF_SYM1707=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1707
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1718=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1718
+LDIFF_SYM1708=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1708
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1719=Lfde176_end - Lfde176_start
-	.long LDIFF_SYM1719
+LDIFF_SYM1709=Lfde176_end - Lfde176_start
+	.long LDIFF_SYM1709
 Lfde176_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_UpdateCurrentUser_Firebase_Auth_User_Firebase_Auth_UserUpdateHandler
 
-LDIFF_SYM1720=Lme_131 - Firebase_Auth_Auth_UpdateCurrentUser_Firebase_Auth_User_Firebase_Auth_UserUpdateHandler
-	.long LDIFF_SYM1720
+LDIFF_SYM1710=Lme_131 - Firebase_Auth_Auth_UpdateCurrentUser_Firebase_Auth_User_Firebase_Auth_UserUpdateHandler
+	.long LDIFF_SYM1710
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,152,17,68,153,16,154,15
 	.align 3
 Lfde176_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_171:
+LTDIE_169:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass52_0"
 
 	.byte 24,16
-LDIFF_SYM1721=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1721
+LDIFF_SYM1711=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1711
 	.byte 2,35,0,6
 	.asciz "tcs"
 
-LDIFF_SYM1722=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1722
+LDIFF_SYM1712=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1712
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass52_0"
 
-LDIFF_SYM1723=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM1723
-LTDIE_171_POINTER:
+LDIFF_SYM1713=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1713
+LTDIE_169_POINTER:
 
 	.byte 13
-LDIFF_SYM1724=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM1724
-LTDIE_171_REFERENCE:
+LDIFF_SYM1714=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1714
+LTDIE_169_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1725=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM1725
+LDIFF_SYM1715=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1715
 	.byte 2
 	.asciz "Firebase.Auth.Auth:UpdateCurrentUserAsync"
 	.asciz "Firebase_Auth_Auth_UpdateCurrentUserAsync_Firebase_Auth_User"
@@ -110032,32 +109976,32 @@ LDIFF_SYM1725=LTDIE_171 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1726=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1726
+LDIFF_SYM1716=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1716
 	.byte 2,141,24,3
 	.asciz "user"
 
-LDIFF_SYM1727=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1727
+LDIFF_SYM1717=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1717
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM1728=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1728
+LDIFF_SYM1718=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1718
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1729=Lfde177_end - Lfde177_start
-	.long LDIFF_SYM1729
+LDIFF_SYM1719=Lfde177_end - Lfde177_start
+	.long LDIFF_SYM1719
 Lfde177_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_UpdateCurrentUserAsync_Firebase_Auth_User
 
-LDIFF_SYM1730=Lme_132 - Firebase_Auth_Auth_UpdateCurrentUserAsync_Firebase_Auth_User
-	.long LDIFF_SYM1730
+LDIFF_SYM1720=Lme_132 - Firebase_Auth_Auth_UpdateCurrentUserAsync_Firebase_Auth_User
+	.long LDIFF_SYM1720
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14
 	.align 3
@@ -110076,22 +110020,22 @@ Lfde177_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1731=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1731
+LDIFF_SYM1721=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1721
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1732=Lfde178_end - Lfde178_start
-	.long LDIFF_SYM1732
+LDIFF_SYM1722=Lfde178_end - Lfde178_start
+	.long LDIFF_SYM1722
 Lfde178_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_UseAppLanguage
 
-LDIFF_SYM1733=Lme_133 - Firebase_Auth_Auth_UseAppLanguage
-	.long LDIFF_SYM1733
+LDIFF_SYM1723=Lme_133 - Firebase_Auth_Auth_UseAppLanguage
+	.long LDIFF_SYM1723
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
@@ -110110,47 +110054,47 @@ Lfde178_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1734=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1734
+LDIFF_SYM1724=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1724
 	.byte 1,104,3
 	.asciz "accessGroup"
 
-LDIFF_SYM1735=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1735
+LDIFF_SYM1725=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1725
 	.byte 2,141,40,3
 	.asciz "outError"
 
-LDIFF_SYM1736=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1736
+LDIFF_SYM1726=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1726
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM1737=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1737
+LDIFF_SYM1727=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1727
 	.byte 3,141,208,0,11
 	.asciz "V_1"
 
-LDIFF_SYM1738=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1738
+LDIFF_SYM1728=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1728
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1739=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1739
+LDIFF_SYM1729=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1729
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1740=Lfde179_end - Lfde179_start
-	.long LDIFF_SYM1740
+LDIFF_SYM1730=Lfde179_end - Lfde179_start
+	.long LDIFF_SYM1730
 Lfde179_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_UseUserAccessGroup_string_Foundation_NSError_
 
-LDIFF_SYM1741=Lme_134 - Firebase_Auth_Auth_UseUserAccessGroup_string_Foundation_NSError_
-	.long LDIFF_SYM1741
+LDIFF_SYM1731=Lme_134 - Firebase_Auth_Auth_UseUserAccessGroup_string_Foundation_NSError_
+	.long LDIFF_SYM1731
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68,152,12
 	.align 3
@@ -110169,137 +110113,137 @@ Lfde179_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1742=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1742
+LDIFF_SYM1732=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1732
 	.byte 1,104,3
 	.asciz "code"
 
-LDIFF_SYM1743=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1743
+LDIFF_SYM1733=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1733
 	.byte 1,105,3
 	.asciz "completion"
 
-LDIFF_SYM1744=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1744
+LDIFF_SYM1734=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1734
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1745=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1745
+LDIFF_SYM1735=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1735
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1746=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1746
+LDIFF_SYM1736=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1736
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1747=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1747
+LDIFF_SYM1737=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1737
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1748=Lfde180_end - Lfde180_start
-	.long LDIFF_SYM1748
+LDIFF_SYM1738=Lfde180_end - Lfde180_start
+	.long LDIFF_SYM1738
 Lfde180_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_VerifyPasswordResetCode_string_Firebase_Auth_VerifyPasswordResetCodeHandler
 
-LDIFF_SYM1749=Lme_135 - Firebase_Auth_Auth_VerifyPasswordResetCode_string_Firebase_Auth_VerifyPasswordResetCodeHandler
-	.long LDIFF_SYM1749
+LDIFF_SYM1739=Lme_135 - Firebase_Auth_Auth_VerifyPasswordResetCode_string_Firebase_Auth_VerifyPasswordResetCodeHandler
+	.long LDIFF_SYM1739
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15,68,154,14
 	.align 3
 Lfde180_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_174:
+LTDIE_172:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM1750=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM1750
+LDIFF_SYM1740=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM1740
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM1751=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1751
+LDIFF_SYM1741=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1741
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM1752=LTDIE_174 - Ldebug_info_start
-	.long LDIFF_SYM1752
-LTDIE_174_POINTER:
-
-	.byte 13
-LDIFF_SYM1753=LTDIE_174 - Ldebug_info_start
-	.long LDIFF_SYM1753
-LTDIE_174_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1754=LTDIE_174 - Ldebug_info_start
-	.long LDIFF_SYM1754
-LTDIE_173:
-
-	.byte 5
-	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
-
-	.byte 24,16
-LDIFF_SYM1755=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1755
-	.byte 2,35,0,6
-	.asciz "_task"
-
-LDIFF_SYM1756=LTDIE_174_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1756
-	.byte 2,35,16,0,7
-	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
-
-LDIFF_SYM1757=LTDIE_173 - Ldebug_info_start
-	.long LDIFF_SYM1757
-LTDIE_173_POINTER:
-
-	.byte 13
-LDIFF_SYM1758=LTDIE_173 - Ldebug_info_start
-	.long LDIFF_SYM1758
-LTDIE_173_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1759=LTDIE_173 - Ldebug_info_start
-	.long LDIFF_SYM1759
-LTDIE_172:
-
-	.byte 5
-	.asciz "_<>c__DisplayClass56_0"
-
-	.byte 24,16
-LDIFF_SYM1760=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1760
-	.byte 2,35,0,6
-	.asciz "tcs"
-
-LDIFF_SYM1761=LTDIE_173_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1761
-	.byte 2,35,16,0,7
-	.asciz "_<>c__DisplayClass56_0"
-
-LDIFF_SYM1762=LTDIE_172 - Ldebug_info_start
-	.long LDIFF_SYM1762
+LDIFF_SYM1742=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1742
 LTDIE_172_POINTER:
 
 	.byte 13
-LDIFF_SYM1763=LTDIE_172 - Ldebug_info_start
-	.long LDIFF_SYM1763
+LDIFF_SYM1743=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1743
 LTDIE_172_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1764=LTDIE_172 - Ldebug_info_start
-	.long LDIFF_SYM1764
+LDIFF_SYM1744=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1744
+LTDIE_171:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
+
+	.byte 24,16
+LDIFF_SYM1745=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1745
+	.byte 2,35,0,6
+	.asciz "_task"
+
+LDIFF_SYM1746=LTDIE_172_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1746
+	.byte 2,35,16,0,7
+	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
+
+LDIFF_SYM1747=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1747
+LTDIE_171_POINTER:
+
+	.byte 13
+LDIFF_SYM1748=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1748
+LTDIE_171_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1749=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1749
+LTDIE_170:
+
+	.byte 5
+	.asciz "_<>c__DisplayClass56_0"
+
+	.byte 24,16
+LDIFF_SYM1750=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1750
+	.byte 2,35,0,6
+	.asciz "tcs"
+
+LDIFF_SYM1751=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1751
+	.byte 2,35,16,0,7
+	.asciz "_<>c__DisplayClass56_0"
+
+LDIFF_SYM1752=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1752
+LTDIE_170_POINTER:
+
+	.byte 13
+LDIFF_SYM1753=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1753
+LTDIE_170_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1754=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1754
 	.byte 2
 	.asciz "Firebase.Auth.Auth:VerifyPasswordResetCodeAsync"
 	.asciz "Firebase_Auth_Auth_VerifyPasswordResetCodeAsync_string"
@@ -110311,32 +110255,32 @@ LDIFF_SYM1764=LTDIE_172 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1765=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1765
+LDIFF_SYM1755=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1755
 	.byte 2,141,24,3
 	.asciz "code"
 
-LDIFF_SYM1766=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1766
+LDIFF_SYM1756=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1756
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM1767=LTDIE_172_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1767
+LDIFF_SYM1757=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1757
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1768=Lfde181_end - Lfde181_start
-	.long LDIFF_SYM1768
+LDIFF_SYM1758=Lfde181_end - Lfde181_start
+	.long LDIFF_SYM1758
 Lfde181_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_VerifyPasswordResetCodeAsync_string
 
-LDIFF_SYM1769=Lme_136 - Firebase_Auth_Auth_VerifyPasswordResetCodeAsync_string
-	.long LDIFF_SYM1769
+LDIFF_SYM1759=Lme_136 - Firebase_Auth_Auth_VerifyPasswordResetCodeAsync_string
+	.long LDIFF_SYM1759
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14
 	.align 3
@@ -110355,27 +110299,27 @@ Lfde181_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1770=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1770
+LDIFF_SYM1760=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1760
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1771=LTDIE_158_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1771
+LDIFF_SYM1761=LTDIE_158_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1761
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1772=Lfde182_end - Lfde182_start
-	.long LDIFF_SYM1772
+LDIFF_SYM1762=Lfde182_end - Lfde182_start
+	.long LDIFF_SYM1762
 Lfde182_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_get_ApnsToken
 
-LDIFF_SYM1773=Lme_137 - Firebase_Auth_Auth_get_ApnsToken
-	.long LDIFF_SYM1773
+LDIFF_SYM1763=Lme_137 - Firebase_Auth_Auth_get_ApnsToken
+	.long LDIFF_SYM1763
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -110394,27 +110338,27 @@ Lfde182_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1774=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1774
+LDIFF_SYM1764=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1764
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1775=LTDIE_158_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1775
+LDIFF_SYM1765=LTDIE_158_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1765
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1776=Lfde183_end - Lfde183_start
-	.long LDIFF_SYM1776
+LDIFF_SYM1766=Lfde183_end - Lfde183_start
+	.long LDIFF_SYM1766
 Lfde183_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_set_ApnsToken_Foundation_NSData
 
-LDIFF_SYM1777=Lme_138 - Firebase_Auth_Auth_set_ApnsToken_Foundation_NSData
-	.long LDIFF_SYM1777
+LDIFF_SYM1767=Lme_138 - Firebase_Auth_Auth_set_ApnsToken_Foundation_NSData
+	.long LDIFF_SYM1767
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -110433,27 +110377,27 @@ Lfde183_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1778=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1778
+LDIFF_SYM1768=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1768
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1779=LTDIE_153_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1779
+LDIFF_SYM1769=LTDIE_153_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1769
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1780=Lfde184_end - Lfde184_start
-	.long LDIFF_SYM1780
+LDIFF_SYM1770=Lfde184_end - Lfde184_start
+	.long LDIFF_SYM1770
 Lfde184_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_get_App
 
-LDIFF_SYM1781=Lme_139 - Firebase_Auth_Auth_get_App
-	.long LDIFF_SYM1781
+LDIFF_SYM1771=Lme_139 - Firebase_Auth_Auth_get_App
+	.long LDIFF_SYM1771
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -110472,27 +110416,27 @@ Lfde184_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1782=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1782
+LDIFF_SYM1772=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1772
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1783=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1783
+LDIFF_SYM1773=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1773
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1784=Lfde185_end - Lfde185_start
-	.long LDIFF_SYM1784
+LDIFF_SYM1774=Lfde185_end - Lfde185_start
+	.long LDIFF_SYM1774
 Lfde185_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_get_CurrentUser
 
-LDIFF_SYM1785=Lme_13a - Firebase_Auth_Auth_get_CurrentUser
-	.long LDIFF_SYM1785
+LDIFF_SYM1775=Lme_13a - Firebase_Auth_Auth_get_CurrentUser
+	.long LDIFF_SYM1775
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -110512,16 +110456,16 @@ Lfde185_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1786=Lfde186_end - Lfde186_start
-	.long LDIFF_SYM1786
+LDIFF_SYM1776=Lfde186_end - Lfde186_start
+	.long LDIFF_SYM1776
 Lfde186_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_get_DefaultInstance
 
-LDIFF_SYM1787=Lme_13b - Firebase_Auth_Auth_get_DefaultInstance
-	.long LDIFF_SYM1787
+LDIFF_SYM1777=Lme_13b - Firebase_Auth_Auth_get_DefaultInstance
+	.long LDIFF_SYM1777
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -110540,22 +110484,22 @@ Lfde186_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1788=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1788
+LDIFF_SYM1778=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1778
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1789=Lfde187_end - Lfde187_start
-	.long LDIFF_SYM1789
+LDIFF_SYM1779=Lfde187_end - Lfde187_start
+	.long LDIFF_SYM1779
 Lfde187_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_get_LanguageCode
 
-LDIFF_SYM1790=Lme_13c - Firebase_Auth_Auth_get_LanguageCode
-	.long LDIFF_SYM1790
+LDIFF_SYM1780=Lme_13c - Firebase_Auth_Auth_get_LanguageCode
+	.long LDIFF_SYM1780
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -110574,61 +110518,61 @@ Lfde187_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1791=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1791
+LDIFF_SYM1781=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1781
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1792=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1792
+LDIFF_SYM1782=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1782
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM1793=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1793
+LDIFF_SYM1783=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1783
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1794=Lfde188_end - Lfde188_start
-	.long LDIFF_SYM1794
+LDIFF_SYM1784=Lfde188_end - Lfde188_start
+	.long LDIFF_SYM1784
 Lfde188_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_set_LanguageCode_string
 
-LDIFF_SYM1795=Lme_13d - Firebase_Auth_Auth_set_LanguageCode_string
-	.long LDIFF_SYM1795
+LDIFF_SYM1785=Lme_13d - Firebase_Auth_Auth_set_LanguageCode_string
+	.long LDIFF_SYM1785
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7
 	.align 3
 Lfde188_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_175:
+LTDIE_173:
 
 	.byte 5
 	.asciz "Firebase_Auth_AuthSettings"
 
 	.byte 40,16
-LDIFF_SYM1796=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM1796
+LDIFF_SYM1786=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM1786
 	.byte 2,35,0,0,7
 	.asciz "Firebase_Auth_AuthSettings"
 
-LDIFF_SYM1797=LTDIE_175 - Ldebug_info_start
-	.long LDIFF_SYM1797
-LTDIE_175_POINTER:
+LDIFF_SYM1787=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1787
+LTDIE_173_POINTER:
 
 	.byte 13
-LDIFF_SYM1798=LTDIE_175 - Ldebug_info_start
-	.long LDIFF_SYM1798
-LTDIE_175_REFERENCE:
+LDIFF_SYM1788=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1788
+LTDIE_173_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1799=LTDIE_175 - Ldebug_info_start
-	.long LDIFF_SYM1799
+LDIFF_SYM1789=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1789
 	.byte 2
 	.asciz "Firebase.Auth.Auth:get_Settings"
 	.asciz "Firebase_Auth_Auth_get_Settings"
@@ -110640,27 +110584,27 @@ LDIFF_SYM1799=LTDIE_175 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1800=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1800
+LDIFF_SYM1790=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1790
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1801=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1801
+LDIFF_SYM1791=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1791
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1802=Lfde189_end - Lfde189_start
-	.long LDIFF_SYM1802
+LDIFF_SYM1792=Lfde189_end - Lfde189_start
+	.long LDIFF_SYM1792
 Lfde189_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_get_Settings
 
-LDIFF_SYM1803=Lme_13e - Firebase_Auth_Auth_get_Settings
-	.long LDIFF_SYM1803
+LDIFF_SYM1793=Lme_13e - Firebase_Auth_Auth_get_Settings
+	.long LDIFF_SYM1793
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -110679,27 +110623,27 @@ Lfde189_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1804=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1804
+LDIFF_SYM1794=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1794
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1805=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1805
+LDIFF_SYM1795=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1795
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1806=Lfde190_end - Lfde190_start
-	.long LDIFF_SYM1806
+LDIFF_SYM1796=Lfde190_end - Lfde190_start
+	.long LDIFF_SYM1796
 Lfde190_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_set_Settings_Firebase_Auth_AuthSettings
 
-LDIFF_SYM1807=Lme_13f - Firebase_Auth_Auth_set_Settings_Firebase_Auth_AuthSettings
-	.long LDIFF_SYM1807
+LDIFF_SYM1797=Lme_13f - Firebase_Auth_Auth_set_Settings_Firebase_Auth_AuthSettings
+	.long LDIFF_SYM1797
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -110718,22 +110662,22 @@ Lfde190_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1808=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1808
+LDIFF_SYM1798=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1798
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1809=Lfde191_end - Lfde191_start
-	.long LDIFF_SYM1809
+LDIFF_SYM1799=Lfde191_end - Lfde191_start
+	.long LDIFF_SYM1799
 Lfde191_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_get_UserAccessGroup
 
-LDIFF_SYM1810=Lme_140 - Firebase_Auth_Auth_get_UserAccessGroup
-	.long LDIFF_SYM1810
+LDIFF_SYM1800=Lme_140 - Firebase_Auth_Auth_get_UserAccessGroup
+	.long LDIFF_SYM1800
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -110753,16 +110697,16 @@ Lfde191_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1811=Lfde192_end - Lfde192_start
-	.long LDIFF_SYM1811
+LDIFF_SYM1801=Lfde192_end - Lfde192_start
+	.long LDIFF_SYM1801
 Lfde192_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_get_CurrentVersionNumber
 
-LDIFF_SYM1812=Lme_141 - Firebase_Auth_Auth_get_CurrentVersionNumber
-	.long LDIFF_SYM1812
+LDIFF_SYM1802=Lme_141 - Firebase_Auth_Auth_get_CurrentVersionNumber
+	.long LDIFF_SYM1802
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -110782,16 +110726,16 @@ Lfde192_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1813=Lfde193_end - Lfde193_start
-	.long LDIFF_SYM1813
+LDIFF_SYM1803=Lfde193_end - Lfde193_start
+	.long LDIFF_SYM1803
 Lfde193_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_get_ErrorDomain
 
-LDIFF_SYM1814=Lme_142 - Firebase_Auth_Auth_get_ErrorDomain
-	.long LDIFF_SYM1814
+LDIFF_SYM1804=Lme_142 - Firebase_Auth_Auth_get_ErrorDomain
+	.long LDIFF_SYM1804
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -110811,16 +110755,16 @@ Lfde193_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1815=Lfde194_end - Lfde194_start
-	.long LDIFF_SYM1815
+LDIFF_SYM1805=Lfde194_end - Lfde194_start
+	.long LDIFF_SYM1805
 Lfde194_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_get_ErrorUserInfoEmailKey
 
-LDIFF_SYM1816=Lme_143 - Firebase_Auth_Auth_get_ErrorUserInfoEmailKey
-	.long LDIFF_SYM1816
+LDIFF_SYM1806=Lme_143 - Firebase_Auth_Auth_get_ErrorUserInfoEmailKey
+	.long LDIFF_SYM1806
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -110840,16 +110784,16 @@ Lfde194_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1817=Lfde195_end - Lfde195_start
-	.long LDIFF_SYM1817
+LDIFF_SYM1807=Lfde195_end - Lfde195_start
+	.long LDIFF_SYM1807
 Lfde195_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_get_ErrorUserInfoNameKey
 
-LDIFF_SYM1818=Lme_144 - Firebase_Auth_Auth_get_ErrorUserInfoNameKey
-	.long LDIFF_SYM1818
+LDIFF_SYM1808=Lme_144 - Firebase_Auth_Auth_get_ErrorUserInfoNameKey
+	.long LDIFF_SYM1808
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -110869,16 +110813,16 @@ Lfde195_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1819=Lfde196_end - Lfde196_start
-	.long LDIFF_SYM1819
+LDIFF_SYM1809=Lfde196_end - Lfde196_start
+	.long LDIFF_SYM1809
 Lfde196_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_get_ErrorUserInfoUpdatedCredentialKey
 
-LDIFF_SYM1820=Lme_145 - Firebase_Auth_Auth_get_ErrorUserInfoUpdatedCredentialKey
-	.long LDIFF_SYM1820
+LDIFF_SYM1810=Lme_145 - Firebase_Auth_Auth_get_ErrorUserInfoUpdatedCredentialKey
+	.long LDIFF_SYM1810
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -110898,16 +110842,16 @@ Lfde196_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1821=Lfde197_end - Lfde197_start
-	.long LDIFF_SYM1821
+LDIFF_SYM1811=Lfde197_end - Lfde197_start
+	.long LDIFF_SYM1811
 Lfde197_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_get_StateDidChangeNotification
 
-LDIFF_SYM1822=Lme_146 - Firebase_Auth_Auth_get_StateDidChangeNotification
-	.long LDIFF_SYM1822
+LDIFF_SYM1812=Lme_146 - Firebase_Auth_Auth_get_StateDidChangeNotification
+	.long LDIFF_SYM1812
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -110927,16 +110871,16 @@ Lfde197_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1823=Lfde198_end - Lfde198_start
-	.long LDIFF_SYM1823
+LDIFF_SYM1813=Lfde198_end - Lfde198_start
+	.long LDIFF_SYM1813
 Lfde198_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_get__CurrentVersion
 
-LDIFF_SYM1824=Lme_147 - Firebase_Auth_Auth_get__CurrentVersion
-	.long LDIFF_SYM1824
+LDIFF_SYM1814=Lme_147 - Firebase_Auth_Auth_get__CurrentVersion
+	.long LDIFF_SYM1814
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -110955,27 +110899,27 @@ Lfde198_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1825=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1825
+LDIFF_SYM1815=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1815
 	.byte 1,105,3
 	.asciz "disposing"
 
-LDIFF_SYM1826=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1826
+LDIFF_SYM1816=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1816
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1827=Lfde199_end - Lfde199_start
-	.long LDIFF_SYM1827
+LDIFF_SYM1817=Lfde199_end - Lfde199_start
+	.long LDIFF_SYM1817
 Lfde199_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_Dispose_bool
 
-LDIFF_SYM1828=Lme_148 - Firebase_Auth_Auth_Dispose_bool
-	.long LDIFF_SYM1828
+LDIFF_SYM1818=Lme_148 - Firebase_Auth_Auth_Dispose_bool
+	.long LDIFF_SYM1818
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
@@ -110995,73 +110939,73 @@ Lfde199_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1829=Lfde200_end - Lfde200_start
-	.long LDIFF_SYM1829
+LDIFF_SYM1819=Lfde200_end - Lfde200_start
+	.long LDIFF_SYM1819
 Lfde200_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__cctor
 
-LDIFF_SYM1830=Lme_149 - Firebase_Auth_Auth__cctor
-	.long LDIFF_SYM1830
+LDIFF_SYM1820=Lme_149 - Firebase_Auth_Auth__cctor
+	.long LDIFF_SYM1820
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde200_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_176:
+LTDIE_174:
 
 	.byte 5
 	.asciz "System_EventHandler`1"
 
 	.byte 128,1,16
-LDIFF_SYM1831=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1831
+LDIFF_SYM1821=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1821
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM1832=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM1832
-LTDIE_176_POINTER:
+LDIFF_SYM1822=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1822
+LTDIE_174_POINTER:
 
 	.byte 13
-LDIFF_SYM1833=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM1833
-LTDIE_176_REFERENCE:
+LDIFF_SYM1823=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1823
+LTDIE_174_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1834=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM1834
-LTDIE_177:
+LDIFF_SYM1824=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1824
+LTDIE_175:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass0_0"
 
 	.byte 24,16
-LDIFF_SYM1835=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1835
+LDIFF_SYM1825=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1825
 	.byte 2,35,0,6
 	.asciz "handler"
 
-LDIFF_SYM1836=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1836
+LDIFF_SYM1826=LTDIE_174_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1826
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass0_0"
 
-LDIFF_SYM1837=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1837
-LTDIE_177_POINTER:
+LDIFF_SYM1827=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1827
+LTDIE_175_POINTER:
 
 	.byte 13
-LDIFF_SYM1838=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1838
-LTDIE_177_REFERENCE:
+LDIFF_SYM1828=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1828
+LTDIE_175_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1839=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1839
+LDIFF_SYM1829=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1829
 	.byte 2
 	.asciz "Firebase.Auth.Auth/Notifications:ObserveStateDidChange"
 	.asciz "Firebase_Auth_Auth_Notifications_ObserveStateDidChange_System_EventHandler_1_Foundation_NSNotificationEventArgs"
@@ -111073,61 +111017,61 @@ LDIFF_SYM1839=LTDIE_177 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "handler"
 
-LDIFF_SYM1840=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1840
+LDIFF_SYM1830=LTDIE_174_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1830
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1841=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1841
+LDIFF_SYM1831=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1831
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1842=Lfde201_end - Lfde201_start
-	.long LDIFF_SYM1842
+LDIFF_SYM1832=Lfde201_end - Lfde201_start
+	.long LDIFF_SYM1832
 Lfde201_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_Notifications_ObserveStateDidChange_System_EventHandler_1_Foundation_NSNotificationEventArgs
 
-LDIFF_SYM1843=Lme_14a - Firebase_Auth_Auth_Notifications_ObserveStateDidChange_System_EventHandler_1_Foundation_NSNotificationEventArgs
-	.long LDIFF_SYM1843
+LDIFF_SYM1833=Lme_14a - Firebase_Auth_Auth_Notifications_ObserveStateDidChange_System_EventHandler_1_Foundation_NSNotificationEventArgs
+	.long LDIFF_SYM1833
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12
 	.align 3
 Lfde201_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_178:
+LTDIE_176:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass1_0"
 
 	.byte 24,16
-LDIFF_SYM1844=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1844
+LDIFF_SYM1834=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1834
 	.byte 2,35,0,6
 	.asciz "handler"
 
-LDIFF_SYM1845=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1845
+LDIFF_SYM1835=LTDIE_174_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1835
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass1_0"
 
-LDIFF_SYM1846=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1846
-LTDIE_178_POINTER:
+LDIFF_SYM1836=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1836
+LTDIE_176_POINTER:
 
 	.byte 13
-LDIFF_SYM1847=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1847
-LTDIE_178_REFERENCE:
+LDIFF_SYM1837=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1837
+LTDIE_176_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1848=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1848
+LDIFF_SYM1838=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1838
 	.byte 2
 	.asciz "Firebase.Auth.Auth/Notifications:ObserveStateDidChange"
 	.asciz "Firebase_Auth_Auth_Notifications_ObserveStateDidChange_Foundation_NSObject_System_EventHandler_1_Foundation_NSNotificationEventArgs"
@@ -111139,32 +111083,32 @@ LDIFF_SYM1848=LTDIE_178 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "objectToObserve"
 
-LDIFF_SYM1849=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1849
+LDIFF_SYM1839=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1839
 	.byte 2,141,24,3
 	.asciz "handler"
 
-LDIFF_SYM1850=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1850
+LDIFF_SYM1840=LTDIE_174_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1840
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM1851=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1851
+LDIFF_SYM1841=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1841
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1852=Lfde202_end - Lfde202_start
-	.long LDIFF_SYM1852
+LDIFF_SYM1842=Lfde202_end - Lfde202_start
+	.long LDIFF_SYM1842
 Lfde202_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_Notifications_ObserveStateDidChange_Foundation_NSObject_System_EventHandler_1_Foundation_NSNotificationEventArgs
 
-LDIFF_SYM1853=Lme_14b - Firebase_Auth_Auth_Notifications_ObserveStateDidChange_Foundation_NSObject_System_EventHandler_1_Foundation_NSNotificationEventArgs
-	.long LDIFF_SYM1853
+LDIFF_SYM1843=Lme_14b - Firebase_Auth_Auth_Notifications_ObserveStateDidChange_Foundation_NSObject_System_EventHandler_1_Foundation_NSNotificationEventArgs
+	.long LDIFF_SYM1843
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12
 	.align 3
@@ -111183,51 +111127,51 @@ Lfde202_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1854=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1854
+LDIFF_SYM1844=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1844
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1855=Lfde203_end - Lfde203_start
-	.long LDIFF_SYM1855
+LDIFF_SYM1845=Lfde203_end - Lfde203_start
+	.long LDIFF_SYM1845
 Lfde203_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_Notifications__c__DisplayClass0_0__ctor
 
-LDIFF_SYM1856=Lme_14c - Firebase_Auth_Auth_Notifications__c__DisplayClass0_0__ctor
-	.long LDIFF_SYM1856
+LDIFF_SYM1846=Lme_14c - Firebase_Auth_Auth_Notifications__c__DisplayClass0_0__ctor
+	.long LDIFF_SYM1846
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde203_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_179:
+LTDIE_177:
 
 	.byte 5
 	.asciz "Foundation_NSNotification"
 
 	.byte 40,16
-LDIFF_SYM1857=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM1857
+LDIFF_SYM1847=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM1847
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSNotification"
 
-LDIFF_SYM1858=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1858
-LTDIE_179_POINTER:
+LDIFF_SYM1848=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1848
+LTDIE_177_POINTER:
 
 	.byte 13
-LDIFF_SYM1859=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1859
-LTDIE_179_REFERENCE:
+LDIFF_SYM1849=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1849
+LTDIE_177_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1860=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1860
+LDIFF_SYM1850=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1850
 	.byte 2
 	.asciz "Firebase.Auth.Auth/Notifications/<>c__DisplayClass0_0:<ObserveStateDidChange>b__0"
 	.asciz "Firebase_Auth_Auth_Notifications__c__DisplayClass0_0__ObserveStateDidChangeb__0_Foundation_NSNotification"
@@ -111239,27 +111183,27 @@ LDIFF_SYM1860=LTDIE_179 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1861=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1861
+LDIFF_SYM1851=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1851
 	.byte 2,141,16,3
 	.asciz "notification"
 
-LDIFF_SYM1862=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1862
+LDIFF_SYM1852=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1852
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1863=Lfde204_end - Lfde204_start
-	.long LDIFF_SYM1863
+LDIFF_SYM1853=Lfde204_end - Lfde204_start
+	.long LDIFF_SYM1853
 Lfde204_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_Notifications__c__DisplayClass0_0__ObserveStateDidChangeb__0_Foundation_NSNotification
 
-LDIFF_SYM1864=Lme_14d - Firebase_Auth_Auth_Notifications__c__DisplayClass0_0__ObserveStateDidChangeb__0_Foundation_NSNotification
-	.long LDIFF_SYM1864
+LDIFF_SYM1854=Lme_14d - Firebase_Auth_Auth_Notifications__c__DisplayClass0_0__ObserveStateDidChangeb__0_Foundation_NSNotification
+	.long LDIFF_SYM1854
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
@@ -111278,22 +111222,22 @@ Lfde204_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1865=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1865
+LDIFF_SYM1855=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1855
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1866=Lfde205_end - Lfde205_start
-	.long LDIFF_SYM1866
+LDIFF_SYM1856=Lfde205_end - Lfde205_start
+	.long LDIFF_SYM1856
 Lfde205_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_Notifications__c__DisplayClass1_0__ctor
 
-LDIFF_SYM1867=Lme_14e - Firebase_Auth_Auth_Notifications__c__DisplayClass1_0__ctor
-	.long LDIFF_SYM1867
+LDIFF_SYM1857=Lme_14e - Firebase_Auth_Auth_Notifications__c__DisplayClass1_0__ctor
+	.long LDIFF_SYM1857
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -111312,27 +111256,27 @@ Lfde205_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1868=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1868
+LDIFF_SYM1858=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1858
 	.byte 2,141,16,3
 	.asciz "notification"
 
-LDIFF_SYM1869=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1869
+LDIFF_SYM1859=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1859
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1870=Lfde206_end - Lfde206_start
-	.long LDIFF_SYM1870
+LDIFF_SYM1860=Lfde206_end - Lfde206_start
+	.long LDIFF_SYM1860
 Lfde206_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth_Notifications__c__DisplayClass1_0__ObserveStateDidChangeb__0_Foundation_NSNotification
 
-LDIFF_SYM1871=Lme_14f - Firebase_Auth_Auth_Notifications__c__DisplayClass1_0__ObserveStateDidChangeb__0_Foundation_NSNotification
-	.long LDIFF_SYM1871
+LDIFF_SYM1861=Lme_14f - Firebase_Auth_Auth_Notifications__c__DisplayClass1_0__ObserveStateDidChangeb__0_Foundation_NSNotification
+	.long LDIFF_SYM1861
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
@@ -111351,22 +111295,22 @@ Lfde206_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1872=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1872
+LDIFF_SYM1862=LTDIE_85_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1862
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1873=Lfde207_end - Lfde207_start
-	.long LDIFF_SYM1873
+LDIFF_SYM1863=Lfde207_end - Lfde207_start
+	.long LDIFF_SYM1863
 Lfde207_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass11_0__ctor
 
-LDIFF_SYM1874=Lme_150 - Firebase_Auth_Auth__c__DisplayClass11_0__ctor
-	.long LDIFF_SYM1874
+LDIFF_SYM1864=Lme_150 - Firebase_Auth_Auth__c__DisplayClass11_0__ctor
+	.long LDIFF_SYM1864
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -111385,27 +111329,27 @@ Lfde207_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1875=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1875
+LDIFF_SYM1865=LTDIE_85_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1865
 	.byte 1,105,3
 	.asciz "error_"
 
-LDIFF_SYM1876=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1876
+LDIFF_SYM1866=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1866
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1877=Lfde208_end - Lfde208_start
-	.long LDIFF_SYM1877
+LDIFF_SYM1867=Lfde208_end - Lfde208_start
+	.long LDIFF_SYM1867
 Lfde208_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass11_0__ApplyActionCodeAsyncb__0_Foundation_NSError
 
-LDIFF_SYM1878=Lme_151 - Firebase_Auth_Auth__c__DisplayClass11_0__ApplyActionCodeAsyncb__0_Foundation_NSError
-	.long LDIFF_SYM1878
+LDIFF_SYM1868=Lme_151 - Firebase_Auth_Auth__c__DisplayClass11_0__ApplyActionCodeAsyncb__0_Foundation_NSError
+	.long LDIFF_SYM1868
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -111424,22 +111368,22 @@ Lfde208_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1879=LTDIE_142_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1879
+LDIFF_SYM1869=LTDIE_142_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1869
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1880=Lfde209_end - Lfde209_start
-	.long LDIFF_SYM1880
+LDIFF_SYM1870=Lfde209_end - Lfde209_start
+	.long LDIFF_SYM1870
 Lfde209_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass15_0__ctor
 
-LDIFF_SYM1881=Lme_152 - Firebase_Auth_Auth__c__DisplayClass15_0__ctor
-	.long LDIFF_SYM1881
+LDIFF_SYM1871=Lme_152 - Firebase_Auth_Auth__c__DisplayClass15_0__ctor
+	.long LDIFF_SYM1871
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -111458,32 +111402,32 @@ Lfde209_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1882=LTDIE_142_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1882
+LDIFF_SYM1872=LTDIE_142_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1872
 	.byte 1,104,3
 	.asciz "info_"
 
-LDIFF_SYM1883=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1883
+LDIFF_SYM1873=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1873
 	.byte 2,141,32,3
 	.asciz "error_"
 
-LDIFF_SYM1884=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1884
+LDIFF_SYM1874=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1874
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1885=Lfde210_end - Lfde210_start
-	.long LDIFF_SYM1885
+LDIFF_SYM1875=Lfde210_end - Lfde210_start
+	.long LDIFF_SYM1875
 Lfde210_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass15_0__CheckActionCodeAsyncb__0_Firebase_Auth_ActionCodeInfo_Foundation_NSError
 
-LDIFF_SYM1886=Lme_153 - Firebase_Auth_Auth__c__DisplayClass15_0__CheckActionCodeAsyncb__0_Firebase_Auth_ActionCodeInfo_Foundation_NSError
-	.long LDIFF_SYM1886
+LDIFF_SYM1876=Lme_153 - Firebase_Auth_Auth__c__DisplayClass15_0__CheckActionCodeAsyncb__0_Firebase_Auth_ActionCodeInfo_Foundation_NSError
+	.long LDIFF_SYM1876
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,68,154,7
 	.align 3
@@ -111502,22 +111446,22 @@ Lfde210_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1887=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1887
+LDIFF_SYM1877=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1877
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1888=Lfde211_end - Lfde211_start
-	.long LDIFF_SYM1888
+LDIFF_SYM1878=Lfde211_end - Lfde211_start
+	.long LDIFF_SYM1878
 Lfde211_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass17_0__ctor
 
-LDIFF_SYM1889=Lme_154 - Firebase_Auth_Auth__c__DisplayClass17_0__ctor
-	.long LDIFF_SYM1889
+LDIFF_SYM1879=Lme_154 - Firebase_Auth_Auth__c__DisplayClass17_0__ctor
+	.long LDIFF_SYM1879
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -111536,27 +111480,27 @@ Lfde211_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1890=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1890
+LDIFF_SYM1880=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1880
 	.byte 1,105,3
 	.asciz "erorr_"
 
-LDIFF_SYM1891=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1891
+LDIFF_SYM1881=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1881
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1892=Lfde212_end - Lfde212_start
-	.long LDIFF_SYM1892
+LDIFF_SYM1882=Lfde212_end - Lfde212_start
+	.long LDIFF_SYM1882
 Lfde212_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass17_0__ConfirmPasswordResetAsyncb__0_Foundation_NSError
 
-LDIFF_SYM1893=Lme_155 - Firebase_Auth_Auth__c__DisplayClass17_0__ConfirmPasswordResetAsyncb__0_Foundation_NSError
-	.long LDIFF_SYM1893
+LDIFF_SYM1883=Lme_155 - Firebase_Auth_Auth__c__DisplayClass17_0__ConfirmPasswordResetAsyncb__0_Foundation_NSError
+	.long LDIFF_SYM1883
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -111575,22 +111519,22 @@ Lfde212_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1894=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1894
+LDIFF_SYM1884=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1884
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1895=Lfde213_end - Lfde213_start
-	.long LDIFF_SYM1895
+LDIFF_SYM1885=Lfde213_end - Lfde213_start
+	.long LDIFF_SYM1885
 Lfde213_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass19_0__ctor
 
-LDIFF_SYM1896=Lme_156 - Firebase_Auth_Auth__c__DisplayClass19_0__ctor
-	.long LDIFF_SYM1896
+LDIFF_SYM1886=Lme_156 - Firebase_Auth_Auth__c__DisplayClass19_0__ctor
+	.long LDIFF_SYM1886
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -111609,32 +111553,32 @@ Lfde213_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1897=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1897
+LDIFF_SYM1887=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1887
 	.byte 1,104,3
 	.asciz "authResult_"
 
-LDIFF_SYM1898=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1898
+LDIFF_SYM1888=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1888
 	.byte 2,141,32,3
 	.asciz "error_"
 
-LDIFF_SYM1899=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1899
+LDIFF_SYM1889=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1889
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1900=Lfde214_end - Lfde214_start
-	.long LDIFF_SYM1900
+LDIFF_SYM1890=Lfde214_end - Lfde214_start
+	.long LDIFF_SYM1890
 Lfde214_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass19_0__CreateUserAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
 
-LDIFF_SYM1901=Lme_157 - Firebase_Auth_Auth__c__DisplayClass19_0__CreateUserAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
-	.long LDIFF_SYM1901
+LDIFF_SYM1891=Lme_157 - Firebase_Auth_Auth__c__DisplayClass19_0__CreateUserAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
+	.long LDIFF_SYM1891
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,68,154,7
 	.align 3
@@ -111653,22 +111597,22 @@ Lfde214_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1902=LTDIE_149_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1902
+LDIFF_SYM1892=LTDIE_149_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1892
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1903=Lfde215_end - Lfde215_start
-	.long LDIFF_SYM1903
+LDIFF_SYM1893=Lfde215_end - Lfde215_start
+	.long LDIFF_SYM1893
 Lfde215_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass21_0__ctor
 
-LDIFF_SYM1904=Lme_158 - Firebase_Auth_Auth__c__DisplayClass21_0__ctor
-	.long LDIFF_SYM1904
+LDIFF_SYM1894=Lme_158 - Firebase_Auth_Auth__c__DisplayClass21_0__ctor
+	.long LDIFF_SYM1894
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -111687,32 +111631,32 @@ Lfde215_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1905=LTDIE_149_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1905
+LDIFF_SYM1895=LTDIE_149_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1895
 	.byte 1,104,3
 	.asciz "providers_"
 
-LDIFF_SYM1906=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1906
+LDIFF_SYM1896=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1896
 	.byte 2,141,32,3
 	.asciz "error_"
 
-LDIFF_SYM1907=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1907
+LDIFF_SYM1897=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1897
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1908=Lfde216_end - Lfde216_start
-	.long LDIFF_SYM1908
+LDIFF_SYM1898=Lfde216_end - Lfde216_start
+	.long LDIFF_SYM1898
 Lfde216_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass21_0__FetchProvidersAsyncb__0_string___Foundation_NSError
 
-LDIFF_SYM1909=Lme_159 - Firebase_Auth_Auth__c__DisplayClass21_0__FetchProvidersAsyncb__0_string___Foundation_NSError
-	.long LDIFF_SYM1909
+LDIFF_SYM1899=Lme_159 - Firebase_Auth_Auth__c__DisplayClass21_0__FetchProvidersAsyncb__0_string___Foundation_NSError
+	.long LDIFF_SYM1899
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,68,154,7
 	.align 3
@@ -111731,22 +111675,22 @@ Lfde216_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1910=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1910
+LDIFF_SYM1900=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1900
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1911=Lfde217_end - Lfde217_start
-	.long LDIFF_SYM1911
+LDIFF_SYM1901=Lfde217_end - Lfde217_start
+	.long LDIFF_SYM1901
 Lfde217_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass23_0__ctor
 
-LDIFF_SYM1912=Lme_15a - Firebase_Auth_Auth__c__DisplayClass23_0__ctor
-	.long LDIFF_SYM1912
+LDIFF_SYM1902=Lme_15a - Firebase_Auth_Auth__c__DisplayClass23_0__ctor
+	.long LDIFF_SYM1902
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -111765,32 +111709,32 @@ Lfde217_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1913=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1913
+LDIFF_SYM1903=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1903
 	.byte 1,104,3
 	.asciz "methods_"
 
-LDIFF_SYM1914=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1914
+LDIFF_SYM1904=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1904
 	.byte 2,141,32,3
 	.asciz "error_"
 
-LDIFF_SYM1915=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1915
+LDIFF_SYM1905=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1905
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1916=Lfde218_end - Lfde218_start
-	.long LDIFF_SYM1916
+LDIFF_SYM1906=Lfde218_end - Lfde218_start
+	.long LDIFF_SYM1906
 Lfde218_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass23_0__FetchSignInMethodsAsyncb__0_string___Foundation_NSError
 
-LDIFF_SYM1917=Lme_15b - Firebase_Auth_Auth__c__DisplayClass23_0__FetchSignInMethodsAsyncb__0_string___Foundation_NSError
-	.long LDIFF_SYM1917
+LDIFF_SYM1907=Lme_15b - Firebase_Auth_Auth__c__DisplayClass23_0__FetchSignInMethodsAsyncb__0_string___Foundation_NSError
+	.long LDIFF_SYM1907
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,68,154,7
 	.align 3
@@ -111809,22 +111753,22 @@ Lfde218_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1918=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1918
+LDIFF_SYM1908=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1908
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1919=Lfde219_end - Lfde219_start
-	.long LDIFF_SYM1919
+LDIFF_SYM1909=Lfde219_end - Lfde219_start
+	.long LDIFF_SYM1909
 Lfde219_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass30_0__ctor
 
-LDIFF_SYM1920=Lme_15c - Firebase_Auth_Auth__c__DisplayClass30_0__ctor
-	.long LDIFF_SYM1920
+LDIFF_SYM1910=Lme_15c - Firebase_Auth_Auth__c__DisplayClass30_0__ctor
+	.long LDIFF_SYM1910
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -111843,27 +111787,27 @@ Lfde219_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1921=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1921
+LDIFF_SYM1911=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1911
 	.byte 1,105,3
 	.asciz "error_"
 
-LDIFF_SYM1922=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1922
+LDIFF_SYM1912=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1912
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1923=Lfde220_end - Lfde220_start
-	.long LDIFF_SYM1923
+LDIFF_SYM1913=Lfde220_end - Lfde220_start
+	.long LDIFF_SYM1913
 Lfde220_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass30_0__SendPasswordResetAsyncb__0_Foundation_NSError
 
-LDIFF_SYM1924=Lme_15d - Firebase_Auth_Auth__c__DisplayClass30_0__SendPasswordResetAsyncb__0_Foundation_NSError
-	.long LDIFF_SYM1924
+LDIFF_SYM1914=Lme_15d - Firebase_Auth_Auth__c__DisplayClass30_0__SendPasswordResetAsyncb__0_Foundation_NSError
+	.long LDIFF_SYM1914
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -111882,22 +111826,22 @@ Lfde220_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1925=LTDIE_156_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1925
+LDIFF_SYM1915=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1915
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1926=Lfde221_end - Lfde221_start
-	.long LDIFF_SYM1926
+LDIFF_SYM1916=Lfde221_end - Lfde221_start
+	.long LDIFF_SYM1916
 Lfde221_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass32_0__ctor
 
-LDIFF_SYM1927=Lme_15e - Firebase_Auth_Auth__c__DisplayClass32_0__ctor
-	.long LDIFF_SYM1927
+LDIFF_SYM1917=Lme_15e - Firebase_Auth_Auth__c__DisplayClass32_0__ctor
+	.long LDIFF_SYM1917
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -111916,27 +111860,27 @@ Lfde221_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1928=LTDIE_156_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1928
+LDIFF_SYM1918=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1918
 	.byte 1,105,3
 	.asciz "error_"
 
-LDIFF_SYM1929=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1929
+LDIFF_SYM1919=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1919
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1930=Lfde222_end - Lfde222_start
-	.long LDIFF_SYM1930
+LDIFF_SYM1920=Lfde222_end - Lfde222_start
+	.long LDIFF_SYM1920
 Lfde222_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass32_0__SendPasswordResetAsyncb__0_Foundation_NSError
 
-LDIFF_SYM1931=Lme_15f - Firebase_Auth_Auth__c__DisplayClass32_0__SendPasswordResetAsyncb__0_Foundation_NSError
-	.long LDIFF_SYM1931
+LDIFF_SYM1921=Lme_15f - Firebase_Auth_Auth__c__DisplayClass32_0__SendPasswordResetAsyncb__0_Foundation_NSError
+	.long LDIFF_SYM1921
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -111955,22 +111899,22 @@ Lfde222_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1932=LTDIE_157_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1932
+LDIFF_SYM1922=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1922
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1933=Lfde223_end - Lfde223_start
-	.long LDIFF_SYM1933
+LDIFF_SYM1923=Lfde223_end - Lfde223_start
+	.long LDIFF_SYM1923
 Lfde223_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass34_0__ctor
 
-LDIFF_SYM1934=Lme_160 - Firebase_Auth_Auth__c__DisplayClass34_0__ctor
-	.long LDIFF_SYM1934
+LDIFF_SYM1924=Lme_160 - Firebase_Auth_Auth__c__DisplayClass34_0__ctor
+	.long LDIFF_SYM1924
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -111989,27 +111933,27 @@ Lfde223_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1935=LTDIE_157_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1935
+LDIFF_SYM1925=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1925
 	.byte 1,105,3
 	.asciz "error_"
 
-LDIFF_SYM1936=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1936
+LDIFF_SYM1926=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1926
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1937=Lfde224_end - Lfde224_start
-	.long LDIFF_SYM1937
+LDIFF_SYM1927=Lfde224_end - Lfde224_start
+	.long LDIFF_SYM1927
 Lfde224_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass34_0__SendSignInLinkAsyncb__0_Foundation_NSError
 
-LDIFF_SYM1938=Lme_161 - Firebase_Auth_Auth__c__DisplayClass34_0__SendSignInLinkAsyncb__0_Foundation_NSError
-	.long LDIFF_SYM1938
+LDIFF_SYM1928=Lme_161 - Firebase_Auth_Auth__c__DisplayClass34_0__SendSignInLinkAsyncb__0_Foundation_NSError
+	.long LDIFF_SYM1928
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -112028,22 +111972,22 @@ Lfde224_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1939=LTDIE_160_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1939
+LDIFF_SYM1929=LTDIE_160_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1929
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1940=Lfde225_end - Lfde225_start
-	.long LDIFF_SYM1940
+LDIFF_SYM1930=Lfde225_end - Lfde225_start
+	.long LDIFF_SYM1930
 Lfde225_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass37_0__ctor
 
-LDIFF_SYM1941=Lme_162 - Firebase_Auth_Auth__c__DisplayClass37_0__ctor
-	.long LDIFF_SYM1941
+LDIFF_SYM1931=Lme_162 - Firebase_Auth_Auth__c__DisplayClass37_0__ctor
+	.long LDIFF_SYM1931
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -112062,32 +112006,32 @@ Lfde225_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1942=LTDIE_160_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1942
+LDIFF_SYM1932=LTDIE_160_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1932
 	.byte 1,104,3
 	.asciz "authResult_"
 
-LDIFF_SYM1943=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1943
+LDIFF_SYM1933=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1933
 	.byte 2,141,32,3
 	.asciz "error_"
 
-LDIFF_SYM1944=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1944
+LDIFF_SYM1934=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1934
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1945=Lfde226_end - Lfde226_start
-	.long LDIFF_SYM1945
+LDIFF_SYM1935=Lfde226_end - Lfde226_start
+	.long LDIFF_SYM1935
 Lfde226_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass37_0__SignInAndRetrieveDataWithCredentialAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
 
-LDIFF_SYM1946=Lme_163 - Firebase_Auth_Auth__c__DisplayClass37_0__SignInAndRetrieveDataWithCredentialAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
-	.long LDIFF_SYM1946
+LDIFF_SYM1936=Lme_163 - Firebase_Auth_Auth__c__DisplayClass37_0__SignInAndRetrieveDataWithCredentialAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
+	.long LDIFF_SYM1936
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,68,154,7
 	.align 3
@@ -112106,22 +112050,22 @@ Lfde226_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1947=LTDIE_161_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1947
+LDIFF_SYM1937=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1937
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1948=Lfde227_end - Lfde227_start
-	.long LDIFF_SYM1948
+LDIFF_SYM1938=Lfde227_end - Lfde227_start
+	.long LDIFF_SYM1938
 Lfde227_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass39_0__ctor
 
-LDIFF_SYM1949=Lme_164 - Firebase_Auth_Auth__c__DisplayClass39_0__ctor
-	.long LDIFF_SYM1949
+LDIFF_SYM1939=Lme_164 - Firebase_Auth_Auth__c__DisplayClass39_0__ctor
+	.long LDIFF_SYM1939
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -112140,32 +112084,32 @@ Lfde227_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1950=LTDIE_161_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1950
+LDIFF_SYM1940=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1940
 	.byte 1,104,3
 	.asciz "authResult_"
 
-LDIFF_SYM1951=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1951
+LDIFF_SYM1941=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1941
 	.byte 2,141,32,3
 	.asciz "error_"
 
-LDIFF_SYM1952=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1952
+LDIFF_SYM1942=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1942
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1953=Lfde228_end - Lfde228_start
-	.long LDIFF_SYM1953
+LDIFF_SYM1943=Lfde228_end - Lfde228_start
+	.long LDIFF_SYM1943
 Lfde228_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass39_0__SignInAnonymouslyAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
 
-LDIFF_SYM1954=Lme_165 - Firebase_Auth_Auth__c__DisplayClass39_0__SignInAnonymouslyAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
-	.long LDIFF_SYM1954
+LDIFF_SYM1944=Lme_165 - Firebase_Auth_Auth__c__DisplayClass39_0__SignInAnonymouslyAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
+	.long LDIFF_SYM1944
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,68,154,7
 	.align 3
@@ -112184,22 +112128,22 @@ Lfde228_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1955=LTDIE_162_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1955
+LDIFF_SYM1945=LTDIE_162_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1945
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1956=Lfde229_end - Lfde229_start
-	.long LDIFF_SYM1956
+LDIFF_SYM1946=Lfde229_end - Lfde229_start
+	.long LDIFF_SYM1946
 Lfde229_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass41_0__ctor
 
-LDIFF_SYM1957=Lme_166 - Firebase_Auth_Auth__c__DisplayClass41_0__ctor
-	.long LDIFF_SYM1957
+LDIFF_SYM1947=Lme_166 - Firebase_Auth_Auth__c__DisplayClass41_0__ctor
+	.long LDIFF_SYM1947
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -112209,41 +112153,41 @@ Lfde229_end:
 
 	.byte 2
 	.asciz "Firebase.Auth.Auth/<>c__DisplayClass41_0:<SignInWithCredentialAsync>b__0"
-	.asciz "Firebase_Auth_Auth__c__DisplayClass41_0__SignInWithCredentialAsyncb__0_Firebase_Auth_User_Foundation_NSError"
+	.asciz "Firebase_Auth_Auth__c__DisplayClass41_0__SignInWithCredentialAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError"
 
 	.byte 0,0
-	.quad Firebase_Auth_Auth__c__DisplayClass41_0__SignInWithCredentialAsyncb__0_Firebase_Auth_User_Foundation_NSError
+	.quad Firebase_Auth_Auth__c__DisplayClass41_0__SignInWithCredentialAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
 	.quad Lme_167
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1958=LTDIE_162_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1958
+LDIFF_SYM1948=LTDIE_162_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1948
 	.byte 1,104,3
-	.asciz "user_"
+	.asciz "authResult_"
 
-LDIFF_SYM1959=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1959
+LDIFF_SYM1949=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1949
 	.byte 2,141,32,3
 	.asciz "error_"
 
-LDIFF_SYM1960=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1960
+LDIFF_SYM1950=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1950
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1961=Lfde230_end - Lfde230_start
-	.long LDIFF_SYM1961
+LDIFF_SYM1951=Lfde230_end - Lfde230_start
+	.long LDIFF_SYM1951
 Lfde230_start:
 
 	.long 0
 	.align 3
-	.quad Firebase_Auth_Auth__c__DisplayClass41_0__SignInWithCredentialAsyncb__0_Firebase_Auth_User_Foundation_NSError
+	.quad Firebase_Auth_Auth__c__DisplayClass41_0__SignInWithCredentialAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
 
-LDIFF_SYM1962=Lme_167 - Firebase_Auth_Auth__c__DisplayClass41_0__SignInWithCredentialAsyncb__0_Firebase_Auth_User_Foundation_NSError
-	.long LDIFF_SYM1962
+LDIFF_SYM1952=Lme_167 - Firebase_Auth_Auth__c__DisplayClass41_0__SignInWithCredentialAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
+	.long LDIFF_SYM1952
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,68,154,7
 	.align 3
@@ -112262,22 +112206,22 @@ Lfde230_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1963=LTDIE_165_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1963
+LDIFF_SYM1953=LTDIE_163_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1953
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1964=Lfde231_end - Lfde231_start
-	.long LDIFF_SYM1964
+LDIFF_SYM1954=Lfde231_end - Lfde231_start
+	.long LDIFF_SYM1954
 Lfde231_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass43_0__ctor
 
-LDIFF_SYM1965=Lme_168 - Firebase_Auth_Auth__c__DisplayClass43_0__ctor
-	.long LDIFF_SYM1965
+LDIFF_SYM1955=Lme_168 - Firebase_Auth_Auth__c__DisplayClass43_0__ctor
+	.long LDIFF_SYM1955
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -112296,32 +112240,32 @@ Lfde231_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1966=LTDIE_165_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1966
+LDIFF_SYM1956=LTDIE_163_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1956
 	.byte 1,104,3
 	.asciz "authResult_"
 
-LDIFF_SYM1967=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1967
+LDIFF_SYM1957=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1957
 	.byte 2,141,32,3
 	.asciz "error_"
 
-LDIFF_SYM1968=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1968
+LDIFF_SYM1958=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1958
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1969=Lfde232_end - Lfde232_start
-	.long LDIFF_SYM1969
+LDIFF_SYM1959=Lfde232_end - Lfde232_start
+	.long LDIFF_SYM1959
 Lfde232_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass43_0__SignInWithCustomTokenAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
 
-LDIFF_SYM1970=Lme_169 - Firebase_Auth_Auth__c__DisplayClass43_0__SignInWithCustomTokenAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
-	.long LDIFF_SYM1970
+LDIFF_SYM1960=Lme_169 - Firebase_Auth_Auth__c__DisplayClass43_0__SignInWithCustomTokenAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
+	.long LDIFF_SYM1960
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,68,154,7
 	.align 3
@@ -112340,22 +112284,22 @@ Lfde232_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1971=LTDIE_166_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1971
+LDIFF_SYM1961=LTDIE_164_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1961
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1972=Lfde233_end - Lfde233_start
-	.long LDIFF_SYM1972
+LDIFF_SYM1962=Lfde233_end - Lfde233_start
+	.long LDIFF_SYM1962
 Lfde233_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass45_0__ctor
 
-LDIFF_SYM1973=Lme_16a - Firebase_Auth_Auth__c__DisplayClass45_0__ctor
-	.long LDIFF_SYM1973
+LDIFF_SYM1963=Lme_16a - Firebase_Auth_Auth__c__DisplayClass45_0__ctor
+	.long LDIFF_SYM1963
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -112374,32 +112318,32 @@ Lfde233_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1974=LTDIE_166_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1974
+LDIFF_SYM1964=LTDIE_164_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1964
 	.byte 1,104,3
 	.asciz "authResult_"
 
-LDIFF_SYM1975=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1975
+LDIFF_SYM1965=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1965
 	.byte 2,141,32,3
 	.asciz "error_"
 
-LDIFF_SYM1976=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1976
+LDIFF_SYM1966=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1966
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1977=Lfde234_end - Lfde234_start
-	.long LDIFF_SYM1977
+LDIFF_SYM1967=Lfde234_end - Lfde234_start
+	.long LDIFF_SYM1967
 Lfde234_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass45_0__SignInWithLinkAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
 
-LDIFF_SYM1978=Lme_16b - Firebase_Auth_Auth__c__DisplayClass45_0__SignInWithLinkAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
-	.long LDIFF_SYM1978
+LDIFF_SYM1968=Lme_16b - Firebase_Auth_Auth__c__DisplayClass45_0__SignInWithLinkAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
+	.long LDIFF_SYM1968
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,68,154,7
 	.align 3
@@ -112418,22 +112362,22 @@ Lfde234_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1979=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1979
+LDIFF_SYM1969=LTDIE_165_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1969
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1980=Lfde235_end - Lfde235_start
-	.long LDIFF_SYM1980
+LDIFF_SYM1970=Lfde235_end - Lfde235_start
+	.long LDIFF_SYM1970
 Lfde235_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass47_0__ctor
 
-LDIFF_SYM1981=Lme_16c - Firebase_Auth_Auth__c__DisplayClass47_0__ctor
-	.long LDIFF_SYM1981
+LDIFF_SYM1971=Lme_16c - Firebase_Auth_Auth__c__DisplayClass47_0__ctor
+	.long LDIFF_SYM1971
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -112452,32 +112396,32 @@ Lfde235_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1982=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1982
+LDIFF_SYM1972=LTDIE_165_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1972
 	.byte 1,104,3
 	.asciz "authResult_"
 
-LDIFF_SYM1983=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1983
+LDIFF_SYM1973=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1973
 	.byte 2,141,32,3
 	.asciz "error_"
 
-LDIFF_SYM1984=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1984
+LDIFF_SYM1974=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1974
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1985=Lfde236_end - Lfde236_start
-	.long LDIFF_SYM1985
+LDIFF_SYM1975=Lfde236_end - Lfde236_start
+	.long LDIFF_SYM1975
 Lfde236_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass47_0__SignInWithPasswordAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
 
-LDIFF_SYM1986=Lme_16d - Firebase_Auth_Auth__c__DisplayClass47_0__SignInWithPasswordAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
-	.long LDIFF_SYM1986
+LDIFF_SYM1976=Lme_16d - Firebase_Auth_Auth__c__DisplayClass47_0__SignInWithPasswordAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
+	.long LDIFF_SYM1976
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,68,154,7
 	.align 3
@@ -112496,22 +112440,22 @@ Lfde236_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1987=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1987
+LDIFF_SYM1977=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1977
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1988=Lfde237_end - Lfde237_start
-	.long LDIFF_SYM1988
+LDIFF_SYM1978=Lfde237_end - Lfde237_start
+	.long LDIFF_SYM1978
 Lfde237_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass49_0__ctor
 
-LDIFF_SYM1989=Lme_16e - Firebase_Auth_Auth__c__DisplayClass49_0__ctor
-	.long LDIFF_SYM1989
+LDIFF_SYM1979=Lme_16e - Firebase_Auth_Auth__c__DisplayClass49_0__ctor
+	.long LDIFF_SYM1979
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -112530,32 +112474,32 @@ Lfde237_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1990=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1990
+LDIFF_SYM1980=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1980
 	.byte 1,104,3
 	.asciz "authResult_"
 
-LDIFF_SYM1991=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1991
+LDIFF_SYM1981=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1981
 	.byte 2,141,32,3
 	.asciz "error_"
 
-LDIFF_SYM1992=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1992
+LDIFF_SYM1982=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1982
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1993=Lfde238_end - Lfde238_start
-	.long LDIFF_SYM1993
+LDIFF_SYM1983=Lfde238_end - Lfde238_start
+	.long LDIFF_SYM1983
 Lfde238_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass49_0__SignInWithProviderAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
 
-LDIFF_SYM1994=Lme_16f - Firebase_Auth_Auth__c__DisplayClass49_0__SignInWithProviderAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
-	.long LDIFF_SYM1994
+LDIFF_SYM1984=Lme_16f - Firebase_Auth_Auth__c__DisplayClass49_0__SignInWithProviderAsyncb__0_Firebase_Auth_AuthDataResult_Foundation_NSError
+	.long LDIFF_SYM1984
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,68,154,7
 	.align 3
@@ -112574,22 +112518,22 @@ Lfde238_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1995=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1995
+LDIFF_SYM1985=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1985
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1996=Lfde239_end - Lfde239_start
-	.long LDIFF_SYM1996
+LDIFF_SYM1986=Lfde239_end - Lfde239_start
+	.long LDIFF_SYM1986
 Lfde239_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass52_0__ctor
 
-LDIFF_SYM1997=Lme_170 - Firebase_Auth_Auth__c__DisplayClass52_0__ctor
-	.long LDIFF_SYM1997
+LDIFF_SYM1987=Lme_170 - Firebase_Auth_Auth__c__DisplayClass52_0__ctor
+	.long LDIFF_SYM1987
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -112608,27 +112552,27 @@ Lfde239_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1998=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1998
+LDIFF_SYM1988=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1988
 	.byte 1,105,3
 	.asciz "error_"
 
-LDIFF_SYM1999=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1999
+LDIFF_SYM1989=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1989
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2000=Lfde240_end - Lfde240_start
-	.long LDIFF_SYM2000
+LDIFF_SYM1990=Lfde240_end - Lfde240_start
+	.long LDIFF_SYM1990
 Lfde240_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass52_0__UpdateCurrentUserAsyncb__0_Foundation_NSError
 
-LDIFF_SYM2001=Lme_171 - Firebase_Auth_Auth__c__DisplayClass52_0__UpdateCurrentUserAsyncb__0_Foundation_NSError
-	.long LDIFF_SYM2001
+LDIFF_SYM1991=Lme_171 - Firebase_Auth_Auth__c__DisplayClass52_0__UpdateCurrentUserAsyncb__0_Foundation_NSError
+	.long LDIFF_SYM1991
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -112647,22 +112591,22 @@ Lfde240_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2002=LTDIE_172_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2002
+LDIFF_SYM1992=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1992
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2003=Lfde241_end - Lfde241_start
-	.long LDIFF_SYM2003
+LDIFF_SYM1993=Lfde241_end - Lfde241_start
+	.long LDIFF_SYM1993
 Lfde241_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass56_0__ctor
 
-LDIFF_SYM2004=Lme_172 - Firebase_Auth_Auth__c__DisplayClass56_0__ctor
-	.long LDIFF_SYM2004
+LDIFF_SYM1994=Lme_172 - Firebase_Auth_Auth__c__DisplayClass56_0__ctor
+	.long LDIFF_SYM1994
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -112681,32 +112625,32 @@ Lfde241_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2005=LTDIE_172_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2005
+LDIFF_SYM1995=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1995
 	.byte 1,104,3
 	.asciz "email_"
 
-LDIFF_SYM2006=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2006
+LDIFF_SYM1996=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1996
 	.byte 2,141,32,3
 	.asciz "error_"
 
-LDIFF_SYM2007=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2007
+LDIFF_SYM1997=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1997
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2008=Lfde242_end - Lfde242_start
-	.long LDIFF_SYM2008
+LDIFF_SYM1998=Lfde242_end - Lfde242_start
+	.long LDIFF_SYM1998
 Lfde242_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Auth__c__DisplayClass56_0__VerifyPasswordResetCodeAsyncb__0_string_Foundation_NSError
 
-LDIFF_SYM2009=Lme_173 - Firebase_Auth_Auth__c__DisplayClass56_0__VerifyPasswordResetCodeAsyncb__0_string_Foundation_NSError
-	.long LDIFF_SYM2009
+LDIFF_SYM1999=Lme_173 - Firebase_Auth_Auth__c__DisplayClass56_0__VerifyPasswordResetCodeAsyncb__0_string_Foundation_NSError
+	.long LDIFF_SYM1999
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,68,154,7
 	.align 3
@@ -112726,16 +112670,16 @@ Lfde242_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2010=Lfde243_end - Lfde243_start
-	.long LDIFF_SYM2010
+LDIFF_SYM2000=Lfde243_end - Lfde243_start
+	.long LDIFF_SYM2000
 Lfde243_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Loader__cctor
 
-LDIFF_SYM2011=Lme_174 - Firebase_Auth_Loader__cctor
-	.long LDIFF_SYM2011
+LDIFF_SYM2001=Lme_174 - Firebase_Auth_Loader__cctor
+	.long LDIFF_SYM2001
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -112755,45 +112699,45 @@ Lfde243_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2012=Lfde244_end - Lfde244_start
-	.long LDIFF_SYM2012
+LDIFF_SYM2002=Lfde244_end - Lfde244_start
+	.long LDIFF_SYM2002
 Lfde244_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Loader_ForceLoad
 
-LDIFF_SYM2013=Lme_175 - Firebase_Auth_Loader_ForceLoad
-	.long LDIFF_SYM2013
+LDIFF_SYM2003=Lme_175 - Firebase_Auth_Loader_ForceLoad
+	.long LDIFF_SYM2003
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde244_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_180:
+LTDIE_178:
 
 	.byte 5
 	.asciz "Firebase_Auth_Loader"
 
 	.byte 16,16
-LDIFF_SYM2014=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2014
+LDIFF_SYM2004=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2004
 	.byte 2,35,0,0,7
 	.asciz "Firebase_Auth_Loader"
 
-LDIFF_SYM2015=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM2015
-LTDIE_180_POINTER:
+LDIFF_SYM2005=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM2005
+LTDIE_178_POINTER:
 
 	.byte 13
-LDIFF_SYM2016=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM2016
-LTDIE_180_REFERENCE:
+LDIFF_SYM2006=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM2006
+LTDIE_178_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2017=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM2017
+LDIFF_SYM2007=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM2007
 	.byte 2
 	.asciz "Firebase.Auth.Loader:.ctor"
 	.asciz "Firebase_Auth_Loader__ctor"
@@ -112805,22 +112749,22 @@ LDIFF_SYM2017=LTDIE_180 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2018=LTDIE_180_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2018
+LDIFF_SYM2008=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2008
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2019=Lfde245_end - Lfde245_start
-	.long LDIFF_SYM2019
+LDIFF_SYM2009=Lfde245_end - Lfde245_start
+	.long LDIFF_SYM2009
 Lfde245_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_Loader__ctor
 
-LDIFF_SYM2020=Lme_176 - Firebase_Auth_Loader__ctor
-	.long LDIFF_SYM2020
+LDIFF_SYM2010=Lme_176 - Firebase_Auth_Loader__ctor
+	.long LDIFF_SYM2010
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -112839,22 +112783,22 @@ Lfde245_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2021=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2021
+LDIFF_SYM2011=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2011
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2022=Lfde246_end - Lfde246_start
-	.long LDIFF_SYM2022
+LDIFF_SYM2012=Lfde246_end - Lfde246_start
+	.long LDIFF_SYM2012
 Lfde246_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeInfo_get_ClassHandle
 
-LDIFF_SYM2023=Lme_177 - Firebase_Auth_ActionCodeInfo_get_ClassHandle
-	.long LDIFF_SYM2023
+LDIFF_SYM2013=Lme_177 - Firebase_Auth_ActionCodeInfo_get_ClassHandle
+	.long LDIFF_SYM2013
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -112873,27 +112817,27 @@ Lfde246_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2024=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2024
+LDIFF_SYM2014=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2014
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2025=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2025
+LDIFF_SYM2015=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2015
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2026=Lfde247_end - Lfde247_start
-	.long LDIFF_SYM2026
+LDIFF_SYM2016=Lfde247_end - Lfde247_start
+	.long LDIFF_SYM2016
 Lfde247_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeInfo__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2027=Lme_178 - Firebase_Auth_ActionCodeInfo__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2027
+LDIFF_SYM2017=Lme_178 - Firebase_Auth_ActionCodeInfo__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2017
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -112912,41 +112856,41 @@ Lfde247_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2028=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2028
+LDIFF_SYM2018=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2018
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2029=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2029
+LDIFF_SYM2019=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2019
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2030=Lfde248_end - Lfde248_start
-	.long LDIFF_SYM2030
+LDIFF_SYM2020=Lfde248_end - Lfde248_start
+	.long LDIFF_SYM2020
 Lfde248_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeInfo__ctor_intptr
 
-LDIFF_SYM2031=Lme_179 - Firebase_Auth_ActionCodeInfo__ctor_intptr
-	.long LDIFF_SYM2031
+LDIFF_SYM2021=Lme_179 - Firebase_Auth_ActionCodeInfo__ctor_intptr
+	.long LDIFF_SYM2021
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
 Lfde248_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_181:
+LTDIE_179:
 
 	.byte 8
 	.asciz "Firebase_Auth_ActionDataKey"
 
 	.byte 8
-LDIFF_SYM2032=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM2032
+LDIFF_SYM2022=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM2022
 	.byte 9
 	.asciz "EmailKey"
 
@@ -112956,18 +112900,18 @@ LDIFF_SYM2032=LDIE_I8 - Ldebug_info_start
 	.byte 1,0,7
 	.asciz "Firebase_Auth_ActionDataKey"
 
-LDIFF_SYM2033=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM2033
-LTDIE_181_POINTER:
+LDIFF_SYM2023=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM2023
+LTDIE_179_POINTER:
 
 	.byte 13
-LDIFF_SYM2034=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM2034
-LTDIE_181_REFERENCE:
+LDIFF_SYM2024=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM2024
+LTDIE_179_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2035=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM2035
+LDIFF_SYM2025=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM2025
 	.byte 2
 	.asciz "Firebase.Auth.ActionCodeInfo:DataForKey"
 	.asciz "Firebase_Auth_ActionCodeInfo_DataForKey_Firebase_Auth_ActionDataKey"
@@ -112979,41 +112923,41 @@ LDIFF_SYM2035=LTDIE_181 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2036=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2036
+LDIFF_SYM2026=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2026
 	.byte 1,105,3
 	.asciz "key"
 
-LDIFF_SYM2037=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM2037
+LDIFF_SYM2027=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM2027
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2038=Lfde249_end - Lfde249_start
-	.long LDIFF_SYM2038
+LDIFF_SYM2028=Lfde249_end - Lfde249_start
+	.long LDIFF_SYM2028
 Lfde249_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeInfo_DataForKey_Firebase_Auth_ActionDataKey
 
-LDIFF_SYM2039=Lme_17a - Firebase_Auth_ActionCodeInfo_DataForKey_Firebase_Auth_ActionDataKey
-	.long LDIFF_SYM2039
+LDIFF_SYM2029=Lme_17a - Firebase_Auth_ActionCodeInfo_DataForKey_Firebase_Auth_ActionDataKey
+	.long LDIFF_SYM2029
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
 Lfde249_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_182:
+LTDIE_180:
 
 	.byte 8
 	.asciz "Firebase_Auth_ActionCodeOperation"
 
 	.byte 8
-LDIFF_SYM2040=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM2040
+LDIFF_SYM2030=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM2030
 	.byte 9
 	.asciz "Unknown"
 
@@ -113032,18 +112976,18 @@ LDIFF_SYM2040=LDIE_I8 - Ldebug_info_start
 	.byte 4,0,7
 	.asciz "Firebase_Auth_ActionCodeOperation"
 
-LDIFF_SYM2041=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM2041
-LTDIE_182_POINTER:
+LDIFF_SYM2031=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM2031
+LTDIE_180_POINTER:
 
 	.byte 13
-LDIFF_SYM2042=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM2042
-LTDIE_182_REFERENCE:
+LDIFF_SYM2032=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM2032
+LTDIE_180_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2043=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM2043
+LDIFF_SYM2033=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM2033
 	.byte 2
 	.asciz "Firebase.Auth.ActionCodeInfo:get_Operation"
 	.asciz "Firebase_Auth_ActionCodeInfo_get_Operation"
@@ -113055,27 +112999,27 @@ LDIFF_SYM2043=LTDIE_182 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2044=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2044
+LDIFF_SYM2034=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2034
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2045=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM2045
+LDIFF_SYM2035=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM2035
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2046=Lfde250_end - Lfde250_start
-	.long LDIFF_SYM2046
+LDIFF_SYM2036=Lfde250_end - Lfde250_start
+	.long LDIFF_SYM2036
 Lfde250_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeInfo_get_Operation
 
-LDIFF_SYM2047=Lme_17b - Firebase_Auth_ActionCodeInfo_get_Operation
-	.long LDIFF_SYM2047
+LDIFF_SYM2037=Lme_17b - Firebase_Auth_ActionCodeInfo_get_Operation
+	.long LDIFF_SYM2037
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -113095,16 +113039,16 @@ Lfde250_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2048=Lfde251_end - Lfde251_start
-	.long LDIFF_SYM2048
+LDIFF_SYM2038=Lfde251_end - Lfde251_start
+	.long LDIFF_SYM2038
 Lfde251_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeInfo__cctor
 
-LDIFF_SYM2049=Lme_17c - Firebase_Auth_ActionCodeInfo__cctor
-	.long LDIFF_SYM2049
+LDIFF_SYM2039=Lme_17c - Firebase_Auth_ActionCodeInfo__cctor
+	.long LDIFF_SYM2039
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -113123,22 +113067,22 @@ Lfde251_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2050=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2050
+LDIFF_SYM2040=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2040
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2051=Lfde252_end - Lfde252_start
-	.long LDIFF_SYM2051
+LDIFF_SYM2041=Lfde252_end - Lfde252_start
+	.long LDIFF_SYM2041
 Lfde252_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeSettings_get_ClassHandle
 
-LDIFF_SYM2052=Lme_17d - Firebase_Auth_ActionCodeSettings_get_ClassHandle
-	.long LDIFF_SYM2052
+LDIFF_SYM2042=Lme_17d - Firebase_Auth_ActionCodeSettings_get_ClassHandle
+	.long LDIFF_SYM2042
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -113157,22 +113101,22 @@ Lfde252_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2053=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2053
+LDIFF_SYM2043=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2043
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2054=Lfde253_end - Lfde253_start
-	.long LDIFF_SYM2054
+LDIFF_SYM2044=Lfde253_end - Lfde253_start
+	.long LDIFF_SYM2044
 Lfde253_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeSettings__ctor
 
-LDIFF_SYM2055=Lme_17e - Firebase_Auth_ActionCodeSettings__ctor
-	.long LDIFF_SYM2055
+LDIFF_SYM2045=Lme_17e - Firebase_Auth_ActionCodeSettings__ctor
+	.long LDIFF_SYM2045
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -113191,27 +113135,27 @@ Lfde253_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2056=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2056
+LDIFF_SYM2046=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2046
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2057=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2057
+LDIFF_SYM2047=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2047
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2058=Lfde254_end - Lfde254_start
-	.long LDIFF_SYM2058
+LDIFF_SYM2048=Lfde254_end - Lfde254_start
+	.long LDIFF_SYM2048
 Lfde254_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeSettings__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2059=Lme_17f - Firebase_Auth_ActionCodeSettings__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2059
+LDIFF_SYM2049=Lme_17f - Firebase_Auth_ActionCodeSettings__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2049
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -113230,27 +113174,27 @@ Lfde254_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2060=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2060
+LDIFF_SYM2050=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2050
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2061=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2061
+LDIFF_SYM2051=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2051
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2062=Lfde255_end - Lfde255_start
-	.long LDIFF_SYM2062
+LDIFF_SYM2052=Lfde255_end - Lfde255_start
+	.long LDIFF_SYM2052
 Lfde255_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeSettings__ctor_intptr
 
-LDIFF_SYM2063=Lme_180 - Firebase_Auth_ActionCodeSettings__ctor_intptr
-	.long LDIFF_SYM2063
+LDIFF_SYM2053=Lme_180 - Firebase_Auth_ActionCodeSettings__ctor_intptr
+	.long LDIFF_SYM2053
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -113269,47 +113213,47 @@ Lfde255_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2064=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2064
+LDIFF_SYM2054=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2054
 	.byte 1,103,3
 	.asciz "androidPackageName"
 
-LDIFF_SYM2065=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2065
+LDIFF_SYM2055=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2055
 	.byte 1,104,3
 	.asciz "installIfNotAvailable"
 
-LDIFF_SYM2066=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2066
+LDIFF_SYM2056=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2056
 	.byte 1,105,3
 	.asciz "minimumVersion"
 
-LDIFF_SYM2067=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2067
+LDIFF_SYM2057=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2057
 	.byte 2,141,56,11
 	.asciz "V_0"
 
-LDIFF_SYM2068=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2068
+LDIFF_SYM2058=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2058
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM2069=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2069
+LDIFF_SYM2059=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2059
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2070=Lfde256_end - Lfde256_start
-	.long LDIFF_SYM2070
+LDIFF_SYM2060=Lfde256_end - Lfde256_start
+	.long LDIFF_SYM2060
 Lfde256_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeSettings_SetAndroidPackageName_string_bool_string
 
-LDIFF_SYM2071=Lme_181 - Firebase_Auth_ActionCodeSettings_SetAndroidPackageName_string_bool_string
-	.long LDIFF_SYM2071
+LDIFF_SYM2061=Lme_181 - Firebase_Auth_ActionCodeSettings_SetAndroidPackageName_string_bool_string
+	.long LDIFF_SYM2061
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.align 3
@@ -113328,22 +113272,22 @@ Lfde256_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2072=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2072
+LDIFF_SYM2062=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2062
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2073=Lfde257_end - Lfde257_start
-	.long LDIFF_SYM2073
+LDIFF_SYM2063=Lfde257_end - Lfde257_start
+	.long LDIFF_SYM2063
 Lfde257_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeSettings_get_AndroidInstallIfNotAvailable
 
-LDIFF_SYM2074=Lme_182 - Firebase_Auth_ActionCodeSettings_get_AndroidInstallIfNotAvailable
-	.long LDIFF_SYM2074
+LDIFF_SYM2064=Lme_182 - Firebase_Auth_ActionCodeSettings_get_AndroidInstallIfNotAvailable
+	.long LDIFF_SYM2064
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -113362,22 +113306,22 @@ Lfde257_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2075=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2075
+LDIFF_SYM2065=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2065
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2076=Lfde258_end - Lfde258_start
-	.long LDIFF_SYM2076
+LDIFF_SYM2066=Lfde258_end - Lfde258_start
+	.long LDIFF_SYM2066
 Lfde258_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeSettings_get_AndroidMinimumVersion
 
-LDIFF_SYM2077=Lme_183 - Firebase_Auth_ActionCodeSettings_get_AndroidMinimumVersion
-	.long LDIFF_SYM2077
+LDIFF_SYM2067=Lme_183 - Firebase_Auth_ActionCodeSettings_get_AndroidMinimumVersion
+	.long LDIFF_SYM2067
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -113396,22 +113340,22 @@ Lfde258_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2078=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2078
+LDIFF_SYM2068=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2068
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2079=Lfde259_end - Lfde259_start
-	.long LDIFF_SYM2079
+LDIFF_SYM2069=Lfde259_end - Lfde259_start
+	.long LDIFF_SYM2069
 Lfde259_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeSettings_get_AndroidPackageName
 
-LDIFF_SYM2080=Lme_184 - Firebase_Auth_ActionCodeSettings_get_AndroidPackageName
-	.long LDIFF_SYM2080
+LDIFF_SYM2070=Lme_184 - Firebase_Auth_ActionCodeSettings_get_AndroidPackageName
+	.long LDIFF_SYM2070
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -113430,22 +113374,22 @@ Lfde259_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2081=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2081
+LDIFF_SYM2071=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2071
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2082=Lfde260_end - Lfde260_start
-	.long LDIFF_SYM2082
+LDIFF_SYM2072=Lfde260_end - Lfde260_start
+	.long LDIFF_SYM2072
 Lfde260_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeSettings_get_DynamicLinkDomain
 
-LDIFF_SYM2083=Lme_185 - Firebase_Auth_ActionCodeSettings_get_DynamicLinkDomain
-	.long LDIFF_SYM2083
+LDIFF_SYM2073=Lme_185 - Firebase_Auth_ActionCodeSettings_get_DynamicLinkDomain
+	.long LDIFF_SYM2073
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -113464,32 +113408,32 @@ Lfde260_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2084=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2084
+LDIFF_SYM2074=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2074
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2085=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2085
+LDIFF_SYM2075=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2075
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2086=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2086
+LDIFF_SYM2076=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2076
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2087=Lfde261_end - Lfde261_start
-	.long LDIFF_SYM2087
+LDIFF_SYM2077=Lfde261_end - Lfde261_start
+	.long LDIFF_SYM2077
 Lfde261_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeSettings_set_DynamicLinkDomain_string
 
-LDIFF_SYM2088=Lme_186 - Firebase_Auth_ActionCodeSettings_set_DynamicLinkDomain_string
-	.long LDIFF_SYM2088
+LDIFF_SYM2078=Lme_186 - Firebase_Auth_ActionCodeSettings_set_DynamicLinkDomain_string
+	.long LDIFF_SYM2078
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7
 	.align 3
@@ -113508,22 +113452,22 @@ Lfde261_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2089=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2089
+LDIFF_SYM2079=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2079
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2090=Lfde262_end - Lfde262_start
-	.long LDIFF_SYM2090
+LDIFF_SYM2080=Lfde262_end - Lfde262_start
+	.long LDIFF_SYM2080
 Lfde262_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeSettings_get_HandleCodeInApp
 
-LDIFF_SYM2091=Lme_187 - Firebase_Auth_ActionCodeSettings_get_HandleCodeInApp
-	.long LDIFF_SYM2091
+LDIFF_SYM2081=Lme_187 - Firebase_Auth_ActionCodeSettings_get_HandleCodeInApp
+	.long LDIFF_SYM2081
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -113542,27 +113486,27 @@ Lfde262_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2092=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2092
+LDIFF_SYM2082=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2082
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2093=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2093
+LDIFF_SYM2083=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2083
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2094=Lfde263_end - Lfde263_start
-	.long LDIFF_SYM2094
+LDIFF_SYM2084=Lfde263_end - Lfde263_start
+	.long LDIFF_SYM2084
 Lfde263_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeSettings_set_HandleCodeInApp_bool
 
-LDIFF_SYM2095=Lme_188 - Firebase_Auth_ActionCodeSettings_set_HandleCodeInApp_bool
-	.long LDIFF_SYM2095
+LDIFF_SYM2085=Lme_188 - Firebase_Auth_ActionCodeSettings_set_HandleCodeInApp_bool
+	.long LDIFF_SYM2085
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -113581,22 +113525,22 @@ Lfde263_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2096=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2096
+LDIFF_SYM2086=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2086
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2097=Lfde264_end - Lfde264_start
-	.long LDIFF_SYM2097
+LDIFF_SYM2087=Lfde264_end - Lfde264_start
+	.long LDIFF_SYM2087
 Lfde264_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeSettings_get_IOSBundleId
 
-LDIFF_SYM2098=Lme_189 - Firebase_Auth_ActionCodeSettings_get_IOSBundleId
-	.long LDIFF_SYM2098
+LDIFF_SYM2088=Lme_189 - Firebase_Auth_ActionCodeSettings_get_IOSBundleId
+	.long LDIFF_SYM2088
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -113615,32 +113559,32 @@ Lfde264_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2099=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2099
+LDIFF_SYM2089=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2089
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2100=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2100
+LDIFF_SYM2090=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2090
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2101=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2101
+LDIFF_SYM2091=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2091
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2102=Lfde265_end - Lfde265_start
-	.long LDIFF_SYM2102
+LDIFF_SYM2092=Lfde265_end - Lfde265_start
+	.long LDIFF_SYM2092
 Lfde265_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeSettings_set_IOSBundleId_string
 
-LDIFF_SYM2103=Lme_18a - Firebase_Auth_ActionCodeSettings_set_IOSBundleId_string
-	.long LDIFF_SYM2103
+LDIFF_SYM2093=Lme_18a - Firebase_Auth_ActionCodeSettings_set_IOSBundleId_string
+	.long LDIFF_SYM2093
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7
 	.align 3
@@ -113659,27 +113603,27 @@ Lfde265_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2104=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2104
+LDIFF_SYM2094=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2094
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2105=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2105
+LDIFF_SYM2095=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2095
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2106=Lfde266_end - Lfde266_start
-	.long LDIFF_SYM2106
+LDIFF_SYM2096=Lfde266_end - Lfde266_start
+	.long LDIFF_SYM2096
 Lfde266_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeSettings_get_Url
 
-LDIFF_SYM2107=Lme_18b - Firebase_Auth_ActionCodeSettings_get_Url
-	.long LDIFF_SYM2107
+LDIFF_SYM2097=Lme_18b - Firebase_Auth_ActionCodeSettings_get_Url
+	.long LDIFF_SYM2097
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -113698,27 +113642,27 @@ Lfde266_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2108=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2108
+LDIFF_SYM2098=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2098
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2109=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2109
+LDIFF_SYM2099=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2099
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2110=Lfde267_end - Lfde267_start
-	.long LDIFF_SYM2110
+LDIFF_SYM2100=Lfde267_end - Lfde267_start
+	.long LDIFF_SYM2100
 Lfde267_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeSettings_set_Url_Foundation_NSUrl
 
-LDIFF_SYM2111=Lme_18c - Firebase_Auth_ActionCodeSettings_set_Url_Foundation_NSUrl
-	.long LDIFF_SYM2111
+LDIFF_SYM2101=Lme_18c - Firebase_Auth_ActionCodeSettings_set_Url_Foundation_NSUrl
+	.long LDIFF_SYM2101
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9,68,154,8
 	.align 3
@@ -113738,45 +113682,45 @@ Lfde267_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2112=Lfde268_end - Lfde268_start
-	.long LDIFF_SYM2112
+LDIFF_SYM2102=Lfde268_end - Lfde268_start
+	.long LDIFF_SYM2102
 Lfde268_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_ActionCodeSettings__cctor
 
-LDIFF_SYM2113=Lme_18d - Firebase_Auth_ActionCodeSettings__cctor
-	.long LDIFF_SYM2113
+LDIFF_SYM2103=Lme_18d - Firebase_Auth_ActionCodeSettings__cctor
+	.long LDIFF_SYM2103
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde268_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_183:
+LTDIE_181:
 
 	.byte 5
 	.asciz "Firebase_Auth_AdditionalUserInfo"
 
 	.byte 40,16
-LDIFF_SYM2114=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM2114
+LDIFF_SYM2104=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM2104
 	.byte 2,35,0,0,7
 	.asciz "Firebase_Auth_AdditionalUserInfo"
 
-LDIFF_SYM2115=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM2115
-LTDIE_183_POINTER:
+LDIFF_SYM2105=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM2105
+LTDIE_181_POINTER:
 
 	.byte 13
-LDIFF_SYM2116=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM2116
-LTDIE_183_REFERENCE:
+LDIFF_SYM2106=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM2106
+LTDIE_181_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2117=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM2117
+LDIFF_SYM2107=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM2107
 	.byte 2
 	.asciz "Firebase.Auth.AdditionalUserInfo:get_ClassHandle"
 	.asciz "Firebase_Auth_AdditionalUserInfo_get_ClassHandle"
@@ -113788,22 +113732,22 @@ LDIFF_SYM2117=LTDIE_183 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2118=LTDIE_183_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2118
+LDIFF_SYM2108=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2108
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2119=Lfde269_end - Lfde269_start
-	.long LDIFF_SYM2119
+LDIFF_SYM2109=Lfde269_end - Lfde269_start
+	.long LDIFF_SYM2109
 Lfde269_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AdditionalUserInfo_get_ClassHandle
 
-LDIFF_SYM2120=Lme_18e - Firebase_Auth_AdditionalUserInfo_get_ClassHandle
-	.long LDIFF_SYM2120
+LDIFF_SYM2110=Lme_18e - Firebase_Auth_AdditionalUserInfo_get_ClassHandle
+	.long LDIFF_SYM2110
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -113822,27 +113766,27 @@ Lfde269_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2121=LTDIE_183_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2121
+LDIFF_SYM2111=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2111
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2122=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2122
+LDIFF_SYM2112=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2112
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2123=Lfde270_end - Lfde270_start
-	.long LDIFF_SYM2123
+LDIFF_SYM2113=Lfde270_end - Lfde270_start
+	.long LDIFF_SYM2113
 Lfde270_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AdditionalUserInfo__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2124=Lme_18f - Firebase_Auth_AdditionalUserInfo__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2124
+LDIFF_SYM2114=Lme_18f - Firebase_Auth_AdditionalUserInfo__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2114
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -113861,27 +113805,27 @@ Lfde270_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2125=LTDIE_183_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2125
+LDIFF_SYM2115=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2115
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2126=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2126
+LDIFF_SYM2116=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2116
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2127=Lfde271_end - Lfde271_start
-	.long LDIFF_SYM2127
+LDIFF_SYM2117=Lfde271_end - Lfde271_start
+	.long LDIFF_SYM2117
 Lfde271_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AdditionalUserInfo__ctor_intptr
 
-LDIFF_SYM2128=Lme_190 - Firebase_Auth_AdditionalUserInfo__ctor_intptr
-	.long LDIFF_SYM2128
+LDIFF_SYM2118=Lme_190 - Firebase_Auth_AdditionalUserInfo__ctor_intptr
+	.long LDIFF_SYM2118
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -113900,51 +113844,51 @@ Lfde271_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2129=LTDIE_183_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2129
+LDIFF_SYM2119=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2119
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2130=Lfde272_end - Lfde272_start
-	.long LDIFF_SYM2130
+LDIFF_SYM2120=Lfde272_end - Lfde272_start
+	.long LDIFF_SYM2120
 Lfde272_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AdditionalUserInfo_get_IsNewUser
 
-LDIFF_SYM2131=Lme_191 - Firebase_Auth_AdditionalUserInfo_get_IsNewUser
-	.long LDIFF_SYM2131
+LDIFF_SYM2121=Lme_191 - Firebase_Auth_AdditionalUserInfo_get_IsNewUser
+	.long LDIFF_SYM2121
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
 Lfde272_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_184:
+LTDIE_182:
 
 	.byte 5
 	.asciz "Foundation_NSDictionary`2"
 
 	.byte 40,16
-LDIFF_SYM2132=LTDIE_140 - Ldebug_info_start
-	.long LDIFF_SYM2132
+LDIFF_SYM2122=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM2122
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSDictionary`2"
 
-LDIFF_SYM2133=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM2133
-LTDIE_184_POINTER:
+LDIFF_SYM2123=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM2123
+LTDIE_182_POINTER:
 
 	.byte 13
-LDIFF_SYM2134=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM2134
-LTDIE_184_REFERENCE:
+LDIFF_SYM2124=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM2124
+LTDIE_182_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2135=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM2135
+LDIFF_SYM2125=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM2125
 	.byte 2
 	.asciz "Firebase.Auth.AdditionalUserInfo:get_Profile"
 	.asciz "Firebase_Auth_AdditionalUserInfo_get_Profile"
@@ -113956,27 +113900,27 @@ LDIFF_SYM2135=LTDIE_184 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2136=LTDIE_183_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2136
+LDIFF_SYM2126=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2126
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2137=LTDIE_184_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2137
+LDIFF_SYM2127=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2127
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2138=Lfde273_end - Lfde273_start
-	.long LDIFF_SYM2138
+LDIFF_SYM2128=Lfde273_end - Lfde273_start
+	.long LDIFF_SYM2128
 Lfde273_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AdditionalUserInfo_get_Profile
 
-LDIFF_SYM2139=Lme_192 - Firebase_Auth_AdditionalUserInfo_get_Profile
-	.long LDIFF_SYM2139
+LDIFF_SYM2129=Lme_192 - Firebase_Auth_AdditionalUserInfo_get_Profile
+	.long LDIFF_SYM2129
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -113995,22 +113939,22 @@ Lfde273_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2140=LTDIE_183_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2140
+LDIFF_SYM2130=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2130
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2141=Lfde274_end - Lfde274_start
-	.long LDIFF_SYM2141
+LDIFF_SYM2131=Lfde274_end - Lfde274_start
+	.long LDIFF_SYM2131
 Lfde274_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AdditionalUserInfo_get_ProviderId
 
-LDIFF_SYM2142=Lme_193 - Firebase_Auth_AdditionalUserInfo_get_ProviderId
-	.long LDIFF_SYM2142
+LDIFF_SYM2132=Lme_193 - Firebase_Auth_AdditionalUserInfo_get_ProviderId
+	.long LDIFF_SYM2132
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -114029,22 +113973,22 @@ Lfde274_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2143=LTDIE_183_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2143
+LDIFF_SYM2133=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2133
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2144=Lfde275_end - Lfde275_start
-	.long LDIFF_SYM2144
+LDIFF_SYM2134=Lfde275_end - Lfde275_start
+	.long LDIFF_SYM2134
 Lfde275_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AdditionalUserInfo_get_Username
 
-LDIFF_SYM2145=Lme_194 - Firebase_Auth_AdditionalUserInfo_get_Username
-	.long LDIFF_SYM2145
+LDIFF_SYM2135=Lme_194 - Firebase_Auth_AdditionalUserInfo_get_Username
+	.long LDIFF_SYM2135
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -114064,16 +114008,16 @@ Lfde275_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2146=Lfde276_end - Lfde276_start
-	.long LDIFF_SYM2146
+LDIFF_SYM2136=Lfde276_end - Lfde276_start
+	.long LDIFF_SYM2136
 Lfde276_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AdditionalUserInfo__cctor
 
-LDIFF_SYM2147=Lme_195 - Firebase_Auth_AdditionalUserInfo__cctor
-	.long LDIFF_SYM2147
+LDIFF_SYM2137=Lme_195 - Firebase_Auth_AdditionalUserInfo__cctor
+	.long LDIFF_SYM2137
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -114092,22 +114036,22 @@ Lfde276_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2148=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2148
+LDIFF_SYM2138=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2138
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2149=Lfde277_end - Lfde277_start
-	.long LDIFF_SYM2149
+LDIFF_SYM2139=Lfde277_end - Lfde277_start
+	.long LDIFF_SYM2139
 Lfde277_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthCredential_get_ClassHandle
 
-LDIFF_SYM2150=Lme_196 - Firebase_Auth_AuthCredential_get_ClassHandle
-	.long LDIFF_SYM2150
+LDIFF_SYM2140=Lme_196 - Firebase_Auth_AuthCredential_get_ClassHandle
+	.long LDIFF_SYM2140
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -114126,27 +114070,27 @@ Lfde277_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2151=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2151
+LDIFF_SYM2141=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2141
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2152=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2152
+LDIFF_SYM2142=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2142
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2153=Lfde278_end - Lfde278_start
-	.long LDIFF_SYM2153
+LDIFF_SYM2143=Lfde278_end - Lfde278_start
+	.long LDIFF_SYM2143
 Lfde278_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthCredential__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2154=Lme_197 - Firebase_Auth_AuthCredential__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2154
+LDIFF_SYM2144=Lme_197 - Firebase_Auth_AuthCredential__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2144
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -114165,27 +114109,27 @@ Lfde278_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2155=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2155
+LDIFF_SYM2145=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2145
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2156=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2156
+LDIFF_SYM2146=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2146
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2157=Lfde279_end - Lfde279_start
-	.long LDIFF_SYM2157
+LDIFF_SYM2147=Lfde279_end - Lfde279_start
+	.long LDIFF_SYM2147
 Lfde279_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthCredential__ctor_intptr
 
-LDIFF_SYM2158=Lme_198 - Firebase_Auth_AuthCredential__ctor_intptr
-	.long LDIFF_SYM2158
+LDIFF_SYM2148=Lme_198 - Firebase_Auth_AuthCredential__ctor_intptr
+	.long LDIFF_SYM2148
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -114204,22 +114148,22 @@ Lfde279_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2159=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2159
+LDIFF_SYM2149=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2149
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2160=Lfde280_end - Lfde280_start
-	.long LDIFF_SYM2160
+LDIFF_SYM2150=Lfde280_end - Lfde280_start
+	.long LDIFF_SYM2150
 Lfde280_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthCredential_get_Provider
 
-LDIFF_SYM2161=Lme_199 - Firebase_Auth_AuthCredential_get_Provider
-	.long LDIFF_SYM2161
+LDIFF_SYM2151=Lme_199 - Firebase_Auth_AuthCredential_get_Provider
+	.long LDIFF_SYM2151
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -114239,16 +114183,16 @@ Lfde280_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2162=Lfde281_end - Lfde281_start
-	.long LDIFF_SYM2162
+LDIFF_SYM2152=Lfde281_end - Lfde281_start
+	.long LDIFF_SYM2152
 Lfde281_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthCredential__cctor
 
-LDIFF_SYM2163=Lme_19a - Firebase_Auth_AuthCredential__cctor
-	.long LDIFF_SYM2163
+LDIFF_SYM2153=Lme_19a - Firebase_Auth_AuthCredential__cctor
+	.long LDIFF_SYM2153
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -114267,22 +114211,22 @@ Lfde281_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2164=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2164
+LDIFF_SYM2154=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2154
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2165=Lfde282_end - Lfde282_start
-	.long LDIFF_SYM2165
+LDIFF_SYM2155=Lfde282_end - Lfde282_start
+	.long LDIFF_SYM2155
 Lfde282_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthDataResult_get_ClassHandle
 
-LDIFF_SYM2166=Lme_19b - Firebase_Auth_AuthDataResult_get_ClassHandle
-	.long LDIFF_SYM2166
+LDIFF_SYM2156=Lme_19b - Firebase_Auth_AuthDataResult_get_ClassHandle
+	.long LDIFF_SYM2156
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -114301,27 +114245,27 @@ Lfde282_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2167=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2167
+LDIFF_SYM2157=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2157
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2168=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2168
+LDIFF_SYM2158=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2158
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2169=Lfde283_end - Lfde283_start
-	.long LDIFF_SYM2169
+LDIFF_SYM2159=Lfde283_end - Lfde283_start
+	.long LDIFF_SYM2159
 Lfde283_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthDataResult__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2170=Lme_19c - Firebase_Auth_AuthDataResult__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2170
+LDIFF_SYM2160=Lme_19c - Firebase_Auth_AuthDataResult__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2160
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -114340,27 +114284,27 @@ Lfde283_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2171=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2171
+LDIFF_SYM2161=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2161
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2172=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2172
+LDIFF_SYM2162=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2162
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2173=Lfde284_end - Lfde284_start
-	.long LDIFF_SYM2173
+LDIFF_SYM2163=Lfde284_end - Lfde284_start
+	.long LDIFF_SYM2163
 Lfde284_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthDataResult__ctor_intptr
 
-LDIFF_SYM2174=Lme_19d - Firebase_Auth_AuthDataResult__ctor_intptr
-	.long LDIFF_SYM2174
+LDIFF_SYM2164=Lme_19d - Firebase_Auth_AuthDataResult__ctor_intptr
+	.long LDIFF_SYM2164
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -114379,27 +114323,27 @@ Lfde284_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2175=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2175
+LDIFF_SYM2165=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2165
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2176=LTDIE_183_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2176
+LDIFF_SYM2166=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2166
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2177=Lfde285_end - Lfde285_start
-	.long LDIFF_SYM2177
+LDIFF_SYM2167=Lfde285_end - Lfde285_start
+	.long LDIFF_SYM2167
 Lfde285_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthDataResult_get_AdditionalUserInfo
 
-LDIFF_SYM2178=Lme_19e - Firebase_Auth_AuthDataResult_get_AdditionalUserInfo
-	.long LDIFF_SYM2178
+LDIFF_SYM2168=Lme_19e - Firebase_Auth_AuthDataResult_get_AdditionalUserInfo
+	.long LDIFF_SYM2168
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -114418,27 +114362,27 @@ Lfde285_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2179=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2179
+LDIFF_SYM2169=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2169
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2180=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2180
+LDIFF_SYM2170=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2170
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2181=Lfde286_end - Lfde286_start
-	.long LDIFF_SYM2181
+LDIFF_SYM2171=Lfde286_end - Lfde286_start
+	.long LDIFF_SYM2171
 Lfde286_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthDataResult_get_Credential
 
-LDIFF_SYM2182=Lme_19f - Firebase_Auth_AuthDataResult_get_Credential
-	.long LDIFF_SYM2182
+LDIFF_SYM2172=Lme_19f - Firebase_Auth_AuthDataResult_get_Credential
+	.long LDIFF_SYM2172
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -114457,27 +114401,27 @@ Lfde286_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2183=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2183
+LDIFF_SYM2173=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2173
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2184=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2184
+LDIFF_SYM2174=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2174
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2185=Lfde287_end - Lfde287_start
-	.long LDIFF_SYM2185
+LDIFF_SYM2175=Lfde287_end - Lfde287_start
+	.long LDIFF_SYM2175
 Lfde287_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthDataResult_get_User
 
-LDIFF_SYM2186=Lme_1a0 - Firebase_Auth_AuthDataResult_get_User
-	.long LDIFF_SYM2186
+LDIFF_SYM2176=Lme_1a0 - Firebase_Auth_AuthDataResult_get_User
+	.long LDIFF_SYM2176
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -114497,16 +114441,16 @@ Lfde287_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2187=Lfde288_end - Lfde288_start
-	.long LDIFF_SYM2187
+LDIFF_SYM2177=Lfde288_end - Lfde288_start
+	.long LDIFF_SYM2177
 Lfde288_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthDataResult__cctor
 
-LDIFF_SYM2188=Lme_1a1 - Firebase_Auth_AuthDataResult__cctor
-	.long LDIFF_SYM2188
+LDIFF_SYM2178=Lme_1a1 - Firebase_Auth_AuthDataResult__cctor
+	.long LDIFF_SYM2178
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -114525,22 +114469,22 @@ Lfde288_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2189=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2189
+LDIFF_SYM2179=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2179
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2190=Lfde289_end - Lfde289_start
-	.long LDIFF_SYM2190
+LDIFF_SYM2180=Lfde289_end - Lfde289_start
+	.long LDIFF_SYM2180
 Lfde289_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthSettings_get_ClassHandle
 
-LDIFF_SYM2191=Lme_1a2 - Firebase_Auth_AuthSettings_get_ClassHandle
-	.long LDIFF_SYM2191
+LDIFF_SYM2181=Lme_1a2 - Firebase_Auth_AuthSettings_get_ClassHandle
+	.long LDIFF_SYM2181
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -114559,22 +114503,22 @@ Lfde289_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2192=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2192
+LDIFF_SYM2182=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2182
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2193=Lfde290_end - Lfde290_start
-	.long LDIFF_SYM2193
+LDIFF_SYM2183=Lfde290_end - Lfde290_start
+	.long LDIFF_SYM2183
 Lfde290_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthSettings__ctor
 
-LDIFF_SYM2194=Lme_1a3 - Firebase_Auth_AuthSettings__ctor
-	.long LDIFF_SYM2194
+LDIFF_SYM2184=Lme_1a3 - Firebase_Auth_AuthSettings__ctor
+	.long LDIFF_SYM2184
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -114593,27 +114537,27 @@ Lfde290_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2195=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2195
+LDIFF_SYM2185=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2185
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2196=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2196
+LDIFF_SYM2186=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2186
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2197=Lfde291_end - Lfde291_start
-	.long LDIFF_SYM2197
+LDIFF_SYM2187=Lfde291_end - Lfde291_start
+	.long LDIFF_SYM2187
 Lfde291_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthSettings__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2198=Lme_1a4 - Firebase_Auth_AuthSettings__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2198
+LDIFF_SYM2188=Lme_1a4 - Firebase_Auth_AuthSettings__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2188
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -114632,27 +114576,27 @@ Lfde291_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2199=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2199
+LDIFF_SYM2189=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2189
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2200=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2200
+LDIFF_SYM2190=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2190
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2201=Lfde292_end - Lfde292_start
-	.long LDIFF_SYM2201
+LDIFF_SYM2191=Lfde292_end - Lfde292_start
+	.long LDIFF_SYM2191
 Lfde292_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthSettings__ctor_intptr
 
-LDIFF_SYM2202=Lme_1a5 - Firebase_Auth_AuthSettings__ctor_intptr
-	.long LDIFF_SYM2202
+LDIFF_SYM2192=Lme_1a5 - Firebase_Auth_AuthSettings__ctor_intptr
+	.long LDIFF_SYM2192
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -114671,22 +114615,22 @@ Lfde292_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2203=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2203
+LDIFF_SYM2193=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2193
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2204=Lfde293_end - Lfde293_start
-	.long LDIFF_SYM2204
+LDIFF_SYM2194=Lfde293_end - Lfde293_start
+	.long LDIFF_SYM2194
 Lfde293_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthSettings_get_AppVerificationDisabledForTesting
 
-LDIFF_SYM2205=Lme_1a6 - Firebase_Auth_AuthSettings_get_AppVerificationDisabledForTesting
-	.long LDIFF_SYM2205
+LDIFF_SYM2195=Lme_1a6 - Firebase_Auth_AuthSettings_get_AppVerificationDisabledForTesting
+	.long LDIFF_SYM2195
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -114705,27 +114649,27 @@ Lfde293_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2206=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2206
+LDIFF_SYM2196=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2196
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2207=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2207
+LDIFF_SYM2197=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2197
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2208=Lfde294_end - Lfde294_start
-	.long LDIFF_SYM2208
+LDIFF_SYM2198=Lfde294_end - Lfde294_start
+	.long LDIFF_SYM2198
 Lfde294_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthSettings_set_AppVerificationDisabledForTesting_bool
 
-LDIFF_SYM2209=Lme_1a7 - Firebase_Auth_AuthSettings_set_AppVerificationDisabledForTesting_bool
-	.long LDIFF_SYM2209
+LDIFF_SYM2199=Lme_1a7 - Firebase_Auth_AuthSettings_set_AppVerificationDisabledForTesting_bool
+	.long LDIFF_SYM2199
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -114745,16 +114689,16 @@ Lfde294_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2210=Lfde295_end - Lfde295_start
-	.long LDIFF_SYM2210
+LDIFF_SYM2200=Lfde295_end - Lfde295_start
+	.long LDIFF_SYM2200
 Lfde295_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthSettings__cctor
 
-LDIFF_SYM2211=Lme_1a8 - Firebase_Auth_AuthSettings__cctor
-	.long LDIFF_SYM2211
+LDIFF_SYM2201=Lme_1a8 - Firebase_Auth_AuthSettings__cctor
+	.long LDIFF_SYM2201
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -114773,22 +114717,22 @@ Lfde295_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2212=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2212
+LDIFF_SYM2202=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2202
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2213=Lfde296_end - Lfde296_start
-	.long LDIFF_SYM2213
+LDIFF_SYM2203=Lfde296_end - Lfde296_start
+	.long LDIFF_SYM2203
 Lfde296_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthTokenResult_get_ClassHandle
 
-LDIFF_SYM2214=Lme_1a9 - Firebase_Auth_AuthTokenResult_get_ClassHandle
-	.long LDIFF_SYM2214
+LDIFF_SYM2204=Lme_1a9 - Firebase_Auth_AuthTokenResult_get_ClassHandle
+	.long LDIFF_SYM2204
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -114807,22 +114751,22 @@ Lfde296_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2215=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2215
+LDIFF_SYM2205=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2205
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2216=Lfde297_end - Lfde297_start
-	.long LDIFF_SYM2216
+LDIFF_SYM2206=Lfde297_end - Lfde297_start
+	.long LDIFF_SYM2206
 Lfde297_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthTokenResult__ctor
 
-LDIFF_SYM2217=Lme_1aa - Firebase_Auth_AuthTokenResult__ctor
-	.long LDIFF_SYM2217
+LDIFF_SYM2207=Lme_1aa - Firebase_Auth_AuthTokenResult__ctor
+	.long LDIFF_SYM2207
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -114841,27 +114785,27 @@ Lfde297_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2218=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2218
+LDIFF_SYM2208=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2208
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2219=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2219
+LDIFF_SYM2209=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2209
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2220=Lfde298_end - Lfde298_start
-	.long LDIFF_SYM2220
+LDIFF_SYM2210=Lfde298_end - Lfde298_start
+	.long LDIFF_SYM2210
 Lfde298_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthTokenResult__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2221=Lme_1ab - Firebase_Auth_AuthTokenResult__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2221
+LDIFF_SYM2211=Lme_1ab - Firebase_Auth_AuthTokenResult__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2211
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -114880,56 +114824,56 @@ Lfde298_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2222=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2222
+LDIFF_SYM2212=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2212
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2223=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2223
+LDIFF_SYM2213=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2213
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2224=Lfde299_end - Lfde299_start
-	.long LDIFF_SYM2224
+LDIFF_SYM2214=Lfde299_end - Lfde299_start
+	.long LDIFF_SYM2214
 Lfde299_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthTokenResult__ctor_intptr
 
-LDIFF_SYM2225=Lme_1ac - Firebase_Auth_AuthTokenResult__ctor_intptr
-	.long LDIFF_SYM2225
+LDIFF_SYM2215=Lme_1ac - Firebase_Auth_AuthTokenResult__ctor_intptr
+	.long LDIFF_SYM2215
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
 Lfde299_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_185:
+LTDIE_183:
 
 	.byte 5
 	.asciz "Foundation_NSDate"
 
 	.byte 40,16
-LDIFF_SYM2226=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM2226
+LDIFF_SYM2216=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM2216
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSDate"
 
-LDIFF_SYM2227=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM2227
-LTDIE_185_POINTER:
+LDIFF_SYM2217=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM2217
+LTDIE_183_POINTER:
 
 	.byte 13
-LDIFF_SYM2228=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM2228
-LTDIE_185_REFERENCE:
+LDIFF_SYM2218=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM2218
+LTDIE_183_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2229=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM2229
+LDIFF_SYM2219=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM2219
 	.byte 2
 	.asciz "Firebase.Auth.AuthTokenResult:get_AuthDate"
 	.asciz "Firebase_Auth_AuthTokenResult_get_AuthDate"
@@ -114941,27 +114885,27 @@ LDIFF_SYM2229=LTDIE_185 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2230=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2230
+LDIFF_SYM2220=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2220
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2231=LTDIE_185_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2231
+LDIFF_SYM2221=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2221
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2232=Lfde300_end - Lfde300_start
-	.long LDIFF_SYM2232
+LDIFF_SYM2222=Lfde300_end - Lfde300_start
+	.long LDIFF_SYM2222
 Lfde300_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthTokenResult_get_AuthDate
 
-LDIFF_SYM2233=Lme_1ad - Firebase_Auth_AuthTokenResult_get_AuthDate
-	.long LDIFF_SYM2233
+LDIFF_SYM2223=Lme_1ad - Firebase_Auth_AuthTokenResult_get_AuthDate
+	.long LDIFF_SYM2223
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -114980,27 +114924,27 @@ Lfde300_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2234=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2234
+LDIFF_SYM2224=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2224
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2235=LTDIE_184_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2235
+LDIFF_SYM2225=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2225
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2236=Lfde301_end - Lfde301_start
-	.long LDIFF_SYM2236
+LDIFF_SYM2226=Lfde301_end - Lfde301_start
+	.long LDIFF_SYM2226
 Lfde301_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthTokenResult_get_Claims
 
-LDIFF_SYM2237=Lme_1ae - Firebase_Auth_AuthTokenResult_get_Claims
-	.long LDIFF_SYM2237
+LDIFF_SYM2227=Lme_1ae - Firebase_Auth_AuthTokenResult_get_Claims
+	.long LDIFF_SYM2227
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -115019,27 +114963,27 @@ Lfde301_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2238=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2238
+LDIFF_SYM2228=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2228
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2239=LTDIE_185_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2239
+LDIFF_SYM2229=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2229
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2240=Lfde302_end - Lfde302_start
-	.long LDIFF_SYM2240
+LDIFF_SYM2230=Lfde302_end - Lfde302_start
+	.long LDIFF_SYM2230
 Lfde302_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthTokenResult_get_ExpirationDate
 
-LDIFF_SYM2241=Lme_1af - Firebase_Auth_AuthTokenResult_get_ExpirationDate
-	.long LDIFF_SYM2241
+LDIFF_SYM2231=Lme_1af - Firebase_Auth_AuthTokenResult_get_ExpirationDate
+	.long LDIFF_SYM2231
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -115058,27 +115002,27 @@ Lfde302_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2242=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2242
+LDIFF_SYM2232=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2232
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2243=LTDIE_185_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2243
+LDIFF_SYM2233=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2233
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2244=Lfde303_end - Lfde303_start
-	.long LDIFF_SYM2244
+LDIFF_SYM2234=Lfde303_end - Lfde303_start
+	.long LDIFF_SYM2234
 Lfde303_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthTokenResult_get_IssuedAtDate
 
-LDIFF_SYM2245=Lme_1b0 - Firebase_Auth_AuthTokenResult_get_IssuedAtDate
-	.long LDIFF_SYM2245
+LDIFF_SYM2235=Lme_1b0 - Firebase_Auth_AuthTokenResult_get_IssuedAtDate
+	.long LDIFF_SYM2235
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -115097,22 +115041,22 @@ Lfde303_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2246=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2246
+LDIFF_SYM2236=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2236
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2247=Lfde304_end - Lfde304_start
-	.long LDIFF_SYM2247
+LDIFF_SYM2237=Lfde304_end - Lfde304_start
+	.long LDIFF_SYM2237
 Lfde304_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthTokenResult_get_SignInProvider
 
-LDIFF_SYM2248=Lme_1b1 - Firebase_Auth_AuthTokenResult_get_SignInProvider
-	.long LDIFF_SYM2248
+LDIFF_SYM2238=Lme_1b1 - Firebase_Auth_AuthTokenResult_get_SignInProvider
+	.long LDIFF_SYM2238
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -115131,22 +115075,22 @@ Lfde304_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2249=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2249
+LDIFF_SYM2239=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2239
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2250=Lfde305_end - Lfde305_start
-	.long LDIFF_SYM2250
+LDIFF_SYM2240=Lfde305_end - Lfde305_start
+	.long LDIFF_SYM2240
 Lfde305_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthTokenResult_get_Token
 
-LDIFF_SYM2251=Lme_1b2 - Firebase_Auth_AuthTokenResult_get_Token
-	.long LDIFF_SYM2251
+LDIFF_SYM2241=Lme_1b2 - Firebase_Auth_AuthTokenResult_get_Token
+	.long LDIFF_SYM2241
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -115166,73 +115110,73 @@ Lfde305_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2252=Lfde306_end - Lfde306_start
-	.long LDIFF_SYM2252
+LDIFF_SYM2242=Lfde306_end - Lfde306_start
+	.long LDIFF_SYM2242
 Lfde306_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthTokenResult__cctor
 
-LDIFF_SYM2253=Lme_1b3 - Firebase_Auth_AuthTokenResult__cctor
-	.long LDIFF_SYM2253
+LDIFF_SYM2243=Lme_1b3 - Firebase_Auth_AuthTokenResult__cctor
+	.long LDIFF_SYM2243
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde306_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_187:
+LTDIE_185:
 
 	.byte 5
 	.asciz "ObjCRuntime_BaseWrapper"
 
 	.byte 24,16
-LDIFF_SYM2254=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2254
+LDIFF_SYM2244=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2244
 	.byte 2,35,0,6
 	.asciz "<Handle>k__BackingField"
 
-LDIFF_SYM2255=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2255
+LDIFF_SYM2245=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2245
 	.byte 2,35,16,0,7
 	.asciz "ObjCRuntime_BaseWrapper"
 
-LDIFF_SYM2256=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM2256
-LTDIE_187_POINTER:
+LDIFF_SYM2246=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM2246
+LTDIE_185_POINTER:
 
 	.byte 13
-LDIFF_SYM2257=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM2257
-LTDIE_187_REFERENCE:
+LDIFF_SYM2247=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM2247
+LTDIE_185_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2258=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM2258
-LTDIE_186:
+LDIFF_SYM2248=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM2248
+LTDIE_184:
 
 	.byte 5
 	.asciz "Firebase_Auth_AuthUIDelegateWrapper"
 
 	.byte 24,16
-LDIFF_SYM2259=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM2259
+LDIFF_SYM2249=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM2249
 	.byte 2,35,0,0,7
 	.asciz "Firebase_Auth_AuthUIDelegateWrapper"
 
-LDIFF_SYM2260=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM2260
-LTDIE_186_POINTER:
+LDIFF_SYM2250=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM2250
+LTDIE_184_POINTER:
 
 	.byte 13
-LDIFF_SYM2261=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM2261
-LTDIE_186_REFERENCE:
+LDIFF_SYM2251=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM2251
+LTDIE_184_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2262=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM2262
+LDIFF_SYM2252=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM2252
 	.byte 2
 	.asciz "Firebase.Auth.AuthUIDelegateWrapper:.ctor"
 	.asciz "Firebase_Auth_AuthUIDelegateWrapper__ctor_intptr_bool"
@@ -115244,84 +115188,84 @@ LDIFF_SYM2262=LTDIE_186 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2263=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2263
+LDIFF_SYM2253=LTDIE_184_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2253
 	.byte 2,141,16,3
 	.asciz "handle"
 
-LDIFF_SYM2264=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2264
+LDIFF_SYM2254=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2254
 	.byte 2,141,24,3
 	.asciz "owns"
 
-LDIFF_SYM2265=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2265
+LDIFF_SYM2255=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2255
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2266=Lfde307_end - Lfde307_start
-	.long LDIFF_SYM2266
+LDIFF_SYM2256=Lfde307_end - Lfde307_start
+	.long LDIFF_SYM2256
 Lfde307_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthUIDelegateWrapper__ctor_intptr_bool
 
-LDIFF_SYM2267=Lme_1b6 - Firebase_Auth_AuthUIDelegateWrapper__ctor_intptr_bool
-	.long LDIFF_SYM2267
+LDIFF_SYM2257=Lme_1b6 - Firebase_Auth_AuthUIDelegateWrapper__ctor_intptr_bool
+	.long LDIFF_SYM2257
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde307_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_189:
+LTDIE_187:
 
 	.byte 5
 	.asciz "UIKit_UIResponder"
 
 	.byte 40,16
-LDIFF_SYM2268=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM2268
+LDIFF_SYM2258=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM2258
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIResponder"
 
-LDIFF_SYM2269=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM2269
-LTDIE_189_POINTER:
+LDIFF_SYM2259=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM2259
+LTDIE_187_POINTER:
 
 	.byte 13
-LDIFF_SYM2270=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM2270
-LTDIE_189_REFERENCE:
+LDIFF_SYM2260=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM2260
+LTDIE_187_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2271=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM2271
-LTDIE_188:
+LDIFF_SYM2261=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM2261
+LTDIE_186:
 
 	.byte 5
 	.asciz "UIKit_UIViewController"
 
 	.byte 40,16
-LDIFF_SYM2272=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM2272
+LDIFF_SYM2262=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM2262
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIViewController"
 
-LDIFF_SYM2273=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM2273
-LTDIE_188_POINTER:
+LDIFF_SYM2263=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM2263
+LTDIE_186_POINTER:
 
 	.byte 13
-LDIFF_SYM2274=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM2274
-LTDIE_188_REFERENCE:
+LDIFF_SYM2264=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM2264
+LTDIE_186_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2275=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM2275
+LDIFF_SYM2265=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM2265
 	.byte 2
 	.asciz "Firebase.Auth.AuthUIDelegateWrapper:PresentViewController"
 	.asciz "Firebase_Auth_AuthUIDelegateWrapper_PresentViewController_UIKit_UIViewController_bool_System_Action"
@@ -115333,47 +115277,47 @@ LDIFF_SYM2275=LTDIE_188 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2276=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2276
+LDIFF_SYM2266=LTDIE_184_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2266
 	.byte 2,141,40,3
 	.asciz "viewControllerToPresent"
 
-LDIFF_SYM2277=LTDIE_188_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2277
+LDIFF_SYM2267=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2267
 	.byte 1,104,3
 	.asciz "flag"
 
-LDIFF_SYM2278=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2278
+LDIFF_SYM2268=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2268
 	.byte 2,141,48,3
 	.asciz "completion"
 
-LDIFF_SYM2279=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2279
+LDIFF_SYM2269=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2269
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2280=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2280
+LDIFF_SYM2270=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2270
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM2281=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2281
+LDIFF_SYM2271=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2271
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2282=Lfde308_end - Lfde308_start
-	.long LDIFF_SYM2282
+LDIFF_SYM2272=Lfde308_end - Lfde308_start
+	.long LDIFF_SYM2272
 Lfde308_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthUIDelegateWrapper_PresentViewController_UIKit_UIViewController_bool_System_Action
 
-LDIFF_SYM2283=Lme_1b7 - Firebase_Auth_AuthUIDelegateWrapper_PresentViewController_UIKit_UIViewController_bool_System_Action
-	.long LDIFF_SYM2283
+LDIFF_SYM2273=Lme_1b7 - Firebase_Auth_AuthUIDelegateWrapper_PresentViewController_UIKit_UIViewController_bool_System_Action
+	.long LDIFF_SYM2273
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,150,20,68,152,19,68,154,18
 	.align 3
@@ -115392,71 +115336,71 @@ Lfde308_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2284=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2284
+LDIFF_SYM2274=LTDIE_184_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2274
 	.byte 2,141,32,3
 	.asciz "animated"
 
-LDIFF_SYM2285=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2285
+LDIFF_SYM2275=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2275
 	.byte 2,141,40,3
 	.asciz "completion"
 
-LDIFF_SYM2286=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2286
+LDIFF_SYM2276=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2276
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2287=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2287
+LDIFF_SYM2277=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2277
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2288=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2288
+LDIFF_SYM2278=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2278
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2289=Lfde309_end - Lfde309_start
-	.long LDIFF_SYM2289
+LDIFF_SYM2279=Lfde309_end - Lfde309_start
+	.long LDIFF_SYM2279
 Lfde309_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthUIDelegateWrapper_DismissViewController_bool_System_Action
 
-LDIFF_SYM2290=Lme_1b8 - Firebase_Auth_AuthUIDelegateWrapper_DismissViewController_bool_System_Action
-	.long LDIFF_SYM2290
+LDIFF_SYM2280=Lme_1b8 - Firebase_Auth_AuthUIDelegateWrapper_DismissViewController_bool_System_Action
+	.long LDIFF_SYM2280
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,68,154,17
 	.align 3
 Lfde309_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_190:
+LTDIE_188:
 
 	.byte 5
 	.asciz "Firebase_Auth_AuthUIDelegate"
 
 	.byte 40,16
-LDIFF_SYM2291=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM2291
+LDIFF_SYM2281=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM2281
 	.byte 2,35,0,0,7
 	.asciz "Firebase_Auth_AuthUIDelegate"
 
-LDIFF_SYM2292=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM2292
-LTDIE_190_POINTER:
+LDIFF_SYM2282=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM2282
+LTDIE_188_POINTER:
 
 	.byte 13
-LDIFF_SYM2293=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM2293
-LTDIE_190_REFERENCE:
+LDIFF_SYM2283=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM2283
+LTDIE_188_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2294=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM2294
+LDIFF_SYM2284=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM2284
 	.byte 2
 	.asciz "Firebase.Auth.AuthUIDelegate:.ctor"
 	.asciz "Firebase_Auth_AuthUIDelegate__ctor"
@@ -115468,22 +115412,22 @@ LDIFF_SYM2294=LTDIE_190 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2295=LTDIE_190_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2295
+LDIFF_SYM2285=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2285
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2296=Lfde310_end - Lfde310_start
-	.long LDIFF_SYM2296
+LDIFF_SYM2286=Lfde310_end - Lfde310_start
+	.long LDIFF_SYM2286
 Lfde310_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthUIDelegate__ctor
 
-LDIFF_SYM2297=Lme_1b9 - Firebase_Auth_AuthUIDelegate__ctor
-	.long LDIFF_SYM2297
+LDIFF_SYM2287=Lme_1b9 - Firebase_Auth_AuthUIDelegate__ctor
+	.long LDIFF_SYM2287
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -115502,27 +115446,27 @@ Lfde310_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2298=LTDIE_190_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2298
+LDIFF_SYM2288=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2288
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2299=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2299
+LDIFF_SYM2289=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2289
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2300=Lfde311_end - Lfde311_start
-	.long LDIFF_SYM2300
+LDIFF_SYM2290=Lfde311_end - Lfde311_start
+	.long LDIFF_SYM2290
 Lfde311_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthUIDelegate__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2301=Lme_1ba - Firebase_Auth_AuthUIDelegate__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2301
+LDIFF_SYM2291=Lme_1ba - Firebase_Auth_AuthUIDelegate__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2291
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
@@ -115541,56 +115485,56 @@ Lfde311_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2302=LTDIE_190_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2302
+LDIFF_SYM2292=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2292
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2303=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2303
+LDIFF_SYM2293=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2293
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2304=Lfde312_end - Lfde312_start
-	.long LDIFF_SYM2304
+LDIFF_SYM2294=Lfde312_end - Lfde312_start
+	.long LDIFF_SYM2294
 Lfde312_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_AuthUIDelegate__ctor_intptr
 
-LDIFF_SYM2305=Lme_1bb - Firebase_Auth_AuthUIDelegate__ctor_intptr
-	.long LDIFF_SYM2305
+LDIFF_SYM2295=Lme_1bb - Firebase_Auth_AuthUIDelegate__ctor_intptr
+	.long LDIFF_SYM2295
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
 Lfde312_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_191:
+LTDIE_189:
 
 	.byte 5
 	.asciz "Firebase_Auth_EmailAuthProvider"
 
 	.byte 40,16
-LDIFF_SYM2306=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM2306
+LDIFF_SYM2296=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM2296
 	.byte 2,35,0,0,7
 	.asciz "Firebase_Auth_EmailAuthProvider"
 
-LDIFF_SYM2307=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM2307
-LTDIE_191_POINTER:
+LDIFF_SYM2297=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM2297
+LTDIE_189_POINTER:
 
 	.byte 13
-LDIFF_SYM2308=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM2308
-LTDIE_191_REFERENCE:
+LDIFF_SYM2298=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM2298
+LTDIE_189_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2309=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM2309
+LDIFF_SYM2299=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM2299
 	.byte 2
 	.asciz "Firebase.Auth.EmailAuthProvider:get_ClassHandle"
 	.asciz "Firebase_Auth_EmailAuthProvider_get_ClassHandle"
@@ -115602,22 +115546,22 @@ LDIFF_SYM2309=LTDIE_191 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2310=LTDIE_191_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2310
+LDIFF_SYM2300=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2300
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2311=Lfde313_end - Lfde313_start
-	.long LDIFF_SYM2311
+LDIFF_SYM2301=Lfde313_end - Lfde313_start
+	.long LDIFF_SYM2301
 Lfde313_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_EmailAuthProvider_get_ClassHandle
 
-LDIFF_SYM2312=Lme_1be - Firebase_Auth_EmailAuthProvider_get_ClassHandle
-	.long LDIFF_SYM2312
+LDIFF_SYM2302=Lme_1be - Firebase_Auth_EmailAuthProvider_get_ClassHandle
+	.long LDIFF_SYM2302
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -115636,27 +115580,27 @@ Lfde313_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2313=LTDIE_191_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2313
+LDIFF_SYM2303=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2303
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2314=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2314
+LDIFF_SYM2304=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2304
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2315=Lfde314_end - Lfde314_start
-	.long LDIFF_SYM2315
+LDIFF_SYM2305=Lfde314_end - Lfde314_start
+	.long LDIFF_SYM2305
 Lfde314_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_EmailAuthProvider__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2316=Lme_1bf - Firebase_Auth_EmailAuthProvider__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2316
+LDIFF_SYM2306=Lme_1bf - Firebase_Auth_EmailAuthProvider__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2306
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -115675,27 +115619,27 @@ Lfde314_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2317=LTDIE_191_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2317
+LDIFF_SYM2307=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2307
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2318=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2318
+LDIFF_SYM2308=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2308
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2319=Lfde315_end - Lfde315_start
-	.long LDIFF_SYM2319
+LDIFF_SYM2309=Lfde315_end - Lfde315_start
+	.long LDIFF_SYM2309
 Lfde315_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_EmailAuthProvider__ctor_intptr
 
-LDIFF_SYM2320=Lme_1c0 - Firebase_Auth_EmailAuthProvider__ctor_intptr
-	.long LDIFF_SYM2320
+LDIFF_SYM2310=Lme_1c0 - Firebase_Auth_EmailAuthProvider__ctor_intptr
+	.long LDIFF_SYM2310
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -115714,37 +115658,37 @@ Lfde315_end:
 	.byte 2,118,16,3
 	.asciz "email"
 
-LDIFF_SYM2321=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2321
+LDIFF_SYM2311=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2311
 	.byte 1,105,3
 	.asciz "link"
 
-LDIFF_SYM2322=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2322
+LDIFF_SYM2312=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2312
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2323=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2323
+LDIFF_SYM2313=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2313
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2324=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2324
+LDIFF_SYM2314=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2314
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2325=Lfde316_end - Lfde316_start
-	.long LDIFF_SYM2325
+LDIFF_SYM2315=Lfde316_end - Lfde316_start
+	.long LDIFF_SYM2315
 Lfde316_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_EmailAuthProvider_GetCredentialFromLink_string_string
 
-LDIFF_SYM2326=Lme_1c1 - Firebase_Auth_EmailAuthProvider_GetCredentialFromLink_string_string
-	.long LDIFF_SYM2326
+LDIFF_SYM2316=Lme_1c1 - Firebase_Auth_EmailAuthProvider_GetCredentialFromLink_string_string
+	.long LDIFF_SYM2316
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16,152,15,68,153,14,154,13
 	.align 3
@@ -115763,37 +115707,37 @@ Lfde316_end:
 	.byte 2,118,16,3
 	.asciz "email"
 
-LDIFF_SYM2327=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2327
+LDIFF_SYM2317=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2317
 	.byte 1,105,3
 	.asciz "password"
 
-LDIFF_SYM2328=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2328
+LDIFF_SYM2318=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2318
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2329=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2329
+LDIFF_SYM2319=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2319
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2330=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2330
+LDIFF_SYM2320=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2320
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2331=Lfde317_end - Lfde317_start
-	.long LDIFF_SYM2331
+LDIFF_SYM2321=Lfde317_end - Lfde317_start
+	.long LDIFF_SYM2321
 Lfde317_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_EmailAuthProvider_GetCredentialFromPassword_string_string
 
-LDIFF_SYM2332=Lme_1c2 - Firebase_Auth_EmailAuthProvider_GetCredentialFromPassword_string_string
-	.long LDIFF_SYM2332
+LDIFF_SYM2322=Lme_1c2 - Firebase_Auth_EmailAuthProvider_GetCredentialFromPassword_string_string
+	.long LDIFF_SYM2322
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16,152,15,68,153,14,154,13
 	.align 3
@@ -115813,16 +115757,16 @@ Lfde317_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2333=Lfde318_end - Lfde318_start
-	.long LDIFF_SYM2333
+LDIFF_SYM2323=Lfde318_end - Lfde318_start
+	.long LDIFF_SYM2323
 Lfde318_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_EmailAuthProvider_get_Id
 
-LDIFF_SYM2334=Lme_1c3 - Firebase_Auth_EmailAuthProvider_get_Id
-	.long LDIFF_SYM2334
+LDIFF_SYM2324=Lme_1c3 - Firebase_Auth_EmailAuthProvider_get_Id
+	.long LDIFF_SYM2324
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -115842,16 +115786,16 @@ Lfde318_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2335=Lfde319_end - Lfde319_start
-	.long LDIFF_SYM2335
+LDIFF_SYM2325=Lfde319_end - Lfde319_start
+	.long LDIFF_SYM2325
 Lfde319_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_EmailAuthProvider_get_PasswordSignInMethod
 
-LDIFF_SYM2336=Lme_1c4 - Firebase_Auth_EmailAuthProvider_get_PasswordSignInMethod
-	.long LDIFF_SYM2336
+LDIFF_SYM2326=Lme_1c4 - Firebase_Auth_EmailAuthProvider_get_PasswordSignInMethod
+	.long LDIFF_SYM2326
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -115871,45 +115815,45 @@ Lfde319_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2337=Lfde320_end - Lfde320_start
-	.long LDIFF_SYM2337
+LDIFF_SYM2327=Lfde320_end - Lfde320_start
+	.long LDIFF_SYM2327
 Lfde320_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_EmailAuthProvider__cctor
 
-LDIFF_SYM2338=Lme_1c5 - Firebase_Auth_EmailAuthProvider__cctor
-	.long LDIFF_SYM2338
+LDIFF_SYM2328=Lme_1c5 - Firebase_Auth_EmailAuthProvider__cctor
+	.long LDIFF_SYM2328
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde320_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_192:
+LTDIE_190:
 
 	.byte 5
 	.asciz "Firebase_Auth_FacebookAuthProvider"
 
 	.byte 40,16
-LDIFF_SYM2339=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM2339
+LDIFF_SYM2329=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM2329
 	.byte 2,35,0,0,7
 	.asciz "Firebase_Auth_FacebookAuthProvider"
 
-LDIFF_SYM2340=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM2340
-LTDIE_192_POINTER:
+LDIFF_SYM2330=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM2330
+LTDIE_190_POINTER:
 
 	.byte 13
-LDIFF_SYM2341=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM2341
-LTDIE_192_REFERENCE:
+LDIFF_SYM2331=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM2331
+LTDIE_190_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2342=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM2342
+LDIFF_SYM2332=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM2332
 	.byte 2
 	.asciz "Firebase.Auth.FacebookAuthProvider:get_ClassHandle"
 	.asciz "Firebase_Auth_FacebookAuthProvider_get_ClassHandle"
@@ -115921,22 +115865,22 @@ LDIFF_SYM2342=LTDIE_192 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2343=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2343
+LDIFF_SYM2333=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2333
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2344=Lfde321_end - Lfde321_start
-	.long LDIFF_SYM2344
+LDIFF_SYM2334=Lfde321_end - Lfde321_start
+	.long LDIFF_SYM2334
 Lfde321_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_FacebookAuthProvider_get_ClassHandle
 
-LDIFF_SYM2345=Lme_1c6 - Firebase_Auth_FacebookAuthProvider_get_ClassHandle
-	.long LDIFF_SYM2345
+LDIFF_SYM2335=Lme_1c6 - Firebase_Auth_FacebookAuthProvider_get_ClassHandle
+	.long LDIFF_SYM2335
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -115955,27 +115899,27 @@ Lfde321_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2346=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2346
+LDIFF_SYM2336=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2336
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2347=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2347
+LDIFF_SYM2337=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2337
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2348=Lfde322_end - Lfde322_start
-	.long LDIFF_SYM2348
+LDIFF_SYM2338=Lfde322_end - Lfde322_start
+	.long LDIFF_SYM2338
 Lfde322_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_FacebookAuthProvider__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2349=Lme_1c7 - Firebase_Auth_FacebookAuthProvider__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2349
+LDIFF_SYM2339=Lme_1c7 - Firebase_Auth_FacebookAuthProvider__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2339
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -115994,27 +115938,27 @@ Lfde322_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2350=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2350
+LDIFF_SYM2340=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2340
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2351=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2351
+LDIFF_SYM2341=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2341
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2352=Lfde323_end - Lfde323_start
-	.long LDIFF_SYM2352
+LDIFF_SYM2342=Lfde323_end - Lfde323_start
+	.long LDIFF_SYM2342
 Lfde323_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_FacebookAuthProvider__ctor_intptr
 
-LDIFF_SYM2353=Lme_1c8 - Firebase_Auth_FacebookAuthProvider__ctor_intptr
-	.long LDIFF_SYM2353
+LDIFF_SYM2343=Lme_1c8 - Firebase_Auth_FacebookAuthProvider__ctor_intptr
+	.long LDIFF_SYM2343
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -116033,27 +115977,27 @@ Lfde323_end:
 	.byte 2,118,16,3
 	.asciz "accessToken"
 
-LDIFF_SYM2354=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2354
+LDIFF_SYM2344=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2344
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2355=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2355
+LDIFF_SYM2345=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2345
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2356=Lfde324_end - Lfde324_start
-	.long LDIFF_SYM2356
+LDIFF_SYM2346=Lfde324_end - Lfde324_start
+	.long LDIFF_SYM2346
 Lfde324_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_FacebookAuthProvider_GetCredential_string
 
-LDIFF_SYM2357=Lme_1c9 - Firebase_Auth_FacebookAuthProvider_GetCredential_string
-	.long LDIFF_SYM2357
+LDIFF_SYM2347=Lme_1c9 - Firebase_Auth_FacebookAuthProvider_GetCredential_string
+	.long LDIFF_SYM2347
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11
 	.align 3
@@ -116073,16 +116017,16 @@ Lfde324_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2358=Lfde325_end - Lfde325_start
-	.long LDIFF_SYM2358
+LDIFF_SYM2348=Lfde325_end - Lfde325_start
+	.long LDIFF_SYM2348
 Lfde325_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_FacebookAuthProvider_get_Id
 
-LDIFF_SYM2359=Lme_1ca - Firebase_Auth_FacebookAuthProvider_get_Id
-	.long LDIFF_SYM2359
+LDIFF_SYM2349=Lme_1ca - Firebase_Auth_FacebookAuthProvider_get_Id
+	.long LDIFF_SYM2349
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -116102,16 +116046,16 @@ Lfde325_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2360=Lfde326_end - Lfde326_start
-	.long LDIFF_SYM2360
+LDIFF_SYM2350=Lfde326_end - Lfde326_start
+	.long LDIFF_SYM2350
 Lfde326_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_FacebookAuthProvider_get_SignInMethod
 
-LDIFF_SYM2361=Lme_1cb - Firebase_Auth_FacebookAuthProvider_get_SignInMethod
-	.long LDIFF_SYM2361
+LDIFF_SYM2351=Lme_1cb - Firebase_Auth_FacebookAuthProvider_get_SignInMethod
+	.long LDIFF_SYM2351
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -116131,45 +116075,45 @@ Lfde326_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2362=Lfde327_end - Lfde327_start
-	.long LDIFF_SYM2362
+LDIFF_SYM2352=Lfde327_end - Lfde327_start
+	.long LDIFF_SYM2352
 Lfde327_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_FacebookAuthProvider__cctor
 
-LDIFF_SYM2363=Lme_1cc - Firebase_Auth_FacebookAuthProvider__cctor
-	.long LDIFF_SYM2363
+LDIFF_SYM2353=Lme_1cc - Firebase_Auth_FacebookAuthProvider__cctor
+	.long LDIFF_SYM2353
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde327_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_193:
+LTDIE_191:
 
 	.byte 5
 	.asciz "Firebase_Auth_FederatedAuthProviderWrapper"
 
 	.byte 24,16
-LDIFF_SYM2364=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM2364
+LDIFF_SYM2354=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM2354
 	.byte 2,35,0,0,7
 	.asciz "Firebase_Auth_FederatedAuthProviderWrapper"
 
-LDIFF_SYM2365=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM2365
-LTDIE_193_POINTER:
+LDIFF_SYM2355=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM2355
+LTDIE_191_POINTER:
 
 	.byte 13
-LDIFF_SYM2366=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM2366
-LTDIE_193_REFERENCE:
+LDIFF_SYM2356=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM2356
+LTDIE_191_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2367=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM2367
+LDIFF_SYM2357=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM2357
 	.byte 2
 	.asciz "Firebase.Auth.FederatedAuthProviderWrapper:.ctor"
 	.asciz "Firebase_Auth_FederatedAuthProviderWrapper__ctor_intptr_bool"
@@ -116181,32 +116125,32 @@ LDIFF_SYM2367=LTDIE_193 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2368=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2368
+LDIFF_SYM2358=LTDIE_191_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2358
 	.byte 2,141,16,3
 	.asciz "handle"
 
-LDIFF_SYM2369=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2369
+LDIFF_SYM2359=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2359
 	.byte 2,141,24,3
 	.asciz "owns"
 
-LDIFF_SYM2370=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2370
+LDIFF_SYM2360=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2360
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2371=Lfde328_end - Lfde328_start
-	.long LDIFF_SYM2371
+LDIFF_SYM2361=Lfde328_end - Lfde328_start
+	.long LDIFF_SYM2361
 Lfde328_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_FederatedAuthProviderWrapper__ctor_intptr_bool
 
-LDIFF_SYM2372=Lme_1ce - Firebase_Auth_FederatedAuthProviderWrapper__ctor_intptr_bool
-	.long LDIFF_SYM2372
+LDIFF_SYM2362=Lme_1ce - Firebase_Auth_FederatedAuthProviderWrapper__ctor_intptr_bool
+	.long LDIFF_SYM2362
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -116225,71 +116169,71 @@ Lfde328_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2373=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2373
+LDIFF_SYM2363=LTDIE_191_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2363
 	.byte 3,141,192,0,3
 	.asciz "uiDelegate"
 
-LDIFF_SYM2374=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2374
+LDIFF_SYM2364=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2364
 	.byte 1,105,3
 	.asciz "completion"
 
-LDIFF_SYM2375=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2375
+LDIFF_SYM2365=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2365
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2376=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2376
+LDIFF_SYM2366=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2366
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2377=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2377
+LDIFF_SYM2367=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2367
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2378=Lfde329_end - Lfde329_start
-	.long LDIFF_SYM2378
+LDIFF_SYM2368=Lfde329_end - Lfde329_start
+	.long LDIFF_SYM2368
 Lfde329_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_FederatedAuthProviderWrapper_Completion_Firebase_Auth_IAuthUIDelegate_Firebase_Auth_AuthCredentialCallbackHandler
 
-LDIFF_SYM2379=Lme_1cf - Firebase_Auth_FederatedAuthProviderWrapper_Completion_Firebase_Auth_IAuthUIDelegate_Firebase_Auth_AuthCredentialCallbackHandler
-	.long LDIFF_SYM2379
+LDIFF_SYM2369=Lme_1cf - Firebase_Auth_FederatedAuthProviderWrapper_Completion_Firebase_Auth_IAuthUIDelegate_Firebase_Auth_AuthCredentialCallbackHandler
+	.long LDIFF_SYM2369
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,148,18,149,17,68,150,16,151,15,68,153,14,154,13
 	.align 3
 Lfde329_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_194:
+LTDIE_192:
 
 	.byte 5
 	.asciz "Firebase_Auth_FederatedAuthProvider"
 
 	.byte 40,16
-LDIFF_SYM2380=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM2380
+LDIFF_SYM2370=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM2370
 	.byte 2,35,0,0,7
 	.asciz "Firebase_Auth_FederatedAuthProvider"
 
-LDIFF_SYM2381=LTDIE_194 - Ldebug_info_start
-	.long LDIFF_SYM2381
-LTDIE_194_POINTER:
+LDIFF_SYM2371=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM2371
+LTDIE_192_POINTER:
 
 	.byte 13
-LDIFF_SYM2382=LTDIE_194 - Ldebug_info_start
-	.long LDIFF_SYM2382
-LTDIE_194_REFERENCE:
+LDIFF_SYM2372=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM2372
+LTDIE_192_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2383=LTDIE_194 - Ldebug_info_start
-	.long LDIFF_SYM2383
+LDIFF_SYM2373=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM2373
 	.byte 2
 	.asciz "Firebase.Auth.FederatedAuthProvider:.ctor"
 	.asciz "Firebase_Auth_FederatedAuthProvider__ctor"
@@ -116301,22 +116245,22 @@ LDIFF_SYM2383=LTDIE_194 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2384=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2384
+LDIFF_SYM2374=LTDIE_192_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2374
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2385=Lfde330_end - Lfde330_start
-	.long LDIFF_SYM2385
+LDIFF_SYM2375=Lfde330_end - Lfde330_start
+	.long LDIFF_SYM2375
 Lfde330_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_FederatedAuthProvider__ctor
 
-LDIFF_SYM2386=Lme_1d0 - Firebase_Auth_FederatedAuthProvider__ctor
-	.long LDIFF_SYM2386
+LDIFF_SYM2376=Lme_1d0 - Firebase_Auth_FederatedAuthProvider__ctor
+	.long LDIFF_SYM2376
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -116335,27 +116279,27 @@ Lfde330_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2387=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2387
+LDIFF_SYM2377=LTDIE_192_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2377
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2388=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2388
+LDIFF_SYM2378=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2378
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2389=Lfde331_end - Lfde331_start
-	.long LDIFF_SYM2389
+LDIFF_SYM2379=Lfde331_end - Lfde331_start
+	.long LDIFF_SYM2379
 Lfde331_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_FederatedAuthProvider__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2390=Lme_1d1 - Firebase_Auth_FederatedAuthProvider__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2390
+LDIFF_SYM2380=Lme_1d1 - Firebase_Auth_FederatedAuthProvider__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2380
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
@@ -116374,56 +116318,56 @@ Lfde331_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2391=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2391
+LDIFF_SYM2381=LTDIE_192_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2381
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2392=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2392
+LDIFF_SYM2382=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2382
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2393=Lfde332_end - Lfde332_start
-	.long LDIFF_SYM2393
+LDIFF_SYM2383=Lfde332_end - Lfde332_start
+	.long LDIFF_SYM2383
 Lfde332_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_FederatedAuthProvider__ctor_intptr
 
-LDIFF_SYM2394=Lme_1d2 - Firebase_Auth_FederatedAuthProvider__ctor_intptr
-	.long LDIFF_SYM2394
+LDIFF_SYM2384=Lme_1d2 - Firebase_Auth_FederatedAuthProvider__ctor_intptr
+	.long LDIFF_SYM2384
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
 Lfde332_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_195:
+LTDIE_193:
 
 	.byte 5
 	.asciz "Firebase_Auth_GameCenterAuthProvider"
 
 	.byte 40,16
-LDIFF_SYM2395=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM2395
+LDIFF_SYM2385=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM2385
 	.byte 2,35,0,0,7
 	.asciz "Firebase_Auth_GameCenterAuthProvider"
 
-LDIFF_SYM2396=LTDIE_195 - Ldebug_info_start
-	.long LDIFF_SYM2396
-LTDIE_195_POINTER:
+LDIFF_SYM2386=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM2386
+LTDIE_193_POINTER:
 
 	.byte 13
-LDIFF_SYM2397=LTDIE_195 - Ldebug_info_start
-	.long LDIFF_SYM2397
-LTDIE_195_REFERENCE:
+LDIFF_SYM2387=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM2387
+LTDIE_193_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2398=LTDIE_195 - Ldebug_info_start
-	.long LDIFF_SYM2398
+LDIFF_SYM2388=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM2388
 	.byte 2
 	.asciz "Firebase.Auth.GameCenterAuthProvider:get_ClassHandle"
 	.asciz "Firebase_Auth_GameCenterAuthProvider_get_ClassHandle"
@@ -116435,22 +116379,22 @@ LDIFF_SYM2398=LTDIE_195 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2399=LTDIE_195_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2399
+LDIFF_SYM2389=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2389
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2400=Lfde333_end - Lfde333_start
-	.long LDIFF_SYM2400
+LDIFF_SYM2390=Lfde333_end - Lfde333_start
+	.long LDIFF_SYM2390
 Lfde333_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GameCenterAuthProvider_get_ClassHandle
 
-LDIFF_SYM2401=Lme_1d4 - Firebase_Auth_GameCenterAuthProvider_get_ClassHandle
-	.long LDIFF_SYM2401
+LDIFF_SYM2391=Lme_1d4 - Firebase_Auth_GameCenterAuthProvider_get_ClassHandle
+	.long LDIFF_SYM2391
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -116469,27 +116413,27 @@ Lfde333_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2402=LTDIE_195_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2402
+LDIFF_SYM2392=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2392
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2403=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2403
+LDIFF_SYM2393=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2393
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2404=Lfde334_end - Lfde334_start
-	.long LDIFF_SYM2404
+LDIFF_SYM2394=Lfde334_end - Lfde334_start
+	.long LDIFF_SYM2394
 Lfde334_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GameCenterAuthProvider__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2405=Lme_1d5 - Firebase_Auth_GameCenterAuthProvider__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2405
+LDIFF_SYM2395=Lme_1d5 - Firebase_Auth_GameCenterAuthProvider__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2395
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -116508,27 +116452,27 @@ Lfde334_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2406=LTDIE_195_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2406
+LDIFF_SYM2396=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2396
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2407=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2407
+LDIFF_SYM2397=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2397
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2408=Lfde335_end - Lfde335_start
-	.long LDIFF_SYM2408
+LDIFF_SYM2398=Lfde335_end - Lfde335_start
+	.long LDIFF_SYM2398
 Lfde335_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GameCenterAuthProvider__ctor_intptr
 
-LDIFF_SYM2409=Lme_1d6 - Firebase_Auth_GameCenterAuthProvider__ctor_intptr
-	.long LDIFF_SYM2409
+LDIFF_SYM2399=Lme_1d6 - Firebase_Auth_GameCenterAuthProvider__ctor_intptr
+	.long LDIFF_SYM2399
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -116547,32 +116491,32 @@ Lfde335_end:
 	.byte 2,118,16,3
 	.asciz "completion"
 
-LDIFF_SYM2410=LTDIE_46_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2410
+LDIFF_SYM2400=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2400
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2411=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2411
+LDIFF_SYM2401=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2401
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2412=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2412
+LDIFF_SYM2402=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2402
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2413=Lfde336_end - Lfde336_start
-	.long LDIFF_SYM2413
+LDIFF_SYM2403=Lfde336_end - Lfde336_start
+	.long LDIFF_SYM2403
 Lfde336_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GameCenterAuthProvider_GetCredential_Firebase_Auth_GameCenterCredentialCallbackHandler
 
-LDIFF_SYM2414=Lme_1d7 - Firebase_Auth_GameCenterAuthProvider_GetCredential_Firebase_Auth_GameCenterCredentialCallbackHandler
-	.long LDIFF_SYM2414
+LDIFF_SYM2404=Lme_1d7 - Firebase_Auth_GameCenterAuthProvider_GetCredential_Firebase_Auth_GameCenterCredentialCallbackHandler
+	.long LDIFF_SYM2404
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15
 	.align 3
@@ -116592,16 +116536,16 @@ Lfde336_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2415=Lfde337_end - Lfde337_start
-	.long LDIFF_SYM2415
+LDIFF_SYM2405=Lfde337_end - Lfde337_start
+	.long LDIFF_SYM2405
 Lfde337_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GameCenterAuthProvider_GetCredentialAsync
 
-LDIFF_SYM2416=Lme_1d8 - Firebase_Auth_GameCenterAuthProvider_GetCredentialAsync
-	.long LDIFF_SYM2416
+LDIFF_SYM2406=Lme_1d8 - Firebase_Auth_GameCenterAuthProvider_GetCredentialAsync
+	.long LDIFF_SYM2406
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,154,13
 	.align 3
@@ -116621,16 +116565,16 @@ Lfde337_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2417=Lfde338_end - Lfde338_start
-	.long LDIFF_SYM2417
+LDIFF_SYM2407=Lfde338_end - Lfde338_start
+	.long LDIFF_SYM2407
 Lfde338_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GameCenterAuthProvider_get_Id
 
-LDIFF_SYM2418=Lme_1d9 - Firebase_Auth_GameCenterAuthProvider_get_Id
-	.long LDIFF_SYM2418
+LDIFF_SYM2408=Lme_1d9 - Firebase_Auth_GameCenterAuthProvider_get_Id
+	.long LDIFF_SYM2408
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -116650,16 +116594,16 @@ Lfde338_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2419=Lfde339_end - Lfde339_start
-	.long LDIFF_SYM2419
+LDIFF_SYM2409=Lfde339_end - Lfde339_start
+	.long LDIFF_SYM2409
 Lfde339_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GameCenterAuthProvider_get_SignInMethod
 
-LDIFF_SYM2420=Lme_1da - Firebase_Auth_GameCenterAuthProvider_get_SignInMethod
-	.long LDIFF_SYM2420
+LDIFF_SYM2410=Lme_1da - Firebase_Auth_GameCenterAuthProvider_get_SignInMethod
+	.long LDIFF_SYM2410
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -116679,106 +116623,106 @@ Lfde339_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2421=Lfde340_end - Lfde340_start
-	.long LDIFF_SYM2421
+LDIFF_SYM2411=Lfde340_end - Lfde340_start
+	.long LDIFF_SYM2411
 Lfde340_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GameCenterAuthProvider__cctor
 
-LDIFF_SYM2422=Lme_1db - Firebase_Auth_GameCenterAuthProvider__cctor
-	.long LDIFF_SYM2422
+LDIFF_SYM2412=Lme_1db - Firebase_Auth_GameCenterAuthProvider__cctor
+	.long LDIFF_SYM2412
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde340_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_198:
+LTDIE_196:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM2423=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM2423
+LDIFF_SYM2413=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM2413
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM2424=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2424
+LDIFF_SYM2414=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2414
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM2425=LTDIE_198 - Ldebug_info_start
-	.long LDIFF_SYM2425
-LTDIE_198_POINTER:
-
-	.byte 13
-LDIFF_SYM2426=LTDIE_198 - Ldebug_info_start
-	.long LDIFF_SYM2426
-LTDIE_198_REFERENCE:
-
-	.byte 14
-LDIFF_SYM2427=LTDIE_198 - Ldebug_info_start
-	.long LDIFF_SYM2427
-LTDIE_197:
-
-	.byte 5
-	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
-
-	.byte 24,16
-LDIFF_SYM2428=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2428
-	.byte 2,35,0,6
-	.asciz "_task"
-
-LDIFF_SYM2429=LTDIE_198_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2429
-	.byte 2,35,16,0,7
-	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
-
-LDIFF_SYM2430=LTDIE_197 - Ldebug_info_start
-	.long LDIFF_SYM2430
-LTDIE_197_POINTER:
-
-	.byte 13
-LDIFF_SYM2431=LTDIE_197 - Ldebug_info_start
-	.long LDIFF_SYM2431
-LTDIE_197_REFERENCE:
-
-	.byte 14
-LDIFF_SYM2432=LTDIE_197 - Ldebug_info_start
-	.long LDIFF_SYM2432
-LTDIE_196:
-
-	.byte 5
-	.asciz "_<>c__DisplayClass6_0"
-
-	.byte 24,16
-LDIFF_SYM2433=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2433
-	.byte 2,35,0,6
-	.asciz "tcs"
-
-LDIFF_SYM2434=LTDIE_197_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2434
-	.byte 2,35,16,0,7
-	.asciz "_<>c__DisplayClass6_0"
-
-LDIFF_SYM2435=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM2435
+LDIFF_SYM2415=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM2415
 LTDIE_196_POINTER:
 
 	.byte 13
-LDIFF_SYM2436=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM2436
+LDIFF_SYM2416=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM2416
 LTDIE_196_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2437=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM2437
+LDIFF_SYM2417=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM2417
+LTDIE_195:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
+
+	.byte 24,16
+LDIFF_SYM2418=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2418
+	.byte 2,35,0,6
+	.asciz "_task"
+
+LDIFF_SYM2419=LTDIE_196_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2419
+	.byte 2,35,16,0,7
+	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
+
+LDIFF_SYM2420=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM2420
+LTDIE_195_POINTER:
+
+	.byte 13
+LDIFF_SYM2421=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM2421
+LTDIE_195_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2422=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM2422
+LTDIE_194:
+
+	.byte 5
+	.asciz "_<>c__DisplayClass6_0"
+
+	.byte 24,16
+LDIFF_SYM2423=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2423
+	.byte 2,35,0,6
+	.asciz "tcs"
+
+LDIFF_SYM2424=LTDIE_195_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2424
+	.byte 2,35,16,0,7
+	.asciz "_<>c__DisplayClass6_0"
+
+LDIFF_SYM2425=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM2425
+LTDIE_194_POINTER:
+
+	.byte 13
+LDIFF_SYM2426=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM2426
+LTDIE_194_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2427=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM2427
 	.byte 2
 	.asciz "Firebase.Auth.GameCenterAuthProvider/<>c__DisplayClass6_0:.ctor"
 	.asciz "Firebase_Auth_GameCenterAuthProvider__c__DisplayClass6_0__ctor"
@@ -116790,22 +116734,22 @@ LDIFF_SYM2437=LTDIE_196 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2438=LTDIE_196_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2438
+LDIFF_SYM2428=LTDIE_194_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2428
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2439=Lfde341_end - Lfde341_start
-	.long LDIFF_SYM2439
+LDIFF_SYM2429=Lfde341_end - Lfde341_start
+	.long LDIFF_SYM2429
 Lfde341_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GameCenterAuthProvider__c__DisplayClass6_0__ctor
 
-LDIFF_SYM2440=Lme_1dc - Firebase_Auth_GameCenterAuthProvider__c__DisplayClass6_0__ctor
-	.long LDIFF_SYM2440
+LDIFF_SYM2430=Lme_1dc - Firebase_Auth_GameCenterAuthProvider__c__DisplayClass6_0__ctor
+	.long LDIFF_SYM2430
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -116824,61 +116768,61 @@ Lfde341_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2441=LTDIE_196_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2441
+LDIFF_SYM2431=LTDIE_194_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2431
 	.byte 1,104,3
 	.asciz "credential_"
 
-LDIFF_SYM2442=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2442
+LDIFF_SYM2432=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2432
 	.byte 2,141,32,3
 	.asciz "error_"
 
-LDIFF_SYM2443=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2443
+LDIFF_SYM2433=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2433
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2444=Lfde342_end - Lfde342_start
-	.long LDIFF_SYM2444
+LDIFF_SYM2434=Lfde342_end - Lfde342_start
+	.long LDIFF_SYM2434
 Lfde342_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GameCenterAuthProvider__c__DisplayClass6_0__GetCredentialAsyncb__0_Firebase_Auth_AuthCredential_Foundation_NSError
 
-LDIFF_SYM2445=Lme_1dd - Firebase_Auth_GameCenterAuthProvider__c__DisplayClass6_0__GetCredentialAsyncb__0_Firebase_Auth_AuthCredential_Foundation_NSError
-	.long LDIFF_SYM2445
+LDIFF_SYM2435=Lme_1dd - Firebase_Auth_GameCenterAuthProvider__c__DisplayClass6_0__GetCredentialAsyncb__0_Firebase_Auth_AuthCredential_Foundation_NSError
+	.long LDIFF_SYM2435
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,68,154,7
 	.align 3
 Lfde342_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_199:
+LTDIE_197:
 
 	.byte 5
 	.asciz "Firebase_Auth_GitHubAuthProvider"
 
 	.byte 40,16
-LDIFF_SYM2446=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM2446
+LDIFF_SYM2436=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM2436
 	.byte 2,35,0,0,7
 	.asciz "Firebase_Auth_GitHubAuthProvider"
 
-LDIFF_SYM2447=LTDIE_199 - Ldebug_info_start
-	.long LDIFF_SYM2447
-LTDIE_199_POINTER:
+LDIFF_SYM2437=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM2437
+LTDIE_197_POINTER:
 
 	.byte 13
-LDIFF_SYM2448=LTDIE_199 - Ldebug_info_start
-	.long LDIFF_SYM2448
-LTDIE_199_REFERENCE:
+LDIFF_SYM2438=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM2438
+LTDIE_197_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2449=LTDIE_199 - Ldebug_info_start
-	.long LDIFF_SYM2449
+LDIFF_SYM2439=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM2439
 	.byte 2
 	.asciz "Firebase.Auth.GitHubAuthProvider:get_ClassHandle"
 	.asciz "Firebase_Auth_GitHubAuthProvider_get_ClassHandle"
@@ -116890,22 +116834,22 @@ LDIFF_SYM2449=LTDIE_199 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2450=LTDIE_199_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2450
+LDIFF_SYM2440=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2440
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2451=Lfde343_end - Lfde343_start
-	.long LDIFF_SYM2451
+LDIFF_SYM2441=Lfde343_end - Lfde343_start
+	.long LDIFF_SYM2441
 Lfde343_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GitHubAuthProvider_get_ClassHandle
 
-LDIFF_SYM2452=Lme_1de - Firebase_Auth_GitHubAuthProvider_get_ClassHandle
-	.long LDIFF_SYM2452
+LDIFF_SYM2442=Lme_1de - Firebase_Auth_GitHubAuthProvider_get_ClassHandle
+	.long LDIFF_SYM2442
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -116924,27 +116868,27 @@ Lfde343_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2453=LTDIE_199_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2453
+LDIFF_SYM2443=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2443
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2454=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2454
+LDIFF_SYM2444=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2444
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2455=Lfde344_end - Lfde344_start
-	.long LDIFF_SYM2455
+LDIFF_SYM2445=Lfde344_end - Lfde344_start
+	.long LDIFF_SYM2445
 Lfde344_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GitHubAuthProvider__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2456=Lme_1df - Firebase_Auth_GitHubAuthProvider__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2456
+LDIFF_SYM2446=Lme_1df - Firebase_Auth_GitHubAuthProvider__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2446
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -116963,27 +116907,27 @@ Lfde344_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2457=LTDIE_199_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2457
+LDIFF_SYM2447=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2447
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2458=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2458
+LDIFF_SYM2448=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2448
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2459=Lfde345_end - Lfde345_start
-	.long LDIFF_SYM2459
+LDIFF_SYM2449=Lfde345_end - Lfde345_start
+	.long LDIFF_SYM2449
 Lfde345_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GitHubAuthProvider__ctor_intptr
 
-LDIFF_SYM2460=Lme_1e0 - Firebase_Auth_GitHubAuthProvider__ctor_intptr
-	.long LDIFF_SYM2460
+LDIFF_SYM2450=Lme_1e0 - Firebase_Auth_GitHubAuthProvider__ctor_intptr
+	.long LDIFF_SYM2450
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -117002,27 +116946,27 @@ Lfde345_end:
 	.byte 2,118,16,3
 	.asciz "token"
 
-LDIFF_SYM2461=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2461
+LDIFF_SYM2451=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2451
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2462=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2462
+LDIFF_SYM2452=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2452
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2463=Lfde346_end - Lfde346_start
-	.long LDIFF_SYM2463
+LDIFF_SYM2453=Lfde346_end - Lfde346_start
+	.long LDIFF_SYM2453
 Lfde346_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GitHubAuthProvider_GetCredential_string
 
-LDIFF_SYM2464=Lme_1e1 - Firebase_Auth_GitHubAuthProvider_GetCredential_string
-	.long LDIFF_SYM2464
+LDIFF_SYM2454=Lme_1e1 - Firebase_Auth_GitHubAuthProvider_GetCredential_string
+	.long LDIFF_SYM2454
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11
 	.align 3
@@ -117042,16 +116986,16 @@ Lfde346_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2465=Lfde347_end - Lfde347_start
-	.long LDIFF_SYM2465
+LDIFF_SYM2455=Lfde347_end - Lfde347_start
+	.long LDIFF_SYM2455
 Lfde347_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GitHubAuthProvider_get_Id
 
-LDIFF_SYM2466=Lme_1e2 - Firebase_Auth_GitHubAuthProvider_get_Id
-	.long LDIFF_SYM2466
+LDIFF_SYM2456=Lme_1e2 - Firebase_Auth_GitHubAuthProvider_get_Id
+	.long LDIFF_SYM2456
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -117071,16 +117015,16 @@ Lfde347_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2467=Lfde348_end - Lfde348_start
-	.long LDIFF_SYM2467
+LDIFF_SYM2457=Lfde348_end - Lfde348_start
+	.long LDIFF_SYM2457
 Lfde348_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GitHubAuthProvider_get_SignInMethod
 
-LDIFF_SYM2468=Lme_1e3 - Firebase_Auth_GitHubAuthProvider_get_SignInMethod
-	.long LDIFF_SYM2468
+LDIFF_SYM2458=Lme_1e3 - Firebase_Auth_GitHubAuthProvider_get_SignInMethod
+	.long LDIFF_SYM2458
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -117100,45 +117044,45 @@ Lfde348_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2469=Lfde349_end - Lfde349_start
-	.long LDIFF_SYM2469
+LDIFF_SYM2459=Lfde349_end - Lfde349_start
+	.long LDIFF_SYM2459
 Lfde349_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GitHubAuthProvider__cctor
 
-LDIFF_SYM2470=Lme_1e4 - Firebase_Auth_GitHubAuthProvider__cctor
-	.long LDIFF_SYM2470
+LDIFF_SYM2460=Lme_1e4 - Firebase_Auth_GitHubAuthProvider__cctor
+	.long LDIFF_SYM2460
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde349_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_200:
+LTDIE_198:
 
 	.byte 5
 	.asciz "Firebase_Auth_GoogleAuthProvider"
 
 	.byte 40,16
-LDIFF_SYM2471=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM2471
+LDIFF_SYM2461=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM2461
 	.byte 2,35,0,0,7
 	.asciz "Firebase_Auth_GoogleAuthProvider"
 
-LDIFF_SYM2472=LTDIE_200 - Ldebug_info_start
-	.long LDIFF_SYM2472
-LTDIE_200_POINTER:
+LDIFF_SYM2462=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM2462
+LTDIE_198_POINTER:
 
 	.byte 13
-LDIFF_SYM2473=LTDIE_200 - Ldebug_info_start
-	.long LDIFF_SYM2473
-LTDIE_200_REFERENCE:
+LDIFF_SYM2463=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM2463
+LTDIE_198_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2474=LTDIE_200 - Ldebug_info_start
-	.long LDIFF_SYM2474
+LDIFF_SYM2464=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM2464
 	.byte 2
 	.asciz "Firebase.Auth.GoogleAuthProvider:get_ClassHandle"
 	.asciz "Firebase_Auth_GoogleAuthProvider_get_ClassHandle"
@@ -117150,22 +117094,22 @@ LDIFF_SYM2474=LTDIE_200 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2475=LTDIE_200_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2475
+LDIFF_SYM2465=LTDIE_198_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2465
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2476=Lfde350_end - Lfde350_start
-	.long LDIFF_SYM2476
+LDIFF_SYM2466=Lfde350_end - Lfde350_start
+	.long LDIFF_SYM2466
 Lfde350_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GoogleAuthProvider_get_ClassHandle
 
-LDIFF_SYM2477=Lme_1e5 - Firebase_Auth_GoogleAuthProvider_get_ClassHandle
-	.long LDIFF_SYM2477
+LDIFF_SYM2467=Lme_1e5 - Firebase_Auth_GoogleAuthProvider_get_ClassHandle
+	.long LDIFF_SYM2467
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -117184,27 +117128,27 @@ Lfde350_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2478=LTDIE_200_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2478
+LDIFF_SYM2468=LTDIE_198_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2468
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2479=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2479
+LDIFF_SYM2469=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2469
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2480=Lfde351_end - Lfde351_start
-	.long LDIFF_SYM2480
+LDIFF_SYM2470=Lfde351_end - Lfde351_start
+	.long LDIFF_SYM2470
 Lfde351_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GoogleAuthProvider__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2481=Lme_1e6 - Firebase_Auth_GoogleAuthProvider__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2481
+LDIFF_SYM2471=Lme_1e6 - Firebase_Auth_GoogleAuthProvider__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2471
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -117223,27 +117167,27 @@ Lfde351_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2482=LTDIE_200_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2482
+LDIFF_SYM2472=LTDIE_198_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2472
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2483=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2483
+LDIFF_SYM2473=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2473
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2484=Lfde352_end - Lfde352_start
-	.long LDIFF_SYM2484
+LDIFF_SYM2474=Lfde352_end - Lfde352_start
+	.long LDIFF_SYM2474
 Lfde352_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GoogleAuthProvider__ctor_intptr
 
-LDIFF_SYM2485=Lme_1e7 - Firebase_Auth_GoogleAuthProvider__ctor_intptr
-	.long LDIFF_SYM2485
+LDIFF_SYM2475=Lme_1e7 - Firebase_Auth_GoogleAuthProvider__ctor_intptr
+	.long LDIFF_SYM2475
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -117262,37 +117206,37 @@ Lfde352_end:
 	.byte 2,118,16,3
 	.asciz "idToken"
 
-LDIFF_SYM2486=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2486
+LDIFF_SYM2476=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2476
 	.byte 1,105,3
 	.asciz "accessToken"
 
-LDIFF_SYM2487=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2487
+LDIFF_SYM2477=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2477
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2488=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2488
+LDIFF_SYM2478=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2478
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2489=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2489
+LDIFF_SYM2479=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2479
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2490=Lfde353_end - Lfde353_start
-	.long LDIFF_SYM2490
+LDIFF_SYM2480=Lfde353_end - Lfde353_start
+	.long LDIFF_SYM2480
 Lfde353_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GoogleAuthProvider_GetCredential_string_string
 
-LDIFF_SYM2491=Lme_1e8 - Firebase_Auth_GoogleAuthProvider_GetCredential_string_string
-	.long LDIFF_SYM2491
+LDIFF_SYM2481=Lme_1e8 - Firebase_Auth_GoogleAuthProvider_GetCredential_string_string
+	.long LDIFF_SYM2481
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16,152,15,68,153,14,154,13
 	.align 3
@@ -117312,16 +117256,16 @@ Lfde353_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2492=Lfde354_end - Lfde354_start
-	.long LDIFF_SYM2492
+LDIFF_SYM2482=Lfde354_end - Lfde354_start
+	.long LDIFF_SYM2482
 Lfde354_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GoogleAuthProvider_get_Id
 
-LDIFF_SYM2493=Lme_1e9 - Firebase_Auth_GoogleAuthProvider_get_Id
-	.long LDIFF_SYM2493
+LDIFF_SYM2483=Lme_1e9 - Firebase_Auth_GoogleAuthProvider_get_Id
+	.long LDIFF_SYM2483
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -117341,16 +117285,16 @@ Lfde354_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2494=Lfde355_end - Lfde355_start
-	.long LDIFF_SYM2494
+LDIFF_SYM2484=Lfde355_end - Lfde355_start
+	.long LDIFF_SYM2484
 Lfde355_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GoogleAuthProvider_get_SignInMethod
 
-LDIFF_SYM2495=Lme_1ea - Firebase_Auth_GoogleAuthProvider_get_SignInMethod
-	.long LDIFF_SYM2495
+LDIFF_SYM2485=Lme_1ea - Firebase_Auth_GoogleAuthProvider_get_SignInMethod
+	.long LDIFF_SYM2485
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -117370,45 +117314,45 @@ Lfde355_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2496=Lfde356_end - Lfde356_start
-	.long LDIFF_SYM2496
+LDIFF_SYM2486=Lfde356_end - Lfde356_start
+	.long LDIFF_SYM2486
 Lfde356_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_GoogleAuthProvider__cctor
 
-LDIFF_SYM2497=Lme_1eb - Firebase_Auth_GoogleAuthProvider__cctor
-	.long LDIFF_SYM2497
+LDIFF_SYM2487=Lme_1eb - Firebase_Auth_GoogleAuthProvider__cctor
+	.long LDIFF_SYM2487
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde356_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_201:
+LTDIE_199:
 
 	.byte 5
 	.asciz "Firebase_Auth_OAuthCredential"
 
 	.byte 40,16
-LDIFF_SYM2498=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM2498
+LDIFF_SYM2488=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM2488
 	.byte 2,35,0,0,7
 	.asciz "Firebase_Auth_OAuthCredential"
 
-LDIFF_SYM2499=LTDIE_201 - Ldebug_info_start
-	.long LDIFF_SYM2499
-LTDIE_201_POINTER:
+LDIFF_SYM2489=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM2489
+LTDIE_199_POINTER:
 
 	.byte 13
-LDIFF_SYM2500=LTDIE_201 - Ldebug_info_start
-	.long LDIFF_SYM2500
-LTDIE_201_REFERENCE:
+LDIFF_SYM2490=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM2490
+LTDIE_199_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2501=LTDIE_201 - Ldebug_info_start
-	.long LDIFF_SYM2501
+LDIFF_SYM2491=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM2491
 	.byte 2
 	.asciz "Firebase.Auth.OAuthCredential:get_ClassHandle"
 	.asciz "Firebase_Auth_OAuthCredential_get_ClassHandle"
@@ -117420,51 +117364,51 @@ LDIFF_SYM2501=LTDIE_201 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2502=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2502
+LDIFF_SYM2492=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2492
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2503=Lfde357_end - Lfde357_start
-	.long LDIFF_SYM2503
+LDIFF_SYM2493=Lfde357_end - Lfde357_start
+	.long LDIFF_SYM2493
 Lfde357_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthCredential_get_ClassHandle
 
-LDIFF_SYM2504=Lme_1ec - Firebase_Auth_OAuthCredential_get_ClassHandle
-	.long LDIFF_SYM2504
+LDIFF_SYM2494=Lme_1ec - Firebase_Auth_OAuthCredential_get_ClassHandle
+	.long LDIFF_SYM2494
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde357_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_202:
+LTDIE_200:
 
 	.byte 5
 	.asciz "Foundation_NSCoder"
 
 	.byte 40,16
-LDIFF_SYM2505=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM2505
+LDIFF_SYM2495=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM2495
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSCoder"
 
-LDIFF_SYM2506=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM2506
-LTDIE_202_POINTER:
+LDIFF_SYM2496=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM2496
+LTDIE_200_POINTER:
 
 	.byte 13
-LDIFF_SYM2507=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM2507
-LTDIE_202_REFERENCE:
+LDIFF_SYM2497=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM2497
+LTDIE_200_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2508=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM2508
+LDIFF_SYM2498=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM2498
 	.byte 2
 	.asciz "Firebase.Auth.OAuthCredential:.ctor"
 	.asciz "Firebase_Auth_OAuthCredential__ctor_Foundation_NSCoder"
@@ -117476,27 +117420,27 @@ LDIFF_SYM2508=LTDIE_202 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2509=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2509
+LDIFF_SYM2499=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2499
 	.byte 1,105,3
 	.asciz "coder"
 
-LDIFF_SYM2510=LTDIE_202_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2510
+LDIFF_SYM2500=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2500
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2511=Lfde358_end - Lfde358_start
-	.long LDIFF_SYM2511
+LDIFF_SYM2501=Lfde358_end - Lfde358_start
+	.long LDIFF_SYM2501
 Lfde358_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthCredential__ctor_Foundation_NSCoder
 
-LDIFF_SYM2512=Lme_1ed - Firebase_Auth_OAuthCredential__ctor_Foundation_NSCoder
-	.long LDIFF_SYM2512
+LDIFF_SYM2502=Lme_1ed - Firebase_Auth_OAuthCredential__ctor_Foundation_NSCoder
+	.long LDIFF_SYM2502
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -117515,27 +117459,27 @@ Lfde358_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2513=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2513
+LDIFF_SYM2503=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2503
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2514=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2514
+LDIFF_SYM2504=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2504
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2515=Lfde359_end - Lfde359_start
-	.long LDIFF_SYM2515
+LDIFF_SYM2505=Lfde359_end - Lfde359_start
+	.long LDIFF_SYM2505
 Lfde359_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthCredential__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2516=Lme_1ee - Firebase_Auth_OAuthCredential__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2516
+LDIFF_SYM2506=Lme_1ee - Firebase_Auth_OAuthCredential__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2506
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -117554,27 +117498,27 @@ Lfde359_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2517=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2517
+LDIFF_SYM2507=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2507
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2518=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2518
+LDIFF_SYM2508=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2508
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2519=Lfde360_end - Lfde360_start
-	.long LDIFF_SYM2519
+LDIFF_SYM2509=Lfde360_end - Lfde360_start
+	.long LDIFF_SYM2509
 Lfde360_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthCredential__ctor_intptr
 
-LDIFF_SYM2520=Lme_1ef - Firebase_Auth_OAuthCredential__ctor_intptr
-	.long LDIFF_SYM2520
+LDIFF_SYM2510=Lme_1ef - Firebase_Auth_OAuthCredential__ctor_intptr
+	.long LDIFF_SYM2510
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -117593,27 +117537,27 @@ Lfde360_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2521=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2521
+LDIFF_SYM2511=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2511
 	.byte 1,105,3
 	.asciz "encoder"
 
-LDIFF_SYM2522=LTDIE_202_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2522
+LDIFF_SYM2512=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2512
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2523=Lfde361_end - Lfde361_start
-	.long LDIFF_SYM2523
+LDIFF_SYM2513=Lfde361_end - Lfde361_start
+	.long LDIFF_SYM2513
 Lfde361_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthCredential_EncodeTo_Foundation_NSCoder
 
-LDIFF_SYM2524=Lme_1f0 - Firebase_Auth_OAuthCredential_EncodeTo_Foundation_NSCoder
-	.long LDIFF_SYM2524
+LDIFF_SYM2514=Lme_1f0 - Firebase_Auth_OAuthCredential_EncodeTo_Foundation_NSCoder
+	.long LDIFF_SYM2514
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -117632,22 +117576,22 @@ Lfde361_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2525=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2525
+LDIFF_SYM2515=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2515
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2526=Lfde362_end - Lfde362_start
-	.long LDIFF_SYM2526
+LDIFF_SYM2516=Lfde362_end - Lfde362_start
+	.long LDIFF_SYM2516
 Lfde362_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthCredential_get_AccessToken
 
-LDIFF_SYM2527=Lme_1f1 - Firebase_Auth_OAuthCredential_get_AccessToken
-	.long LDIFF_SYM2527
+LDIFF_SYM2517=Lme_1f1 - Firebase_Auth_OAuthCredential_get_AccessToken
+	.long LDIFF_SYM2517
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -117666,22 +117610,22 @@ Lfde362_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2528=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2528
+LDIFF_SYM2518=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2518
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2529=Lfde363_end - Lfde363_start
-	.long LDIFF_SYM2529
+LDIFF_SYM2519=Lfde363_end - Lfde363_start
+	.long LDIFF_SYM2519
 Lfde363_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthCredential_get_IdToken
 
-LDIFF_SYM2530=Lme_1f2 - Firebase_Auth_OAuthCredential_get_IdToken
-	.long LDIFF_SYM2530
+LDIFF_SYM2520=Lme_1f2 - Firebase_Auth_OAuthCredential_get_IdToken
+	.long LDIFF_SYM2520
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -117700,22 +117644,22 @@ Lfde363_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2531=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2531
+LDIFF_SYM2521=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2521
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2532=Lfde364_end - Lfde364_start
-	.long LDIFF_SYM2532
+LDIFF_SYM2522=Lfde364_end - Lfde364_start
+	.long LDIFF_SYM2522
 Lfde364_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthCredential_get_Secret
 
-LDIFF_SYM2533=Lme_1f3 - Firebase_Auth_OAuthCredential_get_Secret
-	.long LDIFF_SYM2533
+LDIFF_SYM2523=Lme_1f3 - Firebase_Auth_OAuthCredential_get_Secret
+	.long LDIFF_SYM2523
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -117735,45 +117679,45 @@ Lfde364_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2534=Lfde365_end - Lfde365_start
-	.long LDIFF_SYM2534
+LDIFF_SYM2524=Lfde365_end - Lfde365_start
+	.long LDIFF_SYM2524
 Lfde365_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthCredential__cctor
 
-LDIFF_SYM2535=Lme_1f4 - Firebase_Auth_OAuthCredential__cctor
-	.long LDIFF_SYM2535
+LDIFF_SYM2525=Lme_1f4 - Firebase_Auth_OAuthCredential__cctor
+	.long LDIFF_SYM2525
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde365_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_203:
+LTDIE_201:
 
 	.byte 5
 	.asciz "Firebase_Auth_OAuthProvider"
 
 	.byte 40,16
-LDIFF_SYM2536=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM2536
+LDIFF_SYM2526=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM2526
 	.byte 2,35,0,0,7
 	.asciz "Firebase_Auth_OAuthProvider"
 
-LDIFF_SYM2537=LTDIE_203 - Ldebug_info_start
-	.long LDIFF_SYM2537
-LTDIE_203_POINTER:
+LDIFF_SYM2527=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM2527
+LTDIE_201_POINTER:
 
 	.byte 13
-LDIFF_SYM2538=LTDIE_203 - Ldebug_info_start
-	.long LDIFF_SYM2538
-LTDIE_203_REFERENCE:
+LDIFF_SYM2528=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM2528
+LTDIE_201_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2539=LTDIE_203 - Ldebug_info_start
-	.long LDIFF_SYM2539
+LDIFF_SYM2529=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM2529
 	.byte 2
 	.asciz "Firebase.Auth.OAuthProvider:get_ClassHandle"
 	.asciz "Firebase_Auth_OAuthProvider_get_ClassHandle"
@@ -117785,22 +117729,22 @@ LDIFF_SYM2539=LTDIE_203 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2540=LTDIE_203_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2540
+LDIFF_SYM2530=LTDIE_201_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2530
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2541=Lfde366_end - Lfde366_start
-	.long LDIFF_SYM2541
+LDIFF_SYM2531=Lfde366_end - Lfde366_start
+	.long LDIFF_SYM2531
 Lfde366_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthProvider_get_ClassHandle
 
-LDIFF_SYM2542=Lme_1f5 - Firebase_Auth_OAuthProvider_get_ClassHandle
-	.long LDIFF_SYM2542
+LDIFF_SYM2532=Lme_1f5 - Firebase_Auth_OAuthProvider_get_ClassHandle
+	.long LDIFF_SYM2532
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -117819,27 +117763,27 @@ Lfde366_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2543=LTDIE_203_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2543
+LDIFF_SYM2533=LTDIE_201_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2533
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2544=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2544
+LDIFF_SYM2534=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2534
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2545=Lfde367_end - Lfde367_start
-	.long LDIFF_SYM2545
+LDIFF_SYM2535=Lfde367_end - Lfde367_start
+	.long LDIFF_SYM2535
 Lfde367_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthProvider__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2546=Lme_1f6 - Firebase_Auth_OAuthProvider__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2546
+LDIFF_SYM2536=Lme_1f6 - Firebase_Auth_OAuthProvider__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2536
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -117858,27 +117802,27 @@ Lfde367_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2547=LTDIE_203_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2547
+LDIFF_SYM2537=LTDIE_201_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2537
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2548=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2548
+LDIFF_SYM2538=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2538
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2549=Lfde368_end - Lfde368_start
-	.long LDIFF_SYM2549
+LDIFF_SYM2539=Lfde368_end - Lfde368_start
+	.long LDIFF_SYM2539
 Lfde368_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthProvider__ctor_intptr
 
-LDIFF_SYM2550=Lme_1f7 - Firebase_Auth_OAuthProvider__ctor_intptr
-	.long LDIFF_SYM2550
+LDIFF_SYM2540=Lme_1f7 - Firebase_Auth_OAuthProvider__ctor_intptr
+	.long LDIFF_SYM2540
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -117897,42 +117841,42 @@ Lfde368_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2551=LTDIE_203_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2551
+LDIFF_SYM2541=LTDIE_201_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2541
 	.byte 1,104,3
 	.asciz "uiDelegate"
 
-LDIFF_SYM2552=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2552
+LDIFF_SYM2542=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2542
 	.byte 1,105,3
 	.asciz "completion"
 
-LDIFF_SYM2553=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2553
+LDIFF_SYM2543=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2543
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2554=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2554
+LDIFF_SYM2544=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2544
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2555=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2555
+LDIFF_SYM2545=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2545
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2556=Lfde369_end - Lfde369_start
-	.long LDIFF_SYM2556
+LDIFF_SYM2546=Lfde369_end - Lfde369_start
+	.long LDIFF_SYM2546
 Lfde369_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthProvider_Completion_Firebase_Auth_IAuthUIDelegate_Firebase_Auth_AuthCredentialCallbackHandler
 
-LDIFF_SYM2557=Lme_1f8 - Firebase_Auth_OAuthProvider_Completion_Firebase_Auth_IAuthUIDelegate_Firebase_Auth_AuthCredentialCallbackHandler
-	.long LDIFF_SYM2557
+LDIFF_SYM2547=Lme_1f8 - Firebase_Auth_OAuthProvider_Completion_Firebase_Auth_IAuthUIDelegate_Firebase_Auth_AuthCredentialCallbackHandler
+	.long LDIFF_SYM2547
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,148,18,149,17,68,150,16,151,15,68,152,14,153,13,68,154,12
 	.align 3
@@ -117951,27 +117895,27 @@ Lfde369_end:
 	.byte 2,118,16,3
 	.asciz "providerId"
 
-LDIFF_SYM2558=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2558
+LDIFF_SYM2548=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2548
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2559=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2559
+LDIFF_SYM2549=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2549
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2560=Lfde370_end - Lfde370_start
-	.long LDIFF_SYM2560
+LDIFF_SYM2550=Lfde370_end - Lfde370_start
+	.long LDIFF_SYM2550
 Lfde370_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthProvider_Create_string
 
-LDIFF_SYM2561=Lme_1f9 - Firebase_Auth_OAuthProvider_Create_string
-	.long LDIFF_SYM2561
+LDIFF_SYM2551=Lme_1f9 - Firebase_Auth_OAuthProvider_Create_string
+	.long LDIFF_SYM2551
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11
 	.align 3
@@ -117990,32 +117934,32 @@ Lfde370_end:
 	.byte 2,118,16,3
 	.asciz "providerId"
 
-LDIFF_SYM2562=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2562
+LDIFF_SYM2552=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2552
 	.byte 1,105,3
 	.asciz "auth"
 
-LDIFF_SYM2563=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2563
+LDIFF_SYM2553=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2553
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2564=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2564
+LDIFF_SYM2554=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2554
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2565=Lfde371_end - Lfde371_start
-	.long LDIFF_SYM2565
+LDIFF_SYM2555=Lfde371_end - Lfde371_start
+	.long LDIFF_SYM2555
 Lfde371_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthProvider_Create_string_Firebase_Auth_Auth
 
-LDIFF_SYM2566=Lme_1fa - Firebase_Auth_OAuthProvider_Create_string_Firebase_Auth_Auth
-	.long LDIFF_SYM2566
+LDIFF_SYM2556=Lme_1fa - Firebase_Auth_OAuthProvider_Create_string_Firebase_Auth_Auth
+	.long LDIFF_SYM2556
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14,153,13,68,154,12
 	.align 3
@@ -118034,47 +117978,47 @@ Lfde371_end:
 	.byte 2,118,16,3
 	.asciz "providerId"
 
-LDIFF_SYM2567=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2567
+LDIFF_SYM2557=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2557
 	.byte 1,104,3
 	.asciz "IdToken"
 
-LDIFF_SYM2568=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2568
+LDIFF_SYM2558=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2558
 	.byte 1,105,3
 	.asciz "accessToken"
 
-LDIFF_SYM2569=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2569
+LDIFF_SYM2559=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2559
 	.byte 2,141,56,11
 	.asciz "V_0"
 
-LDIFF_SYM2570=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2570
+LDIFF_SYM2560=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2560
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2571=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2571
+LDIFF_SYM2561=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2561
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM2572=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2572
+LDIFF_SYM2562=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2562
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2573=Lfde372_end - Lfde372_start
-	.long LDIFF_SYM2573
+LDIFF_SYM2563=Lfde372_end - Lfde372_start
+	.long LDIFF_SYM2563
 Lfde372_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthProvider_GetCredential_string_string_string
 
-LDIFF_SYM2574=Lme_1fb - Firebase_Auth_OAuthProvider_GetCredential_string_string_string
-	.long LDIFF_SYM2574
+LDIFF_SYM2564=Lme_1fb - Firebase_Auth_OAuthProvider_GetCredential_string_string_string
+	.long LDIFF_SYM2564
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,149,18,150,17,68,151,16,152,15,68,153,14
 	.align 3
@@ -118093,66 +118037,66 @@ Lfde372_end:
 	.byte 2,118,16,3
 	.asciz "providerId"
 
-LDIFF_SYM2575=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2575
+LDIFF_SYM2565=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2565
 	.byte 1,105,3
 	.asciz "accessToken"
 
-LDIFF_SYM2576=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2576
+LDIFF_SYM2566=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2566
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2577=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2577
+LDIFF_SYM2567=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2567
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2578=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2578
+LDIFF_SYM2568=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2568
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2579=Lfde373_end - Lfde373_start
-	.long LDIFF_SYM2579
+LDIFF_SYM2569=Lfde373_end - Lfde373_start
+	.long LDIFF_SYM2569
 Lfde373_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthProvider_GetCredential_string_string
 
-LDIFF_SYM2580=Lme_1fc - Firebase_Auth_OAuthProvider_GetCredential_string_string
-	.long LDIFF_SYM2580
+LDIFF_SYM2570=Lme_1fc - Firebase_Auth_OAuthProvider_GetCredential_string_string
+	.long LDIFF_SYM2570
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16,152,15,68,153,14,154,13
 	.align 3
 Lfde373_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_204:
+LTDIE_202:
 
 	.byte 5
 	.asciz "Foundation_NSDictionary`2"
 
 	.byte 40,16
-LDIFF_SYM2581=LTDIE_140 - Ldebug_info_start
-	.long LDIFF_SYM2581
+LDIFF_SYM2571=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM2571
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSDictionary`2"
 
-LDIFF_SYM2582=LTDIE_204 - Ldebug_info_start
-	.long LDIFF_SYM2582
-LTDIE_204_POINTER:
+LDIFF_SYM2572=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM2572
+LTDIE_202_POINTER:
 
 	.byte 13
-LDIFF_SYM2583=LTDIE_204 - Ldebug_info_start
-	.long LDIFF_SYM2583
-LTDIE_204_REFERENCE:
+LDIFF_SYM2573=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM2573
+LTDIE_202_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2584=LTDIE_204 - Ldebug_info_start
-	.long LDIFF_SYM2584
+LDIFF_SYM2574=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM2574
 	.byte 2
 	.asciz "Firebase.Auth.OAuthProvider:get_CustomParameters"
 	.asciz "Firebase_Auth_OAuthProvider_get_CustomParameters"
@@ -118164,27 +118108,27 @@ LDIFF_SYM2584=LTDIE_204 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2585=LTDIE_203_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2585
+LDIFF_SYM2575=LTDIE_201_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2575
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2586=LTDIE_204_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2586
+LDIFF_SYM2576=LTDIE_202_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2576
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2587=Lfde374_end - Lfde374_start
-	.long LDIFF_SYM2587
+LDIFF_SYM2577=Lfde374_end - Lfde374_start
+	.long LDIFF_SYM2577
 Lfde374_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthProvider_get_CustomParameters
 
-LDIFF_SYM2588=Lme_1fd - Firebase_Auth_OAuthProvider_get_CustomParameters
-	.long LDIFF_SYM2588
+LDIFF_SYM2578=Lme_1fd - Firebase_Auth_OAuthProvider_get_CustomParameters
+	.long LDIFF_SYM2578
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -118203,27 +118147,27 @@ Lfde374_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2589=LTDIE_203_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2589
+LDIFF_SYM2579=LTDIE_201_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2579
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2590=LTDIE_204_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2590
+LDIFF_SYM2580=LTDIE_202_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2580
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2591=Lfde375_end - Lfde375_start
-	.long LDIFF_SYM2591
+LDIFF_SYM2581=Lfde375_end - Lfde375_start
+	.long LDIFF_SYM2581
 Lfde375_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthProvider_set_CustomParameters_Foundation_NSDictionary_2_Foundation_NSString_Foundation_NSString
 
-LDIFF_SYM2592=Lme_1fe - Firebase_Auth_OAuthProvider_set_CustomParameters_Foundation_NSDictionary_2_Foundation_NSString_Foundation_NSString
-	.long LDIFF_SYM2592
+LDIFF_SYM2582=Lme_1fe - Firebase_Auth_OAuthProvider_set_CustomParameters_Foundation_NSDictionary_2_Foundation_NSString_Foundation_NSString
+	.long LDIFF_SYM2582
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -118242,22 +118186,22 @@ Lfde375_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2593=LTDIE_203_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2593
+LDIFF_SYM2583=LTDIE_201_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2583
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2594=Lfde376_end - Lfde376_start
-	.long LDIFF_SYM2594
+LDIFF_SYM2584=Lfde376_end - Lfde376_start
+	.long LDIFF_SYM2584
 Lfde376_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthProvider_get_Id
 
-LDIFF_SYM2595=Lme_1ff - Firebase_Auth_OAuthProvider_get_Id
-	.long LDIFF_SYM2595
+LDIFF_SYM2585=Lme_1ff - Firebase_Auth_OAuthProvider_get_Id
+	.long LDIFF_SYM2585
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -118276,22 +118220,22 @@ Lfde376_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2596=LTDIE_203_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2596
+LDIFF_SYM2586=LTDIE_201_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2586
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2597=Lfde377_end - Lfde377_start
-	.long LDIFF_SYM2597
+LDIFF_SYM2587=Lfde377_end - Lfde377_start
+	.long LDIFF_SYM2587
 Lfde377_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthProvider_get_Scopes
 
-LDIFF_SYM2598=Lme_200 - Firebase_Auth_OAuthProvider_get_Scopes
-	.long LDIFF_SYM2598
+LDIFF_SYM2588=Lme_200 - Firebase_Auth_OAuthProvider_get_Scopes
+	.long LDIFF_SYM2588
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -118310,32 +118254,32 @@ Lfde377_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2599=LTDIE_203_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2599
+LDIFF_SYM2589=LTDIE_201_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2589
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2600=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2600
+LDIFF_SYM2590=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2590
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2601=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2601
+LDIFF_SYM2591=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2591
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2602=Lfde378_end - Lfde378_start
-	.long LDIFF_SYM2602
+LDIFF_SYM2592=Lfde378_end - Lfde378_start
+	.long LDIFF_SYM2592
 Lfde378_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthProvider_set_Scopes_string__
 
-LDIFF_SYM2603=Lme_201 - Firebase_Auth_OAuthProvider_set_Scopes_string__
-	.long LDIFF_SYM2603
+LDIFF_SYM2593=Lme_201 - Firebase_Auth_OAuthProvider_set_Scopes_string__
+	.long LDIFF_SYM2593
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,148,12,149,11,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -118355,45 +118299,45 @@ Lfde378_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2604=Lfde379_end - Lfde379_start
-	.long LDIFF_SYM2604
+LDIFF_SYM2594=Lfde379_end - Lfde379_start
+	.long LDIFF_SYM2594
 Lfde379_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_OAuthProvider__cctor
 
-LDIFF_SYM2605=Lme_202 - Firebase_Auth_OAuthProvider__cctor
-	.long LDIFF_SYM2605
+LDIFF_SYM2595=Lme_202 - Firebase_Auth_OAuthProvider__cctor
+	.long LDIFF_SYM2595
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde379_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_205:
+LTDIE_203:
 
 	.byte 5
 	.asciz "Firebase_Auth_PhoneAuthCredential"
 
 	.byte 40,16
-LDIFF_SYM2606=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM2606
+LDIFF_SYM2596=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM2596
 	.byte 2,35,0,0,7
 	.asciz "Firebase_Auth_PhoneAuthCredential"
 
-LDIFF_SYM2607=LTDIE_205 - Ldebug_info_start
-	.long LDIFF_SYM2607
-LTDIE_205_POINTER:
+LDIFF_SYM2597=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM2597
+LTDIE_203_POINTER:
 
 	.byte 13
-LDIFF_SYM2608=LTDIE_205 - Ldebug_info_start
-	.long LDIFF_SYM2608
-LTDIE_205_REFERENCE:
+LDIFF_SYM2598=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM2598
+LTDIE_203_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2609=LTDIE_205 - Ldebug_info_start
-	.long LDIFF_SYM2609
+LDIFF_SYM2599=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM2599
 	.byte 2
 	.asciz "Firebase.Auth.PhoneAuthCredential:get_ClassHandle"
 	.asciz "Firebase_Auth_PhoneAuthCredential_get_ClassHandle"
@@ -118405,22 +118349,22 @@ LDIFF_SYM2609=LTDIE_205 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2610=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2610
+LDIFF_SYM2600=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2600
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2611=Lfde380_end - Lfde380_start
-	.long LDIFF_SYM2611
+LDIFF_SYM2601=Lfde380_end - Lfde380_start
+	.long LDIFF_SYM2601
 Lfde380_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_PhoneAuthCredential_get_ClassHandle
 
-LDIFF_SYM2612=Lme_203 - Firebase_Auth_PhoneAuthCredential_get_ClassHandle
-	.long LDIFF_SYM2612
+LDIFF_SYM2602=Lme_203 - Firebase_Auth_PhoneAuthCredential_get_ClassHandle
+	.long LDIFF_SYM2602
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -118439,27 +118383,27 @@ Lfde380_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2613=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2613
+LDIFF_SYM2603=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2603
 	.byte 1,105,3
 	.asciz "coder"
 
-LDIFF_SYM2614=LTDIE_202_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2614
+LDIFF_SYM2604=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2604
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2615=Lfde381_end - Lfde381_start
-	.long LDIFF_SYM2615
+LDIFF_SYM2605=Lfde381_end - Lfde381_start
+	.long LDIFF_SYM2605
 Lfde381_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_PhoneAuthCredential__ctor_Foundation_NSCoder
 
-LDIFF_SYM2616=Lme_204 - Firebase_Auth_PhoneAuthCredential__ctor_Foundation_NSCoder
-	.long LDIFF_SYM2616
+LDIFF_SYM2606=Lme_204 - Firebase_Auth_PhoneAuthCredential__ctor_Foundation_NSCoder
+	.long LDIFF_SYM2606
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -118478,27 +118422,27 @@ Lfde381_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2617=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2617
+LDIFF_SYM2607=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2607
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2618=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2618
+LDIFF_SYM2608=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2608
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2619=Lfde382_end - Lfde382_start
-	.long LDIFF_SYM2619
+LDIFF_SYM2609=Lfde382_end - Lfde382_start
+	.long LDIFF_SYM2609
 Lfde382_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_PhoneAuthCredential__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2620=Lme_205 - Firebase_Auth_PhoneAuthCredential__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2620
+LDIFF_SYM2610=Lme_205 - Firebase_Auth_PhoneAuthCredential__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2610
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -118517,27 +118461,27 @@ Lfde382_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2621=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2621
+LDIFF_SYM2611=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2611
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2622=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2622
+LDIFF_SYM2612=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2612
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2623=Lfde383_end - Lfde383_start
-	.long LDIFF_SYM2623
+LDIFF_SYM2613=Lfde383_end - Lfde383_start
+	.long LDIFF_SYM2613
 Lfde383_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_PhoneAuthCredential__ctor_intptr
 
-LDIFF_SYM2624=Lme_206 - Firebase_Auth_PhoneAuthCredential__ctor_intptr
-	.long LDIFF_SYM2624
+LDIFF_SYM2614=Lme_206 - Firebase_Auth_PhoneAuthCredential__ctor_intptr
+	.long LDIFF_SYM2614
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -118556,27 +118500,27 @@ Lfde383_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2625=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2625
+LDIFF_SYM2615=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2615
 	.byte 1,105,3
 	.asciz "encoder"
 
-LDIFF_SYM2626=LTDIE_202_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2626
+LDIFF_SYM2616=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2616
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2627=Lfde384_end - Lfde384_start
-	.long LDIFF_SYM2627
+LDIFF_SYM2617=Lfde384_end - Lfde384_start
+	.long LDIFF_SYM2617
 Lfde384_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_PhoneAuthCredential_EncodeTo_Foundation_NSCoder
 
-LDIFF_SYM2628=Lme_207 - Firebase_Auth_PhoneAuthCredential_EncodeTo_Foundation_NSCoder
-	.long LDIFF_SYM2628
+LDIFF_SYM2618=Lme_207 - Firebase_Auth_PhoneAuthCredential_EncodeTo_Foundation_NSCoder
+	.long LDIFF_SYM2618
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -118596,45 +118540,45 @@ Lfde384_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2629=Lfde385_end - Lfde385_start
-	.long LDIFF_SYM2629
+LDIFF_SYM2619=Lfde385_end - Lfde385_start
+	.long LDIFF_SYM2619
 Lfde385_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_PhoneAuthCredential__cctor
 
-LDIFF_SYM2630=Lme_208 - Firebase_Auth_PhoneAuthCredential__cctor
-	.long LDIFF_SYM2630
+LDIFF_SYM2620=Lme_208 - Firebase_Auth_PhoneAuthCredential__cctor
+	.long LDIFF_SYM2620
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde385_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_206:
+LTDIE_204:
 
 	.byte 5
 	.asciz "Firebase_Auth_PhoneAuthProvider"
 
 	.byte 40,16
-LDIFF_SYM2631=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM2631
+LDIFF_SYM2621=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM2621
 	.byte 2,35,0,0,7
 	.asciz "Firebase_Auth_PhoneAuthProvider"
 
-LDIFF_SYM2632=LTDIE_206 - Ldebug_info_start
-	.long LDIFF_SYM2632
-LTDIE_206_POINTER:
+LDIFF_SYM2622=LTDIE_204 - Ldebug_info_start
+	.long LDIFF_SYM2622
+LTDIE_204_POINTER:
 
 	.byte 13
-LDIFF_SYM2633=LTDIE_206 - Ldebug_info_start
-	.long LDIFF_SYM2633
-LTDIE_206_REFERENCE:
+LDIFF_SYM2623=LTDIE_204 - Ldebug_info_start
+	.long LDIFF_SYM2623
+LTDIE_204_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2634=LTDIE_206 - Ldebug_info_start
-	.long LDIFF_SYM2634
+LDIFF_SYM2624=LTDIE_204 - Ldebug_info_start
+	.long LDIFF_SYM2624
 	.byte 2
 	.asciz "Firebase.Auth.PhoneAuthProvider:get_ClassHandle"
 	.asciz "Firebase_Auth_PhoneAuthProvider_get_ClassHandle"
@@ -118646,22 +118590,22 @@ LDIFF_SYM2634=LTDIE_206 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2635=LTDIE_206_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2635
+LDIFF_SYM2625=LTDIE_204_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2625
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2636=Lfde386_end - Lfde386_start
-	.long LDIFF_SYM2636
+LDIFF_SYM2626=Lfde386_end - Lfde386_start
+	.long LDIFF_SYM2626
 Lfde386_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_PhoneAuthProvider_get_ClassHandle
 
-LDIFF_SYM2637=Lme_209 - Firebase_Auth_PhoneAuthProvider_get_ClassHandle
-	.long LDIFF_SYM2637
+LDIFF_SYM2627=Lme_209 - Firebase_Auth_PhoneAuthProvider_get_ClassHandle
+	.long LDIFF_SYM2627
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -118680,27 +118624,27 @@ Lfde386_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2638=LTDIE_206_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2638
+LDIFF_SYM2628=LTDIE_204_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2628
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2639=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2639
+LDIFF_SYM2629=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2629
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2640=Lfde387_end - Lfde387_start
-	.long LDIFF_SYM2640
+LDIFF_SYM2630=Lfde387_end - Lfde387_start
+	.long LDIFF_SYM2630
 Lfde387_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_PhoneAuthProvider__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2641=Lme_20a - Firebase_Auth_PhoneAuthProvider__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2641
+LDIFF_SYM2631=Lme_20a - Firebase_Auth_PhoneAuthProvider__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2631
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -118719,27 +118663,27 @@ Lfde387_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2642=LTDIE_206_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2642
+LDIFF_SYM2632=LTDIE_204_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2632
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2643=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2643
+LDIFF_SYM2633=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2633
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2644=Lfde388_end - Lfde388_start
-	.long LDIFF_SYM2644
+LDIFF_SYM2634=Lfde388_end - Lfde388_start
+	.long LDIFF_SYM2634
 Lfde388_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_PhoneAuthProvider__ctor_intptr
 
-LDIFF_SYM2645=Lme_20b - Firebase_Auth_PhoneAuthProvider__ctor_intptr
-	.long LDIFF_SYM2645
+LDIFF_SYM2635=Lme_20b - Firebase_Auth_PhoneAuthProvider__ctor_intptr
+	.long LDIFF_SYM2635
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -118758,22 +118702,22 @@ Lfde388_end:
 	.byte 2,118,16,3
 	.asciz "auth"
 
-LDIFF_SYM2646=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2646
+LDIFF_SYM2636=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2636
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2647=Lfde389_end - Lfde389_start
-	.long LDIFF_SYM2647
+LDIFF_SYM2637=Lfde389_end - Lfde389_start
+	.long LDIFF_SYM2637
 Lfde389_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_PhoneAuthProvider_Create_Firebase_Auth_Auth
 
-LDIFF_SYM2648=Lme_20c - Firebase_Auth_PhoneAuthProvider_Create_Firebase_Auth_Auth
-	.long LDIFF_SYM2648
+LDIFF_SYM2638=Lme_20c - Firebase_Auth_PhoneAuthProvider_Create_Firebase_Auth_Auth
+	.long LDIFF_SYM2638
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -118792,22 +118736,22 @@ Lfde389_end:
 	.byte 2,118,16,3
 	.asciz "auth"
 
-LDIFF_SYM2649=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2649
+LDIFF_SYM2639=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2639
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2650=Lfde390_end - Lfde390_start
-	.long LDIFF_SYM2650
+LDIFF_SYM2640=Lfde390_end - Lfde390_start
+	.long LDIFF_SYM2640
 Lfde390_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_PhoneAuthProvider_From_Firebase_Auth_Auth
 
-LDIFF_SYM2651=Lme_20d - Firebase_Auth_PhoneAuthProvider_From_Firebase_Auth_Auth
-	.long LDIFF_SYM2651
+LDIFF_SYM2641=Lme_20d - Firebase_Auth_PhoneAuthProvider_From_Firebase_Auth_Auth
+	.long LDIFF_SYM2641
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -118826,47 +118770,47 @@ Lfde390_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2652=LTDIE_206_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2652
+LDIFF_SYM2642=LTDIE_204_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2642
 	.byte 1,104,3
 	.asciz "verificationId"
 
-LDIFF_SYM2653=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2653
+LDIFF_SYM2643=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2643
 	.byte 1,105,3
 	.asciz "verificationCode"
 
-LDIFF_SYM2654=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2654
+LDIFF_SYM2644=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2644
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2655=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2655
+LDIFF_SYM2645=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2645
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2656=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2656
+LDIFF_SYM2646=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2646
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM2657=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2657
+LDIFF_SYM2647=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2647
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2658=Lfde391_end - Lfde391_start
-	.long LDIFF_SYM2658
+LDIFF_SYM2648=Lfde391_end - Lfde391_start
+	.long LDIFF_SYM2648
 Lfde391_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_PhoneAuthProvider_GetCredential_string_string
 
-LDIFF_SYM2659=Lme_20e - Firebase_Auth_PhoneAuthProvider_GetCredential_string_string
-	.long LDIFF_SYM2659
+LDIFF_SYM2649=Lme_20e - Firebase_Auth_PhoneAuthProvider_GetCredential_string_string
+	.long LDIFF_SYM2649
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9
 	.align 3
@@ -118885,52 +118829,52 @@ Lfde391_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2660=LTDIE_206_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2660
+LDIFF_SYM2650=LTDIE_204_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2650
 	.byte 3,141,208,0,3
 	.asciz "phoneNumber"
 
-LDIFF_SYM2661=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2661
+LDIFF_SYM2651=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2651
 	.byte 1,104,3
 	.asciz "uiDelegate"
 
-LDIFF_SYM2662=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2662
+LDIFF_SYM2652=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2652
 	.byte 3,141,216,0,3
 	.asciz "completion"
 
-LDIFF_SYM2663=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2663
+LDIFF_SYM2653=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2653
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2664=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2664
+LDIFF_SYM2654=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2654
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM2665=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2665
+LDIFF_SYM2655=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2655
 	.byte 1,101,11
 	.asciz "V_2"
 
-LDIFF_SYM2666=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2666
+LDIFF_SYM2656=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2656
 	.byte 3,141,248,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2667=Lfde392_end - Lfde392_start
-	.long LDIFF_SYM2667
+LDIFF_SYM2657=Lfde392_end - Lfde392_start
+	.long LDIFF_SYM2657
 Lfde392_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_PhoneAuthProvider_VerifyPhoneNumber_string_Firebase_Auth_IAuthUIDelegate_Firebase_Auth_VerificationResultHandler
 
-LDIFF_SYM2668=Lme_20f - Firebase_Auth_PhoneAuthProvider_VerifyPhoneNumber_string_Firebase_Auth_IAuthUIDelegate_Firebase_Auth_VerificationResultHandler
-	.long LDIFF_SYM2668
+LDIFF_SYM2658=Lme_20f - Firebase_Auth_PhoneAuthProvider_VerifyPhoneNumber_string_Firebase_Auth_IAuthUIDelegate_Firebase_Auth_VerificationResultHandler
+	.long LDIFF_SYM2658
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19,68,151,18,152,17,68,153,16
 	.byte 154,15
@@ -118938,34 +118882,34 @@ LDIFF_SYM2668=Lme_20f - Firebase_Auth_PhoneAuthProvider_VerifyPhoneNumber_string
 Lfde392_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_207:
+LTDIE_205:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass9_0"
 
 	.byte 24,16
-LDIFF_SYM2669=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2669
+LDIFF_SYM2659=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2659
 	.byte 2,35,0,6
 	.asciz "tcs"
 
-LDIFF_SYM2670=LTDIE_173_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2670
+LDIFF_SYM2660=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2660
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass9_0"
 
-LDIFF_SYM2671=LTDIE_207 - Ldebug_info_start
-	.long LDIFF_SYM2671
-LTDIE_207_POINTER:
+LDIFF_SYM2661=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM2661
+LTDIE_205_POINTER:
 
 	.byte 13
-LDIFF_SYM2672=LTDIE_207 - Ldebug_info_start
-	.long LDIFF_SYM2672
-LTDIE_207_REFERENCE:
+LDIFF_SYM2662=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM2662
+LTDIE_205_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2673=LTDIE_207 - Ldebug_info_start
-	.long LDIFF_SYM2673
+LDIFF_SYM2663=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM2663
 	.byte 2
 	.asciz "Firebase.Auth.PhoneAuthProvider:VerifyPhoneNumberAsync"
 	.asciz "Firebase_Auth_PhoneAuthProvider_VerifyPhoneNumberAsync_string_Firebase_Auth_IAuthUIDelegate"
@@ -118977,37 +118921,37 @@ LDIFF_SYM2673=LTDIE_207 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2674=LTDIE_206_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2674
+LDIFF_SYM2664=LTDIE_204_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2664
 	.byte 2,141,24,3
 	.asciz "phoneNumber"
 
-LDIFF_SYM2675=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2675
+LDIFF_SYM2665=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2665
 	.byte 2,141,32,3
 	.asciz "uiDelegate"
 
-LDIFF_SYM2676=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2676
+LDIFF_SYM2666=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2666
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM2677=LTDIE_207_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2677
+LDIFF_SYM2667=LTDIE_205_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2667
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2678=Lfde393_end - Lfde393_start
-	.long LDIFF_SYM2678
+LDIFF_SYM2668=Lfde393_end - Lfde393_start
+	.long LDIFF_SYM2668
 Lfde393_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_PhoneAuthProvider_VerifyPhoneNumberAsync_string_Firebase_Auth_IAuthUIDelegate
 
-LDIFF_SYM2679=Lme_210 - Firebase_Auth_PhoneAuthProvider_VerifyPhoneNumberAsync_string_Firebase_Auth_IAuthUIDelegate
-	.long LDIFF_SYM2679
+LDIFF_SYM2669=Lme_210 - Firebase_Auth_PhoneAuthProvider_VerifyPhoneNumberAsync_string_Firebase_Auth_IAuthUIDelegate
+	.long LDIFF_SYM2669
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16
 	.align 3
@@ -119027,16 +118971,16 @@ Lfde393_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2680=Lfde394_end - Lfde394_start
-	.long LDIFF_SYM2680
+LDIFF_SYM2670=Lfde394_end - Lfde394_start
+	.long LDIFF_SYM2670
 Lfde394_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_PhoneAuthProvider_get_DefaultInstance
 
-LDIFF_SYM2681=Lme_211 - Firebase_Auth_PhoneAuthProvider_get_DefaultInstance
-	.long LDIFF_SYM2681
+LDIFF_SYM2671=Lme_211 - Firebase_Auth_PhoneAuthProvider_get_DefaultInstance
+	.long LDIFF_SYM2671
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -119056,16 +119000,16 @@ Lfde394_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2682=Lfde395_end - Lfde395_start
-	.long LDIFF_SYM2682
+LDIFF_SYM2672=Lfde395_end - Lfde395_start
+	.long LDIFF_SYM2672
 Lfde395_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_PhoneAuthProvider_get_Id
 
-LDIFF_SYM2683=Lme_212 - Firebase_Auth_PhoneAuthProvider_get_Id
-	.long LDIFF_SYM2683
+LDIFF_SYM2673=Lme_212 - Firebase_Auth_PhoneAuthProvider_get_Id
+	.long LDIFF_SYM2673
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -119085,16 +119029,16 @@ Lfde395_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2684=Lfde396_end - Lfde396_start
-	.long LDIFF_SYM2684
+LDIFF_SYM2674=Lfde396_end - Lfde396_start
+	.long LDIFF_SYM2674
 Lfde396_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_PhoneAuthProvider_get_SignInMethod
 
-LDIFF_SYM2685=Lme_213 - Firebase_Auth_PhoneAuthProvider_get_SignInMethod
-	.long LDIFF_SYM2685
+LDIFF_SYM2675=Lme_213 - Firebase_Auth_PhoneAuthProvider_get_SignInMethod
+	.long LDIFF_SYM2675
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -119114,16 +119058,16 @@ Lfde396_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2686=Lfde397_end - Lfde397_start
-	.long LDIFF_SYM2686
+LDIFF_SYM2676=Lfde397_end - Lfde397_start
+	.long LDIFF_SYM2676
 Lfde397_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_PhoneAuthProvider__cctor
 
-LDIFF_SYM2687=Lme_214 - Firebase_Auth_PhoneAuthProvider__cctor
-	.long LDIFF_SYM2687
+LDIFF_SYM2677=Lme_214 - Firebase_Auth_PhoneAuthProvider__cctor
+	.long LDIFF_SYM2677
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -119142,22 +119086,22 @@ Lfde397_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2688=LTDIE_207_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2688
+LDIFF_SYM2678=LTDIE_205_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2678
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2689=Lfde398_end - Lfde398_start
-	.long LDIFF_SYM2689
+LDIFF_SYM2679=Lfde398_end - Lfde398_start
+	.long LDIFF_SYM2679
 Lfde398_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_PhoneAuthProvider__c__DisplayClass9_0__ctor
 
-LDIFF_SYM2690=Lme_215 - Firebase_Auth_PhoneAuthProvider__c__DisplayClass9_0__ctor
-	.long LDIFF_SYM2690
+LDIFF_SYM2680=Lme_215 - Firebase_Auth_PhoneAuthProvider__c__DisplayClass9_0__ctor
+	.long LDIFF_SYM2680
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -119176,61 +119120,61 @@ Lfde398_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2691=LTDIE_207_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2691
+LDIFF_SYM2681=LTDIE_205_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2681
 	.byte 1,104,3
 	.asciz "verificationId_"
 
-LDIFF_SYM2692=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2692
+LDIFF_SYM2682=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2682
 	.byte 2,141,32,3
 	.asciz "error_"
 
-LDIFF_SYM2693=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2693
+LDIFF_SYM2683=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2683
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2694=Lfde399_end - Lfde399_start
-	.long LDIFF_SYM2694
+LDIFF_SYM2684=Lfde399_end - Lfde399_start
+	.long LDIFF_SYM2684
 Lfde399_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_PhoneAuthProvider__c__DisplayClass9_0__VerifyPhoneNumberAsyncb__0_string_Foundation_NSError
 
-LDIFF_SYM2695=Lme_216 - Firebase_Auth_PhoneAuthProvider__c__DisplayClass9_0__VerifyPhoneNumberAsyncb__0_string_Foundation_NSError
-	.long LDIFF_SYM2695
+LDIFF_SYM2685=Lme_216 - Firebase_Auth_PhoneAuthProvider__c__DisplayClass9_0__VerifyPhoneNumberAsyncb__0_string_Foundation_NSError
+	.long LDIFF_SYM2685
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,68,154,7
 	.align 3
 Lfde399_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_208:
+LTDIE_206:
 
 	.byte 5
 	.asciz "Firebase_Auth_TwitterAuthProvider"
 
 	.byte 40,16
-LDIFF_SYM2696=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM2696
+LDIFF_SYM2686=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM2686
 	.byte 2,35,0,0,7
 	.asciz "Firebase_Auth_TwitterAuthProvider"
 
-LDIFF_SYM2697=LTDIE_208 - Ldebug_info_start
-	.long LDIFF_SYM2697
-LTDIE_208_POINTER:
+LDIFF_SYM2687=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM2687
+LTDIE_206_POINTER:
 
 	.byte 13
-LDIFF_SYM2698=LTDIE_208 - Ldebug_info_start
-	.long LDIFF_SYM2698
-LTDIE_208_REFERENCE:
+LDIFF_SYM2688=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM2688
+LTDIE_206_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2699=LTDIE_208 - Ldebug_info_start
-	.long LDIFF_SYM2699
+LDIFF_SYM2689=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM2689
 	.byte 2
 	.asciz "Firebase.Auth.TwitterAuthProvider:get_ClassHandle"
 	.asciz "Firebase_Auth_TwitterAuthProvider_get_ClassHandle"
@@ -119242,22 +119186,22 @@ LDIFF_SYM2699=LTDIE_208 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2700=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2700
+LDIFF_SYM2690=LTDIE_206_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2690
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2701=Lfde400_end - Lfde400_start
-	.long LDIFF_SYM2701
+LDIFF_SYM2691=Lfde400_end - Lfde400_start
+	.long LDIFF_SYM2691
 Lfde400_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_TwitterAuthProvider_get_ClassHandle
 
-LDIFF_SYM2702=Lme_267 - Firebase_Auth_TwitterAuthProvider_get_ClassHandle
-	.long LDIFF_SYM2702
+LDIFF_SYM2692=Lme_267 - Firebase_Auth_TwitterAuthProvider_get_ClassHandle
+	.long LDIFF_SYM2692
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -119276,27 +119220,27 @@ Lfde400_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2703=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2703
+LDIFF_SYM2693=LTDIE_206_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2693
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2704=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2704
+LDIFF_SYM2694=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2694
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2705=Lfde401_end - Lfde401_start
-	.long LDIFF_SYM2705
+LDIFF_SYM2695=Lfde401_end - Lfde401_start
+	.long LDIFF_SYM2695
 Lfde401_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_TwitterAuthProvider__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2706=Lme_268 - Firebase_Auth_TwitterAuthProvider__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2706
+LDIFF_SYM2696=Lme_268 - Firebase_Auth_TwitterAuthProvider__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2696
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -119315,27 +119259,27 @@ Lfde401_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2707=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2707
+LDIFF_SYM2697=LTDIE_206_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2697
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2708=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2708
+LDIFF_SYM2698=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2698
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2709=Lfde402_end - Lfde402_start
-	.long LDIFF_SYM2709
+LDIFF_SYM2699=Lfde402_end - Lfde402_start
+	.long LDIFF_SYM2699
 Lfde402_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_TwitterAuthProvider__ctor_intptr
 
-LDIFF_SYM2710=Lme_269 - Firebase_Auth_TwitterAuthProvider__ctor_intptr
-	.long LDIFF_SYM2710
+LDIFF_SYM2700=Lme_269 - Firebase_Auth_TwitterAuthProvider__ctor_intptr
+	.long LDIFF_SYM2700
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -119354,37 +119298,37 @@ Lfde402_end:
 	.byte 2,118,16,3
 	.asciz "token"
 
-LDIFF_SYM2711=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2711
+LDIFF_SYM2701=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2701
 	.byte 1,105,3
 	.asciz "secret"
 
-LDIFF_SYM2712=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2712
+LDIFF_SYM2702=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2702
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2713=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2713
+LDIFF_SYM2703=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2703
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2714=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2714
+LDIFF_SYM2704=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2704
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2715=Lfde403_end - Lfde403_start
-	.long LDIFF_SYM2715
+LDIFF_SYM2705=Lfde403_end - Lfde403_start
+	.long LDIFF_SYM2705
 Lfde403_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_TwitterAuthProvider_GetCredential_string_string
 
-LDIFF_SYM2716=Lme_26a - Firebase_Auth_TwitterAuthProvider_GetCredential_string_string
-	.long LDIFF_SYM2716
+LDIFF_SYM2706=Lme_26a - Firebase_Auth_TwitterAuthProvider_GetCredential_string_string
+	.long LDIFF_SYM2706
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16,152,15,68,153,14,154,13
 	.align 3
@@ -119404,16 +119348,16 @@ Lfde403_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2717=Lfde404_end - Lfde404_start
-	.long LDIFF_SYM2717
+LDIFF_SYM2707=Lfde404_end - Lfde404_start
+	.long LDIFF_SYM2707
 Lfde404_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_TwitterAuthProvider_get_Id
 
-LDIFF_SYM2718=Lme_26b - Firebase_Auth_TwitterAuthProvider_get_Id
-	.long LDIFF_SYM2718
+LDIFF_SYM2708=Lme_26b - Firebase_Auth_TwitterAuthProvider_get_Id
+	.long LDIFF_SYM2708
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -119433,16 +119377,16 @@ Lfde404_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2719=Lfde405_end - Lfde405_start
-	.long LDIFF_SYM2719
+LDIFF_SYM2709=Lfde405_end - Lfde405_start
+	.long LDIFF_SYM2709
 Lfde405_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_TwitterAuthProvider_get_SignInMethod
 
-LDIFF_SYM2720=Lme_26c - Firebase_Auth_TwitterAuthProvider_get_SignInMethod
-	.long LDIFF_SYM2720
+LDIFF_SYM2710=Lme_26c - Firebase_Auth_TwitterAuthProvider_get_SignInMethod
+	.long LDIFF_SYM2710
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -119462,16 +119406,16 @@ Lfde405_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2721=Lfde406_end - Lfde406_start
-	.long LDIFF_SYM2721
+LDIFF_SYM2711=Lfde406_end - Lfde406_start
+	.long LDIFF_SYM2711
 Lfde406_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_TwitterAuthProvider__cctor
 
-LDIFF_SYM2722=Lme_26d - Firebase_Auth_TwitterAuthProvider__cctor
-	.long LDIFF_SYM2722
+LDIFF_SYM2712=Lme_26d - Firebase_Auth_TwitterAuthProvider__cctor
+	.long LDIFF_SYM2712
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -119490,22 +119434,22 @@ Lfde406_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2723=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2723
+LDIFF_SYM2713=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2713
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2724=Lfde407_end - Lfde407_start
-	.long LDIFF_SYM2724
+LDIFF_SYM2714=Lfde407_end - Lfde407_start
+	.long LDIFF_SYM2714
 Lfde407_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_get_ClassHandle
 
-LDIFF_SYM2725=Lme_26e - Firebase_Auth_User_get_ClassHandle
-	.long LDIFF_SYM2725
+LDIFF_SYM2715=Lme_26e - Firebase_Auth_User_get_ClassHandle
+	.long LDIFF_SYM2715
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -119524,27 +119468,27 @@ Lfde407_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2726=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2726
+LDIFF_SYM2716=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2716
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2727=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2727
+LDIFF_SYM2717=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2717
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2728=Lfde408_end - Lfde408_start
-	.long LDIFF_SYM2728
+LDIFF_SYM2718=Lfde408_end - Lfde408_start
+	.long LDIFF_SYM2718
 Lfde408_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2729=Lme_26f - Firebase_Auth_User__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2729
+LDIFF_SYM2719=Lme_26f - Firebase_Auth_User__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2719
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -119563,27 +119507,27 @@ Lfde408_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2730=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2730
+LDIFF_SYM2720=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2720
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2731=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2731
+LDIFF_SYM2721=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2721
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2732=Lfde409_end - Lfde409_start
-	.long LDIFF_SYM2732
+LDIFF_SYM2722=Lfde409_end - Lfde409_start
+	.long LDIFF_SYM2722
 Lfde409_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User__ctor_intptr
 
-LDIFF_SYM2733=Lme_270 - Firebase_Auth_User__ctor_intptr
-	.long LDIFF_SYM2733
+LDIFF_SYM2723=Lme_270 - Firebase_Auth_User__ctor_intptr
+	.long LDIFF_SYM2723
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -119602,71 +119546,71 @@ Lfde409_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2734=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2734
+LDIFF_SYM2724=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2724
 	.byte 1,105,3
 	.asciz "completion"
 
-LDIFF_SYM2735=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2735
+LDIFF_SYM2725=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2725
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2736=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2736
+LDIFF_SYM2726=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2726
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2737=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2737
+LDIFF_SYM2727=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2727
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2738=Lfde410_end - Lfde410_start
-	.long LDIFF_SYM2738
+LDIFF_SYM2728=Lfde410_end - Lfde410_start
+	.long LDIFF_SYM2728
 Lfde410_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_Delete_Firebase_Auth_UserProfileChangeHandler
 
-LDIFF_SYM2739=Lme_271 - Firebase_Auth_User_Delete_Firebase_Auth_UserProfileChangeHandler
-	.long LDIFF_SYM2739
+LDIFF_SYM2729=Lme_271 - Firebase_Auth_User_Delete_Firebase_Auth_UserProfileChangeHandler
+	.long LDIFF_SYM2729
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,152,16,153,15,68,154,14
 	.align 3
 Lfde410_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_209:
+LTDIE_207:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass6_0"
 
 	.byte 24,16
-LDIFF_SYM2740=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2740
+LDIFF_SYM2730=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2730
 	.byte 2,35,0,6
 	.asciz "tcs"
 
-LDIFF_SYM2741=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2741
+LDIFF_SYM2731=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2731
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass6_0"
 
-LDIFF_SYM2742=LTDIE_209 - Ldebug_info_start
-	.long LDIFF_SYM2742
-LTDIE_209_POINTER:
+LDIFF_SYM2732=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM2732
+LTDIE_207_POINTER:
 
 	.byte 13
-LDIFF_SYM2743=LTDIE_209 - Ldebug_info_start
-	.long LDIFF_SYM2743
-LTDIE_209_REFERENCE:
+LDIFF_SYM2733=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM2733
+LTDIE_207_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2744=LTDIE_209 - Ldebug_info_start
-	.long LDIFF_SYM2744
+LDIFF_SYM2734=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM2734
 	.byte 2
 	.asciz "Firebase.Auth.User:DeleteAsync"
 	.asciz "Firebase_Auth_User_DeleteAsync"
@@ -119678,27 +119622,27 @@ LDIFF_SYM2744=LTDIE_209 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2745=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2745
+LDIFF_SYM2735=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2735
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2746=LTDIE_209_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2746
+LDIFF_SYM2736=LTDIE_207_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2736
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2747=Lfde411_end - Lfde411_start
-	.long LDIFF_SYM2747
+LDIFF_SYM2737=Lfde411_end - Lfde411_start
+	.long LDIFF_SYM2737
 Lfde411_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_DeleteAsync
 
-LDIFF_SYM2748=Lme_272 - Firebase_Auth_User_DeleteAsync
-	.long LDIFF_SYM2748
+LDIFF_SYM2738=Lme_272 - Firebase_Auth_User_DeleteAsync
+	.long LDIFF_SYM2738
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12
 	.align 3
@@ -119717,71 +119661,71 @@ Lfde411_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2749=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2749
+LDIFF_SYM2739=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2739
 	.byte 1,105,3
 	.asciz "completion"
 
-LDIFF_SYM2750=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2750
+LDIFF_SYM2740=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2740
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2751=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2751
+LDIFF_SYM2741=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2741
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2752=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2752
+LDIFF_SYM2742=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2742
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2753=Lfde412_end - Lfde412_start
-	.long LDIFF_SYM2753
+LDIFF_SYM2743=Lfde412_end - Lfde412_start
+	.long LDIFF_SYM2743
 Lfde412_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_GetIdToken_Firebase_Auth_AuthTokenHandler
 
-LDIFF_SYM2754=Lme_273 - Firebase_Auth_User_GetIdToken_Firebase_Auth_AuthTokenHandler
-	.long LDIFF_SYM2754
+LDIFF_SYM2744=Lme_273 - Firebase_Auth_User_GetIdToken_Firebase_Auth_AuthTokenHandler
+	.long LDIFF_SYM2744
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,152,16,153,15,68,154,14
 	.align 3
 Lfde412_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_210:
+LTDIE_208:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass8_0"
 
 	.byte 24,16
-LDIFF_SYM2755=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2755
+LDIFF_SYM2745=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2745
 	.byte 2,35,0,6
 	.asciz "tcs"
 
-LDIFF_SYM2756=LTDIE_173_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2756
+LDIFF_SYM2746=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2746
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass8_0"
 
-LDIFF_SYM2757=LTDIE_210 - Ldebug_info_start
-	.long LDIFF_SYM2757
-LTDIE_210_POINTER:
+LDIFF_SYM2747=LTDIE_208 - Ldebug_info_start
+	.long LDIFF_SYM2747
+LTDIE_208_POINTER:
 
 	.byte 13
-LDIFF_SYM2758=LTDIE_210 - Ldebug_info_start
-	.long LDIFF_SYM2758
-LTDIE_210_REFERENCE:
+LDIFF_SYM2748=LTDIE_208 - Ldebug_info_start
+	.long LDIFF_SYM2748
+LTDIE_208_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2759=LTDIE_210 - Ldebug_info_start
-	.long LDIFF_SYM2759
+LDIFF_SYM2749=LTDIE_208 - Ldebug_info_start
+	.long LDIFF_SYM2749
 	.byte 2
 	.asciz "Firebase.Auth.User:GetIdTokenAsync"
 	.asciz "Firebase_Auth_User_GetIdTokenAsync"
@@ -119793,27 +119737,27 @@ LDIFF_SYM2759=LTDIE_210 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2760=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2760
+LDIFF_SYM2750=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2750
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2761=LTDIE_210_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2761
+LDIFF_SYM2751=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2751
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2762=Lfde413_end - Lfde413_start
-	.long LDIFF_SYM2762
+LDIFF_SYM2752=Lfde413_end - Lfde413_start
+	.long LDIFF_SYM2752
 Lfde413_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_GetIdTokenAsync
 
-LDIFF_SYM2763=Lme_274 - Firebase_Auth_User_GetIdTokenAsync
-	.long LDIFF_SYM2763
+LDIFF_SYM2753=Lme_274 - Firebase_Auth_User_GetIdTokenAsync
+	.long LDIFF_SYM2753
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12
 	.align 3
@@ -119832,76 +119776,76 @@ Lfde413_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2764=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2764
+LDIFF_SYM2754=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2754
 	.byte 1,104,3
 	.asciz "forceRefresh"
 
-LDIFF_SYM2765=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2765
+LDIFF_SYM2755=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2755
 	.byte 1,105,3
 	.asciz "completion"
 
-LDIFF_SYM2766=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2766
+LDIFF_SYM2756=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2756
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2767=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2767
+LDIFF_SYM2757=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2757
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2768=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2768
+LDIFF_SYM2758=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2758
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2769=Lfde414_end - Lfde414_start
-	.long LDIFF_SYM2769
+LDIFF_SYM2759=Lfde414_end - Lfde414_start
+	.long LDIFF_SYM2759
 Lfde414_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_GetIdToken_bool_Firebase_Auth_AuthTokenHandler
 
-LDIFF_SYM2770=Lme_275 - Firebase_Auth_User_GetIdToken_bool_Firebase_Auth_AuthTokenHandler
-	.long LDIFF_SYM2770
+LDIFF_SYM2760=Lme_275 - Firebase_Auth_User_GetIdToken_bool_Firebase_Auth_AuthTokenHandler
+	.long LDIFF_SYM2760
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,152,17,68,153,16,154,15
 	.align 3
 Lfde414_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_211:
+LTDIE_209:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass10_0"
 
 	.byte 24,16
-LDIFF_SYM2771=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2771
+LDIFF_SYM2761=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2761
 	.byte 2,35,0,6
 	.asciz "tcs"
 
-LDIFF_SYM2772=LTDIE_173_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2772
+LDIFF_SYM2762=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2762
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass10_0"
 
-LDIFF_SYM2773=LTDIE_211 - Ldebug_info_start
-	.long LDIFF_SYM2773
-LTDIE_211_POINTER:
+LDIFF_SYM2763=LTDIE_209 - Ldebug_info_start
+	.long LDIFF_SYM2763
+LTDIE_209_POINTER:
 
 	.byte 13
-LDIFF_SYM2774=LTDIE_211 - Ldebug_info_start
-	.long LDIFF_SYM2774
-LTDIE_211_REFERENCE:
+LDIFF_SYM2764=LTDIE_209 - Ldebug_info_start
+	.long LDIFF_SYM2764
+LTDIE_209_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2775=LTDIE_211 - Ldebug_info_start
-	.long LDIFF_SYM2775
+LDIFF_SYM2765=LTDIE_209 - Ldebug_info_start
+	.long LDIFF_SYM2765
 	.byte 2
 	.asciz "Firebase.Auth.User:GetIdTokenAsync"
 	.asciz "Firebase_Auth_User_GetIdTokenAsync_bool"
@@ -119913,32 +119857,32 @@ LDIFF_SYM2775=LTDIE_211 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2776=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2776
+LDIFF_SYM2766=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2766
 	.byte 2,141,24,3
 	.asciz "forceRefresh"
 
-LDIFF_SYM2777=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2777
+LDIFF_SYM2767=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2767
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2778=LTDIE_211_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2778
+LDIFF_SYM2768=LTDIE_209_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2768
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2779=Lfde415_end - Lfde415_start
-	.long LDIFF_SYM2779
+LDIFF_SYM2769=Lfde415_end - Lfde415_start
+	.long LDIFF_SYM2769
 Lfde415_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_GetIdTokenAsync_bool
 
-LDIFF_SYM2780=Lme_276 - Firebase_Auth_User_GetIdTokenAsync_bool
-	.long LDIFF_SYM2780
+LDIFF_SYM2770=Lme_276 - Firebase_Auth_User_GetIdTokenAsync_bool
+	.long LDIFF_SYM2770
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14
 	.align 3
@@ -119957,127 +119901,127 @@ Lfde415_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2781=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2781
+LDIFF_SYM2771=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2771
 	.byte 1,105,3
 	.asciz "completion"
 
-LDIFF_SYM2782=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2782
+LDIFF_SYM2772=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2772
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2783=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2783
+LDIFF_SYM2773=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2773
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2784=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2784
+LDIFF_SYM2774=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2774
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2785=Lfde416_end - Lfde416_start
-	.long LDIFF_SYM2785
+LDIFF_SYM2775=Lfde416_end - Lfde416_start
+	.long LDIFF_SYM2775
 Lfde416_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_GetIdTokenResult_Firebase_Auth_AuthTokenResultHandler
 
-LDIFF_SYM2786=Lme_277 - Firebase_Auth_User_GetIdTokenResult_Firebase_Auth_AuthTokenResultHandler
-	.long LDIFF_SYM2786
+LDIFF_SYM2776=Lme_277 - Firebase_Auth_User_GetIdTokenResult_Firebase_Auth_AuthTokenResultHandler
+	.long LDIFF_SYM2776
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,152,16,153,15,68,154,14
 	.align 3
 Lfde416_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_214:
+LTDIE_212:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM2787=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM2787
+LDIFF_SYM2777=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM2777
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM2788=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2788
+LDIFF_SYM2778=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2778
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM2789=LTDIE_214 - Ldebug_info_start
-	.long LDIFF_SYM2789
-LTDIE_214_POINTER:
-
-	.byte 13
-LDIFF_SYM2790=LTDIE_214 - Ldebug_info_start
-	.long LDIFF_SYM2790
-LTDIE_214_REFERENCE:
-
-	.byte 14
-LDIFF_SYM2791=LTDIE_214 - Ldebug_info_start
-	.long LDIFF_SYM2791
-LTDIE_213:
-
-	.byte 5
-	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
-
-	.byte 24,16
-LDIFF_SYM2792=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2792
-	.byte 2,35,0,6
-	.asciz "_task"
-
-LDIFF_SYM2793=LTDIE_214_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2793
-	.byte 2,35,16,0,7
-	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
-
-LDIFF_SYM2794=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM2794
-LTDIE_213_POINTER:
-
-	.byte 13
-LDIFF_SYM2795=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM2795
-LTDIE_213_REFERENCE:
-
-	.byte 14
-LDIFF_SYM2796=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM2796
-LTDIE_212:
-
-	.byte 5
-	.asciz "_<>c__DisplayClass12_0"
-
-	.byte 24,16
-LDIFF_SYM2797=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2797
-	.byte 2,35,0,6
-	.asciz "tcs"
-
-LDIFF_SYM2798=LTDIE_213_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2798
-	.byte 2,35,16,0,7
-	.asciz "_<>c__DisplayClass12_0"
-
-LDIFF_SYM2799=LTDIE_212 - Ldebug_info_start
-	.long LDIFF_SYM2799
+LDIFF_SYM2779=LTDIE_212 - Ldebug_info_start
+	.long LDIFF_SYM2779
 LTDIE_212_POINTER:
 
 	.byte 13
-LDIFF_SYM2800=LTDIE_212 - Ldebug_info_start
-	.long LDIFF_SYM2800
+LDIFF_SYM2780=LTDIE_212 - Ldebug_info_start
+	.long LDIFF_SYM2780
 LTDIE_212_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2801=LTDIE_212 - Ldebug_info_start
-	.long LDIFF_SYM2801
+LDIFF_SYM2781=LTDIE_212 - Ldebug_info_start
+	.long LDIFF_SYM2781
+LTDIE_211:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
+
+	.byte 24,16
+LDIFF_SYM2782=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2782
+	.byte 2,35,0,6
+	.asciz "_task"
+
+LDIFF_SYM2783=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2783
+	.byte 2,35,16,0,7
+	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
+
+LDIFF_SYM2784=LTDIE_211 - Ldebug_info_start
+	.long LDIFF_SYM2784
+LTDIE_211_POINTER:
+
+	.byte 13
+LDIFF_SYM2785=LTDIE_211 - Ldebug_info_start
+	.long LDIFF_SYM2785
+LTDIE_211_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2786=LTDIE_211 - Ldebug_info_start
+	.long LDIFF_SYM2786
+LTDIE_210:
+
+	.byte 5
+	.asciz "_<>c__DisplayClass12_0"
+
+	.byte 24,16
+LDIFF_SYM2787=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2787
+	.byte 2,35,0,6
+	.asciz "tcs"
+
+LDIFF_SYM2788=LTDIE_211_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2788
+	.byte 2,35,16,0,7
+	.asciz "_<>c__DisplayClass12_0"
+
+LDIFF_SYM2789=LTDIE_210 - Ldebug_info_start
+	.long LDIFF_SYM2789
+LTDIE_210_POINTER:
+
+	.byte 13
+LDIFF_SYM2790=LTDIE_210 - Ldebug_info_start
+	.long LDIFF_SYM2790
+LTDIE_210_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2791=LTDIE_210 - Ldebug_info_start
+	.long LDIFF_SYM2791
 	.byte 2
 	.asciz "Firebase.Auth.User:GetIdTokenResultAsync"
 	.asciz "Firebase_Auth_User_GetIdTokenResultAsync"
@@ -120089,27 +120033,27 @@ LDIFF_SYM2801=LTDIE_212 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2802=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2802
+LDIFF_SYM2792=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2792
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2803=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2803
+LDIFF_SYM2793=LTDIE_210_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2793
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2804=Lfde417_end - Lfde417_start
-	.long LDIFF_SYM2804
+LDIFF_SYM2794=Lfde417_end - Lfde417_start
+	.long LDIFF_SYM2794
 Lfde417_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_GetIdTokenResultAsync
 
-LDIFF_SYM2805=Lme_278 - Firebase_Auth_User_GetIdTokenResultAsync
-	.long LDIFF_SYM2805
+LDIFF_SYM2795=Lme_278 - Firebase_Auth_User_GetIdTokenResultAsync
+	.long LDIFF_SYM2795
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12
 	.align 3
@@ -120128,76 +120072,76 @@ Lfde417_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2806=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2806
+LDIFF_SYM2796=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2796
 	.byte 1,104,3
 	.asciz "forceRefresh"
 
-LDIFF_SYM2807=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2807
+LDIFF_SYM2797=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2797
 	.byte 1,105,3
 	.asciz "completion"
 
-LDIFF_SYM2808=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2808
+LDIFF_SYM2798=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2798
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2809=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2809
+LDIFF_SYM2799=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2799
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2810=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2810
+LDIFF_SYM2800=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2800
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2811=Lfde418_end - Lfde418_start
-	.long LDIFF_SYM2811
+LDIFF_SYM2801=Lfde418_end - Lfde418_start
+	.long LDIFF_SYM2801
 Lfde418_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_GetIdTokenResult_bool_Firebase_Auth_AuthTokenResultHandler
 
-LDIFF_SYM2812=Lme_279 - Firebase_Auth_User_GetIdTokenResult_bool_Firebase_Auth_AuthTokenResultHandler
-	.long LDIFF_SYM2812
+LDIFF_SYM2802=Lme_279 - Firebase_Auth_User_GetIdTokenResult_bool_Firebase_Auth_AuthTokenResultHandler
+	.long LDIFF_SYM2802
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,152,17,68,153,16,154,15
 	.align 3
 Lfde418_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_215:
+LTDIE_213:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass14_0"
 
 	.byte 24,16
-LDIFF_SYM2813=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2813
+LDIFF_SYM2803=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2803
 	.byte 2,35,0,6
 	.asciz "tcs"
 
-LDIFF_SYM2814=LTDIE_213_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2814
+LDIFF_SYM2804=LTDIE_211_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2804
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass14_0"
 
-LDIFF_SYM2815=LTDIE_215 - Ldebug_info_start
-	.long LDIFF_SYM2815
-LTDIE_215_POINTER:
+LDIFF_SYM2805=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM2805
+LTDIE_213_POINTER:
 
 	.byte 13
-LDIFF_SYM2816=LTDIE_215 - Ldebug_info_start
-	.long LDIFF_SYM2816
-LTDIE_215_REFERENCE:
+LDIFF_SYM2806=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM2806
+LTDIE_213_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2817=LTDIE_215 - Ldebug_info_start
-	.long LDIFF_SYM2817
+LDIFF_SYM2807=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM2807
 	.byte 2
 	.asciz "Firebase.Auth.User:GetIdTokenResultAsync"
 	.asciz "Firebase_Auth_User_GetIdTokenResultAsync_bool"
@@ -120209,32 +120153,32 @@ LDIFF_SYM2817=LTDIE_215 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2818=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2818
+LDIFF_SYM2808=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2808
 	.byte 2,141,24,3
 	.asciz "forceRefresh"
 
-LDIFF_SYM2819=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2819
+LDIFF_SYM2809=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2809
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2820=LTDIE_215_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2820
+LDIFF_SYM2810=LTDIE_213_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2810
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2821=Lfde419_end - Lfde419_start
-	.long LDIFF_SYM2821
+LDIFF_SYM2811=Lfde419_end - Lfde419_start
+	.long LDIFF_SYM2811
 Lfde419_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_GetIdTokenResultAsync_bool
 
-LDIFF_SYM2822=Lme_27a - Firebase_Auth_User_GetIdTokenResultAsync_bool
-	.long LDIFF_SYM2822
+LDIFF_SYM2812=Lme_27a - Firebase_Auth_User_GetIdTokenResultAsync_bool
+	.long LDIFF_SYM2812
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14
 	.align 3
@@ -120253,76 +120197,76 @@ Lfde419_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2823=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2823
+LDIFF_SYM2813=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2813
 	.byte 1,104,3
 	.asciz "credential"
 
-LDIFF_SYM2824=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2824
+LDIFF_SYM2814=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2814
 	.byte 1,105,3
 	.asciz "completion"
 
-LDIFF_SYM2825=LTDIE_20_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2825
+LDIFF_SYM2815=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2815
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2826=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2826
+LDIFF_SYM2816=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2816
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2827=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2827
+LDIFF_SYM2817=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2817
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2828=Lfde420_end - Lfde420_start
-	.long LDIFF_SYM2828
+LDIFF_SYM2818=Lfde420_end - Lfde420_start
+	.long LDIFF_SYM2818
 Lfde420_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_Link_Firebase_Auth_AuthCredential_Firebase_Auth_AuthDataResultHandler
 
-LDIFF_SYM2829=Lme_27b - Firebase_Auth_User_Link_Firebase_Auth_AuthCredential_Firebase_Auth_AuthDataResultHandler
-	.long LDIFF_SYM2829
+LDIFF_SYM2819=Lme_27b - Firebase_Auth_User_Link_Firebase_Auth_AuthCredential_Firebase_Auth_AuthDataResultHandler
+	.long LDIFF_SYM2819
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,152,17,68,153,16,154,15
 	.align 3
 Lfde420_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_216:
+LTDIE_214:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass16_0"
 
 	.byte 24,16
-LDIFF_SYM2830=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2830
+LDIFF_SYM2820=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2820
 	.byte 2,35,0,6
 	.asciz "tcs"
 
-LDIFF_SYM2831=LTDIE_147_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2831
+LDIFF_SYM2821=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2821
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass16_0"
 
-LDIFF_SYM2832=LTDIE_216 - Ldebug_info_start
-	.long LDIFF_SYM2832
-LTDIE_216_POINTER:
+LDIFF_SYM2822=LTDIE_214 - Ldebug_info_start
+	.long LDIFF_SYM2822
+LTDIE_214_POINTER:
 
 	.byte 13
-LDIFF_SYM2833=LTDIE_216 - Ldebug_info_start
-	.long LDIFF_SYM2833
-LTDIE_216_REFERENCE:
+LDIFF_SYM2823=LTDIE_214 - Ldebug_info_start
+	.long LDIFF_SYM2823
+LTDIE_214_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2834=LTDIE_216 - Ldebug_info_start
-	.long LDIFF_SYM2834
+LDIFF_SYM2824=LTDIE_214 - Ldebug_info_start
+	.long LDIFF_SYM2824
 	.byte 2
 	.asciz "Firebase.Auth.User:LinkAsync"
 	.asciz "Firebase_Auth_User_LinkAsync_Firebase_Auth_AuthCredential"
@@ -120334,32 +120278,32 @@ LDIFF_SYM2834=LTDIE_216 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2835=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2835
+LDIFF_SYM2825=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2825
 	.byte 2,141,24,3
 	.asciz "credential"
 
-LDIFF_SYM2836=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2836
+LDIFF_SYM2826=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2826
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2837=LTDIE_216_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2837
+LDIFF_SYM2827=LTDIE_214_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2827
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2838=Lfde421_end - Lfde421_start
-	.long LDIFF_SYM2838
+LDIFF_SYM2828=Lfde421_end - Lfde421_start
+	.long LDIFF_SYM2828
 Lfde421_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_LinkAsync_Firebase_Auth_AuthCredential
 
-LDIFF_SYM2839=Lme_27c - Firebase_Auth_User_LinkAsync_Firebase_Auth_AuthCredential
-	.long LDIFF_SYM2839
+LDIFF_SYM2829=Lme_27c - Firebase_Auth_User_LinkAsync_Firebase_Auth_AuthCredential
+	.long LDIFF_SYM2829
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14
 	.align 3
@@ -120378,76 +120322,76 @@ Lfde421_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2840=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2840
+LDIFF_SYM2830=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2830
 	.byte 1,104,3
 	.asciz "credential"
 
-LDIFF_SYM2841=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2841
+LDIFF_SYM2831=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2831
 	.byte 1,105,3
 	.asciz "completion"
 
-LDIFF_SYM2842=LTDIE_20_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2842
+LDIFF_SYM2832=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2832
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2843=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2843
+LDIFF_SYM2833=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2833
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2844=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2844
+LDIFF_SYM2834=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2834
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2845=Lfde422_end - Lfde422_start
-	.long LDIFF_SYM2845
+LDIFF_SYM2835=Lfde422_end - Lfde422_start
+	.long LDIFF_SYM2835
 Lfde422_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_LinkAndRetrieveData_Firebase_Auth_AuthCredential_Firebase_Auth_AuthDataResultHandler
 
-LDIFF_SYM2846=Lme_27d - Firebase_Auth_User_LinkAndRetrieveData_Firebase_Auth_AuthCredential_Firebase_Auth_AuthDataResultHandler
-	.long LDIFF_SYM2846
+LDIFF_SYM2836=Lme_27d - Firebase_Auth_User_LinkAndRetrieveData_Firebase_Auth_AuthCredential_Firebase_Auth_AuthDataResultHandler
+	.long LDIFF_SYM2836
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,152,17,68,153,16,154,15
 	.align 3
 Lfde422_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_217:
+LTDIE_215:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass18_0"
 
 	.byte 24,16
-LDIFF_SYM2847=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2847
+LDIFF_SYM2837=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2837
 	.byte 2,35,0,6
 	.asciz "tcs"
 
-LDIFF_SYM2848=LTDIE_147_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2848
+LDIFF_SYM2838=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2838
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass18_0"
 
-LDIFF_SYM2849=LTDIE_217 - Ldebug_info_start
-	.long LDIFF_SYM2849
-LTDIE_217_POINTER:
+LDIFF_SYM2839=LTDIE_215 - Ldebug_info_start
+	.long LDIFF_SYM2839
+LTDIE_215_POINTER:
 
 	.byte 13
-LDIFF_SYM2850=LTDIE_217 - Ldebug_info_start
-	.long LDIFF_SYM2850
-LTDIE_217_REFERENCE:
+LDIFF_SYM2840=LTDIE_215 - Ldebug_info_start
+	.long LDIFF_SYM2840
+LTDIE_215_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2851=LTDIE_217 - Ldebug_info_start
-	.long LDIFF_SYM2851
+LDIFF_SYM2841=LTDIE_215 - Ldebug_info_start
+	.long LDIFF_SYM2841
 	.byte 2
 	.asciz "Firebase.Auth.User:LinkAndRetrieveDataAsync"
 	.asciz "Firebase_Auth_User_LinkAndRetrieveDataAsync_Firebase_Auth_AuthCredential"
@@ -120459,32 +120403,32 @@ LDIFF_SYM2851=LTDIE_217 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2852=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2852
+LDIFF_SYM2842=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2842
 	.byte 2,141,24,3
 	.asciz "credential"
 
-LDIFF_SYM2853=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2853
+LDIFF_SYM2843=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2843
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2854=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2854
+LDIFF_SYM2844=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2844
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2855=Lfde423_end - Lfde423_start
-	.long LDIFF_SYM2855
+LDIFF_SYM2845=Lfde423_end - Lfde423_start
+	.long LDIFF_SYM2845
 Lfde423_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_LinkAndRetrieveDataAsync_Firebase_Auth_AuthCredential
 
-LDIFF_SYM2856=Lme_27e - Firebase_Auth_User_LinkAndRetrieveDataAsync_Firebase_Auth_AuthCredential
-	.long LDIFF_SYM2856
+LDIFF_SYM2846=Lme_27e - Firebase_Auth_User_LinkAndRetrieveDataAsync_Firebase_Auth_AuthCredential
+	.long LDIFF_SYM2846
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14
 	.align 3
@@ -120503,22 +120447,22 @@ Lfde423_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2857=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2857
+LDIFF_SYM2847=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2847
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2858=Lfde424_end - Lfde424_start
-	.long LDIFF_SYM2858
+LDIFF_SYM2848=Lfde424_end - Lfde424_start
+	.long LDIFF_SYM2848
 Lfde424_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_ProfileChangeRequest
 
-LDIFF_SYM2859=Lme_27f - Firebase_Auth_User_ProfileChangeRequest
-	.long LDIFF_SYM2859
+LDIFF_SYM2849=Lme_27f - Firebase_Auth_User_ProfileChangeRequest
+	.long LDIFF_SYM2849
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -120537,76 +120481,76 @@ Lfde424_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2860=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2860
+LDIFF_SYM2850=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2850
 	.byte 1,104,3
 	.asciz "credential"
 
-LDIFF_SYM2861=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2861
+LDIFF_SYM2851=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2851
 	.byte 1,105,3
 	.asciz "completion"
 
-LDIFF_SYM2862=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2862
+LDIFF_SYM2852=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2852
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2863=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2863
+LDIFF_SYM2853=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2853
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2864=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2864
+LDIFF_SYM2854=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2854
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2865=Lfde425_end - Lfde425_start
-	.long LDIFF_SYM2865
+LDIFF_SYM2855=Lfde425_end - Lfde425_start
+	.long LDIFF_SYM2855
 Lfde425_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_Reauthenticate_Firebase_Auth_AuthCredential_Firebase_Auth_UserProfileChangeHandler
 
-LDIFF_SYM2866=Lme_280 - Firebase_Auth_User_Reauthenticate_Firebase_Auth_AuthCredential_Firebase_Auth_UserProfileChangeHandler
-	.long LDIFF_SYM2866
+LDIFF_SYM2856=Lme_280 - Firebase_Auth_User_Reauthenticate_Firebase_Auth_AuthCredential_Firebase_Auth_UserProfileChangeHandler
+	.long LDIFF_SYM2856
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,152,17,68,153,16,154,15
 	.align 3
 Lfde425_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_218:
+LTDIE_216:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass21_0"
 
 	.byte 24,16
-LDIFF_SYM2867=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2867
+LDIFF_SYM2857=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2857
 	.byte 2,35,0,6
 	.asciz "tcs"
 
-LDIFF_SYM2868=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2868
+LDIFF_SYM2858=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2858
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass21_0"
 
-LDIFF_SYM2869=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM2869
-LTDIE_218_POINTER:
+LDIFF_SYM2859=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM2859
+LTDIE_216_POINTER:
 
 	.byte 13
-LDIFF_SYM2870=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM2870
-LTDIE_218_REFERENCE:
+LDIFF_SYM2860=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM2860
+LTDIE_216_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2871=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM2871
+LDIFF_SYM2861=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM2861
 	.byte 2
 	.asciz "Firebase.Auth.User:ReauthenticateAsync"
 	.asciz "Firebase_Auth_User_ReauthenticateAsync_Firebase_Auth_AuthCredential"
@@ -120618,32 +120562,32 @@ LDIFF_SYM2871=LTDIE_218 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2872=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2872
+LDIFF_SYM2862=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2862
 	.byte 2,141,24,3
 	.asciz "credential"
 
-LDIFF_SYM2873=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2873
+LDIFF_SYM2863=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2863
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2874=LTDIE_218_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2874
+LDIFF_SYM2864=LTDIE_216_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2864
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2875=Lfde426_end - Lfde426_start
-	.long LDIFF_SYM2875
+LDIFF_SYM2865=Lfde426_end - Lfde426_start
+	.long LDIFF_SYM2865
 Lfde426_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_ReauthenticateAsync_Firebase_Auth_AuthCredential
 
-LDIFF_SYM2876=Lme_281 - Firebase_Auth_User_ReauthenticateAsync_Firebase_Auth_AuthCredential
-	.long LDIFF_SYM2876
+LDIFF_SYM2866=Lme_281 - Firebase_Auth_User_ReauthenticateAsync_Firebase_Auth_AuthCredential
+	.long LDIFF_SYM2866
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14
 	.align 3
@@ -120662,76 +120606,76 @@ Lfde426_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2877=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2877
+LDIFF_SYM2867=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2867
 	.byte 1,104,3
 	.asciz "credential"
 
-LDIFF_SYM2878=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2878
+LDIFF_SYM2868=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2868
 	.byte 1,105,3
 	.asciz "completion"
 
-LDIFF_SYM2879=LTDIE_20_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2879
+LDIFF_SYM2869=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2869
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2880=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2880
+LDIFF_SYM2870=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2870
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2881=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2881
+LDIFF_SYM2871=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2871
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2882=Lfde427_end - Lfde427_start
-	.long LDIFF_SYM2882
+LDIFF_SYM2872=Lfde427_end - Lfde427_start
+	.long LDIFF_SYM2872
 Lfde427_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_ReauthenticateAndRetrieveData_Firebase_Auth_AuthCredential_Firebase_Auth_AuthDataResultHandler
 
-LDIFF_SYM2883=Lme_282 - Firebase_Auth_User_ReauthenticateAndRetrieveData_Firebase_Auth_AuthCredential_Firebase_Auth_AuthDataResultHandler
-	.long LDIFF_SYM2883
+LDIFF_SYM2873=Lme_282 - Firebase_Auth_User_ReauthenticateAndRetrieveData_Firebase_Auth_AuthCredential_Firebase_Auth_AuthDataResultHandler
+	.long LDIFF_SYM2873
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,152,17,68,153,16,154,15
 	.align 3
 Lfde427_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_219:
+LTDIE_217:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass23_0"
 
 	.byte 24,16
-LDIFF_SYM2884=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2884
+LDIFF_SYM2874=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2874
 	.byte 2,35,0,6
 	.asciz "tcs"
 
-LDIFF_SYM2885=LTDIE_147_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2885
+LDIFF_SYM2875=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2875
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass23_0"
 
-LDIFF_SYM2886=LTDIE_219 - Ldebug_info_start
-	.long LDIFF_SYM2886
-LTDIE_219_POINTER:
+LDIFF_SYM2876=LTDIE_217 - Ldebug_info_start
+	.long LDIFF_SYM2876
+LTDIE_217_POINTER:
 
 	.byte 13
-LDIFF_SYM2887=LTDIE_219 - Ldebug_info_start
-	.long LDIFF_SYM2887
-LTDIE_219_REFERENCE:
+LDIFF_SYM2877=LTDIE_217 - Ldebug_info_start
+	.long LDIFF_SYM2877
+LTDIE_217_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2888=LTDIE_219 - Ldebug_info_start
-	.long LDIFF_SYM2888
+LDIFF_SYM2878=LTDIE_217 - Ldebug_info_start
+	.long LDIFF_SYM2878
 	.byte 2
 	.asciz "Firebase.Auth.User:ReauthenticateAndRetrieveDataAsync"
 	.asciz "Firebase_Auth_User_ReauthenticateAndRetrieveDataAsync_Firebase_Auth_AuthCredential"
@@ -120743,32 +120687,32 @@ LDIFF_SYM2888=LTDIE_219 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2889=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2889
+LDIFF_SYM2879=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2879
 	.byte 2,141,24,3
 	.asciz "credential"
 
-LDIFF_SYM2890=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2890
+LDIFF_SYM2880=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2880
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2891=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2891
+LDIFF_SYM2881=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2881
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2892=Lfde428_end - Lfde428_start
-	.long LDIFF_SYM2892
+LDIFF_SYM2882=Lfde428_end - Lfde428_start
+	.long LDIFF_SYM2882
 Lfde428_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_ReauthenticateAndRetrieveDataAsync_Firebase_Auth_AuthCredential
 
-LDIFF_SYM2893=Lme_283 - Firebase_Auth_User_ReauthenticateAndRetrieveDataAsync_Firebase_Auth_AuthCredential
-	.long LDIFF_SYM2893
+LDIFF_SYM2883=Lme_283 - Firebase_Auth_User_ReauthenticateAndRetrieveDataAsync_Firebase_Auth_AuthCredential
+	.long LDIFF_SYM2883
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14
 	.align 3
@@ -120787,71 +120731,71 @@ Lfde428_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2894=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2894
+LDIFF_SYM2884=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2884
 	.byte 1,105,3
 	.asciz "completion"
 
-LDIFF_SYM2895=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2895
+LDIFF_SYM2885=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2885
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2896=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2896
+LDIFF_SYM2886=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2886
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2897=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2897
+LDIFF_SYM2887=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2887
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2898=Lfde429_end - Lfde429_start
-	.long LDIFF_SYM2898
+LDIFF_SYM2888=Lfde429_end - Lfde429_start
+	.long LDIFF_SYM2888
 Lfde429_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_Reload_Firebase_Auth_UserProfileChangeHandler
 
-LDIFF_SYM2899=Lme_284 - Firebase_Auth_User_Reload_Firebase_Auth_UserProfileChangeHandler
-	.long LDIFF_SYM2899
+LDIFF_SYM2889=Lme_284 - Firebase_Auth_User_Reload_Firebase_Auth_UserProfileChangeHandler
+	.long LDIFF_SYM2889
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,152,16,153,15,68,154,14
 	.align 3
 Lfde429_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_220:
+LTDIE_218:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass25_0"
 
 	.byte 24,16
-LDIFF_SYM2900=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2900
+LDIFF_SYM2890=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2890
 	.byte 2,35,0,6
 	.asciz "tcs"
 
-LDIFF_SYM2901=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2901
+LDIFF_SYM2891=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2891
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass25_0"
 
-LDIFF_SYM2902=LTDIE_220 - Ldebug_info_start
-	.long LDIFF_SYM2902
-LTDIE_220_POINTER:
+LDIFF_SYM2892=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM2892
+LTDIE_218_POINTER:
 
 	.byte 13
-LDIFF_SYM2903=LTDIE_220 - Ldebug_info_start
-	.long LDIFF_SYM2903
-LTDIE_220_REFERENCE:
+LDIFF_SYM2893=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM2893
+LTDIE_218_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2904=LTDIE_220 - Ldebug_info_start
-	.long LDIFF_SYM2904
+LDIFF_SYM2894=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM2894
 	.byte 2
 	.asciz "Firebase.Auth.User:ReloadAsync"
 	.asciz "Firebase_Auth_User_ReloadAsync"
@@ -120863,27 +120807,27 @@ LDIFF_SYM2904=LTDIE_220 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2905=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2905
+LDIFF_SYM2895=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2895
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2906=LTDIE_220_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2906
+LDIFF_SYM2896=LTDIE_218_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2896
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2907=Lfde430_end - Lfde430_start
-	.long LDIFF_SYM2907
+LDIFF_SYM2897=Lfde430_end - Lfde430_start
+	.long LDIFF_SYM2897
 Lfde430_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_ReloadAsync
 
-LDIFF_SYM2908=Lme_285 - Firebase_Auth_User_ReloadAsync
-	.long LDIFF_SYM2908
+LDIFF_SYM2898=Lme_285 - Firebase_Auth_User_ReloadAsync
+	.long LDIFF_SYM2898
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12
 	.align 3
@@ -120902,71 +120846,71 @@ Lfde430_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2909=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2909
+LDIFF_SYM2899=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2899
 	.byte 1,105,3
 	.asciz "completion"
 
-LDIFF_SYM2910=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2910
+LDIFF_SYM2900=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2900
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2911=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2911
+LDIFF_SYM2901=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2901
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2912=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2912
+LDIFF_SYM2902=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2902
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2913=Lfde431_end - Lfde431_start
-	.long LDIFF_SYM2913
+LDIFF_SYM2903=Lfde431_end - Lfde431_start
+	.long LDIFF_SYM2903
 Lfde431_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_SendEmailVerification_Firebase_Auth_SendEmailVerificationHandler
 
-LDIFF_SYM2914=Lme_286 - Firebase_Auth_User_SendEmailVerification_Firebase_Auth_SendEmailVerificationHandler
-	.long LDIFF_SYM2914
+LDIFF_SYM2904=Lme_286 - Firebase_Auth_User_SendEmailVerification_Firebase_Auth_SendEmailVerificationHandler
+	.long LDIFF_SYM2904
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,152,16,153,15,68,154,14
 	.align 3
 Lfde431_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_221:
+LTDIE_219:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass27_0"
 
 	.byte 24,16
-LDIFF_SYM2915=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2915
+LDIFF_SYM2905=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2905
 	.byte 2,35,0,6
 	.asciz "tcs"
 
-LDIFF_SYM2916=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2916
+LDIFF_SYM2906=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2906
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass27_0"
 
-LDIFF_SYM2917=LTDIE_221 - Ldebug_info_start
-	.long LDIFF_SYM2917
-LTDIE_221_POINTER:
+LDIFF_SYM2907=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM2907
+LTDIE_219_POINTER:
 
 	.byte 13
-LDIFF_SYM2918=LTDIE_221 - Ldebug_info_start
-	.long LDIFF_SYM2918
-LTDIE_221_REFERENCE:
+LDIFF_SYM2908=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM2908
+LTDIE_219_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2919=LTDIE_221 - Ldebug_info_start
-	.long LDIFF_SYM2919
+LDIFF_SYM2909=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM2909
 	.byte 2
 	.asciz "Firebase.Auth.User:SendEmailVerificationAsync"
 	.asciz "Firebase_Auth_User_SendEmailVerificationAsync"
@@ -120978,27 +120922,27 @@ LDIFF_SYM2919=LTDIE_221 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2920=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2920
+LDIFF_SYM2910=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2910
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2921=LTDIE_221_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2921
+LDIFF_SYM2911=LTDIE_219_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2911
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2922=Lfde432_end - Lfde432_start
-	.long LDIFF_SYM2922
+LDIFF_SYM2912=Lfde432_end - Lfde432_start
+	.long LDIFF_SYM2912
 Lfde432_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_SendEmailVerificationAsync
 
-LDIFF_SYM2923=Lme_287 - Firebase_Auth_User_SendEmailVerificationAsync
-	.long LDIFF_SYM2923
+LDIFF_SYM2913=Lme_287 - Firebase_Auth_User_SendEmailVerificationAsync
+	.long LDIFF_SYM2913
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12
 	.align 3
@@ -121017,76 +120961,76 @@ Lfde432_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2924=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2924
+LDIFF_SYM2914=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2914
 	.byte 1,104,3
 	.asciz "actionCodeSettings"
 
-LDIFF_SYM2925=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2925
+LDIFF_SYM2915=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2915
 	.byte 1,105,3
 	.asciz "completion"
 
-LDIFF_SYM2926=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2926
+LDIFF_SYM2916=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2916
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2927=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2927
+LDIFF_SYM2917=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2917
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2928=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2928
+LDIFF_SYM2918=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2918
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2929=Lfde433_end - Lfde433_start
-	.long LDIFF_SYM2929
+LDIFF_SYM2919=Lfde433_end - Lfde433_start
+	.long LDIFF_SYM2919
 Lfde433_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_SendEmailVerification_Firebase_Auth_ActionCodeSettings_Firebase_Auth_SendEmailVerificationHandler
 
-LDIFF_SYM2930=Lme_288 - Firebase_Auth_User_SendEmailVerification_Firebase_Auth_ActionCodeSettings_Firebase_Auth_SendEmailVerificationHandler
-	.long LDIFF_SYM2930
+LDIFF_SYM2920=Lme_288 - Firebase_Auth_User_SendEmailVerification_Firebase_Auth_ActionCodeSettings_Firebase_Auth_SendEmailVerificationHandler
+	.long LDIFF_SYM2920
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,152,17,68,153,16,154,15
 	.align 3
 Lfde433_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_222:
+LTDIE_220:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass29_0"
 
 	.byte 24,16
-LDIFF_SYM2931=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2931
+LDIFF_SYM2921=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2921
 	.byte 2,35,0,6
 	.asciz "tcs"
 
-LDIFF_SYM2932=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2932
+LDIFF_SYM2922=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2922
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass29_0"
 
-LDIFF_SYM2933=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM2933
-LTDIE_222_POINTER:
+LDIFF_SYM2923=LTDIE_220 - Ldebug_info_start
+	.long LDIFF_SYM2923
+LTDIE_220_POINTER:
 
 	.byte 13
-LDIFF_SYM2934=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM2934
-LTDIE_222_REFERENCE:
+LDIFF_SYM2924=LTDIE_220 - Ldebug_info_start
+	.long LDIFF_SYM2924
+LTDIE_220_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2935=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM2935
+LDIFF_SYM2925=LTDIE_220 - Ldebug_info_start
+	.long LDIFF_SYM2925
 	.byte 2
 	.asciz "Firebase.Auth.User:SendEmailVerificationAsync"
 	.asciz "Firebase_Auth_User_SendEmailVerificationAsync_Firebase_Auth_ActionCodeSettings"
@@ -121098,32 +121042,32 @@ LDIFF_SYM2935=LTDIE_222 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2936=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2936
+LDIFF_SYM2926=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2926
 	.byte 2,141,24,3
 	.asciz "actionCodeSettings"
 
-LDIFF_SYM2937=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2937
+LDIFF_SYM2927=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2927
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2938=LTDIE_222_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2938
+LDIFF_SYM2928=LTDIE_220_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2928
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2939=Lfde434_end - Lfde434_start
-	.long LDIFF_SYM2939
+LDIFF_SYM2929=Lfde434_end - Lfde434_start
+	.long LDIFF_SYM2929
 Lfde434_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_SendEmailVerificationAsync_Firebase_Auth_ActionCodeSettings
 
-LDIFF_SYM2940=Lme_289 - Firebase_Auth_User_SendEmailVerificationAsync_Firebase_Auth_ActionCodeSettings
-	.long LDIFF_SYM2940
+LDIFF_SYM2930=Lme_289 - Firebase_Auth_User_SendEmailVerificationAsync_Firebase_Auth_ActionCodeSettings
+	.long LDIFF_SYM2930
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14
 	.align 3
@@ -121142,47 +121086,47 @@ Lfde434_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2941=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2941
+LDIFF_SYM2931=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2931
 	.byte 1,104,3
 	.asciz "providerId"
 
-LDIFF_SYM2942=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2942
+LDIFF_SYM2932=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2932
 	.byte 1,105,3
 	.asciz "completion"
 
-LDIFF_SYM2943=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2943
+LDIFF_SYM2933=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2933
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2944=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2944
+LDIFF_SYM2934=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2934
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2945=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2945
+LDIFF_SYM2935=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2935
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM2946=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2946
+LDIFF_SYM2936=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2936
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2947=Lfde435_end - Lfde435_start
-	.long LDIFF_SYM2947
+LDIFF_SYM2937=Lfde435_end - Lfde435_start
+	.long LDIFF_SYM2937
 Lfde435_start:
 
 	.long 0
 	.align 3
 	.quad Firebase_Auth_User_Unlink_string_Firebase_Auth_AuthResultHandler
 
-LDIFF_SYM2948=Lme_28a - Firebase_Auth_User_Unlink_string_Firebase_Auth_AuthResultHandler
-	.long LDIFF_SYM2948
+LDIFF_SYM2938=Lme_28a - Firebase_Auth_User_Unlink_string_Firebase_Auth_AuthResultHandler
+	.long LDIFF_SYM2938
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15,68,154,14
 	.align 3
@@ -121190,6 +121134,62 @@ Lfde435_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_223:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_Task`1"
+
+	.byte 80,16
+LDIFF_SYM2939=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM2939
+	.byte 2,35,0,6
+	.asciz "m_result"
+
+LDIFF_SYM2940=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2940
+	.byte 2,35,72,0,7
+	.asciz "System_Threading_Tasks_Task`1"
+
+LDIFF_SYM2941=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM2941
+LTDIE_223_POINTER:
+
+	.byte 13
+LDIFF_SYM2942=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM2942
+LTDIE_223_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2943=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM2943
+LTDIE_222:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
+
+	.byte 24,16
+LDIFF_SYM2944=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2944
+	.byte 2,35,0,6
+	.asciz "_task"
+
+LDIFF_SYM2945=LTDIE_223_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2945
+	.byte 2,35,16,0,7
+	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
+
+LDIFF_SYM2946=LTDIE_222 - Ldebug_info_start
+	.long LDIFF_SYM2946
+LTDIE_222_POINTER:
+
+	.byte 13
+LDIFF_SYM2947=LTDIE_222 - Ldebug_info_start
+	.long LDIFF_SYM2947
+LTDIE_222_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2948=LTDIE_222 - Ldebug_info_start
+	.long LDIFF_SYM2948
+LTDIE_221:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass31_0"
@@ -121200,22 +121200,22 @@ LDIFF_SYM2949=LTDIE_3 - Ldebug_info_start
 	.byte 2,35,0,6
 	.asciz "tcs"
 
-LDIFF_SYM2950=LTDIE_163_REFERENCE - Ldebug_info_start
+LDIFF_SYM2950=LTDIE_222_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2950
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass31_0"
 
-LDIFF_SYM2951=LTDIE_223 - Ldebug_info_start
+LDIFF_SYM2951=LTDIE_221 - Ldebug_info_start
 	.long LDIFF_SYM2951
-LTDIE_223_POINTER:
+LTDIE_221_POINTER:
 
 	.byte 13
-LDIFF_SYM2952=LTDIE_223 - Ldebug_info_start
+LDIFF_SYM2952=LTDIE_221 - Ldebug_info_start
 	.long LDIFF_SYM2952
-LTDIE_223_REFERENCE:
+LTDIE_221_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2953=LTDIE_223 - Ldebug_info_start
+LDIFF_SYM2953=LTDIE_221 - Ldebug_info_start
 	.long LDIFF_SYM2953
 	.byte 2
 	.asciz "Firebase.Auth.User:UnlinkAsync"
@@ -121238,7 +121238,7 @@ LDIFF_SYM2955=LDIE_STRING - Ldebug_info_start
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2956=LTDIE_223_REFERENCE - Ldebug_info_start
+LDIFF_SYM2956=LTDIE_221_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2956
 	.byte 1,104,0
 
@@ -121537,7 +121537,7 @@ LDIFF_SYM2995=LTDIE_27_REFERENCE - Ldebug_info_start
 	.byte 1,104,3
 	.asciz "phoneNumberCredential"
 
-LDIFF_SYM2996=LTDIE_205_REFERENCE - Ldebug_info_start
+LDIFF_SYM2996=LTDIE_203_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2996
 	.byte 1,105,3
 	.asciz "completion"
@@ -121618,7 +121618,7 @@ LDIFF_SYM3007=LTDIE_27_REFERENCE - Ldebug_info_start
 	.byte 2,141,24,3
 	.asciz "phoneNumberCredential"
 
-LDIFF_SYM3008=LTDIE_205_REFERENCE - Ldebug_info_start
+LDIFF_SYM3008=LTDIE_203_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3008
 	.byte 2,141,32,11
 	.asciz "V_0"
@@ -122097,7 +122097,7 @@ Lfde454_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3054=LTDIE_209_REFERENCE - Ldebug_info_start
+LDIFF_SYM3054=LTDIE_207_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3054
 	.byte 2,141,16,0
 
@@ -122131,7 +122131,7 @@ Lfde455_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3057=LTDIE_209_REFERENCE - Ldebug_info_start
+LDIFF_SYM3057=LTDIE_207_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3057
 	.byte 1,105,3
 	.asciz "error_"
@@ -122170,7 +122170,7 @@ Lfde456_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3061=LTDIE_210_REFERENCE - Ldebug_info_start
+LDIFF_SYM3061=LTDIE_208_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3061
 	.byte 2,141,16,0
 
@@ -122204,7 +122204,7 @@ Lfde457_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3064=LTDIE_210_REFERENCE - Ldebug_info_start
+LDIFF_SYM3064=LTDIE_208_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3064
 	.byte 1,104,3
 	.asciz "token_"
@@ -122248,7 +122248,7 @@ Lfde458_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3069=LTDIE_211_REFERENCE - Ldebug_info_start
+LDIFF_SYM3069=LTDIE_209_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3069
 	.byte 2,141,16,0
 
@@ -122282,7 +122282,7 @@ Lfde459_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3072=LTDIE_211_REFERENCE - Ldebug_info_start
+LDIFF_SYM3072=LTDIE_209_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3072
 	.byte 1,104,3
 	.asciz "token_"
@@ -122326,7 +122326,7 @@ Lfde460_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3077=LTDIE_212_REFERENCE - Ldebug_info_start
+LDIFF_SYM3077=LTDIE_210_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3077
 	.byte 2,141,16,0
 
@@ -122360,7 +122360,7 @@ Lfde461_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3080=LTDIE_212_REFERENCE - Ldebug_info_start
+LDIFF_SYM3080=LTDIE_210_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3080
 	.byte 1,104,3
 	.asciz "tokenResult_"
@@ -122404,7 +122404,7 @@ Lfde462_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3085=LTDIE_215_REFERENCE - Ldebug_info_start
+LDIFF_SYM3085=LTDIE_213_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3085
 	.byte 2,141,16,0
 
@@ -122438,7 +122438,7 @@ Lfde463_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3088=LTDIE_215_REFERENCE - Ldebug_info_start
+LDIFF_SYM3088=LTDIE_213_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3088
 	.byte 1,104,3
 	.asciz "tokenResult_"
@@ -122482,7 +122482,7 @@ Lfde464_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3093=LTDIE_216_REFERENCE - Ldebug_info_start
+LDIFF_SYM3093=LTDIE_214_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3093
 	.byte 2,141,16,0
 
@@ -122516,7 +122516,7 @@ Lfde465_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3096=LTDIE_216_REFERENCE - Ldebug_info_start
+LDIFF_SYM3096=LTDIE_214_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3096
 	.byte 1,104,3
 	.asciz "authResult_"
@@ -122560,7 +122560,7 @@ Lfde466_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3101=LTDIE_217_REFERENCE - Ldebug_info_start
+LDIFF_SYM3101=LTDIE_215_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3101
 	.byte 2,141,16,0
 
@@ -122594,7 +122594,7 @@ Lfde467_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3104=LTDIE_217_REFERENCE - Ldebug_info_start
+LDIFF_SYM3104=LTDIE_215_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3104
 	.byte 1,104,3
 	.asciz "authResult_"
@@ -122638,7 +122638,7 @@ Lfde468_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3109=LTDIE_218_REFERENCE - Ldebug_info_start
+LDIFF_SYM3109=LTDIE_216_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3109
 	.byte 2,141,16,0
 
@@ -122672,7 +122672,7 @@ Lfde469_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3112=LTDIE_218_REFERENCE - Ldebug_info_start
+LDIFF_SYM3112=LTDIE_216_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3112
 	.byte 1,105,3
 	.asciz "error_"
@@ -122711,7 +122711,7 @@ Lfde470_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3116=LTDIE_219_REFERENCE - Ldebug_info_start
+LDIFF_SYM3116=LTDIE_217_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3116
 	.byte 2,141,16,0
 
@@ -122745,7 +122745,7 @@ Lfde471_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3119=LTDIE_219_REFERENCE - Ldebug_info_start
+LDIFF_SYM3119=LTDIE_217_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3119
 	.byte 1,104,3
 	.asciz "authResult_"
@@ -122789,7 +122789,7 @@ Lfde472_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3124=LTDIE_220_REFERENCE - Ldebug_info_start
+LDIFF_SYM3124=LTDIE_218_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3124
 	.byte 2,141,16,0
 
@@ -122823,7 +122823,7 @@ Lfde473_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3127=LTDIE_220_REFERENCE - Ldebug_info_start
+LDIFF_SYM3127=LTDIE_218_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3127
 	.byte 1,105,3
 	.asciz "error_"
@@ -122862,7 +122862,7 @@ Lfde474_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3131=LTDIE_221_REFERENCE - Ldebug_info_start
+LDIFF_SYM3131=LTDIE_219_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3131
 	.byte 2,141,16,0
 
@@ -122896,7 +122896,7 @@ Lfde475_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3134=LTDIE_221_REFERENCE - Ldebug_info_start
+LDIFF_SYM3134=LTDIE_219_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3134
 	.byte 1,105,3
 	.asciz "error_"
@@ -122935,7 +122935,7 @@ Lfde476_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3138=LTDIE_222_REFERENCE - Ldebug_info_start
+LDIFF_SYM3138=LTDIE_220_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3138
 	.byte 2,141,16,0
 
@@ -122969,7 +122969,7 @@ Lfde477_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3141=LTDIE_222_REFERENCE - Ldebug_info_start
+LDIFF_SYM3141=LTDIE_220_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3141
 	.byte 1,105,3
 	.asciz "error_"
@@ -123008,7 +123008,7 @@ Lfde478_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3145=LTDIE_223_REFERENCE - Ldebug_info_start
+LDIFF_SYM3145=LTDIE_221_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3145
 	.byte 2,141,16,0
 
@@ -123042,7 +123042,7 @@ Lfde479_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3148=LTDIE_223_REFERENCE - Ldebug_info_start
+LDIFF_SYM3148=LTDIE_221_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3148
 	.byte 1,104,3
 	.asciz "user_"
@@ -123299,7 +123299,7 @@ LTDIE_228:
 	.asciz "Firebase_Auth_UserInfoWrapper"
 
 	.byte 24,16
-LDIFF_SYM3174=LTDIE_187 - Ldebug_info_start
+LDIFF_SYM3174=LTDIE_185 - Ldebug_info_start
 	.long LDIFF_SYM3174
 	.byte 2,35,0,0,7
 	.asciz "Firebase_Auth_UserInfoWrapper"
@@ -123692,7 +123692,7 @@ LDIFF_SYM3212=LTDIE_227_REFERENCE - Ldebug_info_start
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3213=LTDIE_185_REFERENCE - Ldebug_info_start
+LDIFF_SYM3213=LTDIE_183_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3213
 	.byte 1,105,0
 
@@ -123731,7 +123731,7 @@ LDIFF_SYM3216=LTDIE_227_REFERENCE - Ldebug_info_start
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3217=LTDIE_185_REFERENCE - Ldebug_info_start
+LDIFF_SYM3217=LTDIE_183_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3217
 	.byte 1,105,0
 
@@ -128164,11 +128164,11 @@ LTDIE_268_REFERENCE:
 LDIFF_SYM3803=LTDIE_268 - Ldebug_info_start
 	.long LDIFF_SYM3803
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`1<Firebase.Auth.User>:invoke_TResult"
-	.asciz "wrapper_delegate_invoke_System_Func_1_Firebase_Auth_User_invoke_TResult"
+	.asciz "(wrapper_delegate-invoke)_System.Func`1<string>:invoke_TResult"
+	.asciz "wrapper_delegate_invoke_System_Func_1_string_invoke_TResult"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_1_Firebase_Auth_User_invoke_TResult
+	.quad wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
 	.quad Lme_315
 
 	.byte 2,118,16,3
@@ -128204,7 +128204,7 @@ LDIFF_SYM3809=LDIE_OBJECT - Ldebug_info_start
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM3810=LTDIE_27_REFERENCE - Ldebug_info_start
+LDIFF_SYM3810=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM3810
 	.byte 1,100,0
 
@@ -128216,9 +128216,9 @@ Lfde567_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_1_Firebase_Auth_User_invoke_TResult
+	.quad wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
 
-LDIFF_SYM3812=Lme_315 - wrapper_delegate_invoke_System_Func_1_Firebase_Auth_User_invoke_TResult
+LDIFF_SYM3812=Lme_315 - wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
 	.long LDIFF_SYM3812
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
@@ -128251,11 +128251,11 @@ LTDIE_269_REFERENCE:
 LDIFF_SYM3816=LTDIE_269 - Ldebug_info_start
 	.long LDIFF_SYM3816
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_Firebase.Auth.User>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_User_invoke_TResult_T_object"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_string>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_User_invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
 	.quad Lme_316
 
 	.byte 2,118,16,3
@@ -128296,7 +128296,7 @@ LDIFF_SYM3823=LDIE_OBJECT - Ldebug_info_start
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM3824=LTDIE_27_REFERENCE - Ldebug_info_start
+LDIFF_SYM3824=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM3824
 	.byte 1,99,0
 
@@ -128308,9 +128308,9 @@ Lfde568_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_User_invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
 
-LDIFF_SYM3826=Lme_316 - wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_User_invoke_TResult_T_object
+LDIFF_SYM3826=Lme_316 - wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
 	.long LDIFF_SYM3826
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
@@ -128343,11 +128343,11 @@ LTDIE_270_REFERENCE:
 LDIFF_SYM3830=LTDIE_270 - Ldebug_info_start
 	.long LDIFF_SYM3830
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<Firebase.Auth.User>>:invoke_void_T"
-	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_User_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_User"
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<string>>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_User_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_User
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
 	.quad Lme_317
 
 	.byte 2,118,16,3
@@ -128358,7 +128358,7 @@ LDIFF_SYM3831=LTDIE_270_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3832=LTDIE_164_REFERENCE - Ldebug_info_start
+LDIFF_SYM3832=LTDIE_172_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3832
 	.byte 1,106,11
 	.asciz "V_0"
@@ -128395,9 +128395,9 @@ Lfde569_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_User_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_User
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
 
-LDIFF_SYM3839=Lme_317 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_User_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_User
+LDIFF_SYM3839=Lme_317 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
 	.long LDIFF_SYM3839
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
@@ -128430,11 +128430,11 @@ LTDIE_271_REFERENCE:
 LDIFF_SYM3843=LTDIE_271 - Ldebug_info_start
 	.long LDIFF_SYM3843
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_Firebase.Auth.User>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_User_invoke_TResult_T_System_IAsyncResult"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_string>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_User_invoke_TResult_T_System_IAsyncResult
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
 	.quad Lme_318
 
 	.byte 2,118,16,3
@@ -128475,7 +128475,7 @@ LDIFF_SYM3850=LDIE_OBJECT - Ldebug_info_start
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM3851=LTDIE_27_REFERENCE - Ldebug_info_start
+LDIFF_SYM3851=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM3851
 	.byte 1,99,0
 
@@ -128487,9 +128487,9 @@ Lfde570_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_User_invoke_TResult_T_System_IAsyncResult
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM3853=Lme_318 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_User_invoke_TResult_T_System_IAsyncResult
+LDIFF_SYM3853=Lme_318 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
 	.long LDIFF_SYM3853
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
@@ -128501,13 +128501,13 @@ Lfde570_end:
 LTDIE_272:
 
 	.byte 5
-	.asciz "System_Func`1"
+	.asciz "System_Action`1"
 
 	.byte 128,1,16
 LDIFF_SYM3854=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM3854
 	.byte 2,35,0,0,7
-	.asciz "System_Func`1"
+	.asciz "System_Action`1"
 
 LDIFF_SYM3855=LTDIE_272 - Ldebug_info_start
 	.long LDIFF_SYM3855
@@ -128522,11 +128522,11 @@ LTDIE_272_REFERENCE:
 LDIFF_SYM3857=LTDIE_272 - Ldebug_info_start
 	.long LDIFF_SYM3857
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`1<string>:invoke_TResult"
-	.asciz "wrapper_delegate_invoke_System_Func_1_string_invoke_TResult"
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<Foundation.NSNotification>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
+	.quad wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
 	.quad Lme_319
 
 	.byte 2,118,16,3
@@ -128534,35 +128534,35 @@ LDIFF_SYM3857=LTDIE_272 - Ldebug_info_start
 
 LDIFF_SYM3858=LTDIE_272_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3858
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM3859=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3859
 	.byte 1,106,11
 	.asciz "V_0"
-
-LDIFF_SYM3859=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3859
-	.byte 1,105,11
-	.asciz "V_1"
 
 LDIFF_SYM3860=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM3860
 	.byte 1,104,11
-	.asciz "V_2"
+	.asciz "V_1"
 
-LDIFF_SYM3861=LTDIE_254_REFERENCE - Ldebug_info_start
+LDIFF_SYM3861=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM3861
 	.byte 1,103,11
-	.asciz "V_3"
+	.asciz "V_2"
 
-LDIFF_SYM3862=LTDIE_1_REFERENCE - Ldebug_info_start
+LDIFF_SYM3862=LTDIE_254_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3862
 	.byte 1,102,11
-	.asciz "V_4"
+	.asciz "V_3"
 
-LDIFF_SYM3863=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM3863=LTDIE_1_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3863
 	.byte 1,101,11
-	.asciz "V_5"
+	.asciz "V_4"
 
-LDIFF_SYM3864=LDIE_STRING - Ldebug_info_start
+LDIFF_SYM3864=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM3864
 	.byte 1,100,0
 
@@ -128574,9 +128574,9 @@ Lfde571_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
+	.quad wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
 
-LDIFF_SYM3866=Lme_319 - wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
+LDIFF_SYM3866=Lme_319 - wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
 	.long LDIFF_SYM3866
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
@@ -128585,91 +128585,119 @@ LDIFF_SYM3866=Lme_319 - wrapper_delegate_invoke_System_Func_1_string_invoke_TRes
 Lfde571_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_274:
+
+	.byte 5
+	.asciz "System_EventArgs"
+
+	.byte 16,16
+LDIFF_SYM3867=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM3867
+	.byte 2,35,0,0,7
+	.asciz "System_EventArgs"
+
+LDIFF_SYM3868=LTDIE_274 - Ldebug_info_start
+	.long LDIFF_SYM3868
+LTDIE_274_POINTER:
+
+	.byte 13
+LDIFF_SYM3869=LTDIE_274 - Ldebug_info_start
+	.long LDIFF_SYM3869
+LTDIE_274_REFERENCE:
+
+	.byte 14
+LDIFF_SYM3870=LTDIE_274 - Ldebug_info_start
+	.long LDIFF_SYM3870
 LTDIE_273:
 
 	.byte 5
-	.asciz "System_Func`2"
+	.asciz "Foundation_NSNotificationEventArgs"
 
-	.byte 128,1,16
-LDIFF_SYM3867=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM3867
-	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
+	.byte 24,16
+LDIFF_SYM3871=LTDIE_274 - Ldebug_info_start
+	.long LDIFF_SYM3871
+	.byte 2,35,0,6
+	.asciz "<Notification>k__BackingField"
 
-LDIFF_SYM3868=LTDIE_273 - Ldebug_info_start
-	.long LDIFF_SYM3868
+LDIFF_SYM3872=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3872
+	.byte 2,35,16,0,7
+	.asciz "Foundation_NSNotificationEventArgs"
+
+LDIFF_SYM3873=LTDIE_273 - Ldebug_info_start
+	.long LDIFF_SYM3873
 LTDIE_273_POINTER:
 
 	.byte 13
-LDIFF_SYM3869=LTDIE_273 - Ldebug_info_start
-	.long LDIFF_SYM3869
+LDIFF_SYM3874=LTDIE_273 - Ldebug_info_start
+	.long LDIFF_SYM3874
 LTDIE_273_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3870=LTDIE_273 - Ldebug_info_start
-	.long LDIFF_SYM3870
+LDIFF_SYM3875=LTDIE_273 - Ldebug_info_start
+	.long LDIFF_SYM3875
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_string>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object"
+	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<Foundation.NSNotificationEventArgs>:invoke_void_object_TEventArgs"
+	.asciz "wrapper_delegate_invoke_System_EventHandler_1_Foundation_NSNotificationEventArgs_invoke_void_object_TEventArgs_object_Foundation_NSNotificationEventArgs"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_EventHandler_1_Foundation_NSNotificationEventArgs_invoke_void_object_TEventArgs_object_Foundation_NSNotificationEventArgs
 	.quad Lme_31a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3871=LTDIE_273_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3871
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM3872=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3872
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM3873=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3873
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM3874=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3874
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM3875=LTDIE_254_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3875
-	.byte 1,102,11
-	.asciz "V_3"
-
-LDIFF_SYM3876=LTDIE_1_REFERENCE - Ldebug_info_start
+LDIFF_SYM3876=LTDIE_174_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3876
-	.byte 1,101,11
-	.asciz "V_4"
+	.byte 1,104,3
+	.asciz "param0"
 
 LDIFF_SYM3877=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM3877
-	.byte 1,100,11
-	.asciz "V_5"
+	.byte 1,105,3
+	.asciz "param1"
 
-LDIFF_SYM3878=LDIE_STRING - Ldebug_info_start
+LDIFF_SYM3878=LTDIE_273_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3878
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM3879=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3879
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM3880=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3880
+	.byte 1,102,11
+	.asciz "V_2"
+
+LDIFF_SYM3881=LTDIE_254_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3881
+	.byte 1,101,11
+	.asciz "V_3"
+
+LDIFF_SYM3882=LTDIE_1_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3882
+	.byte 1,100,11
+	.asciz "V_4"
+
+LDIFF_SYM3883=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3883
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3879=Lfde572_end - Lfde572_start
-	.long LDIFF_SYM3879
+LDIFF_SYM3884=Lfde572_end - Lfde572_start
+	.long LDIFF_SYM3884
 Lfde572_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_EventHandler_1_Foundation_NSNotificationEventArgs_invoke_void_object_TEventArgs_object_Foundation_NSNotificationEventArgs
 
-LDIFF_SYM3880=Lme_31a - wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
-	.long LDIFF_SYM3880
+LDIFF_SYM3885=Lme_31a - wrapper_delegate_invoke_System_EventHandler_1_Foundation_NSNotificationEventArgs_invoke_void_object_TEventArgs_object_Foundation_NSNotificationEventArgs
+	.long LDIFF_SYM3885
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -128677,86 +128705,86 @@ LDIFF_SYM3880=Lme_31a - wrapper_delegate_invoke_System_Func_2_object_string_invo
 Lfde572_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_274:
+LTDIE_275:
 
 	.byte 5
-	.asciz "System_Action`1"
+	.asciz "System_Func`1"
 
 	.byte 128,1,16
-LDIFF_SYM3881=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM3881
+LDIFF_SYM3886=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM3886
 	.byte 2,35,0,0,7
-	.asciz "System_Action`1"
+	.asciz "System_Func`1"
 
-LDIFF_SYM3882=LTDIE_274 - Ldebug_info_start
-	.long LDIFF_SYM3882
-LTDIE_274_POINTER:
+LDIFF_SYM3887=LTDIE_275 - Ldebug_info_start
+	.long LDIFF_SYM3887
+LTDIE_275_POINTER:
 
 	.byte 13
-LDIFF_SYM3883=LTDIE_274 - Ldebug_info_start
-	.long LDIFF_SYM3883
-LTDIE_274_REFERENCE:
+LDIFF_SYM3888=LTDIE_275 - Ldebug_info_start
+	.long LDIFF_SYM3888
+LTDIE_275_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3884=LTDIE_274 - Ldebug_info_start
-	.long LDIFF_SYM3884
+LDIFF_SYM3889=LTDIE_275 - Ldebug_info_start
+	.long LDIFF_SYM3889
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<string>>:invoke_void_T"
-	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string"
+	.asciz "(wrapper_delegate-invoke)_System.Func`1<Firebase.Auth.AuthCredential>:invoke_TResult"
+	.asciz "wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthCredential_invoke_TResult"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
+	.quad wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthCredential_invoke_TResult
 	.quad Lme_31b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3885=LTDIE_274_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3885
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM3886=LTDIE_174_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3886
+LDIFF_SYM3890=LTDIE_275_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3890
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3887=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3887
-	.byte 1,104,11
+LDIFF_SYM3891=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3891
+	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM3888=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3888
-	.byte 1,103,11
+LDIFF_SYM3892=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3892
+	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM3889=LTDIE_254_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3889
-	.byte 1,102,11
+LDIFF_SYM3893=LTDIE_254_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3893
+	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM3890=LTDIE_1_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3890
-	.byte 1,101,11
+LDIFF_SYM3894=LTDIE_1_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3894
+	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM3891=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3891
+LDIFF_SYM3895=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3895
+	.byte 1,101,11
+	.asciz "V_5"
+
+LDIFF_SYM3896=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3896
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3892=Lfde573_end - Lfde573_start
-	.long LDIFF_SYM3892
+LDIFF_SYM3897=Lfde573_end - Lfde573_start
+	.long LDIFF_SYM3897
 Lfde573_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
+	.quad wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthCredential_invoke_TResult
 
-LDIFF_SYM3893=Lme_31b - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
-	.long LDIFF_SYM3893
+LDIFF_SYM3898=Lme_31b - wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthCredential_invoke_TResult
+	.long LDIFF_SYM3898
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -128764,91 +128792,91 @@ LDIFF_SYM3893=Lme_31b - wrapper_delegate_invoke_System_Action_1_System_Threading
 Lfde573_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_275:
+LTDIE_276:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 128,1,16
-LDIFF_SYM3894=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM3894
+LDIFF_SYM3899=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM3899
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM3895=LTDIE_275 - Ldebug_info_start
-	.long LDIFF_SYM3895
-LTDIE_275_POINTER:
+LDIFF_SYM3900=LTDIE_276 - Ldebug_info_start
+	.long LDIFF_SYM3900
+LTDIE_276_POINTER:
 
 	.byte 13
-LDIFF_SYM3896=LTDIE_275 - Ldebug_info_start
-	.long LDIFF_SYM3896
-LTDIE_275_REFERENCE:
+LDIFF_SYM3901=LTDIE_276 - Ldebug_info_start
+	.long LDIFF_SYM3901
+LTDIE_276_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3897=LTDIE_275 - Ldebug_info_start
-	.long LDIFF_SYM3897
+LDIFF_SYM3902=LTDIE_276 - Ldebug_info_start
+	.long LDIFF_SYM3902
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_string>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_Firebase.Auth.AuthCredential>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthCredential_invoke_TResult_T_object"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
+	.quad wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthCredential_invoke_TResult_T_object
 	.quad Lme_31c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3898=LTDIE_275_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3898
+LDIFF_SYM3903=LTDIE_276_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3903
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3899=LTDIE_245_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3899
+LDIFF_SYM3904=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3904
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3900=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3900
+LDIFF_SYM3905=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3905
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM3901=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3901
+LDIFF_SYM3906=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3906
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM3902=LTDIE_254_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3902
+LDIFF_SYM3907=LTDIE_254_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3907
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM3903=LTDIE_1_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3903
+LDIFF_SYM3908=LTDIE_1_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3908
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM3904=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3904
+LDIFF_SYM3909=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3909
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM3905=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM3905
+LDIFF_SYM3910=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3910
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3906=Lfde574_end - Lfde574_start
-	.long LDIFF_SYM3906
+LDIFF_SYM3911=Lfde574_end - Lfde574_start
+	.long LDIFF_SYM3911
 Lfde574_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
+	.quad wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthCredential_invoke_TResult_T_object
 
-LDIFF_SYM3907=Lme_31c - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM3907
+LDIFF_SYM3912=Lme_31c - wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthCredential_invoke_TResult_T_object
+	.long LDIFF_SYM3912
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -128856,86 +128884,86 @@ LDIFF_SYM3907=Lme_31c - wrapper_delegate_invoke_System_Func_2_System_IAsyncResul
 Lfde574_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_276:
+LTDIE_277:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 128,1,16
-LDIFF_SYM3908=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM3908
+LDIFF_SYM3913=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM3913
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM3909=LTDIE_276 - Ldebug_info_start
-	.long LDIFF_SYM3909
-LTDIE_276_POINTER:
+LDIFF_SYM3914=LTDIE_277 - Ldebug_info_start
+	.long LDIFF_SYM3914
+LTDIE_277_POINTER:
 
 	.byte 13
-LDIFF_SYM3910=LTDIE_276 - Ldebug_info_start
-	.long LDIFF_SYM3910
-LTDIE_276_REFERENCE:
+LDIFF_SYM3915=LTDIE_277 - Ldebug_info_start
+	.long LDIFF_SYM3915
+LTDIE_277_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3911=LTDIE_276 - Ldebug_info_start
-	.long LDIFF_SYM3911
+LDIFF_SYM3916=LTDIE_277 - Ldebug_info_start
+	.long LDIFF_SYM3916
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Action`1<Foundation.NSNotification>:invoke_void_T"
-	.asciz "wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification"
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<Firebase.Auth.AuthCredential>>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential
 	.quad Lme_31d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3912=LTDIE_276_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3912
+LDIFF_SYM3917=LTDIE_277_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3917
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3913=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3913
+LDIFF_SYM3918=LTDIE_196_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3918
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3914=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3914
+LDIFF_SYM3919=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3919
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM3915=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3915
+LDIFF_SYM3920=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3920
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM3916=LTDIE_254_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3916
+LDIFF_SYM3921=LTDIE_254_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3921
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM3917=LTDIE_1_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3917
+LDIFF_SYM3922=LTDIE_1_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3922
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM3918=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3918
+LDIFF_SYM3923=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3923
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3919=Lfde575_end - Lfde575_start
-	.long LDIFF_SYM3919
+LDIFF_SYM3924=Lfde575_end - Lfde575_start
+	.long LDIFF_SYM3924
 Lfde575_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential
 
-LDIFF_SYM3920=Lme_31d - wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
-	.long LDIFF_SYM3920
+LDIFF_SYM3925=Lme_31d - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential
+	.long LDIFF_SYM3925
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -128946,101 +128974,73 @@ Lfde575_end:
 LTDIE_278:
 
 	.byte 5
-	.asciz "System_EventArgs"
+	.asciz "System_Func`2"
 
-	.byte 16,16
-LDIFF_SYM3921=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM3921
+	.byte 128,1,16
+LDIFF_SYM3926=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM3926
 	.byte 2,35,0,0,7
-	.asciz "System_EventArgs"
+	.asciz "System_Func`2"
 
-LDIFF_SYM3922=LTDIE_278 - Ldebug_info_start
-	.long LDIFF_SYM3922
+LDIFF_SYM3927=LTDIE_278 - Ldebug_info_start
+	.long LDIFF_SYM3927
 LTDIE_278_POINTER:
 
 	.byte 13
-LDIFF_SYM3923=LTDIE_278 - Ldebug_info_start
-	.long LDIFF_SYM3923
+LDIFF_SYM3928=LTDIE_278 - Ldebug_info_start
+	.long LDIFF_SYM3928
 LTDIE_278_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3924=LTDIE_278 - Ldebug_info_start
-	.long LDIFF_SYM3924
-LTDIE_277:
-
-	.byte 5
-	.asciz "Foundation_NSNotificationEventArgs"
-
-	.byte 24,16
-LDIFF_SYM3925=LTDIE_278 - Ldebug_info_start
-	.long LDIFF_SYM3925
-	.byte 2,35,0,6
-	.asciz "<Notification>k__BackingField"
-
-LDIFF_SYM3926=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3926
-	.byte 2,35,16,0,7
-	.asciz "Foundation_NSNotificationEventArgs"
-
-LDIFF_SYM3927=LTDIE_277 - Ldebug_info_start
-	.long LDIFF_SYM3927
-LTDIE_277_POINTER:
-
-	.byte 13
-LDIFF_SYM3928=LTDIE_277 - Ldebug_info_start
-	.long LDIFF_SYM3928
-LTDIE_277_REFERENCE:
-
-	.byte 14
-LDIFF_SYM3929=LTDIE_277 - Ldebug_info_start
+LDIFF_SYM3929=LTDIE_278 - Ldebug_info_start
 	.long LDIFF_SYM3929
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<Foundation.NSNotificationEventArgs>:invoke_void_object_TEventArgs"
-	.asciz "wrapper_delegate_invoke_System_EventHandler_1_Foundation_NSNotificationEventArgs_invoke_void_object_TEventArgs_object_Foundation_NSNotificationEventArgs"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_Firebase.Auth.AuthCredential>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthCredential_invoke_TResult_T_System_IAsyncResult"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_EventHandler_1_Foundation_NSNotificationEventArgs_invoke_void_object_TEventArgs_object_Foundation_NSNotificationEventArgs
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthCredential_invoke_TResult_T_System_IAsyncResult
 	.quad Lme_31e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3930=LTDIE_176_REFERENCE - Ldebug_info_start
+LDIFF_SYM3930=LTDIE_278_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3930
-	.byte 1,104,3
+	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3931=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM3931=LTDIE_245_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3931
-	.byte 1,105,3
-	.asciz "param1"
-
-LDIFF_SYM3932=LTDIE_277_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3932
 	.byte 1,106,11
 	.asciz "V_0"
+
+LDIFF_SYM3932=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3932
+	.byte 1,104,11
+	.asciz "V_1"
 
 LDIFF_SYM3933=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM3933
 	.byte 1,103,11
-	.asciz "V_1"
-
-LDIFF_SYM3934=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3934
-	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM3935=LTDIE_254_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3935
-	.byte 1,101,11
+LDIFF_SYM3934=LTDIE_254_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3934
+	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM3936=LTDIE_1_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3936
-	.byte 1,100,11
+LDIFF_SYM3935=LTDIE_1_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3935
+	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM3937=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM3936=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3936
+	.byte 1,100,11
+	.asciz "V_5"
+
+LDIFF_SYM3937=LTDIE_19_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3937
 	.byte 1,99,0
 
@@ -129052,9 +129052,9 @@ Lfde576_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_EventHandler_1_Foundation_NSNotificationEventArgs_invoke_void_object_TEventArgs_object_Foundation_NSNotificationEventArgs
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthCredential_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM3939=Lme_31e - wrapper_delegate_invoke_System_EventHandler_1_Foundation_NSNotificationEventArgs_invoke_void_object_TEventArgs_object_Foundation_NSNotificationEventArgs
+LDIFF_SYM3939=Lme_31e - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthCredential_invoke_TResult_T_System_IAsyncResult
 	.long LDIFF_SYM3939
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
@@ -129087,11 +129087,11 @@ LTDIE_279_REFERENCE:
 LDIFF_SYM3943=LTDIE_279 - Ldebug_info_start
 	.long LDIFF_SYM3943
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`1<Firebase.Auth.AuthCredential>:invoke_TResult"
-	.asciz "wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthCredential_invoke_TResult"
+	.asciz "(wrapper_delegate-invoke)_System.Func`1<Firebase.Auth.AuthTokenResult>:invoke_TResult"
+	.asciz "wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthTokenResult_invoke_TResult"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthCredential_invoke_TResult
+	.quad wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthTokenResult_invoke_TResult
 	.quad Lme_31f
 
 	.byte 2,118,16,3
@@ -129127,7 +129127,7 @@ LDIFF_SYM3949=LDIE_OBJECT - Ldebug_info_start
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM3950=LTDIE_19_REFERENCE - Ldebug_info_start
+LDIFF_SYM3950=LTDIE_38_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3950
 	.byte 1,100,0
 
@@ -129139,9 +129139,9 @@ Lfde577_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthCredential_invoke_TResult
+	.quad wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthTokenResult_invoke_TResult
 
-LDIFF_SYM3952=Lme_31f - wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthCredential_invoke_TResult
+LDIFF_SYM3952=Lme_31f - wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthTokenResult_invoke_TResult
 	.long LDIFF_SYM3952
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
@@ -129174,11 +129174,11 @@ LTDIE_280_REFERENCE:
 LDIFF_SYM3956=LTDIE_280 - Ldebug_info_start
 	.long LDIFF_SYM3956
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_Firebase.Auth.AuthCredential>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthCredential_invoke_TResult_T_object"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_Firebase.Auth.AuthTokenResult>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthTokenResult_invoke_TResult_T_object"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthCredential_invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthTokenResult_invoke_TResult_T_object
 	.quad Lme_320
 
 	.byte 2,118,16,3
@@ -129219,7 +129219,7 @@ LDIFF_SYM3963=LDIE_OBJECT - Ldebug_info_start
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM3964=LTDIE_19_REFERENCE - Ldebug_info_start
+LDIFF_SYM3964=LTDIE_38_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3964
 	.byte 1,99,0
 
@@ -129231,9 +129231,9 @@ Lfde578_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthCredential_invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthTokenResult_invoke_TResult_T_object
 
-LDIFF_SYM3966=Lme_320 - wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthCredential_invoke_TResult_T_object
+LDIFF_SYM3966=Lme_320 - wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthTokenResult_invoke_TResult_T_object
 	.long LDIFF_SYM3966
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
@@ -129266,11 +129266,11 @@ LTDIE_281_REFERENCE:
 LDIFF_SYM3970=LTDIE_281 - Ldebug_info_start
 	.long LDIFF_SYM3970
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<Firebase.Auth.AuthCredential>>:invoke_void_T"
-	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential"
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<Firebase.Auth.AuthTokenResult>>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult
 	.quad Lme_321
 
 	.byte 2,118,16,3
@@ -129281,7 +129281,7 @@ LDIFF_SYM3971=LTDIE_281_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3972=LTDIE_198_REFERENCE - Ldebug_info_start
+LDIFF_SYM3972=LTDIE_212_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3972
 	.byte 1,106,11
 	.asciz "V_0"
@@ -129318,9 +129318,9 @@ Lfde579_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult
 
-LDIFF_SYM3979=Lme_321 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthCredential
+LDIFF_SYM3979=Lme_321 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult
 	.long LDIFF_SYM3979
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
@@ -129353,11 +129353,11 @@ LTDIE_282_REFERENCE:
 LDIFF_SYM3983=LTDIE_282 - Ldebug_info_start
 	.long LDIFF_SYM3983
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_Firebase.Auth.AuthCredential>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthCredential_invoke_TResult_T_System_IAsyncResult"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_Firebase.Auth.AuthTokenResult>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthTokenResult_invoke_TResult_T_System_IAsyncResult"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthCredential_invoke_TResult_T_System_IAsyncResult
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthTokenResult_invoke_TResult_T_System_IAsyncResult
 	.quad Lme_322
 
 	.byte 2,118,16,3
@@ -129398,7 +129398,7 @@ LDIFF_SYM3990=LDIE_OBJECT - Ldebug_info_start
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM3991=LTDIE_19_REFERENCE - Ldebug_info_start
+LDIFF_SYM3991=LTDIE_38_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3991
 	.byte 1,99,0
 
@@ -129410,9 +129410,9 @@ Lfde580_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthCredential_invoke_TResult_T_System_IAsyncResult
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthTokenResult_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM3993=Lme_322 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthCredential_invoke_TResult_T_System_IAsyncResult
+LDIFF_SYM3993=Lme_322 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthTokenResult_invoke_TResult_T_System_IAsyncResult
 	.long LDIFF_SYM3993
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
@@ -129445,11 +129445,11 @@ LTDIE_283_REFERENCE:
 LDIFF_SYM3997=LTDIE_283 - Ldebug_info_start
 	.long LDIFF_SYM3997
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`1<Firebase.Auth.AuthTokenResult>:invoke_TResult"
-	.asciz "wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthTokenResult_invoke_TResult"
+	.asciz "(wrapper_delegate-invoke)_System.Func`1<Firebase.Auth.User>:invoke_TResult"
+	.asciz "wrapper_delegate_invoke_System_Func_1_Firebase_Auth_User_invoke_TResult"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthTokenResult_invoke_TResult
+	.quad wrapper_delegate_invoke_System_Func_1_Firebase_Auth_User_invoke_TResult
 	.quad Lme_323
 
 	.byte 2,118,16,3
@@ -129485,7 +129485,7 @@ LDIFF_SYM4003=LDIE_OBJECT - Ldebug_info_start
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM4004=LTDIE_38_REFERENCE - Ldebug_info_start
+LDIFF_SYM4004=LTDIE_27_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM4004
 	.byte 1,100,0
 
@@ -129497,9 +129497,9 @@ Lfde581_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthTokenResult_invoke_TResult
+	.quad wrapper_delegate_invoke_System_Func_1_Firebase_Auth_User_invoke_TResult
 
-LDIFF_SYM4006=Lme_323 - wrapper_delegate_invoke_System_Func_1_Firebase_Auth_AuthTokenResult_invoke_TResult
+LDIFF_SYM4006=Lme_323 - wrapper_delegate_invoke_System_Func_1_Firebase_Auth_User_invoke_TResult
 	.long LDIFF_SYM4006
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
@@ -129532,11 +129532,11 @@ LTDIE_284_REFERENCE:
 LDIFF_SYM4010=LTDIE_284 - Ldebug_info_start
 	.long LDIFF_SYM4010
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_Firebase.Auth.AuthTokenResult>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthTokenResult_invoke_TResult_T_object"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_Firebase.Auth.User>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_User_invoke_TResult_T_object"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthTokenResult_invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_User_invoke_TResult_T_object
 	.quad Lme_324
 
 	.byte 2,118,16,3
@@ -129577,7 +129577,7 @@ LDIFF_SYM4017=LDIE_OBJECT - Ldebug_info_start
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM4018=LTDIE_38_REFERENCE - Ldebug_info_start
+LDIFF_SYM4018=LTDIE_27_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM4018
 	.byte 1,99,0
 
@@ -129589,9 +129589,9 @@ Lfde582_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthTokenResult_invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_User_invoke_TResult_T_object
 
-LDIFF_SYM4020=Lme_324 - wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_AuthTokenResult_invoke_TResult_T_object
+LDIFF_SYM4020=Lme_324 - wrapper_delegate_invoke_System_Func_2_object_Firebase_Auth_User_invoke_TResult_T_object
 	.long LDIFF_SYM4020
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
@@ -129624,11 +129624,11 @@ LTDIE_285_REFERENCE:
 LDIFF_SYM4024=LTDIE_285 - Ldebug_info_start
 	.long LDIFF_SYM4024
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<Firebase.Auth.AuthTokenResult>>:invoke_void_T"
-	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult"
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<Firebase.Auth.User>>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_User_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_User"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_User_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_User
 	.quad Lme_325
 
 	.byte 2,118,16,3
@@ -129639,7 +129639,7 @@ LDIFF_SYM4025=LTDIE_285_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM4026=LTDIE_214_REFERENCE - Ldebug_info_start
+LDIFF_SYM4026=LTDIE_223_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM4026
 	.byte 1,106,11
 	.asciz "V_0"
@@ -129676,9 +129676,9 @@ Lfde583_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_User_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_User
 
-LDIFF_SYM4033=Lme_325 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_AuthTokenResult
+LDIFF_SYM4033=Lme_325 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Firebase_Auth_User_invoke_void_T_System_Threading_Tasks_Task_1_Firebase_Auth_User
 	.long LDIFF_SYM4033
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
@@ -129711,11 +129711,11 @@ LTDIE_286_REFERENCE:
 LDIFF_SYM4037=LTDIE_286 - Ldebug_info_start
 	.long LDIFF_SYM4037
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_Firebase.Auth.AuthTokenResult>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthTokenResult_invoke_TResult_T_System_IAsyncResult"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_Firebase.Auth.User>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_User_invoke_TResult_T_System_IAsyncResult"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthTokenResult_invoke_TResult_T_System_IAsyncResult
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_User_invoke_TResult_T_System_IAsyncResult
 	.quad Lme_326
 
 	.byte 2,118,16,3
@@ -129756,7 +129756,7 @@ LDIFF_SYM4044=LDIE_OBJECT - Ldebug_info_start
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM4045=LTDIE_38_REFERENCE - Ldebug_info_start
+LDIFF_SYM4045=LTDIE_27_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM4045
 	.byte 1,99,0
 
@@ -129768,9 +129768,9 @@ Lfde584_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthTokenResult_invoke_TResult_T_System_IAsyncResult
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_User_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM4047=Lme_326 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_AuthTokenResult_invoke_TResult_T_System_IAsyncResult
+LDIFF_SYM4047=Lme_326 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Firebase_Auth_User_invoke_TResult_T_System_IAsyncResult
 	.long LDIFF_SYM4047
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10

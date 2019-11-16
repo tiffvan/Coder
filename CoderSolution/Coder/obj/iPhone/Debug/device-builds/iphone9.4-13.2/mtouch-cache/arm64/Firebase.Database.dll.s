@@ -4677,7 +4677,7 @@ bl _p_38
 .word 0xaa1903e0
 .word 0xaa1a03e1
 .word 0xf9400322
-.word 0xf9416850
+.word 0xf9417050
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf9411e31
@@ -4739,7 +4739,7 @@ ldr x16, [x16, #1192]
 .word 0xaa1903e0
 .word 0xd2800001
 .word 0xf9400322
-.word 0xf9416850
+.word 0xf9417050
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf940a631
@@ -4779,7 +4779,7 @@ bl _p_39
 .word 0xaa0103e0
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9416850
+.word 0xf9417050
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9414231
@@ -4843,7 +4843,7 @@ ldr x16, [x16, #1208]
 .word 0xaa1903e0
 .word 0xd2800001
 .word 0xf9400322
-.word 0xf9416850
+.word 0xf9417050
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf940aa31
@@ -4882,7 +4882,7 @@ bl _p_41
 .word 0xaa0103e0
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9416850
+.word 0xf9417050
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9414631
@@ -5004,7 +5004,7 @@ bl _p_38
 .word 0xaa1903e1
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9416470
+.word 0xf9416c70
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9418a31
@@ -5094,7 +5094,7 @@ bl _p_38
 .word 0xd2800001
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9416470
+.word 0xf9416c70
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9410e31
@@ -5136,7 +5136,7 @@ bl _p_39
 .word 0xaa1803e0
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9416470
+.word 0xf9416c70
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf941b231
@@ -5232,7 +5232,7 @@ bl _p_38
 .word 0xaa1803e0
 .word 0xaa1903e1
 .word 0xf9400303
-.word 0xf9416070
+.word 0xf9416870
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9412631
@@ -5297,7 +5297,7 @@ ldr x16, [x16, #1240]
 .word 0xd2800001
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9416070
+.word 0xf9416870
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf940b231
@@ -5339,7 +5339,7 @@ bl _p_39
 .word 0xaa1803e0
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9416070
+.word 0xf9416870
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9415631
@@ -5406,7 +5406,7 @@ ldr x16, [x16, #1248]
 .word 0xd2800001
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9416070
+.word 0xf9416870
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf940b631
@@ -5447,7 +5447,7 @@ bl _p_47
 .word 0xaa1803e0
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9416070
+.word 0xf9416870
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9415a31
@@ -5571,7 +5571,7 @@ bl _p_38
 .word 0xaa1803e1
 .word 0xaa1a03e3
 .word 0xf94002e4
-.word 0xf9415c90
+.word 0xf9416490
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9419231
@@ -5663,7 +5663,7 @@ bl _p_38
 .word 0xd2800001
 .word 0xaa1903e2
 .word 0xf94002e3
-.word 0xf9416070
+.word 0xf9416870
 .word 0xd63f0200
 .word 0xf9401fb1
 .word 0xf9411631
@@ -5707,7 +5707,7 @@ bl _p_39
 .word 0xaa1903e2
 .word 0xaa1a03e3
 .word 0xf94002e4
-.word 0xf9415c90
+.word 0xf9416490
 .word 0xd63f0200
 .word 0xf9401fb1
 .word 0xf941c231
@@ -5801,7 +5801,7 @@ bl _p_38
 .word 0xd2800001
 .word 0xaa1903e2
 .word 0xf94002e3
-.word 0xf9416070
+.word 0xf9416870
 .word 0xd63f0200
 .word 0xf9401fb1
 .word 0xf9411a31
@@ -5844,7 +5844,7 @@ bl _p_51
 .word 0xaa1903e2
 .word 0xaa1a03e3
 .word 0xf94002e4
-.word 0xf9415c90
+.word 0xf9416490
 .word 0xd63f0200
 .word 0xf9401fb1
 .word 0xf941c631
@@ -5939,7 +5939,7 @@ bl _p_38
 .word 0xaa1903e0
 .word 0xaa1a03e1
 .word 0xf9400322
-.word 0xf9415850
+.word 0xf9416050
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf9411e31
@@ -6001,7 +6001,7 @@ ldr x16, [x16, #1288]
 .word 0xaa1903e0
 .word 0xd2800001
 .word 0xf9400322
-.word 0xf9415850
+.word 0xf9416050
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf940a631
@@ -6041,7 +6041,7 @@ bl _p_39
 .word 0xaa0103e0
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9415850
+.word 0xf9416050
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9414231
@@ -6105,7 +6105,7 @@ ldr x16, [x16, #1296]
 .word 0xaa1903e0
 .word 0xd2800001
 .word 0xf9400322
-.word 0xf9415850
+.word 0xf9416050
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf940aa31
@@ -6144,7 +6144,7 @@ bl _p_55
 .word 0xaa0103e0
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9415850
+.word 0xf9416050
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9414631
@@ -6266,7 +6266,7 @@ bl _p_38
 .word 0xaa1903e1
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9415470
+.word 0xf9415c70
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9418a31
@@ -6356,7 +6356,7 @@ bl _p_38
 .word 0xd2800001
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9415470
+.word 0xf9415c70
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9410e31
@@ -6398,7 +6398,7 @@ bl _p_39
 .word 0xaa1803e0
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9415470
+.word 0xf9415c70
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf941b231
@@ -6489,7 +6489,7 @@ bl _p_38
 .word 0xd2800001
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9415470
+.word 0xf9415c70
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9411231
@@ -6530,7 +6530,7 @@ bl _p_59
 .word 0xaa1803e0
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9415470
+.word 0xf9415c70
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf941b631
@@ -6652,7 +6652,7 @@ bl _p_38
 .word 0xaa1903e1
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9415070
+.word 0xf9415870
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9418a31
@@ -6742,7 +6742,7 @@ bl _p_38
 .word 0xd2800001
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9415070
+.word 0xf9415870
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9410e31
@@ -6784,7 +6784,7 @@ bl _p_39
 .word 0xaa1803e0
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9415070
+.word 0xf9415870
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf941b231
@@ -6875,7 +6875,7 @@ bl _p_38
 .word 0xd2800001
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9415070
+.word 0xf9415870
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9411231
@@ -6916,7 +6916,7 @@ bl _p_63
 .word 0xaa1803e0
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9415070
+.word 0xf9415870
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf941b631
@@ -7040,7 +7040,7 @@ bl _p_38
 .word 0xaa1803e1
 .word 0xaa1a03e3
 .word 0xf94002e4
-.word 0xf9414c90
+.word 0xf9415490
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9419231
@@ -7134,7 +7134,7 @@ bl _p_38
 .word 0xaa1903e2
 .word 0xaa1a03e3
 .word 0xf94002e4
-.word 0xf9414c90
+.word 0xf9415490
 .word 0xd63f0200
 .word 0xf9401fb1
 .word 0xf9411e31
@@ -7178,7 +7178,7 @@ bl _p_39
 .word 0xaa1903e2
 .word 0xaa1a03e3
 .word 0xf94002e4
-.word 0xf9414c90
+.word 0xf9415490
 .word 0xd63f0200
 .word 0xf9401fb1
 .word 0xf941ca31
@@ -7274,7 +7274,7 @@ bl _p_38
 .word 0xaa1903e2
 .word 0xaa1a03e3
 .word 0xf94002e4
-.word 0xf9414c90
+.word 0xf9415490
 .word 0xd63f0200
 .word 0xf9401fb1
 .word 0xf9412231
@@ -7317,7 +7317,7 @@ bl _p_67
 .word 0xaa1903e2
 .word 0xaa1a03e3
 .word 0xf94002e4
-.word 0xf9414c90
+.word 0xf9415490
 .word 0xd63f0200
 .word 0xf9401fb1
 .word 0xf941ce31
@@ -20726,7 +20726,7 @@ ldr x16, [x16, #1960]
 .word 0xf9400fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940d430
+.word 0xf940dc30
 .word 0xd63f0200
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -20840,7 +20840,7 @@ ldr x16, [x16, #1976]
 .word 0xf94013a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940d430
+.word 0xf940dc30
 .word 0xd63f0200
 .word 0xf90033a0
 .word 0xf94017b1
@@ -20956,7 +20956,7 @@ ldr x16, [x16, #1984]
 .word 0xf9400fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940d430
+.word 0xf940dc30
 .word 0xd63f0200
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -21069,7 +21069,7 @@ ldr x16, [x16, #2000]
 .word 0xf9400fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940d430
+.word 0xf940dc30
 .word 0xd63f0200
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -23340,7 +23340,7 @@ ldr x16, [x16, #2160]
 .word 0xf9400fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940d830
+.word 0xf940e030
 .word 0xd63f0200
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -23454,7 +23454,7 @@ ldr x16, [x16, #2168]
 .word 0xf94013a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940d830
+.word 0xf940e030
 .word 0xd63f0200
 .word 0xf90033a0
 .word 0xf94017b1
@@ -23570,7 +23570,7 @@ ldr x16, [x16, #2176]
 .word 0xf9400fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940d830
+.word 0xf940e030
 .word 0xd63f0200
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -23683,7 +23683,7 @@ ldr x16, [x16, #2184]
 .word 0xf9400fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940d830
+.word 0xf940e030
 .word 0xd63f0200
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -23860,7 +23860,7 @@ ldr x0, [x16, #344]
 .word 0xaa1803e0
 .word 0xaa1703e1
 .word 0xf9400302
-.word 0xf940d450
+.word 0xf940dc50
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9417e31
@@ -23926,7 +23926,7 @@ ldr x0, [x16, #344]
 .word 0xf9400001
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf940d450
+.word 0xf940dc50
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf940ae31
@@ -23975,7 +23975,7 @@ bl _p_16
 .word 0xf94023a1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf940d450
+.word 0xf940dc50
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9416e31
@@ -24042,7 +24042,7 @@ ldr x0, [x16, #344]
 .word 0xf9400001
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf940d450
+.word 0xf940dc50
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf940b231
@@ -24090,7 +24090,7 @@ bl _p_16
 .word 0xf9402ba1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf940d450
+.word 0xf940dc50
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9417231
@@ -37309,7 +37309,7 @@ bl _mono_gsharedvt_value_copy
 .word 0xaa1703e0
 .word 0xaa1503e1
 .word 0xf94002e2
-.word 0xf9416850
+.word 0xf9417050
 .word 0xd63f0200
 .word 0xf94027b1
 .word 0xf9425231
@@ -37381,7 +37381,7 @@ bl _p_167
 .word 0xaa1903e0
 .word 0xd2800001
 .word 0xf9400322
-.word 0xf9416850
+.word 0xf9417050
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf940c631
@@ -37424,7 +37424,7 @@ bl _p_169
 .word 0xaa0103e0
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9416850
+.word 0xf9417050
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9417231
@@ -37623,7 +37623,7 @@ bl _mono_gsharedvt_value_copy
 .word 0xaa1403e1
 .word 0xaa1a03e2
 .word 0xf94002c3
-.word 0xf9416470
+.word 0xf9416c70
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf942be31
@@ -37798,7 +37798,7 @@ bl _mono_gsharedvt_value_copy
 .word 0xaa1603e0
 .word 0xaa1403e1
 .word 0xf94002c3
-.word 0xf9416070
+.word 0xf9416870
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf9425a31
@@ -37874,7 +37874,7 @@ bl _p_180
 .word 0xd2800001
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9416070
+.word 0xf9416870
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf940d631
@@ -37919,7 +37919,7 @@ bl _p_182
 .word 0xaa1803e0
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9416070
+.word 0xf9416870
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9418a31
@@ -38121,7 +38121,7 @@ bl _mono_gsharedvt_value_copy
 .word 0xaa1303e1
 .word 0xaa1a03e3
 .word 0xf94002a4
-.word 0xf9415c90
+.word 0xf9416490
 .word 0xd63f0200
 .word 0xf9402fb1
 .word 0xf942c631
@@ -38223,7 +38223,7 @@ bl _p_38
 .word 0xd2800001
 .word 0xaa1903e2
 .word 0xf94002e3
-.word 0xf9416070
+.word 0xf9416870
 .word 0xd63f0200
 .word 0xf9401fb1
 .word 0xf9413631
@@ -38270,7 +38270,7 @@ bl _p_190
 .word 0xaa1903e2
 .word 0xaa1a03e3
 .word 0xf94002e4
-.word 0xf9415c90
+.word 0xf9416490
 .word 0xd63f0200
 .word 0xf9401fb1
 .word 0xf941f231
@@ -38442,7 +38442,7 @@ bl _mono_gsharedvt_value_copy
 .word 0xaa1703e0
 .word 0xaa1503e1
 .word 0xf94002e2
-.word 0xf9415850
+.word 0xf9416050
 .word 0xd63f0200
 .word 0xf94027b1
 .word 0xf9425231
@@ -38514,7 +38514,7 @@ bl _p_196
 .word 0xaa1903e0
 .word 0xd2800001
 .word 0xf9400322
-.word 0xf9415850
+.word 0xf9416050
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf940c631
@@ -38557,7 +38557,7 @@ bl _p_198
 .word 0xaa0103e0
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9415850
+.word 0xf9416050
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9417231
@@ -38756,7 +38756,7 @@ bl _mono_gsharedvt_value_copy
 .word 0xaa1403e1
 .word 0xaa1a03e2
 .word 0xf94002c3
-.word 0xf9415470
+.word 0xf9415c70
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf942be31
@@ -38857,7 +38857,7 @@ bl _p_38
 .word 0xd2800001
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9415470
+.word 0xf9415c70
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9413231
@@ -38902,7 +38902,7 @@ bl _p_206
 .word 0xaa1803e0
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9415470
+.word 0xf9415c70
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf941e631
@@ -39102,7 +39102,7 @@ bl _mono_gsharedvt_value_copy
 .word 0xaa1403e1
 .word 0xaa1a03e2
 .word 0xf94002c3
-.word 0xf9415070
+.word 0xf9415870
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf942be31
@@ -39203,7 +39203,7 @@ bl _p_38
 .word 0xd2800001
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9415070
+.word 0xf9415870
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf9413231
@@ -39248,7 +39248,7 @@ bl _p_214
 .word 0xaa1803e0
 .word 0xaa1a03e2
 .word 0xf9400303
-.word 0xf9415070
+.word 0xf9415870
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf941e631
@@ -39450,7 +39450,7 @@ bl _mono_gsharedvt_value_copy
 .word 0xaa1303e1
 .word 0xaa1a03e3
 .word 0xf94002a4
-.word 0xf9414c90
+.word 0xf9415490
 .word 0xd63f0200
 .word 0xf9402fb1
 .word 0xf942c631
@@ -39554,7 +39554,7 @@ bl _p_38
 .word 0xaa1903e2
 .word 0xaa1a03e3
 .word 0xf94002e4
-.word 0xf9414c90
+.word 0xf9415490
 .word 0xd63f0200
 .word 0xf9401fb1
 .word 0xf9413e31
@@ -39601,7 +39601,7 @@ bl _p_222
 .word 0xaa1903e2
 .word 0xaa1a03e3
 .word 0xf94002e4
-.word 0xf9414c90
+.word 0xf9415490
 .word 0xd63f0200
 .word 0xf9401fb1
 .word 0xf941fa31
@@ -40291,7 +40291,7 @@ bl _p_231
 .word 0xf9401ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940d430
+.word 0xf940dc30
 .word 0xd63f0200
 .word 0xf9003ba0
 .word 0xf9401fb1
@@ -40462,7 +40462,7 @@ bl _p_235
 .word 0xf9400fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940d430
+.word 0xf940dc30
 .word 0xd63f0200
 .word 0xf90033a0
 .word 0xf94013b1
@@ -40604,7 +40604,7 @@ bl _p_238
 .word 0xf9401ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940d830
+.word 0xf940e030
 .word 0xd63f0200
 .word 0xf9003ba0
 .word 0xf9401fb1
@@ -40775,7 +40775,7 @@ bl _p_242
 .word 0xf9400fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940d830
+.word 0xf940e030
 .word 0xd63f0200
 .word 0xf90033a0
 .word 0xf94013b1
@@ -41083,7 +41083,7 @@ ldr x0, [x16, #344]
 .word 0xaa1403e0
 .word 0xaa1303e1
 .word 0xf9400282
-.word 0xf940d450
+.word 0xf940dc50
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf9437a31
@@ -41159,7 +41159,7 @@ ldr x0, [x16, #344]
 .word 0xf9400001
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf940d450
+.word 0xf940dc50
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf940ce31
@@ -41211,7 +41211,7 @@ bl _p_16
 .word 0xf94033a1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf940d450
+.word 0xf940dc50
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9419e31
@@ -55756,16 +55756,16 @@ bl _p_336
 adrp x16, mono_aot_Firebase_Database_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Database_got@PAGEOFF
 ldr x0, [x16, #176]
-.word 0xd28f31e1
-.word 0xd28f31e1
+.word 0xd28fa7e1
+.word 0xd28fa7e1
 bl _p_37
 .word 0xf9003ba0
 
 adrp x16, mono_aot_Firebase_Database_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Database_got@PAGEOFF
 ldr x0, [x16, #176]
-.word 0xd28f3c21
-.word 0xd28f3c21
+.word 0xd28fb221
+.word 0xd28fb221
 bl _p_37
 .word 0xaa0003e2
 .word 0xf9403ba1
@@ -61085,13 +61085,13 @@ _mono_aot_file_info:
 	.quad unbox_trampoline_addresses
 
 	.long 548,7320,367,444,83,102,387000831,0
-	.long 93912,128,8,8,8,9,8388607,0
-	.long 30,101272,0,0,7352,7000,4880,0
+	.long 93968,128,8,8,8,9,8388607,0
+	.long 30,101328,0,0,7352,7000,4880,0
 	.long 5952,6920,5216,0,3944,624,7344,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0
-	.byte 103,242,201,5,250,92,156,2,160,48,165,249,34,26,118,41
+	.byte 82,31,171,39,130,18,201,132,171,114,69,130,131,89,120,87
 	.globl _mono_aot_module_Firebase_Database_info
 	.align 3
 _mono_aot_module_Firebase_Database_info:

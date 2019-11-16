@@ -15,7 +15,7 @@ namespace Coder
 
         ChatsDataSource chatsDS;
 
-        public override void ViewDidLoad()
+        public override async void ViewDidLoad()
         {
             base.ViewDidLoad();
 
@@ -24,7 +24,7 @@ namespace Coder
             chatsDS = new ChatsDataSource(this);
             chatsTableView.Source = chatsDS;
 
-            ReloadData();
+            await ReloadData();
 
         }
 
@@ -74,16 +74,18 @@ namespace Coder
 
         void SaveNewChat (string inputNewChatName)
         {
-            ChatListClass newList = new ChatListClass
+            ChatListClass newChat = new ChatListClass
             {
                 ChatName = inputNewChatName,
                 ChatOwner = AppData.curUser,
                 ChatItems = new List<MessageClass>()
             };
 
-            AppData.currentLST.Add(newList);
+            AppData.currentLST.Add(newChat);
 
             ReadWriteDisk.WriteData();
+
+            SaveListOnCloud.Save(newChat);
 
             chatsTableView.ReloadData();
         }
@@ -102,10 +104,7 @@ namespace Coder
             alert.AddAction(login);
 
             UIAlertAction logout;
-            logout = UIAlertAction.Create("Logout", UIAlertActionStyle.Default, (obj) =>
-            {
-                //call logout method
-            });
+            logout = UIAlertAction.Create("Logout", UIAlertActionStyle.Default, (obj) => LogoutClass.Logout(this));
             alert.AddAction(logout);
 
             UIAlertAction cancel;
@@ -113,6 +112,12 @@ namespace Coder
             alert.AddAction(cancel);
 
             this.PresentViewController(alert, true, null);
+        }
+
+        public void SetLoginButton(string statusStr, UIColor inputColor)
+        {
+            loginButton.SetTitle(statusStr, UIControlState.Normal);
+            loginButton.BackgroundColor = inputColor;
         }
     }
 }

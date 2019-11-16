@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using UIKit;
 
 namespace Coder.Classes
 {
@@ -29,9 +30,15 @@ namespace Coder.Classes
                 AppData.currentLST = AppData.offlineLST;
             }
 
+            //color of profile button if offline
+            thisView.SetLoginButton("Login", UIColor.Red);
+
             // read online chats
             if (AppData.auth.CurrentUser != null)
             {
+                //color of profile button if online
+                thisView.SetLoginButton("Hello " + AppData.auth.CurrentUser.DisplayName, UIColor.Cyan);
+
                 //someone is logged in
                 await ReadOnlineData.Read();
 
