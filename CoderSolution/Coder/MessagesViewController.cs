@@ -55,30 +55,7 @@ namespace Coder
 
         partial void ShareButton_TouchUpInside(UIButton sender)
         {
-            if (AppData.auth.CurrentUser == null)
-            {
-                AlertShow.Alert(this, "Offline", "Please login");
-                return;
-            }
-
-            UIAlertController shareAlert;
-            shareAlert = UIAlertController.Create("Invite someone", "Please enter their email", UIAlertControllerStyle.Alert);
-
-            shareAlert.AddTextField((obj) =>
-            {
-                //obj.Font = UIFont.SystemFontOfSize(22);
-                obj.KeyboardType = UIKeyboardType.EmailAddress;
-                obj.TextAlignment = UITextAlignment.Center;
-                obj.Placeholder = "Email";
-            });
-
-
-            shareAlert.AddAction(UIAlertAction.Create("Invite", UIAlertActionStyle.Default, (obj) => InviteSomeoneToChat.Invite(this, curList, shareAlert.TextFields[0].Text)));
-
-            shareAlert.AddAction(UIAlertAction.Create("Cancel", UIAlertActionStyle.Cancel, null));
-
-            PresentViewController(shareAlert, true, null);
-
+            throw new NotImplementedException();
         }
     }
 }

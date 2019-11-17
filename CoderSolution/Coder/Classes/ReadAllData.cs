@@ -48,12 +48,6 @@ namespace Coder.Classes
                 foreach (ChatListClass any in AppData.currentLST)
                     if (any.ChatOwner.Uid == AppData.curUser.Uid)
                         SaveListOnCloud.Save(any);
-
-                await ReadInvitations.Read();
-                await FetchInvitations.Fetch();
-
-                foreach (ChatListClass any in AppData.invitationsLST)
-                    AppData.currentLST.Add(any);
             }
         }
     }

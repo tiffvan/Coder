@@ -47,6 +47,10 @@
             "Xamarin.Firebase.iOS.Database": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Xamarin.Firebase.iOS.InstanceID": {
+              "target": "Package",
+              "version": "[4.2.1, )"
             }
           }
         }

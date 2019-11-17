@@ -41,15 +41,8 @@ namespace Coder
         }
 
         public override string TitleForDeleteConfirmation(UITableView tableView, NSIndexPath indexPath)
-        { 
-            ChatListClass toRemove = AppData.currentLST[indexPath.Row];
-
-            //if belongs to me thhen delete else remove myself
-            if (toRemove.ChatOwner.Uid == AppData.curUser.Uid)
-                return "Delete";
-            else
-                return "Remove";
-
+        {
+            return "Delete";
         }
 
         public override void CommitEditingStyle(UITableView tableView, UITableViewCellEditingStyle editingStyle, NSIndexPath indexPath)
@@ -58,20 +51,8 @@ namespace Coder
 
             AppData.currentLST.Remove(toRemove);
 
-            if (toRemove.ChatOwner.Uid == AppData.curUser.Uid)
-            {
-                ReadWriteDisk.WriteData();
-                DeleteListFromCloud.Delete(toRemove);
-            }
-            else
-            {
-                InvitationClass thisInvitation = new InvitationClass
-                {
-                    ChatName = toRemove.ChatName,
-                    ChatOwner = toRemove.ChatOwner
-                };
-                RemoveInvitation.Remove(thisInvitation);
-            }
+            ReadWriteDisk.WriteData();
+            DeleteListFromCloud.Delete(toRemove);
 
             tableView.DeleteRows(new NSIndexPath[] { indexPath }, UITableViewRowAnimation.Fade);
         }

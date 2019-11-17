@@ -81,6 +81,9 @@
       <PackageReference Include="Xamarin.Firebase.iOS.Database">
         <Version>6.0.0</Version>
       </PackageReference>
+      <PackageReference Include="Xamarin.Firebase.iOS.InstanceID">
+        <Version>4.2.1</Version>
+      </PackageReference>
     </ItemGroup>
     <ItemGroup>
         <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
@@ -144,11 +147,6 @@
         <Compile Include="Classes\LogoutClass.cs" />
         <Compile Include="Classes\DeleteListFromCloud.cs" />
         <Compile Include="Classes\SaveMessageOnCloud.cs" />
-        <Compile Include="Classes\InviteSomeoneToChat.cs" />
-        <Compile Include="Classes\InvitationClass.cs" />
-        <Compile Include="Classes\ReadInvitations.cs" />
-        <Compile Include="Classes\FetchInvitations.cs" />
-        <Compile Include="Classes\RemoveInvitation.cs" />
     </ItemGroup>
     <ItemGroup>
       <BundleResource Include="GoogleService-Info.plist" />

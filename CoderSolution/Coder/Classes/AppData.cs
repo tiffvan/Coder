@@ -18,17 +18,14 @@ namespace Coder
         public static List<ChatListClass> offlineLST;
 
         #region firebaseandonline
+
         public static List<ChatListClass> onlineLST;
 
         public static DatabaseReference DataNode { get; set; }
         public static DatabaseReference UsersNode { get; set; }
 
         public static Auth auth;
-        #endregion
 
-        #region invitations
-        public static List<InvitationClass> invitationsData;
-        public static List<ChatListClass> invitationsLST;
         #endregion
 
         public static AppData GetInstance()
