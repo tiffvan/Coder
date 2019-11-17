@@ -168,7 +168,6 @@
 -r=/Users/tiffanyvandermerwe/.nuget/packages/xamarin.firebase.ios.auth/6.2.1.1/lib/xamarinios10/Firebase.Auth.dll
 -r=/Users/tiffanyvandermerwe/.nuget/packages/xamarin.firebase.ios.core/6.1.0/lib/xamarinios10/Firebase.Core.dll
 -r=/Users/tiffanyvandermerwe/.nuget/packages/xamarin.firebase.ios.database/6.0.0/lib/xamarinios10/Firebase.Database.dll
--r=/Users/tiffanyvandermerwe/.nuget/packages/xamarin.firebase.ios.instanceid/4.2.1/lib/xamarinios10/Firebase.InstanceID.dll
  --target-framework=Xamarin.iOS,v1.0
 --root-assembly=/Users/tiffanyvandermerwe/Projects/Coder/CoderSolution/Coder/bin/iPhoneSimulator/Debug/Coder.exe
  

@@ -1,13 +1,19 @@
 ﻿<Properties StartupConfiguration="{EB43B229-4340-40C5-92EA-B27DA581880B}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Coder/Classes/FetchInvitations.cs">
+    <Files>
+      <File FileName="Coder/Classes/FetchInvitations.cs" Line="31" Column="1" />
+      <File FileName="Coder/Classes/ChatsDataSource.cs" Line="75" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CoderSolution" expanded="True">
             <Node name="Coder" expanded="True">
-              <Node name="Classes" expanded="True" />
+              <Node name="Classes" expanded="True">
+                <Node name="FetchInvitations.cs" selected="True" />
+              </Node>
               <Node name="ChatsViewController.cs" expanded="True" />
-              <Node name="Main.storyboard" selected="True" />
+              <Node name="MessagesViewController.cs" expanded="True" />
             </Node>
           </Node>
         </State>
