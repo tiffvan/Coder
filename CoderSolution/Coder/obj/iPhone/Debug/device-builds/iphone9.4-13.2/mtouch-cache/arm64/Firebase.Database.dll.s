@@ -55756,16 +55756,16 @@ bl _p_336
 adrp x16, mono_aot_Firebase_Database_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Database_got@PAGEOFF
 ldr x0, [x16, #176]
-.word 0xd28fa7e1
-.word 0xd28fa7e1
+.word 0xd28f9861
+.word 0xd28f9861
 bl _p_37
 .word 0xf9003ba0
 
 adrp x16, mono_aot_Firebase_Database_got@PAGE+4096
 add x16, x16, mono_aot_Firebase_Database_got@PAGEOFF
 ldr x0, [x16, #176]
-.word 0xd28fb221
-.word 0xd28fb221
+.word 0xd28fa2a1
+.word 0xd28fa2a1
 bl _p_37
 .word 0xaa0003e2
 .word 0xf9403ba1
@@ -61091,7 +61091,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0
-	.byte 82,31,171,39,130,18,201,132,171,114,69,130,131,89,120,87
+	.byte 194,238,94,251,22,99,124,44,96,33,247,239,168,49,215,156
 	.globl _mono_aot_module_Firebase_Database_info
 	.align 3
 _mono_aot_module_Firebase_Database_info:

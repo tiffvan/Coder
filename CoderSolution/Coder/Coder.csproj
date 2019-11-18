@@ -147,6 +147,11 @@
         <Compile Include="Classes\LogoutClass.cs" />
         <Compile Include="Classes\DeleteListFromCloud.cs" />
         <Compile Include="Classes\SaveMessageOnCloud.cs" />
+        <Compile Include="Classes\InviteSomeone.cs" />
+        <Compile Include="Classes\InvitationClass.cs" />
+        <Compile Include="Classes\ReadInvitations.cs" />
+        <Compile Include="Classes\FetchInvitations.cs" />
+        <Compile Include="Classes\RemoveInvitation.cs" />
     </ItemGroup>
     <ItemGroup>
       <BundleResource Include="GoogleService-Info.plist" />

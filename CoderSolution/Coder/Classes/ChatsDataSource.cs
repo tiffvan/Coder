@@ -42,7 +42,12 @@ namespace Coder
 
         public override string TitleForDeleteConfirmation(UITableView tableView, NSIndexPath indexPath)
         {
-            return "Delete";
+            ChatListClass toRemove = AppData.currentLST[indexPath.Row];
+
+            if (toRemove.ChatOwner.Uid == AppData.curUser.Uid)
+                return "Delete";
+            else
+                return "Remove";
         }
 
         public override void CommitEditingStyle(UITableView tableView, UITableViewCellEditingStyle editingStyle, NSIndexPath indexPath)
@@ -51,8 +56,20 @@ namespace Coder
 
             AppData.currentLST.Remove(toRemove);
 
-            ReadWriteDisk.WriteData();
-            DeleteListFromCloud.Delete(toRemove);
+            if (toRemove.ChatOwner.Uid == AppData.curUser.Uid)
+            {
+                ReadWriteDisk.WriteData();
+                DeleteListFromCloud.Delete(toRemove);
+            }
+            else
+            {
+                InvitationClass thisInvitation = new InvitationClass
+                {
+                    ChatName = toRemove.ChatName,
+                    ChatOwner = toRemove.ChatOwner
+                };
+                RemoveInvitation.Remove(thisInvitation);
+            }
 
             tableView.DeleteRows(new NSIndexPath[] { indexPath }, UITableViewRowAnimation.Fade);
         }

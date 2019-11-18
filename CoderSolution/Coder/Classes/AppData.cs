@@ -28,6 +28,13 @@ namespace Coder
 
         #endregion
 
+        #region invitations
+
+        public static List<InvitationClass> invitationsData;
+        public static List<ChatListClass> invitationsLST;
+
+        #endregion
+
         public static AppData GetInstance()
         {
             if (instance == null)

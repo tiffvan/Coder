@@ -1,20 +1,25 @@
 ﻿<Properties StartupConfiguration="{EB43B229-4340-40C5-92EA-B27DA581880B}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Coder/Classes/ChatsDataSource.cs">
+    <Files>
+      <File FileName="Coder/Classes/ChatsDataSource.cs" Line="71" Column="55" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CoderSolution" expanded="True">
             <Node name="Coder" expanded="True">
-              <Node name="Classes" expanded="True" />
+              <Node name="Classes" expanded="True">
+                <Node name="ChatsDataSource.cs" selected="True" />
+              </Node>
               <Node name="ChatsViewController.cs" expanded="True" />
-              <Node name="Main.storyboard" selected="True" />
+              <Node name="MessagesViewController.cs" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Coder automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.548C7073-FE85-44EC-98C8-DC166653E91D" />
+  <MonoDevelop.Ide.ItemProperties.Coder PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.616856F1-48DB-4937-B6BB-98204ECAF2E3" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

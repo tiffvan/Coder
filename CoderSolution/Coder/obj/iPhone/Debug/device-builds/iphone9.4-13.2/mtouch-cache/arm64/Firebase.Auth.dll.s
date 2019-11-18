@@ -97528,7 +97528,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0
-	.byte 96,14,108,222,102,104,180,109,118,226,46,194,84,101,23,39
+	.byte 159,233,85,212,248,147,71,223,175,222,38,249,180,149,19,230
 	.globl _mono_aot_module_Firebase_Auth_info
 	.align 3
 _mono_aot_module_Firebase_Auth_info:

@@ -15,9 +15,9 @@
 @class AppDelegate;
 @class UITableViewSource;
 @class Coder_ChatsDataSource;
-@class MessagesViewController;
 @class Coder_Classes_MessagesDataSource;
 @class ChatsViewController;
+@class MessagesViewController;
 @class UIKit_UIControlEventProxy;
 @class Foundation_InternalNSNotificationHandler;
 @class Foundation_NSDispatcher;
@@ -122,33 +122,6 @@
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 
-@interface MessagesViewController : UIViewController {
-}
-	@property (nonatomic, assign) UIButton * backButton;
-	@property (nonatomic, assign) UILabel * chatNameLabel;
-	@property (nonatomic, assign) UITableView * messagesTableView;
-	@property (nonatomic, assign) UITextField * messageTextfield;
-	@property (nonatomic, assign) UIButton * shareButton;
-	-(void) release;
-	-(id) retain;
-	-(int) xamarinGetGCHandle;
-	-(void) xamarinSetGCHandle: (int) gchandle;
-	-(UIButton *) backButton;
-	-(void) setBackButton:(UIButton *)p0;
-	-(UILabel *) chatNameLabel;
-	-(void) setChatNameLabel:(UILabel *)p0;
-	-(UITableView *) messagesTableView;
-	-(void) setMessagesTableView:(UITableView *)p0;
-	-(UITextField *) messageTextfield;
-	-(void) setMessageTextfield:(UITextField *)p0;
-	-(UIButton *) shareButton;
-	-(void) setShareButton:(UIButton *)p0;
-	-(void) viewDidLoad;
-	-(void) BackButton_TouchUpInside:(UIButton *)p0;
-	-(void) ShareButton_TouchUpInside:(UIButton *)p0;
-	-(BOOL) conformsToProtocol:(void *)p0;
-@end
-
 @interface Coder_Classes_MessagesDataSource : NSObject<UIScrollViewDelegate, UIScrollViewDelegate, UIScrollViewDelegate> {
 }
 	-(void) release;
@@ -180,6 +153,33 @@
 	-(void) prepareForSegue:(UIStoryboardSegue *)p0 sender:(NSObject *)p1;
 	-(void) LoginButton_TouchUpInside:(UIButton *)p0;
 	-(void) NewChatButton_TouchUpInside:(UIButton *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface MessagesViewController : UIViewController {
+}
+	@property (nonatomic, assign) UIButton * backButton;
+	@property (nonatomic, assign) UILabel * chatNameLabel;
+	@property (nonatomic, assign) UITableView * messagesTableView;
+	@property (nonatomic, assign) UITextField * messageTextfield;
+	@property (nonatomic, assign) UIButton * shareButton;
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UIButton *) backButton;
+	-(void) setBackButton:(UIButton *)p0;
+	-(UILabel *) chatNameLabel;
+	-(void) setChatNameLabel:(UILabel *)p0;
+	-(UITableView *) messagesTableView;
+	-(void) setMessagesTableView:(UITableView *)p0;
+	-(UITextField *) messageTextfield;
+	-(void) setMessageTextfield:(UITextField *)p0;
+	-(UIButton *) shareButton;
+	-(void) setShareButton:(UIButton *)p0;
+	-(void) viewDidLoad;
+	-(void) BackButton_TouchUpInside:(UIButton *)p0;
+	-(void) ShareButton_TouchUpInside:(UIButton *)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 
